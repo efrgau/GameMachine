@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Lusy Enriquez\\Desktop\\juego\\GameMachine\\game.json",
+    "projectFile": "D:\\Ova\\GameMachine\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -5686,6 +5686,447 @@
         "name": "Access\\mover-8.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/moneda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\moneda.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/MarcoInstrucciones.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\MarcoInstrucciones.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/Marcoiniciar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\Marcoiniciar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/Aprendizaje-No-Supervisado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\Aprendizaje-No-Supervisado.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/Aprendizaje-Reforzado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\Aprendizaje-Reforzado.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/Aprendizaje-Supervisado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\Aprendizaje-Supervisado.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/flecha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\flecha.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/fondo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\fondo.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/fondo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\fondo.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/piso/piso1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\piso\\piso1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/piso/piso2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\piso\\piso2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/piso/piso3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\piso\\piso3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/piso/pisoazul1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\piso\\pisoazul1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/piso/pisoazul2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\piso\\pisoazul2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/piso/pisoazul3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\piso\\pisoazul3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/idle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\idle-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personaje/walking-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personaje\\walking-18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/piso/pisorojo3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\piso\\pisorojo3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/piso/pisorojo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\piso\\pisorojo2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/piso/pisorojo1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\piso\\pisorojo1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/cuadroregresion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\cuadroregresion.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/concepto.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\concepto.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/casa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\casa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/flec-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\flec-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/dinero.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\dinero.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/graficaregre.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\graficaregre.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/tiposde.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\tiposde.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/formu.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\formu.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/gra.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\gra.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/celula.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\celula.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/knn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\knn.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/svm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\svm.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5890,9 +6331,9 @@
       "font": "fontsButton\\10204\\Fortnite.ttf",
       "characterSize": 40,
       "color": {
-        "b": 156,
-        "g": 70,
-        "r": 47
+        "b": 15,
+        "g": 200,
+        "r": 248
       }
     },
     {
@@ -5977,6 +6418,45 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "4.MenuPrincipal\\Assets\\x.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "flecha",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\flecha.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6384,7 +6864,7 @@
         "gridWidth": 5,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.298
       },
       "objectsGroups": [],
       "variables": [],
@@ -7683,7 +8163,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Registro\"",
+                    "\"Iniciar Sesion\"",
                     ""
                   ],
                   "subInstructions": []
@@ -7729,7 +8209,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Iniciar Sesion\"",
+                    "\"Registro\"",
                     ""
                   ],
                   "subInstructions": []
@@ -9233,7 +9713,7 @@
                   },
                   "parameters": [
                     "",
-                    "son.mp3",
+                    "SonidosButton\\gota.mp3",
                     "",
                     "60",
                     ""
@@ -9247,7 +9727,7 @@
                   },
                   "parameters": [
                     "txt_atras",
-                    "\"47;158;215\""
+                    "\"255;255;255\""
                   ],
                   "subInstructions": []
                 },
@@ -9298,7 +9778,7 @@
                   },
                   "parameters": [
                     "txt_atras",
-                    "\"47;70;156\""
+                    "\"248;200;15\""
                   ],
                   "subInstructions": []
                 },
@@ -11143,7 +11623,7 @@
                   },
                   "parameters": [
                     "",
-                    "son.mp3",
+                    "SonidosButton\\gota.mp3",
                     "",
                     "60",
                     ""
@@ -11157,7 +11637,7 @@
                   },
                   "parameters": [
                     "txt_atras",
-                    "\"47;158;215\""
+                    "\"255;255;255\""
                   ],
                   "subInstructions": []
                 },
@@ -11208,7 +11688,7 @@
                   },
                   "parameters": [
                     "txt_atras",
-                    "\"47;70;156\""
+                    "\"248;200;15\""
                   ],
                   "subInstructions": []
                 },
@@ -14573,7 +15053,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.418
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [],
@@ -14613,14 +15093,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 61,
+          "height": 69,
           "layer": "Background",
           "locked": false,
           "name": "txt_ml",
           "persistentUuid": "1b14d7ce-858a-423f-8261-34a5102a6021",
-          "width": 442,
+          "width": 362,
           "x": 481,
-          "y": 27,
+          "y": 25,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -14677,26 +15157,10 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 72,
-          "layer": "",
-          "locked": false,
-          "name": "jugar",
-          "persistentUuid": "af6eb963-c8d2-488e-8d3d-657894b8c5b6",
-          "width": 168,
-          "x": 2403,
-          "y": 241,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 153,
           "layer": "Tipo1",
           "locked": false,
-          "name": "Tipo1",
+          "name": "txt_Tipo1",
           "persistentUuid": "948164eb-3c2d-4c23-bd23-f76c6497441e",
           "width": 749,
           "x": 452,
@@ -14709,12 +15173,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 227,
+          "height": 235,
           "layer": "Tipo1",
           "locked": false,
-          "name": "tio",
+          "name": "img_tipo1",
           "persistentUuid": "54ae5b24-368c-4489-ba64-2283debb0947",
-          "width": 266,
+          "width": 274,
           "x": 591,
           "y": 405,
           "zOrder": 17,
@@ -14728,7 +15192,7 @@
           "height": 139,
           "layer": "Tipo2",
           "locked": false,
-          "name": "Tipo2",
+          "name": "txt_Tipo2",
           "persistentUuid": "b0f8b9a5-e5f8-4527-9518-fc496cbb3237",
           "width": 718,
           "x": 472,
@@ -14741,14 +15205,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 210,
+          "height": 230,
           "layer": "Tipo2",
           "locked": false,
-          "name": "tio2",
+          "name": "img_tipo2",
           "persistentUuid": "db13b6fc-cae2-4b01-8cd6-e498d8c32b53",
-          "width": 244,
-          "x": 612,
-          "y": 427,
+          "width": 262,
+          "x": 615,
+          "y": 407,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -14760,7 +15224,7 @@
           "height": 139,
           "layer": "Tipo3",
           "locked": false,
-          "name": "Tipo3",
+          "name": "txt_Tipo3",
           "persistentUuid": "76fbba43-5c0d-4c28-accf-e545e46b4ecd",
           "width": 739,
           "x": 467,
@@ -14773,12 +15237,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 186,
+          "height": 229,
           "layer": "Tipo3",
           "locked": false,
-          "name": "tio3",
+          "name": "img_tipo3",
           "persistentUuid": "02d8cf5e-ee96-49a8-8a82-f153711184a9",
-          "width": 460,
+          "width": 526,
           "x": 477,
           "y": 392,
           "zOrder": 21,
@@ -14824,7 +15288,7 @@
           "height": 0,
           "layer": "Tipo1",
           "locked": false,
-          "name": "titu1",
+          "name": "txt_tituapsup",
           "persistentUuid": "f6623dff-95e9-4705-8229-f513577607ee",
           "width": 0,
           "x": 533,
@@ -14840,7 +15304,7 @@
           "height": 0,
           "layer": "Tipo2",
           "locked": false,
-          "name": "titu2",
+          "name": "txt_tituapnsup",
           "persistentUuid": "b79d1639-a60a-43c9-9dc6-3e6aef4c6afd",
           "width": 0,
           "x": 510,
@@ -14856,7 +15320,7 @@
           "height": 0,
           "layer": "Tipo3",
           "locked": false,
-          "name": "titu3",
+          "name": "txt_tituapref",
           "persistentUuid": "1c028979-aa12-4d01-9832-f6bc04199431",
           "width": 0,
           "x": 549,
@@ -14872,7 +15336,7 @@
           "height": 81,
           "layer": "",
           "locked": false,
-          "name": "piso_12",
+          "name": "piso_3",
           "persistentUuid": "d6543e6e-02ca-4f5b-8b38-ca9a535ab10c",
           "width": 329,
           "x": 159,
@@ -14888,7 +15352,7 @@
           "height": 153,
           "layer": "",
           "locked": false,
-          "name": "piso_122",
+          "name": "piso_2",
           "persistentUuid": "d4b5de56-fea0-41a9-b39f-93103ff0203a",
           "width": 131,
           "x": 17,
@@ -14904,11 +15368,11 @@
           "height": 133,
           "layer": "",
           "locked": false,
-          "name": "piso_1222",
+          "name": "piso_1",
           "persistentUuid": "0b5f1a66-1c1e-49ca-a9d0-f5ee45aea2be",
           "width": 171,
           "x": 521,
-          "y": 571,
+          "y": 612,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14920,11 +15384,11 @@
           "height": 111,
           "layer": "",
           "locked": false,
-          "name": "piso_12",
+          "name": "piso_3",
           "persistentUuid": "e7644448-cab7-49b7-b5c3-1f1266ff7c00",
           "width": 329,
-          "x": 682,
-          "y": 436,
+          "x": 698,
+          "y": 498,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14936,7 +15400,7 @@
           "height": 135,
           "layer": "",
           "locked": false,
-          "name": "piso_1222",
+          "name": "piso_1",
           "persistentUuid": "a84c8166-907e-4f73-aa83-039cbfb0222d",
           "width": 171,
           "x": 1029,
@@ -14952,7 +15416,7 @@
           "height": 88,
           "layer": "",
           "locked": false,
-          "name": "piso_12",
+          "name": "piso_3",
           "persistentUuid": "a7653c01-905c-4284-bb6d-669b7fee8406",
           "width": 329,
           "x": 1487,
@@ -14968,7 +15432,7 @@
           "height": 92,
           "layer": "",
           "locked": false,
-          "name": "piso_1222",
+          "name": "piso_1",
           "persistentUuid": "2d54f1d8-3064-424f-a9e9-fc537be68a10",
           "width": 171,
           "x": 1265,
@@ -14984,7 +15448,7 @@
           "height": 190,
           "layer": "",
           "locked": false,
-          "name": "piso_1222",
+          "name": "piso_1",
           "persistentUuid": "357584a9-ef04-4575-9416-6e58bd45c438",
           "width": 154,
           "x": 1860,
@@ -15000,7 +15464,7 @@
           "height": 134,
           "layer": "",
           "locked": false,
-          "name": "piso_12",
+          "name": "piso_3",
           "persistentUuid": "841edf37-d429-4345-9a58-32fea682f9a7",
           "width": 657,
           "x": 2116,
@@ -15016,7 +15480,7 @@
           "height": 201,
           "layer": "",
           "locked": false,
-          "name": "piso_122",
+          "name": "piso_2",
           "persistentUuid": "68c147d0-8d0d-453d-82ad-0be969b716d6",
           "width": 131,
           "x": -111,
@@ -15032,7 +15496,7 @@
           "height": 245,
           "layer": "",
           "locked": false,
-          "name": "piso_1222",
+          "name": "piso_1",
           "persistentUuid": "386dd69d-099d-4f70-97cc-8aef340a4e80",
           "width": 79,
           "x": 2730,
@@ -15080,11 +15544,11 @@
           "height": 0,
           "layer": "glo1",
           "locked": false,
-          "name": "titu",
+          "name": "txt_tituglo",
           "persistentUuid": "6efc9278-d62e-419b-a76b-aed0a6074b93",
           "width": 0,
-          "x": 663,
-          "y": 138,
+          "x": 650,
+          "y": 142,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -15141,15 +15605,31 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 485,
+          "height": 472,
           "layer": "personaje",
           "locked": false,
           "name": "PersonajeExplica",
           "persistentUuid": "18621ea5-0c39-4bd6-ae52-774e3cf2c10b",
-          "width": 206,
+          "width": 193,
           "x": 244,
-          "y": 147,
+          "y": 152,
           "zOrder": 96,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_reto1",
+          "persistentUuid": "dc2663a3-b0d6-4906-9e68-12f97af30d36",
+          "width": 0,
+          "x": 2564,
+          "y": 272,
+          "zOrder": 97,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15161,11 +15641,11 @@
           "layer": "",
           "locked": false,
           "name": "cerebro1",
-          "persistentUuid": "cde552c9-3c35-48a1-b745-6277af907ec4",
+          "persistentUuid": "ecea5f58-593f-4fb8-8bb1-fa89f82b483f",
           "width": 100,
-          "x": 294,
-          "y": 499,
-          "zOrder": 2,
+          "x": 328,
+          "y": 507,
+          "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15190,7 +15670,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "matrix.jpg",
+                      "image": "6.MachineLearning\\Assets\\fondo.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15274,7 +15754,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "idle-1.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\idle-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15299,11 +15779,11 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.2,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-1.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15320,7 +15800,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-2.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15337,7 +15817,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-3.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15354,7 +15834,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-4.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15371,7 +15851,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-5.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15388,7 +15868,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-6.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15405,7 +15885,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-7.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15422,7 +15902,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-8.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15439,7 +15919,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-9.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-9.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15456,7 +15936,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-10.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-10.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15473,7 +15953,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-11.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-11.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15490,7 +15970,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-12.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-12.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15507,7 +15987,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-13.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-13.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15524,7 +16004,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-14.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-14.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15541,7 +16021,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-15.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-15.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15558,7 +16038,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-16.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-16.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15575,7 +16055,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-17.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-17.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15592,7 +16072,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "walking-18.png",
+                      "image": "6.MachineLearning\\Assets\\personaje\\walking-18.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -15654,9 +16134,9 @@
         },
         {
           "height": 191,
-          "name": "piso_1222",
+          "name": "piso_1",
           "tags": "",
-          "texture": "base1.png",
+          "texture": "6.MachineLearning\\Assets\\piso\\pisoazul1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -15672,9 +16152,9 @@
         },
         {
           "height": 191,
-          "name": "piso_122",
+          "name": "piso_2",
           "tags": "",
-          "texture": "base2hg.png",
+          "texture": "6.MachineLearning\\Assets\\piso\\pisoazul2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -15690,9 +16170,9 @@
         },
         {
           "height": 191,
-          "name": "piso_12",
+          "name": "piso_3",
           "tags": "",
-          "texture": "base3.png",
+          "texture": "6.MachineLearning\\Assets\\piso\\pisoazul3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -15703,677 +16183,6 @@
               "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "name": "NewObject5",
-          "tags": "",
-          "type": "Video::VideoObject",
-          "variables": [],
-          "behaviors": [],
-          "content": {
-            "opacity": 255,
-            "loop": false,
-            "volume": 100,
-            "videoResource": "¿Qué es machine learning .mp4"
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "glo",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Agrupamiento: Conversión de un atributo en varios atributos.\n\nCentroide: El centro de un clúster se determina mediante un algoritmo k-medios o k-mediana.\n\nClase: Valor de un conjunto de valores de segmentación enumerados para una etiqueta. \n\nConjunto de atributos: Grupo de atributos con el que se entrena el modelo de aprendizaje automático.\n\nDataframe:  es una estructura de datos tabular que se compone de columnas y filas ordenadas.\nEntrenamiento: Es el proceso en el cual se determina los parámetros ideales que conforman un modelo.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 25,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "glo2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Etiqueta: respuesta o resultado de un ejemplo, cada conjunto de datos etiquetado consiste en uno o más atributos y una etiqueta.\n\nGeneralización: es la capacidad de conseguir buenos resultados con datos nuevos.\n\nHiperplano: Límite que separa un espacio en dos subespacios.\n\nModelos: Son los parámetros de la función de predicción de resultado de un modelo cuando se le proporciona un ejemplo de entrada.\n\nParámetros: Son constantes que caracterizan una característica o una distribución probabilística o función de regresión de una población o valor desconocido que describe una relación poblacional.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 28,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "jugar",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "botonnormal",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "boy-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "botonhover",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "boy-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "Tipo1",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Este tipo de Machine Learning necesita de datos previamente etiquetados para aprender a realizar su trabajo. Lo que se hace es darle una colección de datos previamente resueltos para que luego él aprenda a resolver problemas futuros.\n",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 35,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "Tipo2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "En este caso este tipo de machine learning no se incluyen datos etiquetados, pero sí requiere de indicaciones previas, las cuales le enseñan a comprender y analizar la información que le será brindada. A diferencia del aprendizaje supervisado, el aprendizaje se logra mediante el análisis de los datos que aún no posee resultados.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "Tipo3",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "En este caso este modelo tiene como objetivo principal la construcción de modelos que incrementen el rendimiento en base al análisis de resultados ya procesados, este método de aprendizaje logra que cada resultado produzca una recompensa.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "tio2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Aprendizaje-Supervisado",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Aprendizaje-Supervisado-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "tio3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Aprendizaje-Supervisado",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "grafica-aprendizaje-reforzado.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "tio",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Aprendizaje-Supervisado",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Aprendizaje-Supervisado-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "cuadro",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "MarcoFondoGM",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\MarcoFondoGM-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "flecha",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "flech.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "titu3",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Aprendizaje Reforzado",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
-          "color": {
-            "b": 141,
-            "g": 30,
-            "r": 217
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "titu2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Aprendizaje No Supervisado",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
-          "color": {
-            "b": 141,
-            "g": 30,
-            "r": 217
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "titu1",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Aprendizaje Supervisado",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
-          "color": {
-            "b": 141,
-            "g": 30,
-            "r": 217
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "titu",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Glosario",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
-          "color": {
-            "b": 141,
-            "g": 30,
-            "r": 217
-          }
-        },
-        {
-          "name": "cerebro4",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "oip",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\Bombillo1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\oip-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "cerebro3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "oip",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\Bombillo1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\oip-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "cerebro2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "oip",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\Bombillo1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\oip-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "cerebro1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "oip",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\Bombillo1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\oip-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -16386,12 +16195,12 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "2020-11-18_15h26_24-1",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 1,
+                  "timeBetweenFrames": 0.4,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -16517,6 +16326,576 @@
               ]
             }
           ]
+        },
+        {
+          "name": "cerebro1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "oip",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\Bombillo1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\oip-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_tituglo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "GLOSARIO",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "glo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Agrupamiento: Conversión de un atributo en varios atributos.\n\nCentroide: El centro de un clúster se determina mediante un algoritmo k-medios o k-mediana.\n\nClase: Valor de un conjunto de valores de segmentación enumerados para una etiqueta. \n\nConjunto de atributos: Grupo de atributos con el que se entrena el modelo de aprendizaje automático.\n\nDataframe:  es una estructura de datos tabular que se compone de columnas y filas ordenadas.\nEntrenamiento: Es el proceso en el cual se determina los parámetros ideales que conforman un modelo.",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "glo2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Etiqueta: respuesta o resultado de un ejemplo, cada conjunto de datos etiquetado consiste en uno o más atributos y una etiqueta.\n\nGeneralización: es la capacidad de conseguir buenos resultados con datos nuevos.\n\nHiperplano: Límite que separa un espacio en dos subespacios.\n\nModelos: Son los parámetros de la función de predicción de resultado de un modelo cuando se le proporciona un ejemplo de entrada.\n\nParámetros: Son constantes que caracterizan una característica o una distribución probabilística o función de regresión de una población o valor desconocido que describe una relación poblacional.",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 28,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "cerebro2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "oip",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\Bombillo1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\oip-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_tituapsup",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "APRENDIZAJE SUPERVISADO",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_Tipo1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Este tipo de Machine Learning necesita de datos previamente etiquetados para aprender a realizar su trabajo. Lo que se hace es darle una colección de datos previamente resueltos para que luego él aprenda a resolver problemas futuros.\n",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "img_tipo1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Aprendizaje-Supervisado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\Aprendizaje-Supervisado.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cerebro3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "oip",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\Bombillo1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\oip-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_tituapnsup",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "APRENDIZAJE NO SUPERVISADO",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_Tipo2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "En este caso este tipo de machine learning no se incluyen datos etiquetados, pero sí requiere de indicaciones previas, las cuales le enseñan a comprender y analizar la información que le será brindada. A diferencia del aprendizaje supervisado, el aprendizaje se logra mediante el análisis de los datos que aún no posee resultados.",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "img_tipo2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Aprendizaje-Supervisado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\Aprendizaje-No-Supervisado.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cerebro4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "oip",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\Bombillo1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\oip-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_tituapref",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "APRENDIZAJE REFORZADO",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_Tipo3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "En este caso este modelo tiene como objetivo principal la construcción de modelos que incrementen el rendimiento en base al análisis de resultados ya procesados, este método de aprendizaje logra que cada resultado produzca una recompensa.",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "img_tipo3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Aprendizaje-Supervisado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\Aprendizaje-Reforzado.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cuadro",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "MarcoFondoGM",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\MarcoFondoGM-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_reto1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Reto 1",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 55,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -16726,7 +17105,22 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "personaje",
+                    "cerebro1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -16815,17 +17209,6 @@
                         "\"glo2\""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"glo2\""
-                      ],
-                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -16836,7 +17219,22 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "personaje",
+                    "cerebro1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -17238,7 +17636,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "jugar",
+                    "txt_reto1",
                     "",
                     "",
                     ""
@@ -17250,11 +17648,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "TextObject::ChangeColor"
                   },
                   "parameters": [
-                    "jugar",
-                    "\"botonnormal\""
+                    "txt_reto1",
+                    "\"255;255;255\""
                   ],
                   "subInstructions": []
                 }
@@ -17272,7 +17670,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "jugar",
+                    "txt_reto1",
                     "",
                     "",
                     ""
@@ -17296,7 +17694,7 @@
                   },
                   "parameters": [
                     "",
-                    "son.mp3",
+                    "SonidosButton\\gota.mp3",
                     "",
                     "60",
                     ""
@@ -17306,11 +17704,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "TextObject::ChangeColor"
                   },
                   "parameters": [
-                    "jugar",
-                    "\"botonhover\""
+                    "txt_reto1",
+                    "\"248;200;15\""
                   ],
                   "subInstructions": []
                 }
@@ -17339,7 +17737,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "jugar",
+                    "txt_reto1",
                     "",
                     "",
                     ""
@@ -17382,6 +17780,20 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "personaje",
+                    "cerebro1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -17556,7 +17968,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "intro",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17713,19 +18125,6 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
@@ -17775,7 +18174,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "cuadro",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -17889,7 +18288,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.482
+        "zoomFactor": 0.506
       },
       "objectsGroups": [],
       "variables": [],
@@ -17929,14 +18328,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 124,
+          "height": 100,
           "layer": "",
           "locked": false,
           "name": "cuadrotitulo",
           "persistentUuid": "90b66cab-783b-433f-be30-b904dee864a1",
-          "width": 928,
-          "x": 238,
-          "y": 6,
+          "width": 572,
+          "x": 96,
+          "y": 8,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -17951,8 +18350,8 @@
           "name": "txt_titulo",
           "persistentUuid": "31cc0d40-4a2c-4abb-bc93-c0c9a918925a",
           "width": 0,
-          "x": 397,
-          "y": 23,
+          "x": 444,
+          "y": 170,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -17961,14 +18360,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 141,
+          "height": 161,
           "layer": "",
           "locked": false,
           "name": "txt_ejemplo",
           "persistentUuid": "677646e2-344a-47da-ae64-5ef32ab70666",
-          "width": 518,
+          "width": 583,
           "x": 470,
-          "y": 213,
+          "y": 260,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -17982,74 +18381,10 @@
           "locked": false,
           "name": "txt_ejemplo2",
           "persistentUuid": "209e8e1f-39f1-4a1a-9730-030d64604585",
-          "width": 464,
-          "x": 477,
-          "y": 365,
+          "width": 569,
+          "x": 470,
+          "y": 419,
           "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 239,
-          "layer": "",
-          "locked": false,
-          "name": "piso_1222",
-          "persistentUuid": "23501b36-a772-4b58-911a-aa7dc6cecace",
-          "width": 101,
-          "x": 1323,
-          "y": 334,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 134,
-          "layer": "",
-          "locked": false,
-          "name": "piso_1222",
-          "persistentUuid": "608f7452-fb58-4fce-a6a1-efc472a66d60",
-          "width": 171,
-          "x": 1171,
-          "y": 613,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 87,
-          "layer": "",
-          "locked": false,
-          "name": "piso_12",
-          "persistentUuid": "185d7d7e-54f5-4b8c-8c48-11c3b5a6f508",
-          "width": 985,
-          "x": 144,
-          "y": 619,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 191,
-          "layer": "",
-          "locked": false,
-          "name": "piso_122",
-          "persistentUuid": "063855be-e5c1-489c-a527-b3a6bd3c18c6",
-          "width": 130,
-          "x": 0,
-          "y": 516,
-          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18058,13 +18393,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "puntos",
           "locked": false,
           "name": "puntos",
           "persistentUuid": "124328d8-c0a1-4675-ae88-4adb98140add",
           "width": 0,
-          "x": 116,
-          "y": 56,
+          "x": 542,
+          "y": 28,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -18079,8 +18414,8 @@
           "name": "txt_instru",
           "persistentUuid": "8214bf7b-9407-4692-be23-4b94c45607b5",
           "width": 0,
-          "x": 523,
-          "y": 454,
+          "x": 459,
+          "y": 535,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -18095,8 +18430,8 @@
           "name": "txt_iniciar",
           "persistentUuid": "374c4f9f-b99f-4fbf-adba-7284f2a10457",
           "width": 0,
-          "x": 778,
-          "y": 457,
+          "x": 706,
+          "y": 536,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -18111,8 +18446,8 @@
           "name": "instrucciones",
           "persistentUuid": "6baaa04f-77bb-444f-8650-a30fec5cb275",
           "width": 429,
-          "x": 483,
-          "y": 129,
+          "x": 481,
+          "y": 151,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -18126,9 +18461,9 @@
           "locked": false,
           "name": "instrucciones2",
           "persistentUuid": "74b3ef25-abc9-4f2a-ae75-53a8514bcda9",
-          "width": 453,
+          "width": 465,
           "x": 470,
-          "y": 205,
+          "y": 231,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -18137,14 +18472,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 85,
+          "height": 127,
           "layer": "iniciar",
           "locked": false,
           "name": "pregunta1",
           "persistentUuid": "a0fd4465-c235-4ebc-a059-e4695e7bbd42",
-          "width": 577,
-          "x": 270,
-          "y": 185,
+          "width": 358,
+          "x": 268,
+          "y": 211,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -18153,14 +18488,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 81,
+          "height": 132,
           "layer": "iniciar",
           "locked": false,
           "name": "pregunta2",
           "persistentUuid": "c5aeda5b-8060-45b2-aa20-65a196ecfff2",
-          "width": 552,
-          "x": 272,
-          "y": 291,
+          "width": 410,
+          "x": 691,
+          "y": 210,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -18169,14 +18504,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 85,
+          "height": 155,
           "layer": "iniciar",
           "locked": false,
           "name": "pregunta3",
           "persistentUuid": "c4e40035-f994-4eec-a05f-45b6f53d70ff",
-          "width": 605,
+          "width": 368,
           "x": 268,
-          "y": 393,
+          "y": 431,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -18185,14 +18520,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 105,
+          "height": 158,
           "layer": "iniciar",
           "locked": false,
           "name": "pregunta4",
           "persistentUuid": "bcb71bf1-f743-44e3-ad82-b319b24a97d3",
-          "width": 617,
-          "x": 270,
-          "y": 495,
+          "width": 473,
+          "x": 677,
+          "y": 431,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -18207,25 +18542,9 @@
           "name": "enviar",
           "persistentUuid": "f2778f54-bff3-403f-99b1-0c908ffd5073",
           "width": 0,
-          "x": 956,
-          "y": 589,
+          "x": 1085,
+          "y": 618,
           "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 70,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject3",
-          "persistentUuid": "b23ddb22-d420-455b-aac3-3f48202a8adf",
-          "width": 100,
-          "x": 4,
-          "y": 449,
-          "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18239,8 +18558,8 @@
           "name": "NewObject32",
           "persistentUuid": "3059fe01-681a-4efe-853c-c3123797d3e4",
           "width": 100,
-          "x": 1212,
-          "y": 543,
+          "x": 1270,
+          "y": 611,
           "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
@@ -18281,7 +18600,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 543,
+          "height": 596,
           "layer": "",
           "locked": false,
           "name": "cuadro",
@@ -18297,14 +18616,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 700,
+          "height": 597,
           "layer": "instrucciones",
           "locked": false,
           "name": "cuadroinstrucciones",
           "persistentUuid": "422f4acc-a434-4322-8b6e-a425d9c912b5",
-          "width": 574,
-          "x": 400,
-          "y": 25,
+          "width": 616,
+          "x": 402,
+          "y": 104,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -18313,15 +18632,95 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 643,
+          "height": 613,
           "layer": "iniciar",
           "locked": false,
           "name": "cuadroiniciar",
           "persistentUuid": "e719b1bf-1351-49e0-94f5-aba7cf8fcfc1",
-          "width": 987,
-          "x": 156,
-          "y": 81,
+          "width": 1074,
+          "x": 172,
+          "y": 93,
           "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_reto1",
+          "persistentUuid": "cced7536-6c9a-4b26-8474-b409e016cf9d",
+          "width": 0,
+          "x": 166,
+          "y": 12,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "bc87ebdf-e198-4867-aea2-2f431e012916",
+          "width": 60,
+          "x": 411,
+          "y": 29,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "instrucciones",
+          "locked": false,
+          "name": "cerrar",
+          "persistentUuid": "49a67dd7-7930-4ca2-ad57-d52ca3379660",
+          "width": 50,
+          "x": 956,
+          "y": 113,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 58,
+          "layer": "iniciar",
+          "locked": false,
+          "name": "preguntas",
+          "persistentUuid": "6d6d8a68-fc09-4432-9402-5a25b87ae390",
+          "width": 182,
+          "x": 590,
+          "y": 132,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_cancelar",
+          "persistentUuid": "457e7c58-e85d-4477-822b-5fd6a839c926",
+          "width": 0,
+          "x": 863,
+          "y": 533,
+          "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18346,7 +18745,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8ad9b1a227d9c66d96ae01ed6b339932.jpg",
+                      "image": "6.MachineLearning\\Assets\\fondo.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18405,6 +18804,30 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_reto1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Reto 1",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 70,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         },
         {
           "bold": true,
@@ -18481,7 +18904,7 @@
           "behaviors": [],
           "string": "Edwin acaba de introducirse en el mundo de machine learning y quiere saber qué técnicas puede utilizar para resolver un problema de detección de spam en los correos",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
@@ -18499,8 +18922,8 @@
           "variables": [],
           "behaviors": [],
           "string": "¿Qué información podrías darle teniendo en cuenta todo lo que aprendiste hasta ahora?",
-          "font": "Short Zippers.ttf",
-          "characterSize": 25,
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
@@ -18525,7 +18948,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\MarcoFondoGM-1.png",
+                      "image": "6.MachineLearning\\Assets\\MarcoInstrucciones.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18579,9 +19002,9 @@
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 50,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 215,
+            "g": 30,
+            "r": 217
           }
         },
         {
@@ -18598,9 +19021,9 @@
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
           "characterSize": 40,
           "color": {
-            "b": 42,
-            "g": 87,
-            "r": 139
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -18621,7 +19044,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\MarcoFondoGM-1.png",
+                      "image": "6.MachineLearning\\Assets\\Marcoiniciar.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18659,6 +19082,25 @@
             "b": 27,
             "g": 2,
             "r": 208
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "preguntas",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Preguntas",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 215,
+            "g": 30,
+            "r": 217
           }
         },
         {
@@ -18771,13 +19213,32 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Score",
-          "font": "Skull-Story.ttf",
-          "characterSize": 30,
+          "string": "0",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
           "color": {
             "b": 5,
             "g": 117,
             "r": 65
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_cancelar",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Cancelar",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
           }
         },
         {
@@ -18874,7 +19335,7 @@
           ]
         },
         {
-          "name": "NewObject3",
+          "name": "Moneda",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -18882,7 +19343,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "fle",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -18891,7 +19352,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fle.png",
+                      "image": "6.MachineLearning\\Assets\\moneda.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18920,7 +19381,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Titulo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19015,7 +19476,7 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Botones",
+          "name": "Sonidos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -19027,6 +19488,19 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_instru",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
@@ -19041,10 +19515,21 @@
                   },
                   "parameters": [
                     "",
-                    "son.mp3",
+                    "SonidosButton\\gota.mp3",
                     "",
                     "100",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_instru",
+                    "\"255;255;255\""
                   ],
                   "subInstructions": []
                 }
@@ -19055,8 +19540,42 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_instru",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_instru",
+                    "\"208;2;27\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             },
             {
@@ -19067,6 +19586,19 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_iniciar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
@@ -19081,10 +19613,21 @@
                   },
                   "parameters": [
                     "",
-                    "son.mp3",
+                    "SonidosButton\\gota.mp3",
                     "",
                     "100",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_iniciar",
+                    "\"255;255;255\""
                   ],
                   "subInstructions": []
                 }
@@ -19095,8 +19638,140 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_iniciar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_iniciar",
+                    "\"208;2;27\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_cancelar",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_cancelar",
+                    "\"208;2;27\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
             }
           ],
@@ -19171,6 +19846,19 @@
                   "parameters": [
                     "",
                     "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cerrar",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -19250,6 +19938,19 @@
                     "Left"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "enviar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -19289,7 +19990,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "NewObject3",
+                    "txt_cancelar",
                     "",
                     "",
                     ""
@@ -19313,7 +20014,7 @@
                   },
                   "parameters": [
                     "",
-                    "son.mp3",
+                    "SonidosButton\\gota.mp3",
                     "",
                     "100",
                     ""
@@ -19393,7 +20094,7 @@
                   },
                   "parameters": [
                     "",
-                    "son.mp3",
+                    "SonidosButton\\gota.mp3",
                     "",
                     "100",
                     ""
@@ -19459,7 +20160,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "puntos",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -19499,7 +20200,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.274
+        "zoomFactor": 0.346
       },
       "objectsGroups": [],
       "variables": [],
@@ -19576,7 +20277,7 @@
           "locked": false,
           "name": "txt_caracte",
           "persistentUuid": "781c0810-4d99-490a-b190-557dece4e9c2",
-          "width": 284,
+          "width": 325,
           "x": 531,
           "y": 169,
           "zOrder": 8,
@@ -19587,12 +20288,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 72,
+          "height": 65,
           "layer": "regresion",
           "locked": false,
           "name": "txt_regresion1",
           "persistentUuid": "94309a99-841e-4007-93ce-b68451ab5039",
-          "width": 388,
+          "width": 410,
           "x": 527,
           "y": 176,
           "zOrder": 11,
@@ -19610,7 +20311,7 @@
           "persistentUuid": "2dd8bd10-78a9-4e2e-b37d-f72f68a2e7b1",
           "width": 470,
           "x": 493,
-          "y": 238,
+          "y": 181,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -19801,25 +20502,9 @@
           "name": "piso_2",
           "persistentUuid": "bf0c696f-0af9-4cd6-97cd-6829d93a69e6",
           "width": 131,
-          "x": 5043,
-          "y": 177,
+          "x": 5045,
+          "y": 232,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 73,
-          "layer": "",
-          "locked": false,
-          "name": "jugar",
-          "persistentUuid": "9c97992f-87ee-4a8a-93da-124cb9c625ef",
-          "width": 192,
-          "x": 4803,
-          "y": 290,
-          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19843,14 +20528,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 101,
+          "height": 175,
           "layer": "regresion",
           "locked": false,
           "name": "txt_regresion3",
           "persistentUuid": "d049af19-d3f7-4536-b747-cc9aa0427f58",
-          "width": 302,
-          "x": 775,
-          "y": 382,
+          "width": 271,
+          "x": 863,
+          "y": 271,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -19859,30 +20544,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 109,
-          "layer": "regresion",
-          "locked": false,
-          "name": "NewObject6",
-          "persistentUuid": "42d3a050-1a9d-4341-a41f-ad897e355251",
-          "width": 272,
-          "x": 463,
-          "y": 279,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 108,
+          "height": 132,
           "layer": "regresion",
           "locked": false,
           "name": "txt_regresion2",
           "persistentUuid": "53a365a2-6c26-437b-83ca-529865b048b5",
-          "width": 248,
+          "width": 276,
           "x": 485,
-          "y": 284,
+          "y": 255,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -19897,8 +20566,8 @@
           "name": "img_regresion2",
           "persistentUuid": "f25ce1ac-1b3d-49d7-a1f7-8177c378a9f7",
           "width": 118,
-          "x": 767,
-          "y": 525,
+          "x": 733,
+          "y": 511,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -19929,8 +20598,8 @@
           "name": "img_clasif",
           "persistentUuid": "236b2485-0043-4b74-831c-19901eb44595",
           "width": 150,
-          "x": 789,
-          "y": 408,
+          "x": 879,
+          "y": 381,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -19939,12 +20608,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 127,
+          "height": 132,
           "layer": "clasi",
           "locked": false,
           "name": "cuadroregresi",
           "persistentUuid": "f7946828-74e4-4220-96f3-c5b03e9b18cf",
-          "width": 269,
+          "width": 260,
           "x": 489,
           "y": 328,
           "zOrder": 78,
@@ -19955,14 +20624,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 130,
+          "height": 114,
           "layer": "clasi",
           "locked": false,
           "name": "txt_clasif2",
           "persistentUuid": "3b1bc656-4cb7-44d8-839f-76eec9de2ab9",
-          "width": 242,
+          "width": 235,
           "x": 504,
-          "y": 345,
+          "y": 340,
           "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
@@ -19977,8 +20646,8 @@
           "name": "txt_clasifbenigna",
           "persistentUuid": "e4b4b4e6-d3ab-463d-8a4d-39e386acc995",
           "width": 0,
-          "x": 896,
-          "y": 349,
+          "x": 898,
+          "y": 313,
           "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
@@ -19993,8 +20662,8 @@
           "name": "txt_clasifmaligna",
           "persistentUuid": "fb3210da-2bdf-43ea-bfec-5f2f633320fd",
           "width": 0,
-          "x": 626,
-          "y": 556,
+          "x": 710,
+          "y": 549,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -20035,14 +20704,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 137,
+          "height": 140,
           "layer": "Ejemplolineal",
           "locked": false,
           "name": "txt_ejemplolineal1",
           "persistentUuid": "9717dd15-e642-4b51-8ea5-1dbf862e65f6",
-          "width": 558,
-          "x": 470,
-          "y": 174,
+          "width": 566,
+          "x": 496,
+          "y": 181,
           "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
@@ -20057,8 +20726,8 @@
           "name": "txt_ejemplolineal2",
           "persistentUuid": "9214e789-ae1d-47af-8d36-070bf1e7926c",
           "width": 0,
-          "x": 495,
-          "y": 350,
+          "x": 457,
+          "y": 336,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -20073,8 +20742,8 @@
           "name": "txt_ejemplolineal3",
           "persistentUuid": "d4540b76-c0e4-4c8d-b119-873c75ea6648",
           "width": 0,
-          "x": 753,
-          "y": 354,
+          "x": 721,
+          "y": 337,
           "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
@@ -20089,7 +20758,7 @@
           "name": "img_ejemplolineal1",
           "persistentUuid": "d744b882-ba4b-403e-ac7f-fe7cfb1ed5bd",
           "width": 85,
-          "x": 508,
+          "x": 473,
           "y": 397,
           "zOrder": 89,
           "numberProperties": [],
@@ -20105,7 +20774,7 @@
           "name": "img_ejemplolineal1",
           "persistentUuid": "ccc1bca3-1a64-4261-8b69-455571b910e8",
           "width": 89,
-          "x": 609,
+          "x": 574,
           "y": 410,
           "zOrder": 89,
           "numberProperties": [],
@@ -20121,7 +20790,7 @@
           "name": "img_ejemplolineal1",
           "persistentUuid": "305063cb-16fa-4d98-96c7-89ff7385d69b",
           "width": 89,
-          "x": 609,
+          "x": 574,
           "y": 501,
           "zOrder": 89,
           "numberProperties": [],
@@ -20137,7 +20806,7 @@
           "name": "img_ejemplolineal1",
           "persistentUuid": "f6ba9400-6be7-425b-9ff7-44649ed765d4",
           "width": 89,
-          "x": 513,
+          "x": 478,
           "y": 495,
           "zOrder": 89,
           "numberProperties": [],
@@ -20153,8 +20822,8 @@
           "name": "txt_ejemplolineal4",
           "persistentUuid": "3ba608e1-9bbc-4098-bc2c-37f56eba3fe1",
           "width": 0,
-          "x": 762,
-          "y": 436,
+          "x": 730,
+          "y": 417,
           "zOrder": 90,
           "numberProperties": [],
           "stringProperties": [],
@@ -20169,8 +20838,8 @@
           "name": "img_ejemplolineal2",
           "persistentUuid": "c9b507ea-283d-4f44-817a-242ee2443df0",
           "width": 200,
-          "x": 946,
-          "y": 369,
+          "x": 903,
+          "y": 367,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -20201,8 +20870,8 @@
           "name": "txt_logistica1",
           "persistentUuid": "6e8a6ac8-b882-4adf-b3e5-6cd8815f6e82",
           "width": 362,
-          "x": 551,
-          "y": 176,
+          "x": 549,
+          "y": 174,
           "zOrder": 93,
           "numberProperties": [],
           "stringProperties": [],
@@ -20211,13 +20880,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 130,
           "layer": "logistica",
           "locked": false,
           "name": "txt_logistica2",
           "persistentUuid": "a556c02a-1c57-4b8d-a9cf-cc4b6ab4544d",
-          "width": 564,
-          "x": 481,
+          "width": 631,
+          "x": 495,
           "y": 250,
           "zOrder": 94,
           "numberProperties": [],
@@ -20233,7 +20902,7 @@
           "name": "img_logistica",
           "persistentUuid": "2c265d59-8058-4cd5-90f7-8f431a29636d",
           "width": 0,
-          "x": 518,
+          "x": 508,
           "y": 396,
           "zOrder": 95,
           "numberProperties": [],
@@ -20243,14 +20912,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 198,
+          "height": 268,
           "layer": "Ejemplologistica",
           "locked": false,
           "name": "txt_ejemplologistica1",
           "persistentUuid": "0d910385-6b84-4b01-a007-6fed873c3792",
-          "width": 670,
-          "x": 428,
-          "y": 185,
+          "width": 696,
+          "x": 452,
+          "y": 173,
           "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
@@ -20265,8 +20934,8 @@
           "name": "img_ejemplologistica1",
           "persistentUuid": "01bd0369-c94d-41ee-9f57-5fef69662dab",
           "width": 294,
-          "x": 443,
-          "y": 467,
+          "x": 439,
+          "y": 464,
           "zOrder": 97,
           "numberProperties": [],
           "stringProperties": [],
@@ -20281,8 +20950,8 @@
           "name": "img_ejemplologistica2",
           "persistentUuid": "2ef31e05-2fea-4e06-b8ea-53f85e0de180",
           "width": 300,
-          "x": 765,
-          "y": 418,
+          "x": 761,
+          "y": 396,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -20297,8 +20966,8 @@
           "name": "img_caracte",
           "persistentUuid": "d8e97424-9296-4743-91d0-a4c2c368e2ab",
           "width": 644,
-          "x": 506,
-          "y": 235,
+          "x": 457,
+          "y": 232,
           "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
@@ -20313,8 +20982,8 @@
           "name": "img_knn",
           "persistentUuid": "d72e56ba-cb45-4b06-a307-56d2e6d35c69",
           "width": 680,
-          "x": 451,
-          "y": 277,
+          "x": 425,
+          "y": 280,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -20329,8 +20998,8 @@
           "name": "txt_knn",
           "persistentUuid": "f84f0900-70b6-4698-a991-cdb4f5fa9f66",
           "width": 0,
-          "x": 473,
-          "y": 203,
+          "x": 466,
+          "y": 178,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -20345,7 +21014,7 @@
           "name": "img_svm",
           "persistentUuid": "9b75d0fa-8618-490b-9f3e-3d0a9afdeca7",
           "width": 536,
-          "x": 538,
+          "x": 512,
           "y": 256,
           "zOrder": 102,
           "numberProperties": [],
@@ -20361,8 +21030,8 @@
           "name": "txt_svm",
           "persistentUuid": "841b6922-b1c7-404d-b398-e64273c8990c",
           "width": 0,
-          "x": 310,
-          "y": 184,
+          "x": 362,
+          "y": 179,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -20506,7 +21175,7 @@
           "persistentUuid": "9b633614-1bcb-4aeb-be0d-ae61470a3655",
           "width": 177,
           "x": 40,
-          "y": 325,
+          "y": 366,
           "zOrder": 119,
           "numberProperties": [],
           "stringProperties": [],
@@ -20547,14 +21216,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 156,
+          "height": 108,
           "layer": "",
           "locked": false,
           "name": "piso_2",
           "persistentUuid": "5ce10ce3-350e-4672-983c-385361210b7a",
           "width": 262,
-          "x": 4850,
-          "y": 408,
+          "x": 4848,
+          "y": 473,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -20566,7 +21235,7 @@
           "height": 814,
           "layer": "Background",
           "locked": false,
-          "name": "fondo2",
+          "name": "Fondo",
           "persistentUuid": "719fa3ae-eb23-4eec-9fd8-46cebbeda06f",
           "width": 1400,
           "x": 0,
@@ -20575,11 +21244,75 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_Reto2",
+          "persistentUuid": "729812b7-b3e8-4c1b-9963-083687cf9af6",
+          "width": 0,
+          "x": 4869,
+          "y": 370,
+          "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 153,
+          "layer": "regresion",
+          "locked": false,
+          "name": "cuadroregresi",
+          "persistentUuid": "44ba6830-6b1c-4b6b-9f63-ddfbdf9c4f8c",
+          "width": 303,
+          "x": 460,
+          "y": 246,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 213,
+          "layer": "regresion",
+          "locked": false,
+          "name": "cuadroregresi",
+          "persistentUuid": "550be0e3-c287-4756-86f4-6a6fdc0e97af",
+          "width": 303,
+          "x": 834,
+          "y": 250,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "cuadro",
+          "locked": false,
+          "name": "flecha",
+          "persistentUuid": "eaf96846-9fe4-4ba6-b306-9fd57400a8da",
+          "width": 108,
+          "x": 1084,
+          "y": 525,
+          "zOrder": 122,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
-          "name": "fondo2",
+          "name": "Fondo",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -20596,7 +21329,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\digital_cyberscape_Adobe.jpg",
+                      "image": "8.Aprendizajesupervisado\\Assets\\fondo.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -20868,25 +21601,7 @@
           "height": 191,
           "name": "piso_1",
           "tags": "",
-          "texture": "baseroja5.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 191,
-          "name": "piso_22",
-          "tags": "",
-          "texture": "8.Aprendizajesupervisado\\Assets\\Piso2.png",
+          "texture": "8.Aprendizajesupervisado\\Assets\\piso\\pisorojo1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -20904,25 +21619,7 @@
           "height": 191,
           "name": "piso_2",
           "tags": "",
-          "texture": "baseroja1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 191,
-          "name": "piso_32",
-          "tags": "",
-          "texture": "8.Aprendizajesupervisado\\Assets\\Piso1.png",
+          "texture": "8.Aprendizajesupervisado\\Assets\\piso\\pisorojo2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -20940,7 +21637,7 @@
           "height": 191,
           "name": "piso_3",
           "tags": "",
-          "texture": "baseroja4.png",
+          "texture": "8.Aprendizajesupervisado\\Assets\\piso\\pisorojo3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -21059,13 +21756,13 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Caracteristicas",
+          "string": "CARACTERISTICAS",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 50,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 149,
+            "g": 54,
+            "r": 113
           }
         },
         {
@@ -21086,7 +21783,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "48055141912_e8252f1d7e_b.jpg",
+                      "image": "8.Aprendizajesupervisado\\Assets\\concepto.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21173,13 +21870,32 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Técnica de regresión",
+          "string": "TÉCNICA DE REGRESIÓN",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 50,
           "color": {
-            "b": 254,
-            "g": 19,
-            "r": 144
+            "b": 149,
+            "g": 54,
+            "r": 113
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_regresion2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Se utiliza para predecir un valor continúo",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
           }
         },
         {
@@ -21200,7 +21916,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "casa.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\casa.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21239,7 +21955,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "flec-1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\flec-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21261,7 +21977,7 @@
           ]
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "txt_regresion3",
           "smoothed": true,
@@ -21272,7 +21988,7 @@
           "behaviors": [],
           "string": "Predicción del valor de una casa basada en sus caracteristicas",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "characterSize": 40,
           "color": {
             "b": 28,
             "g": 231,
@@ -21374,7 +22090,7 @@
           }
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "txt_ejemplolineal1",
           "smoothed": true,
@@ -21383,17 +22099,17 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "                            EJEMPLO\n\nDeseamos predecir el sueldo mensual en función de la edad de un trabajador",
+          "string": "                 EJEMPLO\nDeseamos predecir el sueldo mensual en función de la edad de un trabajador",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "characterSize": 40,
           "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
+            "b": 149,
+            "g": 54,
+            "r": 113
           }
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "txt_ejemplolineal2",
           "smoothed": true,
@@ -21406,13 +22122,13 @@
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
           "characterSize": 50,
           "color": {
-            "b": 5,
-            "g": 117,
-            "r": 65
+            "b": 15,
+            "g": 200,
+            "r": 248
           }
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "txt_ejemplolineal3",
           "smoothed": true,
@@ -21425,9 +22141,9 @@
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
           "characterSize": 50,
           "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
+            "b": 15,
+            "g": 200,
+            "r": 248
           }
         },
         {
@@ -21442,11 +22158,11 @@
           "behaviors": [],
           "string": "Juan 23\nLucia 36\nJacke 49",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "characterSize": 45,
           "color": {
-            "b": 74,
-            "g": 74,
-            "r": 74
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         },
         {
@@ -21467,7 +22183,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "dinero.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\dinero.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21506,7 +22222,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fsfsd.PNG",
+                      "image": "8.Aprendizajesupervisado\\Assets\\graficaregre.PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21614,11 +22330,11 @@
           "behaviors": [],
           "string": "Describe y estima la relación entre una variable binaria dependiente y las variables independientes.",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "characterSize": 40,
           "color": {
-            "b": 194,
-            "g": 227,
-            "r": 80
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         },
         {
@@ -21639,7 +22355,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "tiposde.PNG",
+                      "image": "8.Aprendizajesupervisado\\Assets\\tiposde.PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21661,7 +22377,7 @@
           ]
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "txt_ejemplologistica1",
           "smoothed": true,
@@ -21670,13 +22386,13 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "                           EJEMPLO\n\nLos eventos de clasificación pueden ser representados por la variable Y, la cual puede tomar dos valores 0 y 1. El valor 1 habitualmente es representado como un evento exitoso, mientras que el valor 0 como un evento fallido.",
+          "string": "                           EJEMPLO\nLos eventos de clasificación pueden ser representados por la variable Y, la cual puede tomar dos valores 0 y 1. El valor 1 habitualmente es representado como un evento exitoso, mientras que el valor 0 como un evento fallido.",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "characterSize": 35,
           "color": {
-            "b": 35,
-            "g": 166,
-            "r": 245
+            "b": 149,
+            "g": 54,
+            "r": 113
           }
         },
         {
@@ -21697,7 +22413,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "formu.PNG",
+                      "image": "8.Aprendizajesupervisado\\Assets\\formu.PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21736,7 +22452,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "gra.PNG",
+                      "image": "8.Aprendizajesupervisado\\Assets\\gra.PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21823,13 +22539,13 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Técnicas de Clasificación",
+          "string": "TÉCNICA DE CLASIFICACIÓN",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 50,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 149,
+            "g": 54,
+            "r": 113
           }
         },
         {
@@ -21842,13 +22558,13 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "SE UTILIZA PARA PREDECIR UNA CLASE O CATEGORIA",
+          "string": "Se utiliza para predecir una clase o categoria",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "characterSize": 35,
           "color": {
-            "b": 254,
-            "g": 19,
-            "r": 144
+            "b": 15,
+            "g": 200,
+            "r": 248
           }
         },
         {
@@ -21907,7 +22623,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "celula.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\celula.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -22021,75 +22737,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "knn.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "jugar",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "botonnormal",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "boy-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "botonhover",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "boy-1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\knn.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -22180,9 +22828,9 @@
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 50,
           "color": {
-            "b": 206,
-            "g": 3,
-            "r": 111
+            "b": 15,
+            "g": 200,
+            "r": 248
           }
         },
         {
@@ -22203,7 +22851,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "svm.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\svm.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -22223,25 +22871,6 @@
               ]
             }
           ]
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_regresion2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "SE UTILIZA PARA PREDECIR UN VALOR CONTINÚO",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
-          "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
-          }
         },
         {
           "name": "cuadroregresi",
@@ -22252,7 +22881,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject6",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -22261,46 +22890,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject6-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewObject6",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewObject6",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewObject6-1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\cuadroregresion.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -22463,43 +23053,23 @@
           ]
         },
         {
-          "name": "gh",
+          "bold": true,
+          "italic": false,
+          "name": "txt_Reto2",
+          "smoothed": true,
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Daco_4174033.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "Reto 2",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 55,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -22528,7 +23098,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Movimiento personaje",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22972,6 +23542,17 @@
                   },
                   "parameters": [
                     "",
+                    "\"lineal\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
                     "\"Ejemplolineal\""
                   ],
                   "subInstructions": []
@@ -22999,7 +23580,53 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "flecha",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"lineal\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Ejemplolineal\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -23029,6 +23656,17 @@
                   },
                   "parameters": [
                     "",
+                    "\"lineal\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
                     "\"Ejemplolineal\""
                   ],
                   "subInstructions": []
@@ -23075,6 +23713,17 @@
                   },
                   "parameters": [
                     "",
+                    "\"logistica\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
                     "\"Ejemplologistica\""
                   ],
                   "subInstructions": []
@@ -23102,7 +23751,53 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "flecha",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"logistica\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Ejemplologistica\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -23132,6 +23827,17 @@
                   },
                   "parameters": [
                     "",
+                    "\"logistica\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
                     "\"Ejemplologistica\""
                   ],
                   "subInstructions": []
@@ -23459,7 +24165,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "jugar",
+                    "txt_Reto2",
                     "",
                     "",
                     ""
@@ -23471,11 +24177,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "TextObject::ChangeColor"
                   },
                   "parameters": [
-                    "jugar",
-                    "\"botonnormal\""
+                    "txt_Reto2",
+                    "\"255;255;255\""
                   ],
                   "subInstructions": []
                 }
@@ -23493,7 +24199,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "jugar",
+                    "txt_Reto2",
                     "",
                     "",
                     ""
@@ -23527,11 +24233,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetAnimationName"
+                    "value": "TextObject::ChangeColor"
                   },
                   "parameters": [
-                    "jugar",
-                    "\"botonhover\""
+                    "txt_Reto2",
+                    "\"248;200;15\""
                   ],
                   "subInstructions": []
                 }
@@ -23560,7 +24266,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "jugar",
+                    "txt_Reto2",
                     "",
                     "",
                     ""
