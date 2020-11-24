@@ -6127,6 +6127,141 @@
         "name": "8.Aprendizajesupervisado\\Assets\\svm.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.MenuPrincipal/Assets/caraa.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.MenuPrincipal\\Assets\\caraa.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/cuadrotitulo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\cuadrotitulo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/cuadronivel1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\cuadronivel1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/cuadronivel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\cuadronivel2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/nivel1.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\nivel1.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/fondo3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fondo3.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/fuego1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fuego1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Assets/mover-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Assets/mover-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Assets/mover-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Assets/mover-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Assets/mover-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Assets/mover-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Assets/mover-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Assets/mover-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-8.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6457,6 +6592,84 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "6.MachineLearning\\Assets\\flecha.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moneda",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\moneda.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cuadrotitulo",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "logo10_13_01436-1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\cuadrotitulo.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7435,7 +7648,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.2,
+                  "timeBetweenFrames": 0.3,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -7576,7 +7789,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.5,
+                  "timeBetweenFrames": 0.4,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -12387,7 +12600,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "caraa.jpg",
+                      "image": "4.MenuPrincipal\\Assets\\caraa.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18288,7 +18501,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.506
+        "zoomFactor": 0.482
       },
       "objectsGroups": [],
       "variables": [],
@@ -18767,45 +18980,6 @@
           ]
         },
         {
-          "name": "cuadrotitulo",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "logo10_13_01436-1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "logo10_13_01436-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": true,
           "italic": false,
           "name": "txt_reto1",
@@ -19242,60 +19416,6 @@
           }
         },
         {
-          "height": 191,
-          "name": "piso_12",
-          "tags": "",
-          "texture": "base3.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 191,
-          "name": "piso_1222",
-          "tags": "",
-          "texture": "base1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 191,
-          "name": "piso_122",
-          "tags": "",
-          "texture": "base2hg.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
           "name": "NewObject32",
           "tags": "",
           "type": "Sprite",
@@ -19314,45 +19434,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "fle-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Moneda",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\moneda.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -20166,10 +20247,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
@@ -24836,7 +24913,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.434
+        "zoomFactor": 0.554
       },
       "objectsGroups": [],
       "variables": [],
@@ -24859,144 +24936,16 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 687,
-          "layer": "",
-          "locked": false,
-          "name": "Fondocuadrado",
-          "persistentUuid": "654e818b-0ea7-4f36-b11d-d92f5d60c3c1",
-          "width": 601,
-          "x": -91.1712,
-          "y": -58.793,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 124,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject2",
-          "persistentUuid": "90b66cab-783b-433f-be30-b904dee864a1",
-          "width": 928,
-          "x": 238,
-          "y": 6,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "titulo",
+          "name": "txt_reto2",
           "persistentUuid": "31cc0d40-4a2c-4abb-bc93-c0c9a918925a",
           "width": 0,
-          "x": 299,
-          "y": 41,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 89,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject5",
-          "persistentUuid": "677646e2-344a-47da-ae64-5ef32ab70666",
-          "width": 458,
-          "x": 495,
-          "y": 290,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 441,
-          "layer": "",
-          "locked": false,
-          "name": "personaje",
-          "persistentUuid": "7bb39ec8-4e44-4e8a-89b3-460c07aff904",
-          "width": 309,
-          "x": 177,
-          "y": 194,
-          "zOrder": 44,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 239,
-          "layer": "",
-          "locked": false,
-          "name": "piso_1222",
-          "persistentUuid": "23501b36-a772-4b58-911a-aa7dc6cecace",
-          "width": 101,
-          "x": 1305,
-          "y": 202,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 134,
-          "layer": "",
-          "locked": false,
-          "name": "piso_1222",
-          "persistentUuid": "608f7452-fb58-4fce-a6a1-efc472a66d60",
-          "width": 171,
-          "x": 1147,
-          "y": 461,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 87,
-          "layer": "",
-          "locked": false,
-          "name": "piso_12",
-          "persistentUuid": "185d7d7e-54f5-4b8c-8c48-11c3b5a6f508",
-          "width": 985,
-          "x": 144,
-          "y": 619,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 191,
-          "layer": "",
-          "locked": false,
-          "name": "piso_122",
-          "persistentUuid": "063855be-e5c1-489c-a527-b3a6bd3c18c6",
-          "width": 130,
-          "x": 0,
-          "y": 516,
-          "zOrder": 33,
+          "x": 187,
+          "y": 15,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25010,9 +24959,9 @@
           "name": "puntos",
           "persistentUuid": "124328d8-c0a1-4675-ae88-4adb98140add",
           "width": 0,
-          "x": 29,
-          "y": 39,
-          "zOrder": 34,
+          "x": 502,
+          "y": 27,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25020,63 +24969,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 91,
+          "height": 70,
           "layer": "",
           "locked": false,
-          "name": "teewn",
-          "persistentUuid": "e5059522-e212-4061-953a-687948279934",
-          "width": 149,
-          "x": 477,
-          "y": 414,
-          "zOrder": 35,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "nivel2",
-          "persistentUuid": "8214bf7b-9407-4692-be23-4b94c45607b5",
-          "width": 0,
-          "x": 670,
-          "y": 438,
-          "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 496,
-          "layer": "",
-          "locked": false,
-          "name": "cuadro2",
-          "persistentUuid": "1048597b-d27e-45a4-ba70-f000cde9dd02",
-          "width": 865,
-          "x": 280,
-          "y": 102,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "nivel1",
-          "persistentUuid": "374c4f9f-b99f-4fbf-adba-7284f2a10457",
-          "width": 0,
-          "x": 496,
-          "y": 438,
-          "zOrder": 37,
+          "name": "siguiente",
+          "persistentUuid": "3059fe01-681a-4efe-853c-c3123797d3e4",
+          "width": 100,
+          "x": 1261,
+          "y": 617,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25088,11 +24989,11 @@
           "layer": "",
           "locked": false,
           "name": "LogoU",
-          "persistentUuid": "ae53ce9d-ce78-4ddb-9e14-148708ddbc86",
+          "persistentUuid": "c322a76b-11aa-4fa1-afc3-9a4b0239db1e",
           "width": 100,
-          "x": 1299,
+          "x": 0,
           "y": 0,
-          "zOrder": 38,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25100,79 +25001,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 570,
-          "layer": "Nivel2",
-          "locked": false,
-          "name": "cuadronivel2",
-          "persistentUuid": "3e95b328-125a-48d0-a32b-5be14d14660a",
-          "width": 1000,
-          "x": 205,
-          "y": 123,
-          "zOrder": 39,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 570,
-          "layer": "Nivel1",
-          "locked": false,
-          "name": "cuadronivel1",
-          "persistentUuid": "0b39a792-757c-4e24-af18-d86e5b13e95a",
-          "width": 1000,
-          "x": 206,
-          "y": 127,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 161,
-          "layer": "Nivel1",
-          "locked": false,
-          "name": "pregunta1",
-          "persistentUuid": "a0fd4465-c235-4ebc-a059-e4695e7bbd42",
-          "width": 670,
-          "x": 372,
-          "y": 181,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "cerrar",
-          "locked": false,
-          "name": "NewObject",
-          "persistentUuid": "42964f06-459c-44a5-b3e0-c2b2172fe46b",
-          "width": 50,
-          "x": 1121,
-          "y": 131,
-          "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 70,
+          "height": 100,
           "layer": "",
           "locked": false,
-          "name": "NewObject3",
-          "persistentUuid": "b23ddb22-d420-455b-aac3-3f48202a8adf",
-          "width": 100,
-          "x": 4,
-          "y": 449,
-          "zOrder": 54,
+          "name": "LogoML",
+          "persistentUuid": "aa1ad0f3-fd3d-4edf-b10a-81193af6c143",
+          "width": 130,
+          "x": 1268,
+          "y": 0,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25180,15 +25017,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 70,
+          "height": 60,
           "layer": "",
           "locked": false,
-          "name": "NewObject32",
-          "persistentUuid": "3059fe01-681a-4efe-853c-c3123797d3e4",
-          "width": 100,
-          "x": 1178,
-          "y": 620,
-          "zOrder": 57,
+          "name": "Moneda",
+          "persistentUuid": "e795f41a-8eeb-41f8-9f0b-8bea042e7d8e",
+          "width": 60,
+          "x": 386,
+          "y": 26,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25196,15 +25033,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 91,
+          "height": 609,
           "layer": "",
           "locked": false,
-          "name": "teewn",
-          "persistentUuid": "b4244ee7-59cf-4c24-bc54-d4d1dc1909dc",
-          "width": 149,
-          "x": 651,
-          "y": 414,
-          "zOrder": 35,
+          "name": "cuadro",
+          "persistentUuid": "3485dc5a-d217-45d4-ab03-77fe9e304b13",
+          "width": 1125,
+          "x": 133,
+          "y": 93,
+          "zOrder": 65,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25212,15 +25049,47 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 91,
+          "height": 123,
           "layer": "",
           "locked": false,
-          "name": "teewn",
-          "persistentUuid": "040dc21c-59e4-46c1-a915-22de38870240",
-          "width": 149,
-          "x": 819,
-          "y": 414,
-          "zOrder": 35,
+          "name": "txt_objetivo",
+          "persistentUuid": "294b032d-92d8-4b7f-84aa-ce24b04e8388",
+          "width": 777,
+          "x": 322,
+          "y": 272,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "nivel1",
+          "persistentUuid": "7b94e4c3-e875-471a-80b5-68e1ad10c64f",
+          "width": 0,
+          "x": 421,
+          "y": 493,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "nivel2",
+          "persistentUuid": "f0478fa1-63a9-4f5c-8abd-79a84ec03f50",
+          "width": 0,
+          "x": 621,
+          "y": 495,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25232,11 +25101,11 @@
           "layer": "",
           "locked": false,
           "name": "nivel3",
-          "persistentUuid": "62af8c94-0afb-483b-a180-63e48d006608",
+          "persistentUuid": "d495ce35-7e21-42f6-898a-53d5bcedac5e",
           "width": 0,
-          "x": 845,
-          "y": 441,
-          "zOrder": 58,
+          "x": 832,
+          "y": 495,
+          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25244,15 +25113,31 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 74,
+          "height": 105,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrotitulo",
+          "persistentUuid": "231d914c-c1e2-498f-b82d-7274c1b45aba",
+          "width": 564,
+          "x": 132,
+          "y": 2,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 468,
           "layer": "Nivel1",
           "locked": false,
-          "name": "jugar",
-          "persistentUuid": "18a6292a-7236-4203-8026-512e40b5c9df",
-          "width": 198,
-          "x": 941,
-          "y": 583,
-          "zOrder": 59,
+          "name": "cuadronivel1",
+          "persistentUuid": "f192d48e-7c29-4233-b0ed-0783858ec089",
+          "width": 860,
+          "x": 269,
+          "y": 159,
+          "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25260,15 +25145,63 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 300,
+          "height": 187,
           "layer": "Nivel1",
           "locked": false,
-          "name": "NewObject4",
-          "persistentUuid": "05324561-3304-43af-a4ab-068c5d2ffdc6",
-          "width": 321,
-          "x": 522,
-          "y": 348,
-          "zOrder": 60,
+          "name": "txt_nivel1",
+          "persistentUuid": "f4c3b14c-f37e-4735-8b51-2130ad697be2",
+          "width": 698,
+          "x": 354,
+          "y": 197,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "img_nivel1",
+          "persistentUuid": "1f91fe53-2a5d-436a-8369-56eebb10c3b5",
+          "width": 0,
+          "x": 591,
+          "y": 391,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "txt_iniciarnivel1",
+          "persistentUuid": "619dbdf0-d39e-49e5-a855-66f461521e05",
+          "width": 0,
+          "x": 971,
+          "y": 544,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "txt_cancelarnivel1",
+          "persistentUuid": "fe212a4f-ff5c-410c-a29b-d26ceecbc497",
+          "width": 0,
+          "x": 318,
+          "y": 551,
+          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25276,15 +25209,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 570,
-          "layer": "Nivel3",
+          "height": 95,
+          "layer": "Nivel2",
           "locked": false,
-          "name": "cuadronivel3",
-          "persistentUuid": "9bf0bbaa-ee30-4ba2-980c-63935d7b92cd",
-          "width": 1000,
-          "x": 206,
-          "y": 127,
-          "zOrder": 61,
+          "name": "txt_nivel2",
+          "persistentUuid": "ce8046c3-b5dc-4638-bcb7-62b63a6d5ad9",
+          "width": 432,
+          "x": 498,
+          "y": 282,
+          "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25295,12 +25228,28 @@
           "height": 0,
           "layer": "Nivel2",
           "locked": false,
-          "name": "nivel12",
-          "persistentUuid": "d4160a76-725f-4e9f-b902-6fdd478e4b67",
+          "name": "txt_iniciarnivel2",
+          "persistentUuid": "d2f1369f-b72a-474a-99c8-389c5d63c827",
           "width": 0,
-          "x": 375,
-          "y": 179,
-          "zOrder": 62,
+          "x": 978,
+          "y": 551,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "txt_cancelarnivel2",
+          "persistentUuid": "f073c693-26aa-49f8-945f-8a2fa07b6791",
+          "width": 0,
+          "x": 323,
+          "y": 551,
+          "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25308,15 +25257,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 475,
           "layer": "Nivel2",
           "locked": false,
-          "name": "jugar2",
-          "persistentUuid": "5b4d7e26-f818-4812-8488-0233f0c9da29",
-          "width": 216,
-          "x": 931,
-          "y": 571,
-          "zOrder": 63,
+          "name": "cuadronivel2",
+          "persistentUuid": "25929337-05a9-4950-9cca-19f241b9d343",
+          "width": 865,
+          "x": 270,
+          "y": 160,
+          "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25341,7 +25290,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8ad9b1a227d9c66d96ae01ed6b339932.jpg",
+                      "image": "8.Aprendizajesupervisado\\Assets\\fondo.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -25359,302 +25308,13 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "estre",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "logo10_13_01436-1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "logo10_13_01436-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewObject2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "logo10_13_01436-1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "logo10_13_01436-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "cuadronivel3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "logo10_13_01436-1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "logo10_13_01436-1-1-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "cuadronivel2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "logo10_13_01436-1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "logo10_13_01436-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "cuadronivel1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "logo10_13_01436-1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "logo10_13_01436-1-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "height": 191,
-          "name": "piso_1",
-          "tags": "",
-          "texture": "piso_ancho.jpg",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
             }
           ]
         },
         {
           "bold": true,
           "italic": false,
-          "name": "nivel1",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Nivel 1",
-          "font": "Skull-Story.ttf",
-          "characterSize": 40,
-          "color": {
-            "b": 5,
-            "g": 117,
-            "r": 65
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "nivel2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Nivel 2",
-          "font": "Skull-Story.ttf",
-          "characterSize": 40,
-          "color": {
-            "b": 184,
-            "g": 89,
-            "r": 9
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "nivel3",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Nivel 3",
-          "font": "Skull-Story.ttf",
-          "characterSize": 40,
-          "color": {
-            "b": 4,
-            "g": 77,
-            "r": 162
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "puntos",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Score",
-          "font": "Skull-Story.ttf",
-          "characterSize": 40,
-          "color": {
-            "b": 5,
-            "g": 117,
-            "r": 65
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "nivel12",
+          "name": "txt_reto2",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -25666,77 +25326,14 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Predecir si una persona esta infectada segun su edad",
-          "font": "Short Zippers.ttf",
-          "characterSize": 40,
-          "color": {
-            "b": 7,
-            "g": 62,
-            "r": 124
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "titulo",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "string": "Misión Practica Aprendizaje Supervisado",
-          "font": "Skull-Story.ttf",
-          "characterSize": 50,
+          "string": "Reto 2",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 70,
           "color": {
             "b": 27,
             "g": 2,
             "r": 208
           }
-        },
-        {
-          "name": "edwin",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "2020-10-24_14h12_49.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "name": "cuadro",
@@ -25756,7 +25353,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "hhy-1-3.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Marco.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -25780,26 +25377,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "pregunta1",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Estimar mediante regresion lineal simple la población infectada para el mes de septiembre.\nLa información del comportamiento de los infectados se presenta en el siguiente tabulado",
-          "font": "Short Zippers.ttf",
-          "characterSize": 45,
-          "color": {
-            "b": 35,
-            "g": 166,
-            "r": 245
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "NewObject5",
+          "name": "txt_objetivo",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -25807,8 +25385,8 @@
           "variables": [],
           "behaviors": [],
           "string": "OBJETIVO. En la primera misión el objetivo principal es estimar la población infectada en un determinado tiempo y predecir si una persona está infectada o no según su edad",
-          "font": "Short Zippers.ttf",
-          "characterSize": 25,
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 35,
           "color": {
             "b": 0,
             "g": 0,
@@ -25816,64 +25394,225 @@
           }
         },
         {
-          "height": 191,
-          "name": "piso_12",
+          "bold": true,
+          "italic": false,
+          "name": "nivel1",
+          "smoothed": true,
           "tags": "",
-          "texture": "base3.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
+          "behaviors": [],
+          "string": "Nivel 1",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 156,
+            "g": 70,
+            "r": 47
+          }
         },
         {
-          "height": 191,
-          "name": "piso_1222",
-          "tags": "",
-          "texture": "base1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 191,
-          "name": "piso_122",
-          "tags": "",
-          "texture": "base2hg.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "name": "teewn",
+          "name": "cuadronivel1",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\cuadronivel1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_nivel1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Estimar mediante regresion lineal simple la población infectada para el mes de septiembre.\nLa información del comportamiento de los infectados se presenta en el siguiente tabulado",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "img_nivel1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\nivel1.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_iniciarnivel1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Iniciar",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 17,
+            "g": 70,
+            "r": 45
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_cancelarnivel1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Cancelar",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 26,
+            "g": 14,
+            "r": 107
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "nivel2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Nivel 2",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 156,
+            "g": 70,
+            "r": 47
+          }
+        },
+        {
+          "name": "cuadronivel2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\cuadronivel1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_nivel2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "behaviors": [
             {
@@ -25881,196 +25620,93 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fgf.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "Predecir si una persona esta infectada segun su edad",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 149,
+            "g": 54,
+            "r": 113
+          }
         },
         {
-          "name": "cuadro2",
+          "bold": true,
+          "italic": false,
+          "name": "txt_iniciarnivel2",
+          "smoothed": true,
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fondobonito (1)efffew.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "Iniciar",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 18,
+            "g": 66,
+            "r": 44
+          }
         },
         {
-          "name": "LogoU",
+          "bold": true,
+          "italic": false,
+          "name": "txt_cancelarnivel2",
+          "smoothed": true,
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Escudo_AUNAR.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "Cancelar",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 26,
+            "g": 14,
+            "r": 107
+          }
         },
         {
-          "name": "personaje",
+          "bold": true,
+          "italic": false,
+          "name": "nivel3",
+          "smoothed": true,
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "2020-11-09_21h31_20-1-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "Nivel 3",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 156,
+            "g": 70,
+            "r": 47
+          }
         },
         {
-          "name": "NewObject",
+          "bold": true,
+          "italic": false,
+          "name": "puntos",
+          "smoothed": true,
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "xx.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "0",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 5,
+            "g": 117,
+            "r": 65
+          }
         },
         {
-          "name": "NewObject32",
+          "name": "siguiente",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -26088,220 +25724,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "fle-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewObject3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "fle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fle.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "jugar2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "botonnormal",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "boy-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "botonhover",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "boy-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "jugar",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "botonnormal",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "boy-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "botonhover",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "boy-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "NewObject4",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "info.PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -26346,7 +25768,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "titulo",
+                    "txt_reto2",
                     "",
                     "",
                     ""
@@ -26361,7 +25783,7 @@
                     "value": "Tween::AddObjectScaleTween"
                   },
                   "parameters": [
-                    "titulo",
+                    "txt_reto2",
                     "Tween",
                     "\"Hover\"",
                     "1.1",
@@ -26386,7 +25808,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "titulo",
+                    "txt_reto2",
                     "",
                     "",
                     ""
@@ -26401,7 +25823,7 @@
                     "value": "Tween::AddObjectScaleTween"
                   },
                   "parameters": [
-                    "titulo",
+                    "txt_reto2",
                     "Tween",
                     "\"Hover2\"",
                     "0.95",
@@ -26409,110 +25831,6 @@
                     "\"easeOutQuad\"",
                     "100",
                     ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Botones",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "teewn",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "teewn",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "son.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "teewn",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "teewn",
-                    "no"
                   ],
                   "subInstructions": []
                 }
@@ -26574,17 +25892,6 @@
                     "\"Nivel1\""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"cerrar\""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -26611,7 +25918,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "NewObject",
+                    "txt_cancelarnivel1",
                     "",
                     "",
                     ""
@@ -26628,17 +25935,6 @@
                   "parameters": [
                     "",
                     "\"Nivel1\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"cerrar\""
                   ],
                   "subInstructions": []
                 }
@@ -26686,17 +25982,6 @@
                     "\"Nivel2\""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"cerrar\""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -26723,7 +26008,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "NewObject",
+                    "txt_cancelarnivel2",
                     "",
                     "",
                     ""
@@ -26740,17 +26025,6 @@
                   "parameters": [
                     "",
                     "\"Nivel2\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"cerrar\""
                   ],
                   "subInstructions": []
                 }
@@ -26798,17 +26072,6 @@
                     "\"Nivel3\""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"cerrar\""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -26826,19 +26089,6 @@
                   "parameters": [
                     "",
                     "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "NewObject",
-                    "",
-                    "",
-                    ""
                   ],
                   "subInstructions": []
                 }
@@ -26854,17 +26104,6 @@
                     "\"Nivel3\""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"cerrar\""
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -26891,19 +26130,11 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "NewObject3",
+                    "txt_iniciarnivel1",
                     "",
                     "",
                     ""
                   ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -26911,25 +26142,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "son.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Scene"
                   },
                   "parameters": [
                     "",
-                    "\"AprendizajeSupervisado\"",
+                    "\"Nivel1Supervisado\"",
                     ""
                   ],
                   "subInstructions": []
@@ -26959,7 +26176,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "NewObject32",
+                    "siguiente",
                     "",
                     "",
                     ""
@@ -26995,7 +26212,7 @@
                   },
                   "parameters": [
                     "",
-                    "son.mp3",
+                    "SonidosButton\\gota.mp3",
                     "",
                     "100",
                     ""
@@ -27009,140 +26226,333 @@
           "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "folded": true,
+          "name": "Sonidos",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "jugar",
-                "",
-                "",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "nivel1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "jugar",
-                "\"botonnormal\""
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "jugar",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "son.mp3",
-                "",
-                "60",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_iniciarnivel1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "jugar",
-                "\"botonhover\""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_cancelarnivel1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "jugar",
-                "",
-                "",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "nivel2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_iniciarnivel2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_cancelarnivel2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "nivel3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
-          "events": []
+          "parameters": []
         }
       ],
       "layers": [
@@ -27215,10 +26625,6 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -27253,22 +26659,6 @@
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 95,
-          "layer": "titulo",
-          "locked": false,
-          "name": "Cuadronegro",
-          "persistentUuid": "8f458855-2d76-4c6f-97a5-b4438ced3a8e",
-          "width": 459,
-          "x": 120,
-          "y": 7,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -27501,12 +26891,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 700,
+          "height": 826,
           "layer": "Background",
           "locked": false,
-          "name": "fondo3",
+          "name": "Fondo",
           "persistentUuid": "d3a299f8-fe8d-49a4-8466-c82698c4e4a8",
-          "width": 1400,
+          "width": 1403,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -27548,22 +26938,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "titulo",
-          "locked": false,
-          "name": "moneda",
-          "persistentUuid": "4a800132-7656-4f24-9842-640d0d929c49",
-          "width": 50,
-          "x": 352,
-          "y": 29,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "titulo",
@@ -27593,11 +26967,43 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "titulo",
+          "locked": false,
+          "name": "cuadrotitulo",
+          "persistentUuid": "e442c544-e164-4715-88d0-f478d416fdaa",
+          "width": 460,
+          "x": 136,
+          "y": 8,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "titulo",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "f82b4751-28aa-4980-b76a-6416b67ac681",
+          "width": 60,
+          "x": 338,
+          "y": 20,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
-          "name": "fondo3",
+          "name": "Fondo",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -27614,46 +27020,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "digital_cyberscape_Adobe.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cuadronegro",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "logo10_13_01436-1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fondo3.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27803,7 +27170,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Access\\mover-1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27820,7 +27187,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Access\\mover-2.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27837,7 +27204,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Access\\mover-3.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27854,7 +27221,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Access\\mover-4.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27871,7 +27238,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Access\\mover-5.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27888,7 +27255,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Access\\mover-6.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27905,7 +27272,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Access\\mover-7.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27922,46 +27289,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Access\\mover-8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "moneda",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\moneda.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -28000,7 +27328,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\fuego1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fuego1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -28131,17 +27459,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "y"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
@@ -28154,18 +27471,7 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "FlippedX"
-                      },
-                      "parameters": [
-                        "Enemigo"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
@@ -28187,18 +27493,7 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "FlippedX"
-                      },
-                      "parameters": [
-                        "Enemigo"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
