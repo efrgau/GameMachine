@@ -6262,6 +6262,69 @@
         "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Assets\\mover-8.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/concep.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\concep.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/BotnAzuñ.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\BotnAzuñ.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/siyno.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\siyno.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/si.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\si.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/BotonAzul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\BotonAzul.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/botonMasAzul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\botonMasAzul.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/no.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\no.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6696,6 +6759,10 @@
     {
       "name": "Usuario",
       "value": "hola"
+    },
+    {
+      "name": "puntos",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -15266,7 +15333,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.826
       },
       "objectsGroups": [],
       "variables": [],
@@ -15283,22 +15350,6 @@
           "x": 0,
           "y": 0,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 79,
-          "layer": "Background",
-          "locked": false,
-          "name": "cuadrotitulo",
-          "persistentUuid": "3b2eea6f-1f24-4c0c-a2fa-36fd831322c3",
-          "width": 750,
-          "x": 300,
-          "y": 20,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15840,8 +15891,8 @@
           "name": "txt_reto1",
           "persistentUuid": "dc2663a3-b0d6-4906-9e68-12f97af30d36",
           "width": 0,
-          "x": 2564,
-          "y": 272,
+          "x": 2513,
+          "y": 210,
           "zOrder": 97,
           "numberProperties": [],
           "stringProperties": [],
@@ -15859,6 +15910,38 @@
           "x": 328,
           "y": 507,
           "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadrotitulo",
+          "persistentUuid": "f8103ed1-d7db-4f06-a09d-ca513feb78c4",
+          "width": 536,
+          "x": 367,
+          "y": 9,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 110,
+          "layer": "",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "9e23dc61-9e49-470d-80d9-d87e8093e427",
+          "width": 160,
+          "x": 2471,
+          "y": 186,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16286,45 +16369,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "6.MachineLearning\\Assets\\personaje\\walking-18.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "cuadrotitulo",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "logo10_13_01436",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "logo10_13_01436-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -17103,12 +17147,51 @@
           "behaviors": [],
           "string": "Reto 1",
           "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 55,
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "name": "boton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\botonMasAzul.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -18205,19 +18288,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "cuadrotitulo",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
@@ -18611,7 +18681,7 @@
           "name": "puntos",
           "persistentUuid": "124328d8-c0a1-4675-ae88-4adb98140add",
           "width": 0,
-          "x": 542,
+          "x": 563,
           "y": 28,
           "zOrder": 34,
           "numberProperties": [],
@@ -18659,8 +18729,8 @@
           "name": "instrucciones",
           "persistentUuid": "6baaa04f-77bb-444f-8650-a30fec5cb275",
           "width": 429,
-          "x": 481,
-          "y": 151,
+          "x": 479,
+          "y": 163,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -18669,14 +18739,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 411,
+          "height": 353,
           "layer": "instrucciones",
           "locked": false,
           "name": "instrucciones2",
           "persistentUuid": "74b3ef25-abc9-4f2a-ae75-53a8514bcda9",
           "width": 465,
           "x": 470,
-          "y": 231,
+          "y": 252,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -18755,8 +18825,8 @@
           "name": "enviar",
           "persistentUuid": "f2778f54-bff3-403f-99b1-0c908ffd5073",
           "width": 0,
-          "x": 1085,
-          "y": 618,
+          "x": 1050,
+          "y": 620,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -18934,6 +19004,38 @@
           "x": 863,
           "y": 533,
           "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "iniciar",
+          "locked": false,
+          "name": "si",
+          "persistentUuid": "a1e12ba8-d0f3-4656-82c3-1be1e57020ad",
+          "width": 60,
+          "x": 320,
+          "y": 352,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "iniciar",
+          "locked": false,
+          "name": "no",
+          "persistentUuid": "b0697b14-f65c-41fb-9356-46067a2e920e",
+          "width": 60,
+          "x": 412,
+          "y": 352,
+          "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19191,7 +19293,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "* El juego consta de 4 preguntas con unica respuesta.\n\n* Solo se debe usar el \"mouse\" del computador.\n\n* Responde correctamente el mayor numero de preguntas y haz clic en ENVIAR.",
+          "string": "* El juego consta de 4 preguntas con unica respuesta.\n* Cada pregunta vale 250 puntos\n* Solo se debe usar el \"mouse\" del computador.\n* Responde correctamente el mayor numero de preguntas y haz clic en ENVIAR.",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
           "characterSize": 40,
           "color": {
@@ -19368,7 +19470,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Enviar",
+          "string": "Terminar",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 40,
           "color": {
@@ -19453,16 +19555,126 @@
               ]
             }
           ]
+        },
+        {
+          "name": "no",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\no.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "si",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\si.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Titulo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19556,7 +19768,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Sonidos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19864,7 +20076,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20187,6 +20399,691 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "preguntas",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pregunta 1",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "si",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "+",
+                    "250"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "=",
+                    "GlobalVariableString(puntos)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "NbObjet"
+                      },
+                      "parameters": [
+                        "si",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "si"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "no",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "+",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "=",
+                    "GlobalVariableString(puntos)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "si",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pregunta 2",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "si",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "+",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "=",
+                    "GlobalVariableString(puntos)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "no",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "no",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "+",
+                    "250"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "=",
+                    "GlobalVariableString(puntos)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "si",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pregunta 3",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "si",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "+",
+                    "250"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "=",
+                    "GlobalVariableString(puntos)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "no",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "no",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "+",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "=",
+                    "GlobalVariableString(puntos)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "si",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pregunta 4",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "si",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "+",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "=",
+                    "GlobalVariableString(puntos)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "no",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "no",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "+",
+                    "250"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "=",
+                    "GlobalVariableString(puntos)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "si",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Visible"
+              },
+              "parameters": [
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -20277,27 +21174,11 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 95,
-          "layer": "titulo",
-          "locked": false,
-          "name": "Cuadrotitulo",
-          "persistentUuid": "8f458855-2d76-4c6f-97a5-b4438ced3a8e",
-          "width": 768,
-          "x": 346,
-          "y": 12,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -21037,22 +21918,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 370,
-          "layer": "caracteristicas",
-          "locked": false,
-          "name": "img_caracte",
-          "persistentUuid": "d8e97424-9296-4743-91d0-a4c2c368e2ab",
-          "width": 644,
-          "x": 457,
-          "y": 232,
-          "zOrder": 99,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 334,
           "layer": "knn",
           "locked": false,
@@ -21385,6 +22250,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 118,
+          "layer": "titulo",
+          "locked": false,
+          "name": "cuadrotitulo",
+          "persistentUuid": "77dc5675-5bf2-4ac3-90d5-6eb64b53b71d",
+          "width": 678,
+          "x": 373,
+          "y": 1,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 377,
+          "layer": "caracteristicas",
+          "locked": false,
+          "name": "img_caracte",
+          "persistentUuid": "64e63e76-1074-476c-80ce-82e9b86d009b",
+          "width": 705,
+          "x": 396,
+          "y": 229,
+          "zOrder": 123,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -21407,45 +22304,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "8.Aprendizajesupervisado\\Assets\\fondo.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cuadrotitulo",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "logo10_13_01436-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21860,7 +22718,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\concepto.jpg",
+                      "image": "8.Aprendizajesupervisado\\Assets\\concep.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24913,7 +25771,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.554
+        "zoomFactor": 0.458
       },
       "objectsGroups": [],
       "variables": [],
@@ -24959,8 +25817,8 @@
           "name": "puntos",
           "persistentUuid": "124328d8-c0a1-4675-ae88-4adb98140add",
           "width": 0,
-          "x": 502,
-          "y": 27,
+          "x": 589,
+          "y": 25,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -25461,7 +26319,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Estimar mediante regresion lineal simple la población infectada para el mes de septiembre.\nLa información del comportamiento de los infectados se presenta en el siguiente tabulado",
+          "string": "Estimar mediante regresión lineal simple la población infectada para el mes de septiembre.\nLa información del comportamiento de los infectados se presenta en el siguiente tabulado",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
           "characterSize": 40,
           "color": {
@@ -25746,6 +26604,50 @@
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariable(puntos)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariableString(puntos)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -26654,7 +27556,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.366
+        "zoomFactor": 0.318
       },
       "objectsGroups": [],
       "variables": [],
@@ -26715,7 +27617,7 @@
           "locked": false,
           "name": "piso2",
           "persistentUuid": "5c2ed8ba-5bcd-473c-95fc-709cc2b79ab5",
-          "width": 1288,
+          "width": 644,
           "x": 530,
           "y": 602,
           "zOrder": 3,
@@ -26732,8 +27634,8 @@
           "name": "piso1",
           "persistentUuid": "6ccec97d-cb23-454d-aaeb-e6116bf398ce",
           "width": 131,
-          "x": 2655,
-          "y": 584,
+          "x": 4580,
+          "y": 328,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26748,8 +27650,8 @@
           "name": "piso1",
           "persistentUuid": "53312d86-04e1-40a4-8eb2-6edd2c4741ee",
           "width": 131,
-          "x": 2506,
-          "y": 586,
+          "x": 2669,
+          "y": 497,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26763,9 +27665,9 @@
           "locked": false,
           "name": "piso3",
           "persistentUuid": "0bee1e1d-68e4-479d-adaa-6d1d9b64a6ad",
-          "width": 662,
-          "x": 1816,
-          "y": 536,
+          "width": 344,
+          "x": 1180,
+          "y": 516,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26780,8 +27682,8 @@
           "name": "piso1",
           "persistentUuid": "1739b3f1-a0b3-4097-b255-c0247aa1152d",
           "width": 131,
-          "x": 2815,
-          "y": 522,
+          "x": 4719,
+          "y": 448,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26796,8 +27698,8 @@
           "name": "piso1",
           "persistentUuid": "8875e237-94a1-4bd6-bf0b-dabf7e6c926a",
           "width": 131,
-          "x": 2989,
-          "y": 524,
+          "x": 4433,
+          "y": 424,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26811,9 +27713,9 @@
           "locked": false,
           "name": "piso2",
           "persistentUuid": "47155337-d6c0-4cf0-8566-fe4b0a1d56af",
-          "width": 322,
-          "x": 3143,
-          "y": 587,
+          "width": 644,
+          "x": 2806,
+          "y": 620,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26844,8 +27746,8 @@
           "name": "piso1",
           "persistentUuid": "4e6e64dc-bef1-4d1e-b9e2-ceae8dac6900",
           "width": 262,
-          "x": 3506,
-          "y": 473,
+          "x": 3280,
+          "y": 6,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -26860,33 +27762,12 @@
           "name": "piso1",
           "persistentUuid": "bf0c696f-0af9-4cd6-97cd-6829d93a69e6",
           "width": 131,
-          "x": 3757,
-          "y": 248,
+          "x": 5819,
+          "y": 167,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 293,
-          "layer": "",
-          "locked": false,
-          "name": "Enemigo",
-          "persistentUuid": "f92907e0-c94d-4a67-989e-de63bf7093c9",
-          "width": 263,
-          "x": 1127,
-          "y": 322,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            }
-          ]
         },
         {
           "angle": 0,
@@ -26945,7 +27826,7 @@
           "name": "valor",
           "persistentUuid": "d41ad385-738c-437c-b9fe-c2a2aee360c0",
           "width": 0,
-          "x": 412,
+          "x": 482,
           "y": 19,
           "zOrder": 3,
           "numberProperties": [],
@@ -26999,9 +27880,426 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 155,
+          "layer": "",
+          "locked": false,
+          "name": "Enemigo",
+          "persistentUuid": "ad6c978b-e3d8-4a07-aaec-63cb573d7b07",
+          "width": 157,
+          "x": 883,
+          "y": 448,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 265,
+          "layer": "",
+          "locked": false,
+          "name": "personaje",
+          "persistentUuid": "50f2d2cd-534a-494f-8f65-1de4437a23f2",
+          "width": 157,
+          "x": 40,
+          "y": 379,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 155,
+          "layer": "",
+          "locked": false,
+          "name": "Enemigo",
+          "persistentUuid": "e4f35c9b-d181-4028-befb-3d1e7813459a",
+          "width": 157,
+          "x": 1905,
+          "y": 496,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 191,
+          "layer": "",
+          "locked": false,
+          "name": "piso1",
+          "persistentUuid": "3a7ecd27-e08e-4861-a1c0-5c4340ac7606",
+          "width": 131,
+          "x": 1539,
+          "y": 593,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 109,
+          "layer": "",
+          "locked": false,
+          "name": "piso2",
+          "persistentUuid": "0a4b62dc-ba2e-48b3-bc7d-77bd943805ee",
+          "width": 644,
+          "x": 1682,
+          "y": 643,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 133,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "458d666b-5ec4-40c9-ad0f-f71b648494d7",
+          "width": 344,
+          "x": 2321,
+          "y": 553,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 133,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "ddcf32d9-4722-4b2e-9cff-5185feac599e",
+          "width": 344,
+          "x": 3421,
+          "y": 490,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 155,
+          "layer": "",
+          "locked": false,
+          "name": "Enemigo",
+          "persistentUuid": "40296970-6c01-441e-a8af-412a104105ce",
+          "width": 157,
+          "x": 3016,
+          "y": 466,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 119,
+          "layer": "",
+          "locked": false,
+          "name": "piso2",
+          "persistentUuid": "c300cb30-1267-40ac-83e6-335d180c735c",
+          "width": 644,
+          "x": 3780,
+          "y": 498,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 119,
+          "layer": "",
+          "locked": false,
+          "name": "piso2",
+          "persistentUuid": "680075c9-634d-4c71-8693-a6a1dd36975f",
+          "width": 644,
+          "x": 4858,
+          "y": 539,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 244,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "66bd0f9a-6464-4e9e-8b83-a9d3c13d317b",
+          "width": 344,
+          "x": 5506,
+          "y": 411,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 155,
+          "layer": "",
+          "locked": false,
+          "name": "Enemigo",
+          "persistentUuid": "4d0e2faa-65b7-4494-9230-087825d7afe1",
+          "width": 157,
+          "x": 5189,
+          "y": 386,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_volver",
+          "persistentUuid": "9174c4d9-de92-4669-8bc2-e56ed2701516",
+          "width": 0,
+          "x": 5627,
+          "y": 333,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "name": "personaje",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.8,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\2020-11-09_21h31_20-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "waking",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Fondo",
           "tags": "",
@@ -27051,12 +28349,31 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "1000",
+          "string": "0",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 55,
           "color": {
             "b": 0,
             "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_volver",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Finalizar",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 55,
+          "color": {
+            "b": 255,
+            "g": 255,
             "r": 255
           }
         },
@@ -27141,20 +28458,20 @@
           "variables": [],
           "behaviors": [
             {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
+              "ignoreDefaultControls": true,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
+              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
@@ -27166,7 +28483,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.5,
+                  "timeBetweenFrames": 0.6,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -27348,64 +28665,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "personaje",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGrabPlatforms": false,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "roundCoordinates": true,
-              "slopeMaxAngle": 60,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "walking-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "events": [
@@ -27429,11 +28688,35 @@
             {
               "type": {
                 "inverted": false,
-                "value": "FlipX"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "Enemigo",
-                "no"
+                "",
+                "\"salto\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariable(puntos)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "valor",
+                "=",
+                "GlobalVariableString(puntos)"
               ],
               "subInstructions": []
             }
@@ -27446,7 +28729,179 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
+          "name": "Movimiento personaje",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "personaje",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FixCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "personaje",
+                    "0",
+                    "0",
+                    "5937",
+                    "700",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "personaje",
+                        "\"waking\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "personaje",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "personaje",
+                        "\"waking\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "personaje",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "personaje",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "personaje",
+                    "\"idle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
           "name": "disparos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27459,19 +28914,56 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "y"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": [],
                   "subInstructions": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "fuego",
+                    "personaje.PointX(\"Center\")",
+                    "personaje.PointY(\"Center\")",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": [
                 {
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "personaje"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -27480,7 +28972,7 @@
                       },
                       "parameters": [
                         "fuego",
-                        "0",
+                        "180",
                         "480",
                         "1"
                       ],
@@ -27493,7 +28985,18 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "personaje"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -27502,7 +29005,7 @@
                       },
                       "parameters": [
                         "fuego",
-                        "180",
+                        "0",
                         "480",
                         "1"
                       ],
@@ -27523,7 +29026,7 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "enemigo",
+          "name": "Enemigo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -27562,14 +29065,6 @@
                         "\"izquierda\""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": [],
-                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -27581,33 +29076,6 @@
                       "parameters": [
                         "Enemigo",
                         "PlatformerObject"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "fuego",
-                        "Enemigo.PointX(\"center\")",
-                        "Enemigo.PointY(\"center\")",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AddForceAL"
-                      },
-                      "parameters": [
-                        "fuego",
-                        "180",
-                        "480",
-                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -27631,14 +29099,6 @@
                         "\"derecha\""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": [],
-                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -27650,33 +29110,6 @@
                       "parameters": [
                         "Enemigo",
                         "PlatformerObject"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "fuego",
-                        "Enemigo.PointX(\"center\")",
-                        "Enemigo.PointY(\"center\")",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "AddForceAL"
-                      },
-                      "parameters": [
-                        "fuego",
-                        "0",
-                        "480",
-                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -27709,6 +29142,17 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Enemigo",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ModVarObjetTxt"
                   },
                   "parameters": [
@@ -27716,17 +29160,6 @@
                     "direccion",
                     "=",
                     "\"derecha\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FlipX"
-                  },
-                  "parameters": [
-                    "Enemigo",
-                    "yes"
                   ],
                   "subInstructions": []
                 }
@@ -27757,6 +29190,17 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Enemigo",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ModVarObjetTxt"
                   },
                   "parameters": [
@@ -27766,15 +29210,118 @@
                     "\"izquierda\""
                   ],
                   "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "fuego",
+                    "Enemigo",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemigo",
+                    ""
+                  ],
+                  "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "FlipX"
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "fuego",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "+",
+                    "50"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "valor",
+                    "=",
+                    "GlobalVariableString(puntos)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "\"salto\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
                     "Enemigo",
-                    "no"
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"salto\""
                   ],
                   "subInstructions": []
                 }
@@ -27783,6 +29330,52 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_volver",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Mision Practica\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
