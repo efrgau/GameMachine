@@ -6730,6 +6730,627 @@
         "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fondoa.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h39_26-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h39_26-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h42_21-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h42_21-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h43_23-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h43_23-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h44_38-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h44_38-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h45_30-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h45_30-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h46_58-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h46_58-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h50_09-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h50_09-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h51_13-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h51_13-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h51_55-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h51_55-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h52_48-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h52_48-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h53_46-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h53_46-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h54_45-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h54_45-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h55_31-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h55_31-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h56_29-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h56_29-14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h57_10-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h57_10-15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h58_04-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h58_04-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h58_43-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h58_43-17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/17h59_29-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\17h59_29-18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/18h00_26-19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\18h00_26-19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/18h00_27-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\18h00_27-20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/18h01_11-21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\18h01_11-21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/18h02_08-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\18h02_08-22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-5-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-6-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-7-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-8-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-8-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-9-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-9-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-10-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-10-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-11-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-11-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-12-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-12-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-13-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-13-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-14-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-14-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-15-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-15-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-16-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-16-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-17-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-17-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-18-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-18-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-19-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-19-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-20-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-20-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-21-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-21-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-22-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-22-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/personajerojo/walking-23-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\personajerojo\\walking-23-0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7138,6 +7759,457 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "6.MachineLearning\\Assets\\cuadrotitulo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personaje",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGrabPlatforms": false,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "roundCoordinates": true,
+          "slopeMaxAngle": 60,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.04,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-2-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-3-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-4-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-5-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-6-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-7-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-8-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-9-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-10-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-11-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-12-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-13-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-14-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-15-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-16-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-17-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-18-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-19-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-20-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-21-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-22-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-23-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15738,7 +16810,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.514
+        "zoomFactor": 0.562
       },
       "objectsGroups": [],
       "variables": [],
@@ -15803,22 +16875,6 @@
           "x": 435,
           "y": 168,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 186,
-          "layer": "",
-          "locked": false,
-          "name": "personaje",
-          "persistentUuid": "5f177b3e-e391-4e59-89a6-d944caadb699",
-          "width": 94,
-          "x": 32,
-          "y": 361,
-          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16007,8 +17063,8 @@
           "locked": false,
           "name": "piso_3",
           "persistentUuid": "d6543e6e-02ca-4f5b-8b38-ca9a535ab10c",
-          "width": 329,
-          "x": 159,
+          "width": 2825,
+          "x": -2,
           "y": 623,
           "zOrder": 2,
           "numberProperties": [],
@@ -16018,14 +17074,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 153,
+          "height": 108,
           "layer": "",
           "locked": false,
           "name": "piso_2",
           "persistentUuid": "d4b5de56-fea0-41a9-b39f-93103ff0203a",
           "width": 131,
-          "x": 17,
-          "y": 552,
+          "x": 18,
+          "y": 518,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -16034,62 +17090,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 133,
-          "layer": "",
-          "locked": false,
-          "name": "piso_1",
-          "persistentUuid": "0b5f1a66-1c1e-49ca-a9d0-f5ee45aea2be",
-          "width": 171,
-          "x": 521,
-          "y": 612,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 111,
+          "height": 82,
           "layer": "",
           "locked": false,
           "name": "piso_3",
           "persistentUuid": "e7644448-cab7-49b7-b5c3-1f1266ff7c00",
           "width": 329,
-          "x": 698,
-          "y": 498,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 135,
-          "layer": "",
-          "locked": false,
-          "name": "piso_1",
-          "persistentUuid": "a84c8166-907e-4f73-aa83-039cbfb0222d",
-          "width": 171,
-          "x": 1029,
-          "y": 570,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 88,
-          "layer": "",
-          "locked": false,
-          "name": "piso_3",
-          "persistentUuid": "a7653c01-905c-4284-bb6d-669b7fee8406",
-          "width": 329,
-          "x": 1487,
-          "y": 622,
+          "x": 694,
+          "y": 521,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -16104,8 +17112,8 @@
           "name": "piso_1",
           "persistentUuid": "2d54f1d8-3064-424f-a9e9-fc537be68a10",
           "width": 171,
-          "x": 1265,
-          "y": 618,
+          "x": 1188,
+          "y": 413,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -16114,7 +17122,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 190,
+          "height": 102,
           "layer": "",
           "locked": false,
           "name": "piso_1",
@@ -16146,14 +17154,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 201,
+          "height": 193,
           "layer": "",
           "locked": false,
           "name": "piso_2",
           "persistentUuid": "68c147d0-8d0d-453d-82ad-0be969b716d6",
           "width": 131,
-          "x": -111,
-          "y": 344,
+          "x": -87,
+          "y": 311,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -16350,6 +17358,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 195,
+          "layer": "",
+          "locked": false,
+          "name": "Personaje",
+          "persistentUuid": "ee472287-1cfb-42b0-b511-30838e72f3a6",
+          "width": 140,
+          "x": 36,
+          "y": 318,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -16410,389 +17434,6 @@
             "g": 255,
             "r": 255
           }
-        },
-        {
-          "name": "personaje",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Flash",
-              "type": "Flash::Flash",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0
-            },
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGrabPlatforms": false,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "roundCoordinates": true,
-              "slopeMaxAngle": 60,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\idle-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "walking",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-17.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\personaje\\walking-18.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "height": 191,
@@ -17625,7 +18266,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Movimiento personaje",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17641,7 +18282,7 @@
                     "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "PlatformerObject"
                   ],
                   "subInstructions": []
@@ -17655,7 +18296,7 @@
                   },
                   "parameters": [
                     "",
-                    "personaje",
+                    "Personaje",
                     "0",
                     "0",
                     "2804",
@@ -17692,7 +18333,7 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "personaje",
+                        "Personaje",
                         "\"walking\""
                       ],
                       "subInstructions": []
@@ -17703,7 +18344,7 @@
                         "value": "FlipX"
                       },
                       "parameters": [
-                        "personaje",
+                        "Personaje",
                         ""
                       ],
                       "subInstructions": []
@@ -17735,7 +18376,7 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "personaje",
+                        "Personaje",
                         "\"walking\""
                       ],
                       "subInstructions": []
@@ -17746,7 +18387,7 @@
                         "value": "FlipX"
                       },
                       "parameters": [
-                        "personaje",
+                        "Personaje",
                         "yes"
                       ],
                       "subInstructions": []
@@ -17767,7 +18408,7 @@
                     "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "PlatformerObject"
                   ],
                   "subInstructions": []
@@ -17780,7 +18421,7 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "\"idle\""
                   ],
                   "subInstructions": []
@@ -17813,7 +18454,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro1",
                     "",
                     "",
@@ -17927,7 +18568,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro1",
                     "",
                     "",
@@ -17995,7 +18636,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro2",
                     "",
                     "",
@@ -18074,7 +18715,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro2",
                     "",
                     "",
@@ -18109,7 +18750,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro3",
                     "",
                     "",
@@ -18188,7 +18829,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro3",
                     "",
                     "",
@@ -18223,7 +18864,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro4",
                     "",
                     "",
@@ -18302,7 +18943,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro4",
                     "",
                     "",
@@ -18471,7 +19112,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Sonidos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18487,7 +19128,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro1",
                     "",
                     "",
@@ -18533,7 +19174,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro2",
                     "",
                     "",
@@ -18579,7 +19220,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro3",
                     "",
                     "",
@@ -18625,7 +19266,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebro4",
                     "",
                     "",
@@ -22602,22 +23243,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 279,
-          "layer": "",
-          "locked": false,
-          "name": "personaje",
-          "persistentUuid": "9b633614-1bcb-4aeb-be0d-ae61470a3655",
-          "width": 177,
-          "x": 40,
-          "y": 366,
-          "zOrder": 119,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 119,
           "layer": "",
           "locked": false,
@@ -22790,6 +23415,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 195,
+          "layer": "",
+          "locked": false,
+          "name": "Personaje",
+          "persistentUuid": "fbbc45f7-3245-448b-ba64-590d48f056cd",
+          "width": 140,
+          "x": 50,
+          "y": 449,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -22850,195 +23491,6 @@
             "g": 255,
             "r": 255
           }
-        },
-        {
-          "name": "personaje",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGrabPlatforms": false,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "roundCoordinates": true,
-              "slopeMaxAngle": 60,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.8,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\2020-11-09_21h31_20-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "waking",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "height": 191,
@@ -24580,7 +25032,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Movimiento personaje",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24596,7 +25048,7 @@
                     "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "PlatformerObject"
                   ],
                   "subInstructions": []
@@ -24610,10 +25062,10 @@
                   },
                   "parameters": [
                     "",
-                    "personaje",
+                    "Personaje",
                     "0",
                     "0",
-                    "5169",
+                    "5045",
                     "700",
                     "",
                     "",
@@ -24647,8 +25099,8 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "personaje",
-                        "\"waking\""
+                        "Personaje",
+                        "\"walking\""
                       ],
                       "subInstructions": []
                     },
@@ -24658,7 +25110,7 @@
                         "value": "FlipX"
                       },
                       "parameters": [
-                        "personaje",
+                        "Personaje",
                         ""
                       ],
                       "subInstructions": []
@@ -24690,8 +25142,8 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "personaje",
-                        "\"waking\""
+                        "Personaje",
+                        "\"walking\""
                       ],
                       "subInstructions": []
                     },
@@ -24701,7 +25153,7 @@
                         "value": "FlipX"
                       },
                       "parameters": [
-                        "personaje",
+                        "Personaje",
                         "yes"
                       ],
                       "subInstructions": []
@@ -24722,7 +25174,7 @@
                     "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "PlatformerObject"
                   ],
                   "subInstructions": []
@@ -24735,7 +25187,7 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "\"idle\""
                   ],
                   "subInstructions": []
@@ -24768,7 +25220,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrocaract",
                     "",
                     "",
@@ -24836,7 +25288,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrocaract",
                     "",
                     "",
@@ -24893,7 +25345,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebroregresion",
                     "",
                     "",
@@ -24961,7 +25413,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebroregresion",
                     "",
                     "",
@@ -24996,7 +25448,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrolineal",
                     "",
                     "",
@@ -25121,7 +25573,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrolineal",
                     "",
                     "",
@@ -25167,7 +25619,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrologist",
                     "",
                     "",
@@ -25292,7 +25744,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrologist",
                     "",
                     "",
@@ -25338,7 +25790,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebroclasif",
                     "",
                     "",
@@ -25406,7 +25858,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebroclasif",
                     "",
                     "",
@@ -25441,7 +25893,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebroknn",
                     "",
                     "",
@@ -25509,7 +25961,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebroknn",
                     "",
                     "",
@@ -25544,7 +25996,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrosvm",
                     "",
                     "",
@@ -25612,7 +26064,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrosvm",
                     "",
                     "",
@@ -25794,24 +26246,24 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrocaract",
                     "",
                     "",
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -25840,24 +26292,24 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebroregresion",
                     "",
                     "",
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -25886,24 +26338,24 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrolineal",
                     "",
                     "",
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -25932,24 +26384,24 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebrologist",
                     "",
                     "",
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -25978,24 +26430,24 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebroclasif",
                     "",
                     "",
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -26024,24 +26476,24 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "cerebroknn",
                     "",
                     "",
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -26070,23 +26522,23 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    "personaje",
-                    "cerebrosvm",
-                    "",
-                    "",
-                    ""
-                  ],
+                  "parameters": [],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "CollisionNP"
                   },
-                  "parameters": [],
+                  "parameters": [
+                    "Personaje",
+                    "cerebrosvm",
+                    "",
+                    "",
+                    ""
+                  ],
                   "subInstructions": []
                 }
               ],
@@ -28190,7 +28642,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.414
+        "zoomFactor": 0.438
       },
       "objectsGroups": [],
       "variables": [],
@@ -28539,22 +28991,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 265,
-          "layer": "",
-          "locked": false,
-          "name": "personaje",
-          "persistentUuid": "50f2d2cd-534a-494f-8f65-1de4437a23f2",
-          "width": 157,
-          "x": 40,
-          "y": 379,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 100,
           "layer": "",
           "locked": false,
@@ -28758,198 +29194,25 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 195,
+          "layer": "",
+          "locked": false,
+          "name": "Personaje",
+          "persistentUuid": "0260cf02-b363-40d1-85a1-b4b0332e0e0b",
+          "width": 140,
+          "x": 38,
+          "y": 409,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
-        {
-          "name": "personaje",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGrabPlatforms": false,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "roundCoordinates": true,
-              "slopeMaxAngle": 60,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.8,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\2020-11-09_21h31_20-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "waking",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\personaje\\waking-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "name": "Fondo",
           "tags": "",
@@ -29554,7 +29817,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Movimiento personaje",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29570,7 +29833,7 @@
                     "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "PlatformerObject"
                   ],
                   "subInstructions": []
@@ -29584,7 +29847,7 @@
                   },
                   "parameters": [
                     "",
-                    "personaje",
+                    "Personaje",
                     "0",
                     "0",
                     "5937",
@@ -29621,8 +29884,8 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "personaje",
-                        "\"waking\""
+                        "Personaje",
+                        "\"walking\""
                       ],
                       "subInstructions": []
                     },
@@ -29632,7 +29895,7 @@
                         "value": "FlipX"
                       },
                       "parameters": [
-                        "personaje",
+                        "Personaje",
                         ""
                       ],
                       "subInstructions": []
@@ -29664,8 +29927,8 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "personaje",
-                        "\"waking\""
+                        "Personaje",
+                        "\"walking\""
                       ],
                       "subInstructions": []
                     },
@@ -29675,7 +29938,7 @@
                         "value": "FlipX"
                       },
                       "parameters": [
-                        "personaje",
+                        "Personaje",
                         "yes"
                       ],
                       "subInstructions": []
@@ -29696,7 +29959,7 @@
                     "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "PlatformerObject"
                   ],
                   "subInstructions": []
@@ -29709,7 +29972,7 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "personaje",
+                    "Personaje",
                     "\"idle\""
                   ],
                   "subInstructions": []
@@ -29765,8 +30028,8 @@
                   "parameters": [
                     "",
                     "fuego",
-                    "personaje.PointX(\"Center\")",
-                    "personaje.PointY(\"Center\")",
+                    "Personaje.PointX(\"Center\")",
+                    "Personaje.PointY(\"Center\")",
                     ""
                   ],
                   "subInstructions": []
@@ -29784,7 +30047,7 @@
                         "value": "FlippedX"
                       },
                       "parameters": [
-                        "personaje"
+                        "Personaje"
                       ],
                       "subInstructions": []
                     }
@@ -29817,7 +30080,7 @@
                         "value": "FlippedX"
                       },
                       "parameters": [
-                        "personaje"
+                        "Personaje"
                       ],
                       "subInstructions": []
                     }
