@@ -7673,6 +7673,121 @@
         "metadata": "",
         "name": "fontsletra\\Russo_One.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/cuadroparatituloazul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\cuadroparatituloazul.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/cuadroparatitulo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\cuadroparatitulo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/cuadroazul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\cuadroazul.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "fontsletra/9606/HEINEKEN.TTF",
+        "kind": "font",
+        "metadata": "",
+        "name": "fontsletra\\9606\\HEINEKEN.TTF",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Actividades.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Actividades.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/Actividades-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Actividades-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/librerias.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\librerias.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/datos.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\datos.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/grafico.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\grafico.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/linear.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\linear.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/prediccion.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\prediccion.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/imp_predic.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\imp_predic.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/grafico2.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\grafico2.PNG",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8063,7 +8178,7 @@
       ]
     },
     {
-      "name": "cuadrotitulo",
+      "name": "cuadroazul",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -8071,7 +8186,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "logo10_13_01436-1",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -8080,7 +8195,46 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\cuadrotitulo.png",
+                  "image": "6.MachineLearning\\Assets\\cuadroazul.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cuadrorojo",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "6.MachineLearning\\Assets\\cuadroparatitulo.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8914,6 +9068,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -9255,6 +9413,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
@@ -10325,6 +10487,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
@@ -12042,6 +12208,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
@@ -13945,6 +14115,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -15596,6 +15770,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -15625,7 +15803,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.586
+        "zoomFactor": 0.538
       },
       "objectsGroups": [],
       "variables": [],
@@ -15655,8 +15833,8 @@
           "name": "txt_apsup",
           "persistentUuid": "520fced7-ee7b-46d6-b101-8782f12effe6",
           "width": 0,
-          "x": 380,
-          "y": 450,
+          "x": 385,
+          "y": 470,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -15665,14 +15843,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 88,
+          "height": 78,
           "layer": "",
           "locked": false,
           "name": "txt_ml",
           "persistentUuid": "866e4f14-397b-4bc4-b9cd-e75ca3a2197e",
           "width": 140,
-          "x": 297,
-          "y": 136,
+          "x": 295,
+          "y": 156,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -15687,8 +15865,8 @@
           "name": "txt_apnosup",
           "persistentUuid": "e6ea7f1d-8873-45d6-8f38-dacf878d36ce",
           "width": 235,
-          "x": 858,
-          "y": 154,
+          "x": 856,
+          "y": 169,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -15704,7 +15882,7 @@
           "persistentUuid": "6dc73531-4b96-4aaa-934b-5bd82d8d861e",
           "width": 0,
           "x": 952,
-          "y": 448,
+          "y": 475,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -15920,8 +16098,8 @@
             }
           ],
           "string": "Machine \nLearning",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
           "color": {
             "b": 149,
             "g": 60,
@@ -15944,8 +16122,8 @@
             }
           ],
           "string": "Aprendizaje\nSupervisado",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
           "color": {
             "b": 149,
             "g": 60,
@@ -15967,9 +16145,9 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Aprendizaje No \n  Supervisado",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 40,
+          "string": "Aprendizaje No Supervisado",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
           "color": {
             "b": 149,
             "g": 60,
@@ -15992,8 +16170,8 @@
             }
           ],
           "string": "Aprendizaje\n Reforzado",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
           "color": {
             "b": 149,
             "g": 60,
@@ -17103,6 +17281,14 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -17132,7 +17318,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.562
+        "zoomFactor": 0.394
       },
       "objectsGroups": [],
       "variables": [],
@@ -17156,14 +17342,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 42,
           "layer": "Background",
           "locked": false,
           "name": "txt_ml",
           "persistentUuid": "1b14d7ce-858a-423f-8261-34a5102a6021",
           "width": 362,
-          "x": 481,
-          "y": 25,
+          "x": 463,
+          "y": 32,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -17626,8 +17812,8 @@
           "name": "txt_reto1",
           "persistentUuid": "dc2663a3-b0d6-4906-9e68-12f97af30d36",
           "width": 0,
-          "x": 2512,
-          "y": 219,
+          "x": 2506,
+          "y": 221,
           "zOrder": 97,
           "numberProperties": [],
           "stringProperties": [],
@@ -17645,22 +17831,6 @@
           "x": 328,
           "y": 507,
           "zOrder": 98,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 94,
-          "layer": "Background",
-          "locked": false,
-          "name": "cuadrotitulo",
-          "persistentUuid": "f8103ed1-d7db-4f06-a09d-ca513feb78c4",
-          "width": 536,
-          "x": 367,
-          "y": 9,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17693,6 +17863,22 @@
           "x": 36,
           "y": 318,
           "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "f668301a-b302-41d7-95ff-39501b8aa97c",
+          "width": 536,
+          "x": 381,
+          "y": 5,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17749,8 +17935,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Machine Learning",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 55,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 40,
           "color": {
             "b": 255,
             "g": 255,
@@ -18514,8 +18700,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Reto 1",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 35,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -19939,7 +20125,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.53
+        "zoomFactor": 0.506
       },
       "objectsGroups": [],
       "variables": [],
@@ -19978,22 +20164,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "cuadrotitulo",
-          "persistentUuid": "90b66cab-783b-433f-be30-b904dee864a1",
-          "width": 572,
-          "x": 107,
-          "y": 6,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -20001,8 +20171,8 @@
           "name": "txt_titulo",
           "persistentUuid": "31cc0d40-4a2c-4abb-bc93-c0c9a918925a",
           "width": 0,
-          "x": 444,
-          "y": 170,
+          "x": 438,
+          "y": 189,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -20016,7 +20186,7 @@
           "locked": false,
           "name": "txt_ejemplo",
           "persistentUuid": "677646e2-344a-47da-ae64-5ef32ab70666",
-          "width": 583,
+          "width": 631,
           "x": 470,
           "y": 260,
           "zOrder": 6,
@@ -20032,9 +20202,9 @@
           "locked": false,
           "name": "txt_ejemplo2",
           "persistentUuid": "209e8e1f-39f1-4a1a-9730-030d64604585",
-          "width": 569,
+          "width": 615,
           "x": 470,
-          "y": 419,
+          "y": 426,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -20049,8 +20219,8 @@
           "name": "puntos",
           "persistentUuid": "124328d8-c0a1-4675-ae88-4adb98140add",
           "width": 0,
-          "x": 478,
-          "y": 27,
+          "x": 473,
+          "y": 24,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -20059,14 +20229,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 34,
+          "height": 26,
           "layer": "",
           "locked": false,
           "name": "txt_instru",
           "persistentUuid": "8214bf7b-9407-4692-be23-4b94c45607b5",
-          "width": 154,
-          "x": 672,
-          "y": 547,
+          "width": 147,
+          "x": 673,
+          "y": 554,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -20081,8 +20251,8 @@
           "name": "txt_iniciar",
           "persistentUuid": "374c4f9f-b99f-4fbf-adba-7284f2a10457",
           "width": 0,
-          "x": 900,
-          "y": 547,
+          "x": 883,
+          "y": 550,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -20243,7 +20413,7 @@
           "width": 1073,
           "x": 172,
           "y": 98,
-          "zOrder": 4,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20289,8 +20459,8 @@
           "name": "txt_reto1",
           "persistentUuid": "cced7536-6c9a-4b26-8474-b409e016cf9d",
           "width": 0,
-          "x": 194,
-          "y": 18,
+          "x": 165,
+          "y": 21,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -20305,8 +20475,8 @@
           "name": "Moneda",
           "persistentUuid": "bc87ebdf-e198-4867-aea2-2f431e012916",
           "width": 60,
-          "x": 396,
-          "y": 26,
+          "x": 399,
+          "y": 22,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -20347,14 +20517,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 35,
+          "height": 24,
           "layer": "",
           "locked": false,
           "name": "txt_cancelar",
           "persistentUuid": "457e7c58-e85d-4477-822b-5fd6a839c926",
-          "width": 101,
-          "x": 514,
-          "y": 546,
+          "width": 94,
+          "x": 516,
+          "y": 553,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -20395,14 +20565,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 99,
+          "height": 71,
           "layer": "",
           "locked": false,
           "name": "Boton",
           "persistentUuid": "81fb561d-55bc-43fd-8669-ab53dc9df2be",
-          "width": 226,
+          "width": 220,
           "x": 633,
-          "y": 519,
+          "y": 532,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -20411,14 +20581,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 93,
+          "height": 71,
           "layer": "",
           "locked": false,
           "name": "Boton",
           "persistentUuid": "922a9998-216e-4783-b4f8-dd456d0e6c35",
           "width": 155,
-          "x": 485,
-          "y": 520,
+          "x": 487,
+          "y": 531,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -20427,14 +20597,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 97,
+          "height": 71,
           "layer": "",
           "locked": false,
           "name": "Boton",
           "persistentUuid": "c917edb1-5345-4dd5-aa58-b2d2841b5228",
-          "width": 161,
-          "x": 858,
-          "y": 520,
+          "width": 155,
+          "x": 847,
+          "y": 532,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -20727,6 +20897,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "f7732a8e-1f4c-4b76-a958-5f45299e4d50",
+          "width": 572,
+          "x": 109,
+          "y": 5,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 71,
+          "layer": "",
+          "locked": false,
+          "name": "siguiente",
+          "persistentUuid": "811dcadf-0f38-403a-9419-132c96a13948",
+          "width": 155,
+          "x": 486,
+          "y": 533,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -20785,8 +20987,8 @@
             }
           ],
           "string": "Reto 1",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 70,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 50,
           "color": {
             "b": 255,
             "g": 255,
@@ -20809,8 +21011,8 @@
             }
           ],
           "string": "Evalua tus conocimientos",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 70,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 50,
           "color": {
             "b": 15,
             "g": 200,
@@ -20857,7 +21059,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "txt_ejemplo",
           "smoothed": true,
@@ -20867,8 +21069,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Edwin acaba de introducirse en el mundo de machine learning y quiere saber qué técnicas puede utilizar para resolver un problema de detección de spam en los correos",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 35,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -20886,8 +21088,8 @@
           "variables": [],
           "behaviors": [],
           "string": "¿Qué información podrías darle teniendo en cuenta todo lo que aprendiste hasta ahora?",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 35,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -20944,8 +21146,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Instrucciones",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 30,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 20,
           "color": {
             "b": 255,
             "g": 255,
@@ -21040,8 +21242,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Iniciar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 30,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -21359,8 +21561,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Cancelar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 30,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 20,
           "color": {
             "b": 255,
             "g": 255,
@@ -23524,7 +23726,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [],
@@ -23538,8 +23740,8 @@
           "name": "titulo_txtap",
           "persistentUuid": "b2c21be2-6010-474c-a4d5-bbbc70082aae",
           "width": 0,
-          "x": 422,
-          "y": 37,
+          "x": 425,
+          "y": 32,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -24482,8 +24684,8 @@
           "name": "txt_Reto2",
           "persistentUuid": "729812b7-b3e8-4c1b-9963-083687cf9af6",
           "width": 0,
-          "x": 4880,
-          "y": 350,
+          "x": 4856,
+          "y": 355,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -24540,22 +24742,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 118,
-          "layer": "titulo",
-          "locked": false,
-          "name": "cuadrotitulo",
-          "persistentUuid": "77dc5675-5bf2-4ac3-90d5-6eb64b53b71d",
-          "width": 678,
-          "x": -340,
-          "y": -191,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 377,
           "layer": "caracteristicas",
           "locked": false,
@@ -24577,8 +24763,8 @@
           "locked": false,
           "name": "boton",
           "persistentUuid": "d8a42de2-1113-46cd-a240-c39715aee913",
-          "width": 193,
-          "x": 4846,
+          "width": 236,
+          "x": 4815,
           "y": 315,
           "zOrder": 119,
           "numberProperties": [],
@@ -24636,14 +24822,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 136,
+          "height": 95,
           "layer": "",
           "locked": false,
-          "name": "boton",
-          "persistentUuid": "66fe93de-ed68-454c-b618-db21ae466cf1",
-          "width": 853,
-          "x": 279,
-          "y": -1,
+          "name": "cuadrorojo",
+          "persistentUuid": "08e123e7-582f-4e85-ab07-034ab5048db2",
+          "width": 650,
+          "x": 386,
+          "y": 11,
           "zOrder": 125,
           "numberProperties": [],
           "stringProperties": [],
@@ -26175,8 +26361,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Reto 2",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 55,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 45,
           "color": {
             "b": 255,
             "g": 255,
@@ -27991,7 +28177,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.698
+        "zoomFactor": 0.458
       },
       "objectsGroups": [],
       "variables": [],
@@ -28021,8 +28207,8 @@
           "name": "txt_reto2",
           "persistentUuid": "31cc0d40-4a2c-4abb-bc93-c0c9a918925a",
           "width": 0,
-          "x": 187,
-          "y": 15,
+          "x": 172,
+          "y": 22,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -28037,7 +28223,7 @@
           "name": "puntos",
           "persistentUuid": "124328d8-c0a1-4675-ae88-4adb98140add",
           "width": 0,
-          "x": 589,
+          "x": 513,
           "y": 25,
           "zOrder": 3,
           "numberProperties": [],
@@ -28101,8 +28287,8 @@
           "name": "Moneda",
           "persistentUuid": "e795f41a-8eeb-41f8-9f0b-8bea042e7d8e",
           "width": 60,
-          "x": 386,
-          "y": 26,
+          "x": 444,
+          "y": 22,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -28194,7 +28380,7 @@
           "height": 105,
           "layer": "",
           "locked": false,
-          "name": "cuadrotitulo",
+          "name": "cuadrorojo",
           "persistentUuid": "231d914c-c1e2-498f-b82d-7274c1b45aba",
           "width": 564,
           "x": 132,
@@ -28453,12 +28639,12 @@
             }
           ],
           "string": "Reto 2",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 70,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 50,
           "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -29834,6 +30020,14 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -29877,7 +30071,7 @@
           "name": "titulonivel1",
           "persistentUuid": "b2c21be2-6010-474c-a4d5-bbbc70082aae",
           "width": 0,
-          "x": 174,
+          "x": 176,
           "y": 20,
           "zOrder": 3,
           "numberProperties": [],
@@ -30101,8 +30295,8 @@
           "name": "puntos",
           "persistentUuid": "d41ad385-738c-437c-b9fe-c2a2aee360c0",
           "width": 0,
-          "x": 482,
-          "y": 19,
+          "x": 455,
+          "y": 24,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -30130,7 +30324,7 @@
           "height": 95,
           "layer": "titulo",
           "locked": false,
-          "name": "cuadrotitulo",
+          "name": "cuadrorojo",
           "persistentUuid": "e442c544-e164-4715-88d0-f478d416fdaa",
           "width": 460,
           "x": 136,
@@ -30149,8 +30343,8 @@
           "name": "Moneda",
           "persistentUuid": "f82b4751-28aa-4980-b76a-6416b67ac681",
           "width": 60,
-          "x": 338,
-          "y": 20,
+          "x": 388,
+          "y": 22,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -30423,7 +30617,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Nivel 1",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 55,
           "color": {
             "b": 255,
@@ -31829,6 +32023,1139 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Nivel1Ordenar",
+      "name": "Nivel1Ordenar",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.466
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "titulo",
+          "locked": false,
+          "name": "titulonivel1",
+          "persistentUuid": "b2c21be2-6010-474c-a4d5-bbbc70082aae",
+          "width": 0,
+          "x": 176,
+          "y": 20,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 835,
+          "layer": "Background",
+          "locked": true,
+          "name": "Fondo",
+          "persistentUuid": "d3a299f8-fe8d-49a4-8466-c82698c4e4a8",
+          "width": 1400,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "titulo",
+          "locked": true,
+          "name": "LogoU",
+          "persistentUuid": "79628aae-2611-469e-8737-0b5807008ab2",
+          "width": 100,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "titulo",
+          "locked": true,
+          "name": "LogoML",
+          "persistentUuid": "5dee29ab-696c-4603-b536-e085d07aebbb",
+          "width": 130,
+          "x": 1268,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "titulo",
+          "locked": false,
+          "name": "puntos",
+          "persistentUuid": "d41ad385-738c-437c-b9fe-c2a2aee360c0",
+          "width": 0,
+          "x": 455,
+          "y": 24,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "titulo",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "e442c544-e164-4715-88d0-f478d416fdaa",
+          "width": 460,
+          "x": 136,
+          "y": 8,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "titulo",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "f82b4751-28aa-4980-b76a-6416b67ac681",
+          "width": 60,
+          "x": 388,
+          "y": 22,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 309,
+          "layer": "",
+          "locked": false,
+          "name": "Personaje",
+          "persistentUuid": "0260cf02-b363-40d1-85a1-b4b0332e0e0b",
+          "width": 216,
+          "x": 37,
+          "y": 316,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 138,
+          "layer": "",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "7a5a2a61-2d7c-4878-a9e5-fe8ff6085405",
+          "width": 529,
+          "x": 21,
+          "y": 151,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "d09da405-ce9c-40ce-9dff-61fad7ed1bf7",
+          "width": 384,
+          "x": 214,
+          "y": 313,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 56,
+          "layer": "",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "8255176f-08bf-4de0-a7a3-7d2a13bc3067",
+          "width": 326,
+          "x": 556,
+          "y": 191,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 191,
+          "layer": "",
+          "locked": false,
+          "name": "piso2",
+          "persistentUuid": "47938c83-ddb8-4a8f-8b7a-347fa5b4000b",
+          "width": 323,
+          "x": -9,
+          "y": 616,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 115,
+          "layer": "",
+          "locked": false,
+          "name": "Librerias",
+          "persistentUuid": "8052a984-19d9-492f-b051-bc0178bae896",
+          "width": 452,
+          "x": 438,
+          "y": 573,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 34,
+          "layer": "",
+          "locked": false,
+          "name": "datos",
+          "persistentUuid": "9f30331e-5aa3-4205-9062-d260b1657d0d",
+          "width": 279,
+          "x": 1064,
+          "y": 429,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 62,
+          "layer": "",
+          "locked": false,
+          "name": "grafico1",
+          "persistentUuid": "6d12deaa-504b-4d5c-bd26-98c2311f6de0",
+          "width": 390,
+          "x": 705,
+          "y": 34,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 81,
+          "layer": "",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "604337e3-2e51-40a9-892c-0b2c1022a37b",
+          "width": 463,
+          "x": 877,
+          "y": 162,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "linear",
+          "persistentUuid": "2eb2d7cd-fe4b-4274-a4f9-59ba05f80caa",
+          "width": 0,
+          "x": 697,
+          "y": 500,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "c1604b4c-ab8a-46f2-97dd-7b82c068d162",
+          "width": 333,
+          "x": 343,
+          "y": 412,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "2f3665e4-7bf6-425f-a26a-da800e824256",
+          "width": 271,
+          "x": 574,
+          "y": 328,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "prediccion",
+          "persistentUuid": "05f6f17b-4157-42d4-bea4-b0da13e86abf",
+          "width": 0,
+          "x": 207,
+          "y": 556,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "prediccion2",
+          "persistentUuid": "c3f4d29b-fdb4-4e06-8ca6-3a32238ef378",
+          "width": 0,
+          "x": 1246,
+          "y": 645,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -180,
+          "customSize": true,
+          "height": 52,
+          "layer": "",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "a606f61a-2dc8-4d0b-9d5b-8013dca0e697",
+          "width": 167,
+          "x": 856,
+          "y": 328,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "grafico2",
+          "persistentUuid": "6e3147dc-925e-4b13-a3bd-912bac0578fd",
+          "width": 0,
+          "x": 1081,
+          "y": 532,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
+          "layer": "",
+          "locked": false,
+          "name": "primera",
+          "persistentUuid": "14862472-f02c-434e-96d1-ed979fc97238",
+          "width": 137,
+          "x": 178,
+          "y": 116,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "segunda",
+          "persistentUuid": "a2fc815b-b25a-4067-85b1-486d5c976d85",
+          "width": 0,
+          "x": 613,
+          "y": 120,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Fondo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fondoa.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 191,
+          "name": "piso2",
+          "tags": "",
+          "texture": "8.Aprendizajesupervisado\\Assets\\piso\\PisoGris.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 92,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "puntos",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 55,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "titulonivel1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Nivel 1",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 55,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "cuadros",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Actividades",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\Actividades-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "segunda",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "string": "Importar datos\n",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "primera",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "string": "Librerias\n",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "name": "grafico2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\grafico2.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "prediccion2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\imp_predic.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "prediccion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\prediccion.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "linear",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\linear.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "grafico1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\grafico.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "datos",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\datos.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Librerias",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\librerias.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "BlackAndWhite",
+              "name": "background",
+              "doubleParameters": {
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 6880376,
+          "ambientLightColorG": 6879736,
+          "ambientLightColorR": 6637136,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "BlackAndWhite",
+              "name": "Effect",
+              "doubleParameters": {
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "titulo",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1970238080,
+          "ambientLightColorR": 1801675136,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "cuadro",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 6000560,
+          "ambientLightColorR": -2147483648,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "personaje",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1634886016,
+          "ambientLightColorR": 67108864,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "carac",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 7658472,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "regre",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1970563456,
+          "ambientLightColorR": 134217728,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "lineal",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 10680376,
+          "ambientLightColorR": -2147483648,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Ejemplolineal",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 10801888,
+          "ambientLightColorR": -2147483648,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "logistica",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 10809280,
+          "ambientLightColorR": -2147483648,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Ejemplologistica",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1919378816,
+          "ambientLightColorR": 83886080,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "clasi",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "knn",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 6000560,
+          "ambientLightColorR": -2147483648,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "svm",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -31925,7 +33252,7 @@
           "height": 149,
           "layer": "",
           "locked": false,
-          "name": "cuadrotitulo",
+          "name": "cuadrorojo",
           "persistentUuid": "a7ec274c-e5fd-48f7-825b-15fc2e1d9ab6",
           "width": 815,
           "x": 278,
