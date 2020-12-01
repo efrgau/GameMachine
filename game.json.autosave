@@ -8000,9 +8000,9 @@
     {
       "bold": false,
       "italic": false,
-      "name": "txt_envi",
+      "name": "txt_enviEst",
       "smoothed": true,
-      "tags": "",
+      "tags": "DatosE",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -8013,12 +8013,12 @@
         }
       ],
       "string": "Enviar",
-      "font": "fontsButton\\10204\\Fortnite.ttf",
-      "characterSize": 60,
+      "font": "fontsletra\\Russo_One.ttf",
+      "characterSize": 40,
       "color": {
-        "b": 149,
-        "g": 60,
-        "r": 113
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -9068,6 +9068,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -9413,6 +9417,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -9996,8 +10004,31 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": []
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "speech",
+                "=",
+                "\"Hola! Bienvenidos a Game Machine si eres nuevo registrate de lo contrario procede a iniciar sesión con tus datos\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Speak"
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -10450,7 +10481,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Registro\"",
+                    "\"RegistroEst\"",
                     ""
                   ],
                   "subInstructions": []
@@ -10487,6 +10518,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -10825,7 +10860,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "txt_envi",
+          "name": "txt_enviEst",
           "persistentUuid": "97cbdb2e-ce7c-4b46-aa44-2e957a041244",
           "width": 0,
           "x": 630,
@@ -12058,7 +12093,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "",
                     "",
                     ""
@@ -12095,7 +12130,7 @@
                     "value": "TextObject::ChangeColor"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "\"47;70;156\""
                   ],
                   "subInstructions": []
@@ -12106,7 +12141,7 @@
                     "value": "Tween::AddObjectScaleTween"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "Tween",
                     "\"int_apsup\"",
                     "1.1",
@@ -12131,7 +12166,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "",
                     "",
                     ""
@@ -12146,7 +12181,7 @@
                     "value": "TextObject::ChangeColor"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "\"113;60;149\""
                   ],
                   "subInstructions": []
@@ -12157,7 +12192,7 @@
                     "value": "Tween::AddObjectScaleTween"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "Tween",
                     "\"int_apsup2\"",
                     "0.95",
@@ -12209,6 +12244,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -12221,8 +12260,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Registro",
-      "name": "Registro",
+      "mangledName": "RegistroEst",
+      "name": "RegistroEst",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -12252,102 +12291,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "txt_Username",
-          "persistentUuid": "6559d098-7ef4-4baa-aeaf-01a131018075",
-          "width": 0,
-          "x": 637,
-          "y": 230,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "txt_Password",
-          "persistentUuid": "2578b377-adfe-4672-b4c9-2fb69b534d75",
-          "width": 0,
-          "x": 619,
-          "y": 358,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "txt_registrarse",
-          "persistentUuid": "bd6242cf-f3ce-4775-b14e-f726a61703e1",
-          "width": 0,
-          "x": 588,
-          "y": 144,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 60,
-          "layer": "",
-          "locked": false,
-          "name": "Usernamewhitescreen",
-          "persistentUuid": "64163448-91db-446f-997e-48f308f90675",
-          "width": 330,
-          "x": 546,
-          "y": 269,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 70,
-          "layer": "",
-          "locked": false,
-          "name": "Passwordwhitescreen",
-          "persistentUuid": "3e035e86-7cf9-4ece-a883-a02687b54a16",
-          "width": 330,
-          "x": 546,
-          "y": 399,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "title",
-          "persistentUuid": "f1fa24ad-4dbd-47e2-903b-41c3fc9065f0",
-          "width": 0,
-          "x": 112,
-          "y": 18,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -12382,54 +12325,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "btn_login",
-          "persistentUuid": "026c0c5b-a89c-43b9-b01d-97905f0c4a3e",
-          "width": 0,
-          "x": 1195,
-          "y": 497,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 60,
-          "layer": "",
-          "locked": false,
-          "name": "UsernameArrow",
-          "persistentUuid": "ab6a9b35-447f-473b-8c66-33e8ef35e0fc",
-          "width": 60,
-          "x": 479,
-          "y": 271,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 60,
-          "layer": "",
-          "locked": false,
-          "name": "PasswordArrow",
-          "persistentUuid": "4e993fdd-e5a5-452b-9976-1491184e01bb",
-          "width": 60,
-          "x": 482,
-          "y": 403,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 574,
           "layer": "",
@@ -12437,41 +12332,9 @@
           "name": "personaje",
           "persistentUuid": "8d8bfafc-ef0e-4295-998e-c2387e1196b6",
           "width": 299,
-          "x": 854,
-          "y": 160,
+          "x": 1056,
+          "y": 148,
           "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "txt_validar",
-          "persistentUuid": "64006597-cc49-4f15-a3b4-cf52e51acaf6",
-          "width": 0,
-          "x": 552,
-          "y": 477,
-          "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 783,
-          "layer": "",
-          "locked": false,
-          "name": "fondo",
-          "persistentUuid": "f7591efa-451b-43cf-93ff-bef8de6721a5",
-          "width": 1350,
-          "x": 28,
-          "y": -43,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12510,15 +12373,223 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "height": 580,
+          "layer": "",
+          "locked": true,
+          "name": "cuadrorojo",
+          "persistentUuid": "cbad23ef-5493-4034-a0b8-c8651b440cf7",
+          "width": 634,
+          "x": 416,
+          "y": 104,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 78,
+          "layer": "",
+          "locked": true,
+          "name": "cuadrorojo",
+          "persistentUuid": "a7eb80c9-113a-4212-8a51-be7961564cc2",
+          "width": 233,
+          "x": 123,
+          "y": 294,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 78,
+          "layer": "",
+          "locked": true,
+          "name": "cuadroazul",
+          "persistentUuid": "c9866379-612d-46a2-8320-6010222aa9c2",
+          "width": 233,
+          "x": 126,
+          "y": 424,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "txt_estudiantes",
+          "persistentUuid": "65c1f9b4-544b-4d5a-87bf-62521a576bd1",
+          "width": 0,
+          "x": 155,
+          "y": 320,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "txt_docente",
+          "persistentUuid": "ae391d51-b522-450d-84ab-1fa8406a3fcb",
+          "width": 0,
+          "x": 181,
+          "y": 445,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "txt_envi",
-          "persistentUuid": "ac49631a-3dc8-49f2-aa5a-6b75a410f24d",
+          "name": "txt_Username",
+          "persistentUuid": "4beebd85-1991-40f7-ae47-a7fa4b04fd88",
           "width": 0,
-          "x": 642,
-          "y": 482,
+          "x": 675,
+          "y": 255,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_Password",
+          "persistentUuid": "97a12b2a-4e53-4b5b-b7bc-a1877c8a1c6f",
+          "width": 0,
+          "x": 661,
+          "y": 396,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_registrarse",
+          "persistentUuid": "e4ca0116-65b1-4eb0-9699-3741b34f55a3",
+          "width": 0,
+          "x": 548,
+          "y": 181,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "UsernamewhitescreenEst",
+          "persistentUuid": "0cac8b91-d76b-4577-8153-c5adec73e6b3",
+          "width": 330,
+          "x": 588,
+          "y": 307,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "",
+          "locked": false,
+          "name": "PasswordwhitescreenEst",
+          "persistentUuid": "894850f1-e30a-490b-a8d5-c5cb3cbc8f68",
+          "width": 330,
+          "x": 588,
+          "y": 437,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "UsernameArrow",
+          "persistentUuid": "6199d40e-f8a4-468b-9297-4207f6eba62e",
+          "width": 60,
+          "x": 521,
+          "y": 309,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "PasswordArrow",
+          "persistentUuid": "ae12e06f-a340-4e81-aac3-aafb7490ca37",
+          "width": 60,
+          "x": 524,
+          "y": 441,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_validar",
+          "persistentUuid": "105a10ca-3c3f-4339-adde-d6ff698335d9",
+          "width": 0,
+          "x": 574,
+          "y": 520,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_enviEst",
+          "persistentUuid": "8868e0ed-02c3-469c-8d57-87022fc75206",
+          "width": 0,
+          "x": 664,
+          "y": 544,
           "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
@@ -12531,10 +12602,10 @@
           "layer": "",
           "locked": false,
           "name": "UsernameData",
-          "persistentUuid": "7873c9a4-c5d7-4961-bbed-29452fa367b6",
+          "persistentUuid": "75a13550-4f02-4ce3-b21d-4d5f4c58edcc",
           "width": 0,
-          "x": 609,
-          "y": 274,
+          "x": 651,
+          "y": 312,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -12547,10 +12618,10 @@
           "layer": "",
           "locked": false,
           "name": "PasswordDataa",
-          "persistentUuid": "7c82705c-6dbe-42da-9276-2a3f071fe239",
+          "persistentUuid": "8258c249-2868-4f12-adce-d0b10e324f77",
           "width": 0,
-          "x": 604,
-          "y": 414,
+          "x": 646,
+          "y": 452,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -12563,10 +12634,10 @@
           "layer": "",
           "locked": false,
           "name": "UsernameText",
-          "persistentUuid": "49e4c9e7-f40f-4525-8031-00545d23582c",
+          "persistentUuid": "640f43cc-96d1-4c6b-afe6-2c671d1405b2",
           "width": 0,
-          "x": 566,
-          "y": 281,
+          "x": 608,
+          "y": 319,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -12579,10 +12650,10 @@
           "layer": "",
           "locked": false,
           "name": "PasswordText",
-          "persistentUuid": "d79fbb8d-bf71-4062-8577-b94879629b11",
+          "persistentUuid": "e3413ead-dfbb-463d-bb99-f54cea3b396d",
           "width": 0,
-          "x": 564,
-          "y": 424,
+          "x": 606,
+          "y": 462,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -12595,10 +12666,10 @@
           "layer": "",
           "locked": false,
           "name": "UsernameData2",
-          "persistentUuid": "22c0686a-20d9-46d5-beb5-a198dc2f0299",
+          "persistentUuid": "dc89b82d-d170-4953-934f-161b277da783",
           "width": 0,
-          "x": 607,
-          "y": 274,
+          "x": 649,
+          "y": 312,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -12611,17 +12682,71 @@
           "layer": "",
           "locked": false,
           "name": "PasswordDataa2",
-          "persistentUuid": "0257b263-b6f9-4337-8168-1b779b5bb9f8",
+          "persistentUuid": "202fb9cd-30df-4dfd-b6a9-8512ba930380",
           "width": 0,
-          "x": 605,
-          "y": 412,
+          "x": 647,
+          "y": 450,
           "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 74,
+          "layer": "",
+          "locked": true,
+          "name": "cuadrorojo",
+          "persistentUuid": "27f91c36-9f18-4158-b71a-3da867c530ee",
+          "width": 176,
+          "x": 642,
+          "y": 530,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_docente",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Docente",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_estudiantes",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Estudiante",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          }
+        },
         {
           "bold": true,
           "italic": false,
@@ -12633,7 +12758,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Registrarse",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 60,
           "color": {
             "b": 155,
@@ -12665,7 +12790,7 @@
           "italic": false,
           "name": "txt_Password",
           "smoothed": true,
-          "tags": "",
+          "tags": "DatosE",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -12680,8 +12805,8 @@
           }
         },
         {
-          "name": "Usernamewhitescreen",
-          "tags": "",
+          "name": "UsernamewhitescreenEst",
+          "tags": "DatosE",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -12719,8 +12844,8 @@
           ]
         },
         {
-          "name": "Passwordwhitescreen",
-          "tags": "",
+          "name": "PasswordwhitescreenEst",
+          "tags": "DatosE",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -12776,7 +12901,7 @@
           "italic": false,
           "name": "UsernameData",
           "smoothed": true,
-          "tags": "",
+          "tags": "DatosE",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -12795,7 +12920,7 @@
           "italic": false,
           "name": "UsernameData2",
           "smoothed": true,
-          "tags": "",
+          "tags": "DatosE",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -12814,7 +12939,7 @@
           "italic": false,
           "name": "PasswordDataa",
           "smoothed": true,
-          "tags": "",
+          "tags": "DatosE",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -12849,7 +12974,7 @@
         },
         {
           "name": "UsernameArrow",
-          "tags": "",
+          "tags": "DatosE",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -12888,7 +13013,7 @@
         },
         {
           "name": "PasswordArrow",
-          "tags": "",
+          "tags": "DatosE",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13067,50 +13192,11 @@
           ]
         },
         {
-          "name": "btn_login",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "InicioSesion y Registro\\Assets\\login.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": true,
           "italic": false,
           "name": "txt_validar",
           "smoothed": true,
-          "tags": "",
+          "tags": "DatosE",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
@@ -13142,477 +13228,134 @@
           "comment2": ""
         },
         {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "UsernameData2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "PasswordDataa2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextEntryObject::Activate"
-              },
-              "parameters": [
-                "UsernameText",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextEntryObject::Activate"
-              },
-              "parameters": [
-                "PasswordText",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "UsernameArrow",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "PasswordArrow",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "UsernameData",
-                "=",
-                "UsernameText.String()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "PasswordDataa",
-                "=",
-                "PasswordText.String()"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Usernamewhitescreen",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextEntryObject::Activate"
-              },
-              "parameters": [
-                "UsernameText",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "UsernameArrow",
-                "=",
-                "255"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Passwordwhitescreen",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextEntryObject::Activate"
-              },
-              "parameters": [
-                "PasswordText",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "PasswordArrow",
-                "=",
-                "255"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Usernamewhitescreen",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextEntryObject::Activate"
-              },
-              "parameters": [
-                "UsernameText",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "UsernameArrow",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Passwordwhitescreen",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextEntryObject::Activate"
-              },
-              "parameters": [
-                "PasswordText",
-                "no"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "PasswordArrow",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "txt_envi",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "UsernameData"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "PasswordDataa"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "UsernameData2",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "PasswordDataa2",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "UsernameData2",
-                "=",
-                "UsernameData.String()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "PasswordDataa2",
-                "=",
-                "PasswordDataa.String()"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Botones Funcion",
+          "name": "Estudiante",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "disabled": false,
               "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "ADD USERS",
-              "comment2": ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UsernameData2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "PasswordDataa2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "UsernameText",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "PasswordText",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "UsernameArrow",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "PasswordArrow",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "UsernameData",
+                    "=",
+                    "UsernameText.String()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "PasswordDataa",
+                    "=",
+                    "PasswordText.String()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
               "disabled": false,
@@ -13625,7 +13368,335 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "btn_login",
+                    "UsernamewhitescreenEst",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "UsernameText",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "UsernameArrow",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "PasswordwhitescreenEst",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "PasswordText",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "PasswordArrow",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "UsernamewhitescreenEst",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "UsernameText",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "UsernameArrow",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "PasswordwhitescreenEst",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "PasswordText",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "PasswordArrow",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_enviEst",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UsernameData"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "PasswordDataa"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UsernameData2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "PasswordDataa2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "UsernameData2",
+                    "=",
+                    "UsernameData.String()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "PasswordDataa2",
+                    "=",
+                    "PasswordDataa.String()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_enviEst",
                     "",
                     "",
                     ""
@@ -13682,6 +13753,35 @@
                 }
               ],
               "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Botones Funcion",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "ADD USERS",
+              "comment2": ""
             },
             {
               "disabled": false,
@@ -13722,6 +13822,52 @@
                   "parameters": [
                     "",
                     "\"MenuInicial\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_docente",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RegistroDoc\"",
                     ""
                   ],
                   "subInstructions": []
@@ -13832,7 +13978,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Botones Diseño",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13972,7 +14118,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "",
                     "",
                     ""
@@ -14009,7 +14155,7 @@
                     "value": "TextObject::ChangeColor"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "\"47;70;156\""
                   ],
                   "subInstructions": []
@@ -14020,7 +14166,7 @@
                     "value": "Tween::AddObjectScaleTween"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "Tween",
                     "\"int_apsup\"",
                     "1.1",
@@ -14045,7 +14191,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "",
                     "",
                     ""
@@ -14060,7 +14206,7 @@
                     "value": "TextObject::ChangeColor"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
                     "\"113;60;149\""
                   ],
                   "subInstructions": []
@@ -14071,7 +14217,2220 @@
                     "value": "Tween::AddObjectScaleTween"
                   },
                   "parameters": [
-                    "txt_envi",
+                    "txt_enviEst",
+                    "Tween",
+                    "\"int_apsup2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "son.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 6880376,
+          "ambientLightColorG": 6879736,
+          "ambientLightColorR": 6841520,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "RegistroDoc",
+      "name": "RegistroDoc",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 10,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 10,
+        "snap": false,
+        "windowMask": false,
+        "zoomFactor": 0.466
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "validar",
+          "value": ""
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "txt_Username",
+          "persistentUuid": "6559d098-7ef4-4baa-aeaf-01a131018075",
+          "width": 0,
+          "x": 670,
+          "y": 260,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "txt_Password",
+          "persistentUuid": "2578b377-adfe-4672-b4c9-2fb69b534d75",
+          "width": 0,
+          "x": 652,
+          "y": 388,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "txt_registrarse",
+          "persistentUuid": "bd6242cf-f3ce-4775-b14e-f726a61703e1",
+          "width": 0,
+          "x": 555,
+          "y": 180,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "LogoU",
+          "persistentUuid": "4a7d2e82-f1cc-46ca-9259-eec9ae2df4cc",
+          "width": 100,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "LogoML",
+          "persistentUuid": "c05ed866-7f7e-4f48-bb54-cb2e8d55297d",
+          "width": 130,
+          "x": 1268,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 574,
+          "layer": "",
+          "locked": false,
+          "name": "personaje",
+          "persistentUuid": "8d8bfafc-ef0e-4295-998e-c2387e1196b6",
+          "width": 299,
+          "x": 1056,
+          "y": 148,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "txt_validar",
+          "persistentUuid": "64006597-cc49-4f15-a3b4-cf52e51acaf6",
+          "width": 0,
+          "x": 585,
+          "y": 507,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "boton1",
+          "persistentUuid": "d20e1659-6fbe-4471-a2e2-cf99368716b7",
+          "width": 173,
+          "x": 30,
+          "y": 614,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_atras",
+          "persistentUuid": "549cf162-ebe1-42ab-bc94-df36f961368f",
+          "width": 0,
+          "x": 88,
+          "y": 616,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 580,
+          "layer": "docentes",
+          "locked": true,
+          "name": "cuadroazul",
+          "persistentUuid": "5d084bf1-4d34-4d1d-b0bb-e02b718e9f67",
+          "width": 634,
+          "x": 415,
+          "y": 102,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 78,
+          "layer": "",
+          "locked": true,
+          "name": "cuadrorojo",
+          "persistentUuid": "a7eb80c9-113a-4212-8a51-be7961564cc2",
+          "width": 233,
+          "x": 123,
+          "y": 294,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 78,
+          "layer": "",
+          "locked": true,
+          "name": "cuadroazul",
+          "persistentUuid": "c9866379-612d-46a2-8320-6010222aa9c2",
+          "width": 233,
+          "x": 126,
+          "y": 424,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "txt_estudiantes",
+          "persistentUuid": "65c1f9b4-544b-4d5a-87bf-62521a576bd1",
+          "width": 0,
+          "x": 155,
+          "y": 320,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "txt_docente",
+          "persistentUuid": "ae391d51-b522-450d-84ab-1fa8406a3fcb",
+          "width": 0,
+          "x": 181,
+          "y": 445,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "txt_enviDoc",
+          "persistentUuid": "9952c994-1418-4a97-b5e4-92a441029171",
+          "width": 0,
+          "x": 665,
+          "y": 542,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "docentes",
+          "locked": false,
+          "name": "UsernamewhitescreenDoc",
+          "persistentUuid": "4045e012-8d50-4d9d-b2f5-de0aeb47caf3",
+          "width": 330,
+          "x": 581,
+          "y": 304,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "UsernameTextDoc",
+          "persistentUuid": "74ea47ee-f8e0-4bc5-be39-92c68762bfda",
+          "width": 0,
+          "x": 600,
+          "y": 315,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "PasswordDataaDoc",
+          "persistentUuid": "38fa7f80-0db3-4b81-8f7e-d3c0f4456619",
+          "width": 0,
+          "x": 632,
+          "y": 443,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "PasswordDataaDoc2",
+          "persistentUuid": "639eb39d-4530-4fd4-ba69-4dcc07b61e1b",
+          "width": 0,
+          "x": 632,
+          "y": 443,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "PasswordTextDoc",
+          "persistentUuid": "7618ffb0-4779-409b-9b39-6d3c4acdd35a",
+          "width": 0,
+          "x": 596,
+          "y": 450,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "docentes",
+          "locked": false,
+          "name": "PasswordwhitescreenDoc",
+          "persistentUuid": "9a68bdf4-58e9-485a-8ede-1f093da417b6",
+          "width": 330,
+          "x": 582,
+          "y": 438,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "docentes",
+          "locked": false,
+          "name": "UsernameArrowDoc",
+          "persistentUuid": "13d2c37e-2ba7-41f9-a9b3-8b53ac052bdd",
+          "width": 60,
+          "x": 516,
+          "y": 306,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "docentes",
+          "locked": false,
+          "name": "PasswordArrowDoc",
+          "persistentUuid": "e9b239d1-12fe-444d-82ae-39bb7c5ff03a",
+          "width": 60,
+          "x": 519,
+          "y": 436,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 74,
+          "layer": "docentes",
+          "locked": true,
+          "name": "cuadroazul",
+          "persistentUuid": "0eb671f7-ebf0-43f1-bafa-8b817d9f5ef7",
+          "width": 176,
+          "x": 642,
+          "y": 530,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "UsernameDataDoc",
+          "persistentUuid": "a522d047-8081-4132-9325-11ebf91a7338",
+          "width": 0,
+          "x": 640,
+          "y": 309,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "docentes",
+          "locked": false,
+          "name": "UsernameDataDoc2",
+          "persistentUuid": "8bb15a0c-4927-4e04-b15c-14a98d8e21ae",
+          "width": 0,
+          "x": 640,
+          "y": 309,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_docente",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Docente",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_estudiantes",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Estudiante",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_registrarse",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Registrarse",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 60,
+          "color": {
+            "b": 155,
+            "g": 155,
+            "r": 155
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_Username",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Usuario",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 215,
+            "g": 158,
+            "r": 47
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_Password",
+          "smoothed": true,
+          "tags": "DatosE",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Contraseña",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 215,
+            "g": 158,
+            "r": 47
+          }
+        },
+        {
+          "name": "UsernamewhitescreenDoc",
+          "tags": "DatosDoc",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\username.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PasswordwhitescreenDoc",
+          "tags": "DatosDoc",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\password.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UsernameTextDoc",
+          "tags": "DatosDoc",
+          "type": "TextEntryObject::TextEntry",
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "PasswordTextDoc",
+          "tags": "DatosDoc",
+          "type": "TextEntryObject::TextEntry",
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "UsernameDataDoc",
+          "smoothed": true,
+          "tags": "DatosDoc",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "enter username",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "UsernameDataDoc2",
+          "smoothed": true,
+          "tags": "DatosDoc",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "enter username",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 248
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "PasswordDataaDoc",
+          "smoothed": true,
+          "tags": "DatosDoc",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "enter password",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "PasswordDataaDoc2",
+          "smoothed": true,
+          "tags": "DatosDoc",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "enter password",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "name": "UsernameArrowDoc",
+          "tags": "DatosDoc",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\flecha blanca.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PasswordArrowDoc",
+          "tags": "DatosDoc",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\flecha blanca.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_enviDoc",
+          "smoothed": true,
+          "tags": "DatosDoc",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Enviar",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "personaje",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_validar",
+          "smoothed": true,
+          "tags": "DatosE",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Validar",
+          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "characterSize": 20,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "ENTRADA DATOS",
+          "comment2": ""
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Estudiante",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UsernameDataDoc2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "PasswordDataaDoc2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "UsernameTextDoc",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "PasswordTextDoc",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "UsernameArrowDoc",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "PasswordArrowDoc",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "UsernameDataDoc",
+                    "=",
+                    "UsernameTextDoc.String()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "PasswordDataaDoc",
+                    "=",
+                    "PasswordTextDoc.String()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "UsernamewhitescreenDoc",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "UsernameTextDoc",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "UsernameArrowDoc",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "PasswordwhitescreenDoc",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "PasswordTextDoc",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "PasswordArrowDoc",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "UsernamewhitescreenDoc",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "UsernameTextDoc",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "UsernameArrowDoc",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "PasswordwhitescreenDoc",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextEntryObject::Activate"
+                  },
+                  "parameters": [
+                    "PasswordTextDoc",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "PasswordArrowDoc",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_enviDoc",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "UsernameDataDoc"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "PasswordDataaDoc"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "UsernameDataDoc2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "PasswordDataaDoc2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "UsernameDataDoc2",
+                    "=",
+                    "UsernameDataDoc.String()"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "PasswordDataaDoc2",
+                    "=",
+                    "PasswordDataaDoc.String()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_enviDoc",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SendAsyncRequest"
+                  },
+                  "parameters": [
+                    "\"http://localhost/InsertarDatos.php\"",
+                    "\"user= \"+ UsernameTextDoc.String()+\"&pass=\"+PasswordTextDoc.String()+\"\"",
+                    "\"POST\"",
+                    "",
+                    "validar",
+                    "validar"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "txt_validar",
+                    "=",
+                    "VariableString(validar)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Botones Funcion",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "ADD USERS",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MenuInicial\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_estudiantes",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"RegistroEst\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Titulo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "title",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "title",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "title",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "title",
+                    "Tween",
+                    "\"Hover2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Botones Diseño",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "Tween",
+                    "\"int_apsup\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "Tween",
+                    "\"int_apsup2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_enviEst",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "son.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_enviEst",
+                    "\"47;70;156\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_enviEst",
+                    "Tween",
+                    "\"int_apsup\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_enviEst",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_enviEst",
+                    "\"113;60;149\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_enviEst",
+                    "Tween",
+                    "\"int_apsup2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_enviDoc",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "son.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_enviDoc",
+                    "\"47;70;156\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_enviDoc",
+                    "Tween",
+                    "\"int_apsup\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_enviDoc",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_enviDoc",
+                    "\"113;60;149\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_enviDoc",
                     "Tween",
                     "\"int_apsup2\"",
                     "0.95",
@@ -14111,9 +16470,24 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 12830312,
+          "ambientLightColorR": 167800688,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "docentes",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -15769,6 +18143,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash"
+        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -31845,7 +34223,7 @@
               },
               "parameters": [
                 "",
-                "\"Mision Practica\"",
+                "\"Nivel1Ordenar\"",
                 ""
               ],
               "subInstructions": []
@@ -32064,7 +34442,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.466
+        "zoomFactor": 0.442
       },
       "objectsGroups": [],
       "variables": [],
@@ -32270,8 +34648,8 @@
           "name": "Librerias",
           "persistentUuid": "8052a984-19d9-492f-b051-bc0178bae896",
           "width": 452,
-          "x": 438,
-          "y": 573,
+          "x": 451,
+          "y": 575,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -32286,8 +34664,8 @@
           "name": "datos",
           "persistentUuid": "9f30331e-5aa3-4205-9062-d260b1657d0d",
           "width": 279,
-          "x": 1064,
-          "y": 429,
+          "x": 1066,
+          "y": 406,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -32430,8 +34808,8 @@
           "name": "grafico2",
           "persistentUuid": "6e3147dc-925e-4b13-a3bd-912bac0578fd",
           "width": 0,
-          "x": 1081,
-          "y": 532,
+          "x": 1086,
+          "y": 507,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -32447,7 +34825,7 @@
           "persistentUuid": "14862472-f02c-434e-96d1-ed979fc97238",
           "width": 137,
           "x": 178,
-          "y": 116,
+          "y": 109,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -32455,15 +34833,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 41,
           "layer": "",
           "locked": false,
           "name": "segunda",
           "persistentUuid": "a2fc815b-b25a-4067-85b1-486d5c976d85",
-          "width": 0,
-          "x": 613,
-          "y": 120,
+          "width": 231,
+          "x": 618,
+          "y": 149,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -33005,17 +35383,7 @@
               "width": 0
             }
           ],
-          "effects": [
-            {
-              "effectType": "BlackAndWhite",
-              "name": "Effect",
-              "doubleParameters": {
-                "opacity": 1
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 1702453632,
@@ -33940,7 +36308,23 @@
       ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "MenuInicial",
+      "lastChangeTimeStamp": 0,
+      "name": "Speak",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "//Get scene variables\nvar variables = runtimeScene.getVariables();\nvar speech = variables.get(\"speech\").getAsString();\n\nspeak(speech);\n \n// say a message\nfunction speak(text, callback) {\n var u = new SpeechSynthesisUtterance();\n u.text = text;\n u.lang = 'en-US';\n \n u.onend = function () {\n if (callback) {\n callback();\n }\n };\n \n u.onerror = function (e) {\n if (callback) {\n callback(e);\n }\n };\n \n speechSynthesis.speak(u);\n}\n",
+          "parameterObjects": "",
+          "useStrict": true
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "RTBRuhan",
