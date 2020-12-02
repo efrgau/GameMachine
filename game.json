@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "D:\\Ova\\GameMachine\\game.json",
+    "projectFile": "C:\\xampp\\htdocs\\GameMachine\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -7788,6 +7788,33 @@
         "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\grafico2.PNG",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/CuadroRojoNEgro20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\CuadroRojoNEgro20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/RojoNegro50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/cuadro2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\cuadro2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -12281,7 +12308,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [
@@ -14338,7 +14365,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.442
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [
@@ -30555,7 +30582,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.458
+        "zoomFactor": 0.538
       },
       "objectsGroups": [],
       "variables": [],
@@ -30675,14 +30702,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 609,
+          "height": 563,
           "layer": "",
           "locked": false,
           "name": "cuadro",
           "persistentUuid": "3485dc5a-d217-45d4-ab03-77fe9e304b13",
-          "width": 1125,
-          "x": 133,
-          "y": 93,
+          "width": 1099,
+          "x": 137,
+          "y": 128,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -30714,7 +30741,7 @@
           "persistentUuid": "7b94e4c3-e875-471a-80b5-68e1ad10c64f",
           "width": 0,
           "x": 430,
-          "y": 530,
+          "y": 523,
           "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
@@ -30730,7 +30757,7 @@
           "persistentUuid": "f0478fa1-63a9-4f5c-8abd-79a84ec03f50",
           "width": 0,
           "x": 630,
-          "y": 530,
+          "y": 523,
           "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
@@ -30746,7 +30773,7 @@
           "persistentUuid": "d495ce35-7e21-42f6-898a-53d5bcedac5e",
           "width": 0,
           "x": 830,
-          "y": 530,
+          "y": 523,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -30771,15 +30798,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 468,
+          "height": 553,
           "layer": "Nivel1",
           "locked": false,
           "name": "cuadronivel1",
           "persistentUuid": "f192d48e-7c29-4233-b0ed-0783858ec089",
-          "width": 860,
-          "x": 269,
-          "y": 159,
-          "zOrder": 70,
+          "width": 895,
+          "x": 256,
+          "y": 139,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30787,14 +30814,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 187,
+          "height": 165,
           "layer": "Nivel1",
           "locked": false,
           "name": "txt_nivel1",
           "persistentUuid": "f4c3b14c-f37e-4735-8b51-2130ad697be2",
-          "width": 698,
-          "x": 354,
-          "y": 197,
+          "width": 657,
+          "x": 387,
+          "y": 245,
           "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
@@ -30809,8 +30836,8 @@
           "name": "img_nivel1",
           "persistentUuid": "1f91fe53-2a5d-436a-8369-56eebb10c3b5",
           "width": 0,
-          "x": 591,
-          "y": 391,
+          "x": 600,
+          "y": 408,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -30825,8 +30852,8 @@
           "name": "txt_iniciarnivel1",
           "persistentUuid": "619dbdf0-d39e-49e5-a855-66f461521e05",
           "width": 0,
-          "x": 971,
-          "y": 544,
+          "x": 905,
+          "y": 549,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -30841,8 +30868,8 @@
           "name": "txt_cancelarnivel1",
           "persistentUuid": "fe212a4f-ff5c-410c-a29b-d26ceecbc497",
           "width": 0,
-          "x": 318,
-          "y": 551,
+          "x": 418,
+          "y": 546,
           "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
@@ -30873,8 +30900,8 @@
           "name": "txt_iniciarnivel2",
           "persistentUuid": "d2f1369f-b72a-474a-99c8-389c5d63c827",
           "width": 0,
-          "x": 978,
-          "y": 551,
+          "x": 915,
+          "y": 555,
           "zOrder": 77,
           "numberProperties": [],
           "stringProperties": [],
@@ -30889,8 +30916,8 @@
           "name": "txt_cancelarnivel2",
           "persistentUuid": "f073c693-26aa-49f8-945f-8a2fa07b6791",
           "width": 0,
-          "x": 323,
-          "y": 551,
+          "x": 409,
+          "y": 556,
           "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
@@ -30899,15 +30926,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 475,
+          "height": 553,
           "layer": "Nivel2",
           "locked": false,
           "name": "cuadronivel2",
           "persistentUuid": "25929337-05a9-4950-9cca-19f241b9d343",
-          "width": 865,
-          "x": 270,
-          "y": 160,
-          "zOrder": 70,
+          "width": 896,
+          "x": 255,
+          "y": 138,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30922,7 +30949,7 @@
           "persistentUuid": "2ed51aa1-c8e4-48e4-adfa-6d80d9973692",
           "width": 200,
           "x": 380,
-          "y": 490,
+          "y": 483,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -30938,7 +30965,7 @@
           "persistentUuid": "c7fbded5-cb99-4585-9216-e8e26ba4bc89",
           "width": 200,
           "x": 580,
-          "y": 490,
+          "y": 483,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -30954,8 +30981,72 @@
           "persistentUuid": "907db0ab-96f6-49f4-9873-7105339fdb3b",
           "width": 200,
           "x": 780,
-          "y": 490,
+          "y": 483,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "53b23d5f-32f6-423b-822c-90db698ab9a9",
+          "width": 158,
+          "x": 868,
+          "y": 530,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "22fed6b5-ad9f-4565-84ad-44cd3ce30787",
+          "width": 166,
+          "x": 388,
+          "y": 527,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "47b90b4b-9307-4a02-9691-4885cd297092",
+          "width": 158,
+          "x": 880,
+          "y": 538,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 70,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "b30bd5e3-1725-4a7b-b06a-3c2f50e7918f",
+          "width": 171,
+          "x": 380,
+          "y": 538,
+          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31043,7 +31134,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Marco.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31078,9 +31169,9 @@
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
           "characterSize": 35,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31111,7 +31202,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "cuadro2",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -31120,7 +31211,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\cuadronivel1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\cuadro2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31153,11 +31244,11 @@
           "behaviors": [],
           "string": "Estimar mediante regresión lineal simple la población infectada para el mes de septiembre.\nLa información del comportamiento de los infectados se presenta en el siguiente tabulado",
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "characterSize": 35,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31210,12 +31301,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Iniciar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
-            "b": 17,
-            "g": 70,
-            "r": 45
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31229,12 +31320,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Cancelar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
-            "b": 26,
-            "g": 14,
-            "r": 107
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31274,7 +31365,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\cuadronivel1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\cuadro2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31330,12 +31421,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Iniciar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
-            "b": 18,
-            "g": 66,
-            "r": 44
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31349,12 +31440,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Cancelar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
-            "b": 26,
-            "g": 14,
-            "r": 107
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31839,38 +31930,6 @@
                   "type": {
                     "inverted": false,
                     "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Nivel3\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
                   },
                   "parameters": [
                     "",
