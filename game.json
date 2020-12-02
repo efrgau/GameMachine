@@ -7785,6 +7785,33 @@
         "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\grafico2.PNG",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/CuadroRojoNEgro50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\CuadroRojoNEgro50.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/cuadro2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\cuadro2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/RojoNegro50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -12278,7 +12305,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.562
+        "zoomFactor": 0.346
       },
       "objectsGroups": [],
       "variables": [
@@ -15784,7 +15811,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MouseButtonReleased"
+                    "value": "SourisBouton"
                   },
                   "parameters": [
                     "",
@@ -30552,7 +30579,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.458
+        "zoomFactor": 0.602
       },
       "objectsGroups": [],
       "variables": [],
@@ -30600,22 +30627,6 @@
           "width": 0,
           "x": 513,
           "y": 25,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 70,
-          "layer": "",
-          "locked": false,
-          "name": "siguiente",
-          "persistentUuid": "3059fe01-681a-4efe-853c-c3123797d3e4",
-          "width": 100,
-          "x": 1261,
-          "y": 617,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -30693,9 +30704,9 @@
           "locked": false,
           "name": "txt_objetivo",
           "persistentUuid": "294b032d-92d8-4b7f-84aa-ce24b04e8388",
-          "width": 589,
-          "x": 377,
-          "y": 287,
+          "width": 759,
+          "x": 338,
+          "y": 239,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -30707,28 +30718,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "nivel1",
-          "persistentUuid": "7b94e4c3-e875-471a-80b5-68e1ad10c64f",
-          "width": 0,
-          "x": 430,
-          "y": 530,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "nivel2",
+          "name": "tx_nivel2",
           "persistentUuid": "f0478fa1-63a9-4f5c-8abd-79a84ec03f50",
           "width": 0,
-          "x": 630,
-          "y": 530,
-          "zOrder": 68,
+          "x": 634,
+          "y": 508,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30742,9 +30737,9 @@
           "name": "nivel3",
           "persistentUuid": "d495ce35-7e21-42f6-898a-53d5bcedac5e",
           "width": 0,
-          "x": 830,
-          "y": 530,
-          "zOrder": 69,
+          "x": 834,
+          "y": 508,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30768,15 +30763,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 468,
+          "height": 573,
           "layer": "Nivel1",
           "locked": false,
           "name": "cuadronivel1",
           "persistentUuid": "f192d48e-7c29-4233-b0ed-0783858ec089",
-          "width": 860,
-          "x": 269,
-          "y": 159,
-          "zOrder": 70,
+          "width": 991,
+          "x": 200,
+          "y": 112,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30784,31 +30779,31 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 187,
+          "height": 163,
           "layer": "Nivel1",
           "locked": false,
           "name": "txt_nivel1",
           "persistentUuid": "f4c3b14c-f37e-4735-8b51-2130ad697be2",
-          "width": 698,
-          "x": 354,
-          "y": 197,
-          "zOrder": 71,
+          "width": 643,
+          "x": 378,
+          "y": 254,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 164,
           "layer": "Nivel1",
           "locked": false,
           "name": "img_nivel1",
           "persistentUuid": "1f91fe53-2a5d-436a-8369-56eebb10c3b5",
-          "width": 0,
-          "x": 591,
-          "y": 391,
-          "zOrder": 72,
+          "width": 191,
+          "x": 602,
+          "y": 395,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30822,9 +30817,9 @@
           "name": "txt_iniciarnivel1",
           "persistentUuid": "619dbdf0-d39e-49e5-a855-66f461521e05",
           "width": 0,
-          "x": 971,
-          "y": 544,
-          "zOrder": 73,
+          "x": 898,
+          "y": 517,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30838,9 +30833,9 @@
           "name": "txt_cancelarnivel1",
           "persistentUuid": "fe212a4f-ff5c-410c-a29b-d26ceecbc497",
           "width": 0,
-          "x": 318,
-          "y": 551,
-          "zOrder": 74,
+          "x": 409,
+          "y": 517,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30848,15 +30843,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 95,
+          "height": 75,
           "layer": "Nivel2",
           "locked": false,
           "name": "txt_nivel2",
           "persistentUuid": "ce8046c3-b5dc-4638-bcb7-62b63a6d5ad9",
           "width": 432,
-          "x": 498,
-          "y": 282,
-          "zOrder": 76,
+          "x": 500,
+          "y": 284,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30870,8 +30865,8 @@
           "name": "txt_iniciarnivel2",
           "persistentUuid": "d2f1369f-b72a-474a-99c8-389c5d63c827",
           "width": 0,
-          "x": 978,
-          "y": 551,
+          "x": 898,
+          "y": 517,
           "zOrder": 77,
           "numberProperties": [],
           "stringProperties": [],
@@ -30886,9 +30881,9 @@
           "name": "txt_cancelarnivel2",
           "persistentUuid": "f073c693-26aa-49f8-945f-8a2fa07b6791",
           "width": 0,
-          "x": 323,
-          "y": 551,
-          "zOrder": 78,
+          "x": 409,
+          "y": 517,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30896,15 +30891,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 475,
+          "height": 573,
           "layer": "Nivel2",
           "locked": false,
           "name": "cuadronivel2",
           "persistentUuid": "25929337-05a9-4950-9cca-19f241b9d343",
-          "width": 865,
-          "x": 270,
-          "y": 160,
-          "zOrder": 70,
+          "width": 991,
+          "x": 200,
+          "y": 112,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30918,8 +30913,8 @@
           "name": "boton",
           "persistentUuid": "2ed51aa1-c8e4-48e4-adfa-6d80d9973692",
           "width": 200,
-          "x": 380,
-          "y": 490,
+          "x": 395,
+          "y": 468,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -30934,8 +30929,8 @@
           "name": "boton",
           "persistentUuid": "c7fbded5-cb99-4585-9216-e8e26ba4bc89",
           "width": 200,
-          "x": 580,
-          "y": 490,
+          "x": 595,
+          "y": 468,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -30950,9 +30945,89 @@
           "name": "boton",
           "persistentUuid": "907db0ab-96f6-49f4-9873-7105339fdb3b",
           "width": 200,
-          "x": 780,
-          "y": 490,
+          "x": 795,
+          "y": 468,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "59a95f59-03da-4826-8ea9-f887e889d814",
+          "width": 169,
+          "x": 855,
+          "y": 497,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "1002c49e-72ad-4dba-bcb8-abfeea8cf243",
+          "width": 169,
+          "x": 379,
+          "y": 497,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "2af8a19d-e278-476c-845b-321f0bf98e4c",
+          "width": 169,
+          "x": 855,
+          "y": 497,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "34cd419d-e723-43b8-a852-2f2230a0409a",
+          "width": 169,
+          "x": 379,
+          "y": 497,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "tx_nivel1",
+          "persistentUuid": "79d5db28-2462-4803-9e2b-9b2e1c45a328",
+          "width": 0,
+          "x": 438,
+          "y": 510,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31040,7 +31115,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Marco.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31072,18 +31147,18 @@
           "variables": [],
           "behaviors": [],
           "string": "OBJETIVO. En la primera misión el objetivo principal es estimar la población infectada en un determinado tiempo y predecir si una persona está infectada o no según su edad",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 35,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
           "bold": true,
           "italic": false,
-          "name": "nivel1",
+          "name": "tx_nivel1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -31091,8 +31166,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Nivel 1",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
@@ -31117,7 +31192,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\cuadronivel1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\cuadro2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31139,7 +31214,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "txt_nivel1",
           "smoothed": true,
@@ -31149,12 +31224,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Estimar mediante regresión lineal simple la población infectada para el mes de septiembre.\nLa información del comportamiento de los infectados se presenta en el siguiente tabulado",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31207,12 +31282,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Iniciar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
-            "b": 17,
-            "g": 70,
-            "r": 45
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31226,18 +31301,18 @@
           "variables": [],
           "behaviors": [],
           "string": "Cancelar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
-            "b": 26,
-            "g": 14,
-            "r": 107
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
           "bold": true,
           "italic": false,
-          "name": "nivel2",
+          "name": "tx_nivel2",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -31245,8 +31320,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Nivel 2",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
@@ -31271,7 +31346,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\cuadronivel1.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\cuadro2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31308,8 +31383,8 @@
             }
           ],
           "string": "Predecir si una persona esta infectada segun su edad",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 149,
             "g": 54,
@@ -31327,12 +31402,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Iniciar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
-            "b": 18,
-            "g": 66,
-            "r": 44
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31346,12 +31421,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Cancelar",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 45,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
-            "b": 26,
-            "g": 14,
-            "r": 107
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -31365,8 +31440,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Nivel 3",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 35,
           "color": {
             "b": 255,
             "g": 255,
@@ -31629,24 +31704,24 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisBouton"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
+                    "tx_nivel1",
                     "",
-                    "Left"
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisSurObjet"
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
-                    "nivel1",
                     "",
-                    "",
-                    ""
+                    "Left"
                   ],
                   "subInstructions": []
                 }
@@ -31671,17 +31746,6 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -31694,6 +31758,17 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -31719,24 +31794,24 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisBouton"
+                    "value": "SourisSurObjet"
                   },
                   "parameters": [
+                    "tx_nivel2",
                     "",
-                    "Left"
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisSurObjet"
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
-                    "nivel2",
                     "",
-                    "",
-                    ""
+                    "Left"
                   ],
                   "subInstructions": []
                 }
@@ -31761,17 +31836,6 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -31784,6 +31848,17 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -31809,17 +31884,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -31829,32 +31893,11 @@
                     ""
                   ],
                   "subInstructions": []
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Nivel3\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
@@ -31867,7 +31910,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "HideLayer"
+                    "value": "ShowLayer"
                   },
                   "parameters": [
                     "",
@@ -32017,7 +32060,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "nivel1",
+                    "tx_nivel1",
                     "",
                     "",
                     ""
@@ -32152,7 +32195,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "nivel2",
+                    "tx_nivel2",
                     "",
                     "",
                     ""
