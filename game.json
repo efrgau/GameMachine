@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 98,
+    "build": 99,
     "major": 4,
     "minor": 0,
     "revision": 0
@@ -9,17 +9,14 @@
   "properties": {
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
-    "linuxExecutableFilename": "",
-    "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "D:\\Ova\\GameMachine\\game.json",
+    "projectUuid": "2c73aa34-c282-42c5-8d3c-6b2d6ea93918",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
+    "useDeprecatedZeroAsDefaultZOrder": true,
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "winExecutableFilename": "",
-    "winExecutableIconFile": "",
     "name": "Project",
     "author": "",
     "windowWidth": 1400,
@@ -12281,7 +12278,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.562
       },
       "objectsGroups": [],
       "variables": [
@@ -12572,8 +12569,8 @@
           "name": "txt_validar",
           "persistentUuid": "105a10ca-3c3f-4339-adde-d6ff698335d9",
           "width": 0,
-          "x": 574,
-          "y": 520,
+          "x": 191,
+          "y": 25,
           "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
@@ -13730,7 +13727,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/InsertarDatos.php\"",
+                    "\"http://localhost/ConexionOVA/RegistroEstudiante.php\"",
                     "\"user= \"+ UsernameText.String()+\"&pass=\"+PasswordText.String()+\"\"",
                     "\"POST\"",
                     "",
@@ -15787,7 +15784,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisBouton"
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
@@ -15811,7 +15808,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/InsertarDatos.php\"",
+                    "\"http://localhost/ConexionOVA/RegistroDocente.php\"",
                     "\"user= \"+ UsernameTextDoc.String()+\"&pass=\"+PasswordTextDoc.String()+\"\"",
                     "\"POST\"",
                     "",
@@ -36320,7 +36317,8 @@
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": "//Get scene variables\nvar variables = runtimeScene.getVariables();\nvar speech = variables.get(\"speech\").getAsString();\n\nspeak(speech);\n \n// say a message\nfunction speak(text, callback) {\n var u = new SpeechSynthesisUtterance();\n u.text = text;\n u.lang = 'en-US';\n \n u.onend = function () {\n if (callback) {\n callback();\n }\n };\n \n u.onerror = function (e) {\n if (callback) {\n callback(e);\n }\n };\n \n speechSynthesis.speak(u);\n}\n",
           "parameterObjects": "",
-          "useStrict": true
+          "useStrict": true,
+          "eventsSheetExpanded": false
         }
       ]
     }
@@ -36331,7 +36329,9 @@
       "description": "Change the origin point equal to Center for splash event.",
       "extensionNamespace": "",
       "fullName": "SplashLoad",
+      "iconUrl": "",
       "name": "SplashLoad",
+      "previewIconUrl": "",
       "shortDescription": "Create Splash sprite at the begining of scene.\nCreate Loading scene.",
       "tags": "Splash,Scene,Loading,Scene,RTBRuhan",
       "version": "0.0.1",
@@ -36705,7 +36705,9 @@
       "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nAfter adding this to an object, you have to **trigger the effect** by using the **Flash action**.",
       "extensionNamespace": "",
       "fullName": "Flash (blink)",
+      "iconUrl": "",
       "name": "Flash",
+      "previewIconUrl": "",
       "shortDescription": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nTrigger the effect by using the Flash action.",
       "tags": "flash, blink, visible, invisible, hit, damage",
       "version": "1.0.0",
