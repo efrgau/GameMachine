@@ -7812,6 +7812,15 @@
         "name": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "3.InicioSesion y Registro/Assets/bOTON2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.InicioSesion y Registro\\Assets\\bOTON2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -10580,7 +10589,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.418
       },
       "objectsGroups": [],
       "variables": [
@@ -10599,25 +10608,9 @@
           "name": "txt_iniciarsesion",
           "persistentUuid": "bd6242cf-f3ce-4775-b14e-f726a61703e1",
           "width": 0,
-          "x": 551,
-          "y": 152,
+          "x": 424,
+          "y": 114,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "title",
-          "persistentUuid": "743dd1d6-4a54-4d6b-afe3-e66ba1e8e796",
-          "width": 0,
-          "x": 117,
-          "y": 37,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10663,8 +10656,8 @@
           "name": "txt_Username",
           "persistentUuid": "f2657407-b961-4769-8f23-1e8536ac5733",
           "width": 0,
-          "x": 627,
-          "y": 226,
+          "x": 573,
+          "y": 221,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -10679,8 +10672,8 @@
           "name": "Usernamewhitescreen",
           "persistentUuid": "9c8d8c45-fa0e-419c-8116-a1ca5d74f24e",
           "width": 330,
-          "x": 535,
-          "y": 283,
+          "x": 481,
+          "y": 278,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -10695,8 +10688,8 @@
           "name": "Passwordwhitescreen",
           "persistentUuid": "29f82090-0c42-44a1-8394-e4a85b73d0b4",
           "width": 330,
-          "x": 533,
-          "y": 398,
+          "x": 479,
+          "y": 393,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -10711,8 +10704,8 @@
           "name": "txt_contrasena",
           "persistentUuid": "93232ecc-a5ab-4b8b-bebd-827a87e19a73",
           "width": 0,
-          "x": 614,
-          "y": 361,
+          "x": 560,
+          "y": 356,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -10727,8 +10720,8 @@
           "name": "UsernameData",
           "persistentUuid": "65344bee-2d0f-4cb8-886a-c5e2522aac75",
           "width": 0,
-          "x": 586,
-          "y": 288,
+          "x": 532,
+          "y": 283,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -10743,8 +10736,8 @@
           "name": "PasswordDataa",
           "persistentUuid": "f6c1d8d3-c5ce-4cd7-8574-4d187cf584e1",
           "width": 0,
-          "x": 586,
-          "y": 404,
+          "x": 532,
+          "y": 399,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -10759,8 +10752,8 @@
           "name": "UsernameText",
           "persistentUuid": "f41c6813-88a1-4eae-9cd8-932b02bbf411",
           "width": 0,
-          "x": 548,
-          "y": 292,
+          "x": 494,
+          "y": 287,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -10775,8 +10768,8 @@
           "name": "PasswordText",
           "persistentUuid": "81e45a5f-2adf-41ee-9034-946c7c43379d",
           "width": 0,
-          "x": 550,
-          "y": 410,
+          "x": 496,
+          "y": 405,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -10791,8 +10784,8 @@
           "name": "UsernameArrow",
           "persistentUuid": "527a6bd6-86b5-46e6-8d66-f108ea7e03c1",
           "width": 60,
-          "x": 470,
-          "y": 282,
+          "x": 416,
+          "y": 277,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -10807,8 +10800,8 @@
           "name": "PasswordArrow",
           "persistentUuid": "ff44f95e-80a2-454a-af11-1f2f1a519c53",
           "width": 60,
-          "x": 470,
-          "y": 400,
+          "x": 416,
+          "y": 395,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -10839,8 +10832,8 @@
           "name": "volver2",
           "persistentUuid": "43cafad6-8553-4fdf-a523-d199934b2103",
           "width": 150,
-          "x": 1224,
-          "y": 528,
+          "x": 1193,
+          "y": 267,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -10855,8 +10848,8 @@
           "name": "fondo",
           "persistentUuid": "1538e1cd-5de4-41de-8999-0227f2e73e4b",
           "width": 1350,
-          "x": 24,
-          "y": -43,
+          "x": 47,
+          "y": 871,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -10871,8 +10864,8 @@
           "name": "boton1",
           "persistentUuid": "a71e2218-9ef0-4b4c-b653-578f5cb1a9eb",
           "width": 167,
-          "x": 10,
-          "y": 624,
+          "x": 58,
+          "y": 581,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -10887,8 +10880,8 @@
           "name": "txt_enviEst",
           "persistentUuid": "97cbdb2e-ce7c-4b46-aa44-2e957a041244",
           "width": 0,
-          "x": 630,
-          "y": 488,
+          "x": 574,
+          "y": 555,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -10903,9 +10896,41 @@
           "name": "txt_atras",
           "persistentUuid": "1efba178-5147-4c7e-8b25-34309a25f9d2",
           "width": 91,
-          "x": 65,
-          "y": 630,
+          "x": 113,
+          "y": 587,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 820,
+          "layer": "",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "563f2c41-b52d-433b-bfd5-85cb816d44b1",
+          "width": 1440,
+          "x": -21,
+          "y": -58,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 112,
+          "layer": "",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "ebc2348b-b2c3-4df6-86e0-5d396ec4c0a9",
+          "width": 222,
+          "x": 527,
+          "y": 521,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10923,7 +10948,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Iniciar Sesión",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 60,
           "color": {
             "b": 155,
@@ -10942,8 +10967,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Usuario",
-          "font": "InicioSesion\\fonts\\10094\\DaffadowndillyNF.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
             "b": 215,
             "g": 158,
@@ -10961,8 +10986,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Contraseña",
-          "font": "Short Zippers.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
             "b": 215,
             "g": 158,
@@ -11048,7 +11073,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "UsernameData",
           "smoothed": true,
@@ -11058,8 +11083,8 @@
           "variables": [],
           "behaviors": [],
           "string": "enter username",
-          "font": "InicioSesion\\fonts\\10094\\DaffadowndillyNF.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
             "b": 0,
             "g": 0,
@@ -11067,7 +11092,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "PasswordDataa",
           "smoothed": true,
@@ -11077,8 +11102,8 @@
           "variables": [],
           "behaviors": [],
           "string": "enter password",
-          "font": "InicioSesion\\fonts\\10094\\DaffadowndillyNF.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
             "b": 0,
             "g": 0,
@@ -11217,45 +11242,6 @@
           ]
         },
         {
-          "name": "btn_login",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "InicioSesion y Registro\\Assets\\boton1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "volver2",
           "tags": "",
           "type": "Sprite",
@@ -11312,6 +11298,45 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "name": "boton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\bOTON2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -11708,19 +11733,6 @@
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "btn_login",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -26128,7 +26140,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.394
       },
       "objectsGroups": [],
       "variables": [],
@@ -26170,7 +26182,7 @@
           "customSize": true,
           "height": 110,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "cerebrocaract",
           "persistentUuid": "d064fc2d-2af4-49a7-a933-038ba4ff1f88",
           "width": 110,
@@ -26200,12 +26212,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 65,
+          "height": 57,
           "layer": "regresion",
           "locked": false,
           "name": "txt_regresion1",
           "persistentUuid": "94309a99-841e-4007-93ce-b68451ab5039",
-          "width": 410,
+          "width": 513,
           "x": 527,
           "y": 176,
           "zOrder": 11,
@@ -26216,14 +26228,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 71,
+          "height": 68,
           "layer": "clasi",
           "locked": false,
           "name": "txt_clasif1",
           "persistentUuid": "2dd8bd10-78a9-4e2e-b37d-f72f68a2e7b1",
-          "width": 470,
-          "x": 493,
-          "y": 181,
+          "width": 582,
+          "x": 496,
+          "y": 194,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -26408,14 +26420,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 175,
+          "height": 158,
           "layer": "regresion",
           "locked": false,
           "name": "txt_regresion3",
           "persistentUuid": "d049af19-d3f7-4536-b747-cc9aa0427f58",
-          "width": 271,
-          "x": 863,
-          "y": 271,
+          "width": 287,
+          "x": 849,
+          "y": 279,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -26424,14 +26436,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 132,
+          "height": 118,
           "layer": "regresion",
           "locked": false,
           "name": "txt_regresion2",
           "persistentUuid": "53a365a2-6c26-437b-83ca-529865b048b5",
           "width": 276,
-          "x": 485,
-          "y": 255,
+          "x": 477,
+          "y": 266,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -26504,13 +26516,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 114,
+          "height": 104,
           "layer": "clasi",
           "locked": false,
           "name": "txt_clasif2",
           "persistentUuid": "3b1bc656-4cb7-44d8-839f-76eec9de2ab9",
-          "width": 235,
-          "x": 504,
+          "width": 230,
+          "x": 507,
           "y": 340,
           "zOrder": 79,
           "numberProperties": [],
@@ -26574,8 +26586,8 @@
           "name": "txt_lineal2",
           "persistentUuid": "54e2da96-ea16-4a71-87d2-baf4148371c1",
           "width": 680,
-          "x": 406,
-          "y": 275,
+          "x": 399,
+          "y": 300,
           "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
@@ -26589,8 +26601,8 @@
           "locked": false,
           "name": "txt_ejemplolineal1",
           "persistentUuid": "9717dd15-e642-4b51-8ea5-1dbf862e65f6",
-          "width": 566,
-          "x": 496,
+          "width": 709,
+          "x": 439,
           "y": 181,
           "zOrder": 86,
           "numberProperties": [],
@@ -26606,7 +26618,7 @@
           "name": "txt_ejemplolineal2",
           "persistentUuid": "9214e789-ae1d-47af-8d36-070bf1e7926c",
           "width": 0,
-          "x": 457,
+          "x": 446,
           "y": 336,
           "zOrder": 87,
           "numberProperties": [],
@@ -26622,7 +26634,7 @@
           "name": "txt_ejemplolineal3",
           "persistentUuid": "d4540b76-c0e4-4c8d-b119-873c75ea6648",
           "width": 0,
-          "x": 721,
+          "x": 705,
           "y": 337,
           "zOrder": 88,
           "numberProperties": [],
@@ -26638,7 +26650,7 @@
           "name": "img_ejemplolineal1",
           "persistentUuid": "d744b882-ba4b-403e-ac7f-fe7cfb1ed5bd",
           "width": 85,
-          "x": 473,
+          "x": 450,
           "y": 397,
           "zOrder": 89,
           "numberProperties": [],
@@ -26654,7 +26666,7 @@
           "name": "img_ejemplolineal1",
           "persistentUuid": "ccc1bca3-1a64-4261-8b69-455571b910e8",
           "width": 89,
-          "x": 574,
+          "x": 551,
           "y": 410,
           "zOrder": 89,
           "numberProperties": [],
@@ -26670,7 +26682,7 @@
           "name": "img_ejemplolineal1",
           "persistentUuid": "305063cb-16fa-4d98-96c7-89ff7385d69b",
           "width": 89,
-          "x": 574,
+          "x": 551,
           "y": 501,
           "zOrder": 89,
           "numberProperties": [],
@@ -26686,7 +26698,7 @@
           "name": "img_ejemplolineal1",
           "persistentUuid": "f6ba9400-6be7-425b-9ff7-44649ed765d4",
           "width": 89,
-          "x": 478,
+          "x": 455,
           "y": 495,
           "zOrder": 89,
           "numberProperties": [],
@@ -26702,8 +26714,8 @@
           "name": "txt_ejemplolineal4",
           "persistentUuid": "3ba608e1-9bbc-4098-bc2c-37f56eba3fe1",
           "width": 0,
-          "x": 730,
-          "y": 417,
+          "x": 703,
+          "y": 415,
           "zOrder": 90,
           "numberProperties": [],
           "stringProperties": [],
@@ -26719,7 +26731,7 @@
           "persistentUuid": "c9b507ea-283d-4f44-817a-242ee2443df0",
           "width": 200,
           "x": 903,
-          "y": 367,
+          "y": 357,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -26728,14 +26740,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 73,
+          "height": 66,
           "layer": "lineal",
           "locked": false,
           "name": "txt_lineal1",
           "persistentUuid": "5807e4f8-7dc2-42a3-a6c9-58da2664912a",
-          "width": 517,
-          "x": 424,
-          "y": 174,
+          "width": 628,
+          "x": 401,
+          "y": 176,
           "zOrder": 92,
           "numberProperties": [],
           "stringProperties": [],
@@ -26749,8 +26761,8 @@
           "locked": false,
           "name": "txt_logistica1",
           "persistentUuid": "6e8a6ac8-b882-4adf-b3e5-6cd8815f6e82",
-          "width": 362,
-          "x": 549,
+          "width": 484,
+          "x": 547,
           "y": 174,
           "zOrder": 93,
           "numberProperties": [],
@@ -26765,9 +26777,9 @@
           "locked": false,
           "name": "txt_logistica2",
           "persistentUuid": "a556c02a-1c57-4b8d-a9cf-cc4b6ab4544d",
-          "width": 631,
-          "x": 495,
-          "y": 250,
+          "width": 703,
+          "x": 457,
+          "y": 245,
           "zOrder": 94,
           "numberProperties": [],
           "stringProperties": [],
@@ -26775,15 +26787,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 228,
           "layer": "logistica",
           "locked": false,
           "name": "img_logistica",
           "persistentUuid": "2c265d59-8058-4cd5-90f7-8f431a29636d",
-          "width": 0,
-          "x": 508,
-          "y": 396,
+          "width": 597,
+          "x": 486,
+          "y": 393,
           "zOrder": 95,
           "numberProperties": [],
           "stringProperties": [],
@@ -26792,14 +26804,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 268,
+          "height": 208,
           "layer": "Ejemplologistica",
           "locked": false,
           "name": "txt_ejemplologistica1",
           "persistentUuid": "0d910385-6b84-4b01-a007-6fed873c3792",
           "width": 696,
           "x": 452,
-          "y": 173,
+          "y": 178,
           "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
@@ -26814,8 +26826,8 @@
           "name": "img_ejemplologistica1",
           "persistentUuid": "01bd0369-c94d-41ee-9f57-5fef69662dab",
           "width": 294,
-          "x": 439,
-          "y": 464,
+          "x": 465,
+          "y": 450,
           "zOrder": 97,
           "numberProperties": [],
           "stringProperties": [],
@@ -26824,14 +26836,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 200,
+          "height": 224,
           "layer": "Ejemplologistica",
           "locked": false,
           "name": "img_ejemplologistica2",
           "persistentUuid": "2ef31e05-2fea-4e06-b8ea-53f85e0de180",
-          "width": 300,
-          "x": 761,
-          "y": 396,
+          "width": 324,
+          "x": 773,
+          "y": 387,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -26862,8 +26874,8 @@
           "name": "txt_knn",
           "persistentUuid": "f84f0900-70b6-4698-a991-cdb4f5fa9f66",
           "width": 0,
-          "x": 466,
-          "y": 178,
+          "x": 450,
+          "y": 181,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -26887,15 +26899,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 64,
           "layer": "svm",
           "locked": false,
           "name": "txt_svm",
           "persistentUuid": "841b6922-b1c7-404d-b398-e64273c8990c",
-          "width": 0,
-          "x": 362,
-          "y": 179,
+          "width": 899,
+          "x": 251,
+          "y": 180,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -26906,12 +26918,12 @@
           "customSize": true,
           "height": 110,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "cerebroregresion",
           "persistentUuid": "7372ebc8-94ad-43c6-8dc2-2fe6f18db28b",
           "width": 110,
-          "x": 725,
-          "y": 452,
+          "x": 820,
+          "y": 458,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -26922,7 +26934,7 @@
           "customSize": true,
           "height": 100,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "cerebrologist",
           "persistentUuid": "0b552545-ee92-437e-b7fe-88d0806b7ece",
           "width": 100,
@@ -26938,7 +26950,7 @@
           "customSize": true,
           "height": 100,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "cerebrolineal",
           "persistentUuid": "37ad0fdb-7259-447b-93d7-f6c230d7fb97",
           "width": 100,
@@ -26954,7 +26966,7 @@
           "customSize": true,
           "height": 110,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "cerebroclasif",
           "persistentUuid": "d2178320-acd4-4cd1-9076-776ff75a05c1",
           "width": 110,
@@ -26970,7 +26982,7 @@
           "customSize": true,
           "height": 100,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "cerebroknn",
           "persistentUuid": "cbaaf34e-182c-4375-9673-fd13b54cf633",
           "width": 100,
@@ -26986,7 +26998,7 @@
           "customSize": true,
           "height": 100,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "cerebrosvm",
           "persistentUuid": "ef6246ca-436c-40e2-bc3f-5effa3a2d8c5",
           "width": 100,
@@ -27104,7 +27116,7 @@
           "width": 303,
           "x": 460,
           "y": 246,
-          "zOrder": 121,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27120,7 +27132,7 @@
           "width": 303,
           "x": 834,
           "y": 250,
-          "zOrder": 121,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27150,8 +27162,8 @@
           "name": "img_caracte",
           "persistentUuid": "64e63e76-1074-476c-80ce-82e9b86d009b",
           "width": 705,
-          "x": 396,
-          "y": 229,
+          "x": 385,
+          "y": 243,
           "zOrder": 123,
           "numberProperties": [],
           "stringProperties": [],
@@ -27225,14 +27237,14 @@
           "angle": 0,
           "customSize": true,
           "height": 95,
-          "layer": "",
+          "layer": "titulo",
           "locked": false,
           "name": "cuadrorojo",
           "persistentUuid": "08e123e7-582f-4e85-ab07-034ab5048db2",
           "width": 650,
           "x": 386,
           "y": 11,
-          "zOrder": 125,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27369,7 +27381,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Marco.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27460,9 +27472,9 @@
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 50,
           "color": {
-            "b": 149,
-            "g": 54,
-            "r": 113
+            "b": 15,
+            "g": 200,
+            "r": 248
           }
         },
         {
@@ -27610,12 +27622,12 @@
           "variables": [],
           "behaviors": [],
           "string": "TÉCNICA DE REGRESIÓN",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 50,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 40,
           "color": {
-            "b": 149,
-            "g": 54,
-            "r": 113
+            "b": 15,
+            "g": 200,
+            "r": 248
           }
         },
         {
@@ -27629,12 +27641,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Se utiliza para predecir un valor continúo",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -27726,12 +27738,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Predicción del valor de una casa basada en sus caracteristicas",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -27801,8 +27813,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Regresión Lineal Simple",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 60,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 50,
           "color": {
             "b": 28,
             "g": 231,
@@ -27820,12 +27832,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Es una técnica estadística utilizada para predecir o estimar una variable cuantitativa en función de otra variable cuantitativa. Esta técnica consiste en modelar una ecuación de una recta",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
-            "b": 131,
-            "g": 62,
-            "r": 4
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -27839,12 +27851,12 @@
           "variables": [],
           "behaviors": [],
           "string": "                 EJEMPLO\nDeseamos predecir el sueldo mensual en función de la edad de un trabajador",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 40,
           "color": {
-            "b": 149,
-            "g": 54,
-            "r": 113
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -27858,8 +27870,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Y  =  Sueldo",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 50,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 40,
           "color": {
             "b": 15,
             "g": 200,
@@ -27877,8 +27889,8 @@
           "variables": [],
           "behaviors": [],
           "string": "X= Edad",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 50,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 40,
           "color": {
             "b": 15,
             "g": 200,
@@ -27896,12 +27908,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Juan 23\nLucia 36\nJacke 49",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 45,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -28049,8 +28061,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Regresión Logística",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 50,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 45,
           "color": {
             "b": 28,
             "g": 231,
@@ -28068,12 +28080,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Describe y estima la relación entre una variable binaria dependiente y las variables independientes.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -28126,12 +28138,12 @@
           "variables": [],
           "behaviors": [],
           "string": "                           EJEMPLO\nLos eventos de clasificación pueden ser representados por la variable Y, la cual puede tomar dos valores 0 y 1. El valor 1 habitualmente es representado como un evento exitoso, mientras que el valor 0 como un evento fallido.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 35,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
-            "b": 149,
-            "g": 54,
-            "r": 113
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -28279,12 +28291,12 @@
           "variables": [],
           "behaviors": [],
           "string": "TÉCNICA DE CLASIFICACIÓN",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 50,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 40,
           "color": {
-            "b": 149,
-            "g": 54,
-            "r": 113
+            "b": 15,
+            "g": 200,
+            "r": 249
           }
         },
         {
@@ -28298,12 +28310,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Se utiliza para predecir una clase o categoria",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 35,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
-            "b": 15,
-            "g": 200,
-            "r": 248
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -28317,12 +28329,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Celula Benigna",
-          "font": "Short Zippers.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -28336,12 +28348,12 @@
           "variables": [],
           "behaviors": [],
           "string": "Célula Maligna",
-          "font": "Short Zippers.ttf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
           "color": {
-            "b": 35,
-            "g": 166,
-            "r": 245
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -28450,8 +28462,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Algoritmo K-Vecino mas cercano",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 50,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 40,
           "color": {
             "b": 28,
             "g": 231,
@@ -28564,8 +28576,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Algoritmo Máquinas Vectoriales de Soporte",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 50,
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 40,
           "color": {
             "b": 15,
             "g": 200,
@@ -30579,7 +30591,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.602
+        "zoomFactor": 0.506
       },
       "objectsGroups": [],
       "variables": [],
@@ -30589,7 +30601,7 @@
           "customSize": true,
           "height": 708,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "Fondo",
           "persistentUuid": "cce3ca0f-f9ae-45d9-993b-b00e86330ab9",
           "width": 1404,
@@ -30685,7 +30697,7 @@
           "customSize": true,
           "height": 609,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "cuadro",
           "persistentUuid": "3485dc5a-d217-45d4-ab03-77fe9e304b13",
           "width": 1125,
@@ -30699,14 +30711,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 147,
+          "height": 157,
           "layer": "",
           "locked": false,
           "name": "txt_objetivo",
           "persistentUuid": "294b032d-92d8-4b7f-84aa-ce24b04e8388",
           "width": 759,
-          "x": 338,
-          "y": 239,
+          "x": 332,
+          "y": 237,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -30721,8 +30733,8 @@
           "name": "tx_nivel2",
           "persistentUuid": "f0478fa1-63a9-4f5c-8abd-79a84ec03f50",
           "width": 0,
-          "x": 634,
-          "y": 508,
+          "x": 596,
+          "y": 515,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -30734,11 +30746,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "nivel3",
+          "name": "tx_nivel3",
           "persistentUuid": "d495ce35-7e21-42f6-898a-53d5bcedac5e",
           "width": 0,
-          "x": 834,
-          "y": 508,
+          "x": 858,
+          "y": 515,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -30769,7 +30781,7 @@
           "name": "cuadronivel1",
           "persistentUuid": "f192d48e-7c29-4233-b0ed-0783858ec089",
           "width": 991,
-          "x": 200,
+          "x": 197,
           "y": 112,
           "zOrder": 2,
           "numberProperties": [],
@@ -30897,7 +30909,7 @@
           "name": "cuadronivel2",
           "persistentUuid": "25929337-05a9-4950-9cca-19f241b9d343",
           "width": 991,
-          "x": 200,
+          "x": 157,
           "y": 112,
           "zOrder": 2,
           "numberProperties": [],
@@ -30913,8 +30925,8 @@
           "name": "boton",
           "persistentUuid": "2ed51aa1-c8e4-48e4-adfa-6d80d9973692",
           "width": 200,
-          "x": 395,
-          "y": 468,
+          "x": 313,
+          "y": 471,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -30929,8 +30941,8 @@
           "name": "boton",
           "persistentUuid": "c7fbded5-cb99-4585-9216-e8e26ba4bc89",
           "width": 200,
-          "x": 595,
-          "y": 468,
+          "x": 557,
+          "y": 471,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -30945,8 +30957,8 @@
           "name": "boton",
           "persistentUuid": "907db0ab-96f6-49f4-9873-7105339fdb3b",
           "width": 200,
-          "x": 795,
-          "y": 468,
+          "x": 819,
+          "y": 471,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -31018,16 +31030,96 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "height": 573,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "cuadronivel3",
+          "persistentUuid": "ebeb558d-cbd7-4bf9-8eda-83455905be18",
+          "width": 991,
+          "x": 197,
+          "y": 112,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "1b2f74bf-1fad-4745-a4ee-ad57bf1aff6f",
+          "width": 169,
+          "x": 855,
+          "y": 497,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "tx_nivel1",
-          "persistentUuid": "79d5db28-2462-4803-9e2b-9b2e1c45a328",
+          "name": "tx_nivel11",
+          "persistentUuid": "7cad141f-d31b-4801-9da2-c8940d2002a7",
           "width": 0,
-          "x": 438,
-          "y": 510,
-          "zOrder": 7,
+          "x": 353,
+          "y": 515,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "txt_iniciarnivel3",
+          "persistentUuid": "604eab3b-1f02-48d9-a303-348e26a23adb",
+          "width": 0,
+          "x": 899,
+          "y": 515,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "boton",
+          "persistentUuid": "00087796-3344-4dc5-aff4-ee59fc3847ff",
+          "width": 178,
+          "x": 378,
+          "y": 497,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "txt_cancelarnivel3",
+          "persistentUuid": "fca03230-c1de-4f10-9089-9b0414ee058c",
+          "width": 0,
+          "x": 413,
+          "y": 516,
+          "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31158,7 +31250,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "tx_nivel1",
+          "name": "tx_nivel11",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -31432,7 +31524,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "nivel3",
+          "name": "tx_nivel3",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -31442,6 +31534,83 @@
           "string": "Nivel 3",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "cuadronivel3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\cuadro2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_iniciarnivel3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Iniciar",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_cancelarnivel3",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Cancelar",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -31466,45 +31635,6 @@
             "g": 117,
             "r": 65
           }
-        },
-        {
-          "name": "siguiente",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "fle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "fle-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "name": "boton",
@@ -31707,7 +31837,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "tx_nivel1",
+                    "tx_nivel11",
                     "",
                     "",
                     ""
@@ -31723,6 +31853,14 @@
                     "",
                     "Left"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -31769,6 +31907,14 @@
                     "Left"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -31813,6 +31959,14 @@
                     "",
                     "Left"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -31859,6 +32013,14 @@
                     "Left"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -31887,7 +32049,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "nivel3",
+                    "tx_nivel3",
                     "",
                     "",
                     ""
@@ -31903,6 +32065,14 @@
                     "",
                     "Left"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -31929,7 +32099,20 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisBouton"
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_cancelarnivel3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
                     "",
@@ -31937,6 +32120,35 @@
                   ],
                   "subInstructions": []
                 },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel3\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
                     "inverted": false,
@@ -31948,6 +32160,25 @@
                     "",
                     ""
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -31960,403 +32191,6 @@
                   "parameters": [
                     "",
                     "\"Nivel1Supervisado\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "siguiente",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Menu Misiones\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": true,
-          "name": "Sonidos",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "tx_nivel1",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "txt_iniciarnivel1",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "txt_cancelarnivel1",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "tx_nivel2",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "txt_iniciarnivel2",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "txt_cancelarnivel2",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "nivel3",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "60",
                     ""
                   ],
                   "subInstructions": []
