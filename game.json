@@ -30014,7 +30014,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "cuadro",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -35373,7 +35373,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.458
+        "zoomFactor": 0.53
       },
       "objectsGroups": [],
       "variables": [],
@@ -35514,9 +35514,9 @@
           "locked": false,
           "name": "piso3",
           "persistentUuid": "8e165c6d-4b3e-4176-a905-da5f3db2efae",
-          "width": 343,
-          "x": 649,
-          "y": 536,
+          "width": 175,
+          "x": 651,
+          "y": 562,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -35530,9 +35530,9 @@
           "locked": false,
           "name": "piso2",
           "persistentUuid": "5588358e-0825-4b0e-a9e0-4eafaf3199b5",
-          "width": 642,
-          "x": 995,
-          "y": 636,
+          "width": 992,
+          "x": 663,
+          "y": 643,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -35553,9 +35553,360 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 540,
+          "layer": "cuadro",
+          "locked": false,
+          "name": "cuadrito",
+          "persistentUuid": "b1423f81-474e-4423-8254-77568efb3ffc",
+          "width": 981,
+          "x": 216,
+          "y": 141,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "que es",
+          "locked": false,
+          "name": "txt_quees",
+          "persistentUuid": "7c11dee8-1762-44f2-8dc2-5f709670f05f",
+          "width": 0,
+          "x": 359,
+          "y": 209,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 273,
+          "layer": "que es",
+          "locked": false,
+          "name": "txt_que_es",
+          "persistentUuid": "6be3a25c-05b5-4ccd-9029-4e5cef84d6e3",
+          "width": 755,
+          "x": 339,
+          "y": 305,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "caracteristicas",
+          "locked": false,
+          "name": "txt_caracte",
+          "persistentUuid": "6a98a18d-2452-4c66-a8fa-c15fcd938e10",
+          "width": 0,
+          "x": 559,
+          "y": 220,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "caracteristicas",
+          "locked": false,
+          "name": "txt_caracte2",
+          "persistentUuid": "11a8006e-ee50-40b6-8f40-0ded636c192f",
+          "width": 0,
+          "x": 621,
+          "y": 310,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "clustering",
+          "locked": false,
+          "name": "txt_clustering",
+          "persistentUuid": "6a57c439-2aae-4157-817a-d770b338a143",
+          "width": 0,
+          "x": 487,
+          "y": 217,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 243,
+          "layer": "clustering",
+          "locked": false,
+          "name": "txt_clustering2",
+          "persistentUuid": "0a8214bd-16ec-436d-a7c5-6a434f70c3fe",
+          "width": 715,
+          "x": 358,
+          "y": 297,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 88,
+          "layer": "cuadro",
+          "locked": false,
+          "name": "flecha",
+          "persistentUuid": "a96585ad-8d88-4e07-9e94-c713eefa6aed",
+          "width": 87,
+          "x": 1054,
+          "y": 530,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "k-means",
+          "locked": false,
+          "name": "txt_k_means",
+          "persistentUuid": "17003111-a7bb-4b62-8b5b-ae8fb8d964f3",
+          "width": 0,
+          "x": 615,
+          "y": 213,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 210,
+          "layer": "k-means",
+          "locked": false,
+          "name": "txt_k_means2",
+          "persistentUuid": "26f379e8-fe41-430d-84d3-1ac2d7f30820",
+          "width": 649,
+          "x": 431,
+          "y": 284,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_quees",
+          "smoothed": true,
+          "tags": "caracteristicas",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Que es el Aprendizaje No Supervisado?",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_que_es",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Es un conjunto de técnicas que permiten que los modelos de inferencia extraigan conocimiento de un conjunto de datos desconocidos a priori. Las técnicas de aprendizaje no supervisado se pueden aplicar sin marcar los datos para el entrenamiento. Debido a que solo conocemos los datos de entrada, pero no hay datos de salida correspondientes a la entrada, solo podemos describir la estructura de los datos e intentar encontrar un cierto tipo de organización para simplificar el análisis, por lo que es esencialmente exploratorio.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_caracte",
+          "smoothed": true,
+          "tags": "caracteristicas",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Caracteristicas",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_caracte2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "caracteristicas",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_clustering",
+          "smoothed": true,
+          "tags": "caracteristicas",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Técnicas de clustering",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_clustering2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "El clustering como método de aprendizaje no supervisado tiene como objetivo clasificar en grupos atendiendo a las variables de los datos\nUn ejemplo de este método es buscar grupos de clientes con hábitos de compra similares\nEl clustering como método de aprendizaje no supervisado tiene como objetivo clasificar en grupos atendiendo a las variables de los datos\n",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_k_means",
+          "smoothed": true,
+          "tags": "caracteristicas",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "K- Means",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_k_means2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "El algoritmo K-Means tiene como objetivo encontrar y agrupar  puntos de datos con alta similitud entre ellos. En términos algorítmicos, esta similitud se entiende como lo opuesto a la distancia entre puntos de datos. Cuanto más cercanos están los puntos de datos, más similares son y es más probable que pertenezcan al mismo grupo.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "cuadrito",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Fondo",
           "tags": "",
@@ -35714,6 +36065,83 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "cuadro",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6003360,
+          "ambientLightColorR": 134217728,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "que es",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 1601468532,
+          "ambientLightColorR": 167801701,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "caracteristicas",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 13275384,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "clustering",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 13400984,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Ejemplo-Cluster",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 7938680,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "k-means",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 13400984,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Layer",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
