@@ -7938,6 +7938,33 @@
         "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\trojas.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/botella-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\botella-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/botella.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\botella.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.Aprendizajesupervisado/Assets/Nivel1/fondo azul.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fondo azul.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8411,33 +8438,7 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "behaviors": [
-        {
-          "name": "Flash",
-          "type": "Flash::Flash",
-          "HalfPeriodTime": 0.1,
-          "IsFlashing": false,
-          "FlashDuration": 0
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1500,
-          "canGrabPlatforms": false,
-          "deceleration": 1500,
-          "gravity": 1000,
-          "ignoreDefaultControls": false,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 250,
-          "roundCoordinates": true,
-          "slopeMaxAngle": 60,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "idle",
@@ -8467,392 +8468,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "walking",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.04,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-2-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-3-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-4-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-5-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-6-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-7-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-8-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-9-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-10-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-11-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-12-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-13-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-14-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-15-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-16-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-17-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-18-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-19-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-20-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-21-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-22-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                },
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\personajerojo\\walking-23-0.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
         }
       ]
     }
@@ -8860,16 +8475,24 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "Usuario",
-      "value": "hola"
-    },
-    {
       "name": "puntos",
       "value": "0"
     },
     {
-      "name": "validacion",
-      "value": ""
+      "name": "conc1",
+      "value": "0"
+    },
+    {
+      "name": "conc2",
+      "value": "0"
+    },
+    {
+      "name": "conc3",
+      "value": "0"
+    },
+    {
+      "name": "fallo",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -31890,7 +31513,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.462
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [],
@@ -31919,7 +31542,7 @@
           "locked": false,
           "name": "piso2",
           "persistentUuid": "81e5a3ee-db52-456f-8b8e-9190937df9e7",
-          "width": 5959,
+          "width": 1400,
           "x": 2,
           "y": 600,
           "zOrder": 3,
@@ -31930,110 +31553,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 107,
-          "layer": "",
-          "locked": false,
-          "name": "piso1",
-          "persistentUuid": "0cbd53f9-c6b3-45ff-a41e-079cdfe3a91c",
-          "width": 129,
-          "x": 373,
-          "y": 504,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 191,
-          "layer": "",
-          "locked": false,
-          "name": "piso1",
-          "persistentUuid": "6ccec97d-cb23-454d-aaeb-e6116bf398ce",
-          "width": 130,
-          "x": 4532,
-          "y": 359,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 106,
-          "layer": "",
-          "locked": false,
-          "name": "piso1",
-          "persistentUuid": "53312d86-04e1-40a4-8eb2-6edd2c4741ee",
-          "width": 131,
-          "x": 2669,
-          "y": 503,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 81,
-          "layer": "",
-          "locked": false,
-          "name": "piso3",
-          "persistentUuid": "0bee1e1d-68e4-479d-adaa-6d1d9b64a6ad",
-          "width": 344,
-          "x": 1276,
-          "y": 530,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 109,
-          "layer": "",
-          "locked": false,
-          "name": "piso1",
-          "persistentUuid": "1739b3f1-a0b3-4097-b255-c0247aa1152d",
-          "width": 130,
-          "x": 4708,
-          "y": 462,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 109,
-          "layer": "",
-          "locked": false,
-          "name": "piso1",
-          "persistentUuid": "8875e237-94a1-4bd6-bf0b-dabf7e6c926a",
-          "width": 128,
-          "x": 4378,
-          "y": 416,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
+          "height": 384,
           "layer": "",
           "locked": false,
           "name": "piso1",
           "persistentUuid": "d0eab3cc-ffe9-468b-a78b-d712282ce30d",
           "width": 131,
-          "x": -83,
-          "y": 370,
+          "x": -81,
+          "y": 221,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -32042,39 +31569,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 156,
-          "layer": "",
-          "locked": false,
-          "name": "piso1",
-          "persistentUuid": "4e6e64dc-bef1-4d1e-b9e2-ceae8dac6900",
-          "width": 262,
-          "x": 3280,
-          "y": 6,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 191,
-          "layer": "",
-          "locked": false,
-          "name": "piso1",
-          "persistentUuid": "bf0c696f-0af9-4cd6-97cd-6829d93a69e6",
-          "width": 130,
-          "x": 5821,
-          "y": 266,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 835,
+          "height": 774,
           "layer": "Background",
           "locked": false,
           "name": "Fondo",
@@ -32137,22 +31632,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "fuego",
-          "persistentUuid": "a53a46c3-2425-4a39-b7a7-f50696f4001b",
-          "width": 0,
-          "x": 6,
-          "y": -65,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 95,
           "layer": "titulo",
@@ -32189,32 +31668,11 @@
           "height": 80,
           "layer": "",
           "locked": false,
-          "name": "Enemigo",
-          "persistentUuid": "ad6c978b-e3d8-4a07-aaec-63cb573d7b07",
-          "width": 80,
-          "x": 1103,
-          "y": 528,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "Enemigo",
+          "name": "botella",
           "persistentUuid": "e4f35c9b-d181-4028-befb-3d1e7813459a",
-          "width": 100,
-          "x": 2169,
-          "y": 505,
+          "width": 80,
+          "x": 285,
+          "y": 465,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -32222,56 +31680,12 @@
             {
               "name": "direccion",
               "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "conc5"
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 152,
-          "layer": "",
-          "locked": false,
-          "name": "piso1",
-          "persistentUuid": "3a7ecd27-e08e-4861-a1c0-5c4340ac7606",
-          "width": 130,
-          "x": 1648,
-          "y": 428,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 83,
-          "layer": "",
-          "locked": false,
-          "name": "piso3",
-          "persistentUuid": "458d666b-5ec4-40c9-ad0f-f71b648494d7",
-          "width": 344,
-          "x": 2299,
-          "y": 520,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 82,
-          "layer": "",
-          "locked": false,
-          "name": "piso3",
-          "persistentUuid": "ddcf32d9-4722-4b2e-9cff-5185feac599e",
-          "width": 344,
-          "x": 3260,
-          "y": 527,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         },
         {
           "angle": 0,
@@ -32279,11 +31693,11 @@
           "height": 80,
           "layer": "",
           "locked": false,
-          "name": "Enemigo",
+          "name": "botella",
           "persistentUuid": "40296970-6c01-441e-a8af-412a104105ce",
           "width": 80,
-          "x": 3061,
-          "y": 532,
+          "x": 1154,
+          "y": 327,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -32291,52 +31705,24 @@
             {
               "name": "direccion",
               "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "conc4"
             }
           ]
         },
         {
           "angle": 0,
           "customSize": true,
-          "height": 135,
+          "height": 80,
           "layer": "",
           "locked": false,
-          "name": "piso2",
-          "persistentUuid": "c300cb30-1267-40ac-83e6-335d180c735c",
-          "width": 644,
-          "x": 3683,
-          "y": 476,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 136,
-          "layer": "",
-          "locked": false,
-          "name": "piso3",
-          "persistentUuid": "66bd0f9a-6464-4e9e-8b83-a9d3c13d317b",
-          "width": 344,
-          "x": 5495,
-          "y": 474,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 150,
-          "layer": "",
-          "locked": false,
-          "name": "Enemigo",
+          "name": "botella",
           "persistentUuid": "4d0e2faa-65b7-4494-9230-087825d7afe1",
-          "width": 150,
-          "x": 5082,
-          "y": 460,
+          "width": 80,
+          "x": 823,
+          "y": 331,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -32344,45 +31730,28 @@
             {
               "name": "direccion",
               "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "conc3"
             }
           ]
         },
         {
           "angle": 0,
           "customSize": true,
-          "height": 195,
+          "height": 385,
           "layer": "",
           "locked": false,
           "name": "Personaje",
           "persistentUuid": "0260cf02-b363-40d1-85a1-b4b0332e0e0b",
-          "width": 140,
-          "x": 38,
-          "y": 409,
+          "width": 293,
+          "x": 44,
+          "y": 219,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "capsula",
-          "persistentUuid": "96035018-b27d-49c0-ae45-a60760e7d196",
-          "width": 0,
-          "x": 1318,
-          "y": -111,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "dir",
-              "value": "arriba"
-            }
-          ]
         },
         {
           "angle": 0,
@@ -32403,7 +31772,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 393,
+          "height": 342,
           "layer": "intrucciones",
           "locked": false,
           "name": "txt_intrucciones",
@@ -32479,6 +31848,368 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 429,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "4a6233e9-f7b9-4915-8127-1fef69065d99",
+          "width": 92,
+          "x": 1334,
+          "y": 180,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 10,
+          "layer": "",
+          "locked": false,
+          "name": "piso22",
+          "persistentUuid": "2c1f7e71-b5e6-49a5-86b9-5a8d73c16c10",
+          "width": 1268,
+          "x": 64,
+          "y": 298,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 14,
+          "layer": "",
+          "locked": false,
+          "name": "piso22",
+          "persistentUuid": "851a92f2-4886-45df-8b61-64c16b362117",
+          "width": 1268,
+          "x": 68,
+          "y": 425,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 16,
+          "layer": "",
+          "locked": false,
+          "name": "piso22",
+          "persistentUuid": "18e95cb1-1dcb-4dc1-9399-7b2bdf2a0d10",
+          "width": 1268,
+          "x": 63,
+          "y": 558,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella",
+          "persistentUuid": "f7b9ae51-82da-403b-9dbe-a7d1e2360d9d",
+          "width": 80,
+          "x": 310,
+          "y": 198,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "conc"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella",
+          "persistentUuid": "2bf4f09f-5d4f-4516-ac4b-fd814ec9d534",
+          "width": 80,
+          "x": 867,
+          "y": 203,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "conce"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella2",
+          "persistentUuid": "7c5bb981-e300-428c-a36c-a68090aadedc",
+          "width": 80,
+          "x": 561,
+          "y": 201,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "incorrecto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 387,
+          "layer": "cuadro",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "74daf3fc-feeb-4a9b-a0f5-34c5e7226e3c",
+          "width": 671,
+          "x": 358,
+          "y": 177,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "cuadro",
+          "locked": false,
+          "name": "cerrar",
+          "persistentUuid": "a1e0dc68-7463-440d-9713-46b33cffc595",
+          "width": 55,
+          "x": 952,
+          "y": 224,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "incorrecto",
+          "persistentUuid": "7dd57d24-b820-4eef-9814-f59e812af975",
+          "width": 0,
+          "x": 604,
+          "y": 105,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella2",
+          "persistentUuid": "76a23054-ea46-4ae1-988c-16d7d974e2d5",
+          "width": 80,
+          "x": 1122,
+          "y": 203,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "incorrecto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella2",
+          "persistentUuid": "7882ff25-cd52-4b48-8c4b-37a74663c861",
+          "width": 80,
+          "x": 375,
+          "y": 328,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "incorrecto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella2",
+          "persistentUuid": "67de2fb7-a31d-40d8-8be2-984d7068e09a",
+          "width": 80,
+          "x": 598,
+          "y": 332,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "incorrecto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella2",
+          "persistentUuid": "751aa001-2618-40aa-9e21-bf1620b991f4",
+          "width": 80,
+          "x": 545,
+          "y": 471,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "incorrecto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella2",
+          "persistentUuid": "12d6d40d-2a57-4c5b-87a5-882f52760646",
+          "width": 80,
+          "x": 753,
+          "y": 461,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "incorrecto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella2",
+          "persistentUuid": "0be220ac-b16c-4d47-bc7b-06f1d74e4cab",
+          "width": 80,
+          "x": 974,
+          "y": 469,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "incorrecto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "botella2",
+          "persistentUuid": "055a32ac-7154-48e8-9df5-7c9403d7b49c",
+          "width": 80,
+          "x": 984,
+          "y": 328,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            },
+            {
+              "name": "valor",
+              "value": "incorrecto"
+            }
+          ]
         }
       ],
       "objects": [
@@ -32577,7 +32308,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fondoa.jpg",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fondo azul.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -32597,6 +32328,25 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "incorrecto",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Fallaste!",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 80,
+          "color": {
+            "b": 15,
+            "g": 15,
+            "r": 180
+          }
         },
         {
           "bold": true,
@@ -32656,6 +32406,24 @@
         },
         {
           "height": 191,
+          "name": "piso22",
+          "tags": "",
+          "texture": "8.Aprendizajesupervisado\\Assets\\piso\\PisoGris.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 92,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 191,
           "name": "piso2",
           "tags": "",
           "texture": "8.Aprendizajesupervisado\\Assets\\piso\\PisoGris.png",
@@ -32691,16 +32459,74 @@
           ]
         },
         {
-          "name": "Enemigo",
+          "name": "botella2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [
             {
+              "maxSpeed": 250,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "botella",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\botella.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "botella",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 1000,
@@ -32718,7 +32544,7 @@
           ],
           "animations": [
             {
-              "name": "Enemigo",
+              "name": "botella",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -32727,245 +32553,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\enemigo\\Enemigo-15.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\botella-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -33234,6 +32822,26 @@
                 "GlobalVariableString(puntos)"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "piso22"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "incorrecto"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -33279,179 +32887,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
-          "name": "Movimiento personaje",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "Personaje",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "FixCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "Personaje",
-                    "0",
-                    "0",
-                    "5937",
-                    "700",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Right"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Personaje",
-                        "\"walking\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "FlipX"
-                      },
-                      "parameters": [
-                        "Personaje",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Personaje",
-                        "\"walking\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "FlipX"
-                      },
-                      "parameters": [
-                        "Personaje",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::IsMoving"
-                  },
-                  "parameters": [
-                    "Personaje",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Personaje",
-                    "\"idle\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "disparos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33609,7 +33045,20 @@
                         "value": "VarObjetTxt"
                       },
                       "parameters": [
-                        "Enemigo",
+                        "botella",
+                        "direccion",
+                        "=",
+                        "\"izquierda\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "botella2",
                         "direccion",
                         "=",
                         "\"izquierda\""
@@ -33624,7 +33073,18 @@
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
                       "parameters": [
-                        "Enemigo",
+                        "botella",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "botella2",
                         "PlatformerObject"
                       ],
                       "subInstructions": []
@@ -33643,7 +33103,20 @@
                         "value": "VarObjetTxt"
                       },
                       "parameters": [
-                        "Enemigo",
+                        "botella",
+                        "direccion",
+                        "=",
+                        "\"derecha\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "botella2",
                         "direccion",
                         "=",
                         "\"derecha\""
@@ -33658,7 +33131,18 @@
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
                       "parameters": [
-                        "Enemigo",
+                        "botella",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "botella2",
                         "PlatformerObject"
                       ],
                       "subInstructions": []
@@ -33679,7 +33163,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Enemigo",
+                    "botella",
                     "piso1",
                     "",
                     "",
@@ -33695,7 +33179,7 @@
                     "value": "FlipX"
                   },
                   "parameters": [
-                    "Enemigo",
+                    "botella",
                     "yes"
                   ],
                   "subInstructions": []
@@ -33706,7 +33190,7 @@
                     "value": "ModVarObjetTxt"
                   },
                   "parameters": [
-                    "Enemigo",
+                    "botella",
                     "direccion",
                     "=",
                     "\"derecha\""
@@ -33727,7 +33211,55 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Enemigo",
+                    "botella2",
+                    "piso1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "botella2",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "botella2",
+                    "direccion",
+                    "=",
+                    "\"derecha\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "botella",
                     "piso3",
                     "",
                     "",
@@ -33743,7 +33275,7 @@
                     "value": "FlipX"
                   },
                   "parameters": [
-                    "Enemigo",
+                    "botella",
                     "no"
                   ],
                   "subInstructions": []
@@ -33754,7 +33286,55 @@
                     "value": "ModVarObjetTxt"
                   },
                   "parameters": [
-                    "Enemigo",
+                    "botella",
+                    "direccion",
+                    "=",
+                    "\"izquierda\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "botella2",
+                    "piso3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "botella2",
+                    "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "botella2",
                     "direccion",
                     "=",
                     "\"izquierda\""
@@ -34033,7 +33613,7 @@
                     "value": "PlatformBehavior::SimulateJumpKey"
                   },
                   "parameters": [
-                    "Enemigo",
+                    "botella",
                     "PlatformerObject"
                   ],
                   "subInstructions": []
@@ -34083,6 +33663,293 @@
                 "",
                 "\"Nivel1Ordenar\"",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "botella",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "botella",
+                "valor",
+                "=",
+                "\"conc\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "conc1",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"cuadro\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cerrar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"cuadro\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "botella",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "botella",
+                "valor",
+                "=",
+                "\"conce\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "conc2",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"cuadro\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "botella2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "botella2",
+                "valor",
+                "=",
+                "\"incorrecto\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "fallo",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "incorrecto",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TimeScale"
+              },
+              "parameters": [
+                "",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "incorrecto"
               ],
               "subInstructions": []
             }
@@ -34142,16 +34009,23 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "intrucciones",
-          "visibility": true,
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6003360,
+          "ambientLightColorR": 167799925,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "cuadro",
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
@@ -36068,9 +35942,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 0,
-          "ambientLightColorR": -2147483632,
+          "ambientLightColorR": -2147483648,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "cuadro",
@@ -36079,7 +35953,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 6003360,
           "ambientLightColorR": 134217728,
           "followBaseLayerCamera": false,
@@ -36090,9 +35964,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1601468532,
-          "ambientLightColorR": 167801701,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1601468544,
+          "ambientLightColorR": 167801696,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "caracteristicas",
@@ -36101,9 +35975,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 13275384,
-          "ambientLightColorR": -2147483632,
+          "ambientLightColorR": -2147483648,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "clustering",
@@ -36112,9 +35986,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 13400984,
-          "ambientLightColorR": -2147483632,
+          "ambientLightColorR": -2147483648,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Ejemplo-Cluster",
@@ -36123,7 +35997,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 7938680,
           "ambientLightColorR": 1,
           "followBaseLayerCamera": false,
@@ -36134,9 +36008,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 13400984,
-          "ambientLightColorR": -2147483632,
+          "ambientLightColorR": -2147483648,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Layer",
