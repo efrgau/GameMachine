@@ -7983,6 +7983,60 @@
         "name": "6.MachineLearning\\moneda.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/MarcoFondoGM-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\MarcoFondoGM-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/masnegro10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\masnegro10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/negro10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\negro10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/masnero5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\masnero5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/transparente10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\transparente10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.MachineLearning/Assets/transparente10-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.MachineLearning\\Assets\\transparente10-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8458,6 +8512,8 @@
       "variables": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGrabPlatforms": false,
           "deceleration": 1500,
@@ -8468,10 +8524,8 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "roundCoordinates": true,
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "xGrabTolerance": 10,
           "yGrabOffset": 0
         }
@@ -19423,7 +19477,7 @@
           "persistentUuid": "55f9a4f8-0985-40fb-8fbf-2a348069d801",
           "width": 705,
           "x": 443,
-          "y": 199,
+          "y": 211,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -19454,8 +19508,8 @@
           "name": "txt_Tipo1",
           "persistentUuid": "948164eb-3c2d-4c23-bd23-f76c6497441e",
           "width": 749,
-          "x": 452,
-          "y": 211,
+          "x": 436,
+          "y": 232,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -19470,8 +19524,8 @@
           "name": "img_tipo1",
           "persistentUuid": "54ae5b24-368c-4489-ba64-2283debb0947",
           "width": 274,
-          "x": 591,
-          "y": 405,
+          "x": 593,
+          "y": 417,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -19544,14 +19598,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 662,
+          "height": 764,
           "layer": "cuadro",
           "locked": false,
           "name": "cuadro",
           "persistentUuid": "7165af7b-780d-4fda-baca-2b81ab6ed354",
-          "width": 1165,
-          "x": 146,
-          "y": 56,
+          "width": 1235,
+          "x": 119,
+          "y": 18,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -19566,8 +19620,8 @@
           "name": "flecha",
           "persistentUuid": "ce5b2725-89e1-441c-b785-8951f322b863",
           "width": 94,
-          "x": 1138,
-          "y": 547,
+          "x": 1115,
+          "y": 553,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -19583,7 +19637,7 @@
           "persistentUuid": "f6623dff-95e9-4705-8229-f513577607ee",
           "width": 0,
           "x": 533,
-          "y": 153,
+          "y": 169,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -19599,7 +19653,7 @@
           "persistentUuid": "b79d1639-a60a-43c9-9dc6-3e6aef4c6afd",
           "width": 0,
           "x": 510,
-          "y": 163,
+          "y": 173,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -19615,7 +19669,7 @@
           "persistentUuid": "1c028979-aa12-4d01-9832-f6bc04199431",
           "width": 0,
           "x": 549,
-          "y": 154,
+          "y": 172,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -19790,8 +19844,8 @@
           "name": "txt_tituglo",
           "persistentUuid": "6efc9278-d62e-419b-a76b-aed0a6074b93",
           "width": 0,
-          "x": 650,
-          "y": 142,
+          "x": 646,
+          "y": 160,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -20726,7 +20780,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\MarcoFondoGM-1.png",
+                      "image": "6.MachineLearning\\Assets\\MarcoFondoGM.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -22069,7 +22123,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "cuadro",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -22179,7 +22233,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.53
+        "zoomFactor": 0.41
       },
       "objectsGroups": [],
       "variables": [],
@@ -22235,14 +22289,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 161,
+          "height": 141,
           "layer": "",
           "locked": false,
           "name": "txt_ejemplo",
           "persistentUuid": "677646e2-344a-47da-ae64-5ef32ab70666",
           "width": 631,
           "x": 470,
-          "y": 260,
+          "y": 272,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -22273,8 +22327,8 @@
           "name": "puntos",
           "persistentUuid": "124328d8-c0a1-4675-ae88-4adb98140add",
           "width": 0,
-          "x": 473,
-          "y": 24,
+          "x": 481,
+          "y": 36,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -22321,8 +22375,8 @@
           "name": "instrucciones",
           "persistentUuid": "6baaa04f-77bb-444f-8650-a30fec5cb275",
           "width": 429,
-          "x": 487,
-          "y": 220,
+          "x": 480,
+          "y": 199,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -22331,14 +22385,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 256,
+          "height": 245,
           "layer": "instrucciones",
           "locked": false,
           "name": "instrucciones2",
           "persistentUuid": "74b3ef25-abc9-4f2a-ae75-53a8514bcda9",
-          "width": 744,
-          "x": 369,
-          "y": 323,
+          "width": 823,
+          "x": 315,
+          "y": 268,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -22410,22 +22464,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "iniciar",
-          "locked": false,
-          "name": "terminar",
-          "persistentUuid": "f2778f54-bff3-403f-99b1-0c908ffd5073",
-          "width": 0,
-          "x": 1050,
-          "y": 620,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 100,
           "layer": "",
@@ -22475,14 +22513,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 475,
+          "height": 439,
           "layer": "instrucciones",
           "locked": false,
           "name": "cuadroinstrucciones",
           "persistentUuid": "422f4acc-a434-4322-8b6e-a425d9c912b5",
-          "width": 934,
-          "x": 252,
-          "y": 165,
+          "width": 885,
+          "x": 263,
+          "y": 178,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -22491,14 +22529,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 613,
+          "height": 556,
           "layer": "iniciar",
           "locked": false,
           "name": "cuadroiniciar",
           "persistentUuid": "e719b1bf-1351-49e0-94f5-aba7cf8fcfc1",
-          "width": 1074,
-          "x": 172,
-          "y": 93,
+          "width": 1029,
+          "x": 196,
+          "y": 123,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -22513,8 +22551,8 @@
           "name": "txt_reto1",
           "persistentUuid": "cced7536-6c9a-4b26-8474-b409e016cf9d",
           "width": 0,
-          "x": 165,
-          "y": 21,
+          "x": 161,
+          "y": 33,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -22523,31 +22561,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 70,
           "layer": "",
           "locked": false,
           "name": "Moneda",
           "persistentUuid": "bc87ebdf-e198-4867-aea2-2f431e012916",
-          "width": 78,
-          "x": 384,
-          "y": 16,
+          "width": 70,
+          "x": 394,
+          "y": 32,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 50,
-          "layer": "instrucciones",
-          "locked": false,
-          "name": "cerrar",
-          "persistentUuid": "49a67dd7-7930-4ca2-ad57-d52ca3379660",
-          "width": 50,
-          "x": 956,
-          "y": 113,
-          "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22619,14 +22641,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 71,
+          "height": 91,
           "layer": "",
           "locked": false,
           "name": "Boton",
           "persistentUuid": "81fb561d-55bc-43fd-8669-ab53dc9df2be",
           "width": 220,
           "x": 633,
-          "y": 532,
+          "y": 523,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -22635,14 +22657,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 71,
+          "height": 91,
           "layer": "",
           "locked": false,
           "name": "Boton",
           "persistentUuid": "922a9998-216e-4783-b4f8-dd456d0e6c35",
           "width": 155,
           "x": 487,
-          "y": 531,
+          "y": 523,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -22651,14 +22673,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 71,
+          "height": 91,
           "layer": "",
           "locked": false,
           "name": "Boton",
           "persistentUuid": "c917edb1-5345-4dd5-aa58-b2d2841b5228",
           "width": 155,
           "x": 847,
-          "y": 532,
+          "y": 524,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -22923,13 +22945,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 83,
+          "height": 86,
           "layer": "",
           "locked": false,
           "name": "siguiente",
           "persistentUuid": "7114fc47-b0bd-4f53-aff7-39e6bd20d92c",
-          "width": 183,
-          "x": 1221,
+          "width": 218,
+          "x": 1196,
           "y": 611,
           "zOrder": 77,
           "numberProperties": [],
@@ -22945,7 +22967,7 @@
           "name": "txt_siguiente",
           "persistentUuid": "e4947e95-b288-42f6-87a1-7c2159ac75ec",
           "width": 0,
-          "x": 1259,
+          "x": 1231,
           "y": 632,
           "zOrder": 78,
           "numberProperties": [],
@@ -22955,7 +22977,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 100,
+          "height": 120,
           "layer": "",
           "locked": false,
           "name": "cuadroazul",
@@ -22980,6 +23002,54 @@
           "x": 486,
           "y": 533,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 83,
+          "layer": "instrucciones",
+          "locked": false,
+          "name": "siguiente",
+          "persistentUuid": "6373c7f2-f815-444f-8e62-ab879125ffe8",
+          "width": 183,
+          "x": 610,
+          "y": 510,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "instrucciones",
+          "locked": false,
+          "name": "txt_ok",
+          "persistentUuid": "99d81129-b0fa-4bea-9bda-4bede32d76e7",
+          "width": 0,
+          "x": 679,
+          "y": 520,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "terminar",
+          "persistentUuid": "57c1597c-539c-402d-8815-747b12ddc84d",
+          "width": 0,
+          "x": 548,
+          "y": 341,
+          "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23122,7 +23192,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Edwin acaba de introducirse en el mundo de machine learning y quiere saber qué técnicas puede utilizar para resolver un problema de detección de spam en los correos",
+          "string": "Edwin acaba de introducirse en el mundo de machine learning y quiere saber qué conocimientos obtuvo en su primer recorrido",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 30,
           "color": {
@@ -23168,7 +23238,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\MarcoInstrucciones.png",
+                      "image": "6.MachineLearning\\Assets\\masnero5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23255,7 +23325,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "transparente10",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -23264,7 +23334,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\Assets\\Marcoiniciar.png",
+                      "image": "6.MachineLearning\\Assets\\transparente10-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23576,13 +23646,13 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Terminar",
+          "string": "Excelente!",
           "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 40,
+          "characterSize": 90,
           "color": {
-            "b": 124,
-            "g": 17,
-            "r": 63
+            "b": 254,
+            "g": 19,
+            "r": 144
           }
         },
         {
@@ -23743,6 +23813,25 @@
         {
           "bold": true,
           "italic": false,
+          "name": "txt_ok",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "OK",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
           "name": "txt_siguiente",
           "smoothed": true,
           "tags": "",
@@ -23751,7 +23840,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Siguiente",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 30,
           "color": {
             "b": 255,
@@ -24125,6 +24214,16 @@
                 "puntos",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "terminar"
               ],
               "subInstructions": []
             }
@@ -24709,7 +24808,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "cerrar",
+                    "txt_ok",
                     "",
                     "",
                     ""
@@ -24767,51 +24866,6 @@
                   "type": {
                     "inverted": false,
                     "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"iniciar\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "terminar",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
                   },
                   "parameters": [
                     "",
@@ -25026,7 +25080,7 @@
                   "parameters": [
                     "puntos",
                     "+",
-                    "250"
+                    "50"
                   ],
                   "subInstructions": []
                 },
@@ -25281,7 +25335,7 @@
                   "parameters": [
                     "puntos",
                     "+",
-                    "250"
+                    "50"
                   ],
                   "subInstructions": []
                 },
@@ -25376,7 +25430,7 @@
                   "parameters": [
                     "puntos",
                     "+",
-                    "250"
+                    "50"
                   ],
                   "subInstructions": []
                 },
@@ -25631,7 +25685,7 @@
                   "parameters": [
                     "puntos",
                     "+",
-                    "250"
+                    "50"
                   ],
                   "subInstructions": []
                 },
@@ -25666,6 +25720,62 @@
                   "parameters": [
                     "no4",
                     "\"126;211;33\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "puntos",
+                    "=",
+                    "200"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"iniciar\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "terminar",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"AprendizajeSupervisado\"",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -31955,8 +32065,8 @@
           "name": "titulonivel1",
           "persistentUuid": "b2c21be2-6010-474c-a4d5-bbbc70082aae",
           "width": 0,
-          "x": 176,
-          "y": 20,
+          "x": 166,
+          "y": 34,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -32051,8 +32161,8 @@
           "name": "puntos",
           "persistentUuid": "d41ad385-738c-437c-b9fe-c2a2aee360c0",
           "width": 0,
-          "x": 472,
-          "y": 24,
+          "x": 498,
+          "y": 38,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -32061,14 +32171,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 105,
+          "height": 120,
           "layer": "titulo",
           "locked": false,
           "name": "cuadrorojo",
           "persistentUuid": "e442c544-e164-4715-88d0-f478d416fdaa",
-          "width": 464,
-          "x": 143,
-          "y": 0,
+          "width": 572,
+          "x": 110,
+          "y": 7,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -32083,8 +32193,8 @@
           "name": "Moneda",
           "persistentUuid": "f82b4751-28aa-4980-b76a-6416b67ac681",
           "width": 70,
-          "x": 391,
-          "y": 18,
+          "x": 405,
+          "y": 32,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -32441,8 +32551,8 @@
           "name": "incorrecto",
           "persistentUuid": "7dd57d24-b820-4eef-9814-f59e812af975",
           "width": 0,
-          "x": 582,
-          "y": 111,
+          "x": 599,
+          "y": 118,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -33117,9 +33227,9 @@
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 55,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 255
+            "b": 28,
+            "g": 231,
+            "r": 248
           }
         },
         {
@@ -34945,7 +35055,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 6003360,
           "ambientLightColorR": 117440512,
           "followBaseLayerCamera": false,
@@ -36994,12 +37104,19 @@
       "description": "Change the origin point equal to Center for splash event.",
       "extensionNamespace": "",
       "fullName": "SplashLoad",
+      "helpPath": "",
       "iconUrl": "",
       "name": "SplashLoad",
       "previewIconUrl": "",
       "shortDescription": "Create Splash sprite at the begining of scene.\nCreate Loading scene.",
-      "tags": "Splash,Scene,Loading,Scene,RTBRuhan",
       "version": "0.0.1",
+      "tags": [
+        "Splash",
+        "Scene",
+        "Loading",
+        "Scene",
+        "RTBRuhan"
+      ],
       "eventsFunctions": [
         {
           "description": "LoadingScene program",
@@ -37370,12 +37487,20 @@
       "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nAfter adding this to an object, you have to **trigger the effect** by using the **Flash action**.",
       "extensionNamespace": "",
       "fullName": "Flash (blink)",
+      "helpPath": "",
       "iconUrl": "",
       "name": "Flash",
       "previewIconUrl": "",
       "shortDescription": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nTrigger the effect by using the Flash action.",
-      "tags": "flash, blink, visible, invisible, hit, damage",
       "version": "1.0.0",
+      "tags": [
+        "flash",
+        "blink",
+        "visible",
+        "invisible",
+        "hit",
+        "damage"
+      ],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
