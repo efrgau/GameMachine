@@ -8414,7 +8414,7 @@
       ],
       "string": "Terminar",
       "font": "fontsletra\\Russo_One.ttf",
-      "characterSize": 35,
+      "characterSize": 25,
       "color": {
         "b": 155,
         "g": 155,
@@ -12719,7 +12719,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.466
+        "zoomFactor": 0.442
       },
       "objectsGroups": [],
       "variables": [
@@ -12898,8 +12898,8 @@
           "name": "txt_Username",
           "persistentUuid": "4beebd85-1991-40f7-ae47-a7fa4b04fd88",
           "width": 0,
-          "x": 675,
-          "y": 255,
+          "x": 686,
+          "y": 270,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -12914,7 +12914,7 @@
           "name": "txt_Password",
           "persistentUuid": "97a12b2a-4e53-4b5b-b7bc-a1877c8a1c6f",
           "width": 0,
-          "x": 661,
+          "x": 665,
           "y": 396,
           "zOrder": 8,
           "numberProperties": [],
@@ -13027,7 +13027,7 @@
           "persistentUuid": "8868e0ed-02c3-469c-8d57-87022fc75206",
           "width": 0,
           "x": 672,
-          "y": 546,
+          "y": 552,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -13042,8 +13042,8 @@
           "name": "UsernameData",
           "persistentUuid": "75a13550-4f02-4ce3-b21d-4d5f4c58edcc",
           "width": 0,
-          "x": 651,
-          "y": 312,
+          "x": 647,
+          "y": 321,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -13059,7 +13059,7 @@
           "persistentUuid": "8258c249-2868-4f12-adce-d0b10e324f77",
           "width": 0,
           "x": 646,
-          "y": 452,
+          "y": 456,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -13183,8 +13183,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Usuario",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 215,
             "g": 158,
@@ -13202,8 +13202,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Contraseña",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 215,
             "g": 158,
@@ -13313,8 +13313,8 @@
           "variables": [],
           "behaviors": [],
           "string": "enter username",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -13332,8 +13332,8 @@
           "variables": [],
           "behaviors": [],
           "string": "enter password",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -14495,10 +14495,6 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
-        {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
@@ -14551,8 +14547,8 @@
           "name": "txt_Username",
           "persistentUuid": "6559d098-7ef4-4baa-aeaf-01a131018075",
           "width": 0,
-          "x": 670,
-          "y": 260,
+          "x": 681,
+          "y": 266,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -14567,8 +14563,8 @@
           "name": "txt_Password",
           "persistentUuid": "2578b377-adfe-4672-b4c9-2fb69b534d75",
           "width": 0,
-          "x": 652,
-          "y": 388,
+          "x": 661,
+          "y": 397,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -14823,8 +14819,8 @@
           "name": "PasswordDataaDoc",
           "persistentUuid": "38fa7f80-0db3-4b81-8f7e-d3c0f4456619",
           "width": 0,
-          "x": 632,
-          "y": 443,
+          "x": 630,
+          "y": 449,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -14920,7 +14916,7 @@
           "persistentUuid": "a522d047-8081-4132-9325-11ebf91a7338",
           "width": 0,
           "x": 640,
-          "y": 309,
+          "y": 315,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -14996,8 +14992,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Usuario",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 215,
             "g": 158,
@@ -15015,8 +15011,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Contraseña",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 215,
             "g": 158,
@@ -15126,8 +15122,8 @@
           "variables": [],
           "behaviors": [],
           "string": "enter username",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -15145,8 +15141,8 @@
           "variables": [],
           "behaviors": [],
           "string": "enter password",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
           "color": {
             "b": 0,
             "g": 0,
@@ -16369,10 +16365,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -20320,7 +20312,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.322
+        "zoomFactor": 0.514
       },
       "objectsGroups": [],
       "variables": [
@@ -20385,14 +20377,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 171,
+          "height": 204,
           "layer": "glo2",
           "locked": false,
           "name": "glo2",
           "persistentUuid": "55f9a4f8-0985-40fb-8fbf-2a348069d801",
           "width": 442,
-          "x": 485,
-          "y": 285,
+          "x": 483,
+          "y": 273,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -20582,8 +20574,8 @@
           "locked": false,
           "name": "glo3",
           "persistentUuid": "4e8aecfd-7aca-4202-aa36-f00372f7808a",
-          "width": 408,
-          "x": 507,
+          "width": 453,
+          "x": 484,
           "y": 258,
           "zOrder": 102,
           "numberProperties": [],
@@ -20598,9 +20590,9 @@
           "locked": false,
           "name": "glo4",
           "persistentUuid": "6f4eaf89-8c41-4610-a053-c75bddc8d9d0",
-          "width": 451,
-          "x": 479,
-          "y": 240,
+          "width": 486,
+          "x": 468,
+          "y": 242,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -20609,14 +20601,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 259,
+          "height": 234,
           "layer": "glo5",
           "locked": false,
           "name": "glo5",
           "persistentUuid": "84e81f5b-dffc-4a2f-9866-c412f4618826",
           "width": 435,
           "x": 487,
-          "y": 241,
+          "y": 255,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
@@ -20625,7 +20617,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 221,
+          "height": 207,
           "layer": "glo6",
           "locked": false,
           "name": "glo6",
@@ -21273,7 +21265,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "glo1",
           "smoothed": true,
@@ -21283,7 +21275,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Agrupamiento: Conversión de un atributo en varios atributos.\n\nAlgoritmos: Es una serie de pasos repetitivos para llevar a cabo cierto tipo de tarea con datos.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 25,
           "color": {
             "b": 255,
@@ -21292,7 +21284,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "glo2",
           "smoothed": true,
@@ -21302,7 +21294,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Centroide: El centro de un clúster se determina mediante un algoritmo k-medios o k-mediana.\n\nClase: Valor de un conjunto de valores de segmentación enumerados para una etiqueta. \n\n",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 25,
           "color": {
             "b": 255,
@@ -21311,7 +21303,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "glo3",
           "smoothed": true,
@@ -21321,7 +21313,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Conjunto de atributos: Grupo de atributos con el que se entrena el modelo de aprendizaje automático. \n\nDataframe: Un DataFrame es análogo a una tabla. Cada columna del DataFrame tiene un nombre y cada fila se identifica con un número.\n",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 25,
           "color": {
             "b": 255,
@@ -21330,7 +21322,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "glo4",
           "smoothed": true,
@@ -21340,7 +21332,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Entrenamiento: Es el proceso en el cual se determina los parámetros ideales que conforman un modelo.\n\nEtiqueta: respuesta o resultado de un ejemplo, cada conjunto de datos etiquetado consiste en uno o más atributos y una etiqueta.\n",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 28,
           "color": {
             "b": 255,
@@ -21349,7 +21341,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "glo5",
           "smoothed": true,
@@ -21359,8 +21351,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Generalización: es la capacidad de conseguir buenos resultados con datos nuevos.\n\nModelos: Son los parámetros de la función de predicción de resultado de un modelo cuando se le proporciona un ejemplo de entrada.\n",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 28,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -21368,7 +21360,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "glo6",
           "smoothed": true,
@@ -21378,8 +21370,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Parámetros: Son constantes que caracterizan una característica o una distribución probabilística o función de regresión de una población o valor desconocido que describe una relación poblacional.\n",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 28,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -22457,7 +22449,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 196,
+          "height": 166,
           "layer": "Tipo1",
           "locked": false,
           "name": "txt_Tipo1",
@@ -22489,7 +22481,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 139,
+          "height": 169,
           "layer": "Tipo2",
           "locked": false,
           "name": "txt_Tipo2",
@@ -22521,7 +22513,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 139,
+          "height": 144,
           "layer": "Tipo3",
           "locked": false,
           "name": "txt_Tipo3",
@@ -23233,7 +23225,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "txt_Tipo1",
           "smoothed": true,
@@ -23243,8 +23235,8 @@
           "variables": [],
           "behaviors": [],
           "string": "Este tipo de Machine Learning necesita de datos previamente etiquetados para aprender a realizar su trabajo. Lo que se hace es darle una colección de datos previamente resueltos para que luego él aprenda a resolver problemas futuros.\n",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 35,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -23366,7 +23358,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "txt_Tipo2",
           "smoothed": true,
@@ -23376,8 +23368,8 @@
           "variables": [],
           "behaviors": [],
           "string": "En este caso este tipo de machine learning no se incluyen datos etiquetados, pero sí requiere de indicaciones previas, las cuales le enseñan a comprender y analizar la información que le será brindada. A diferencia del aprendizaje supervisado, el aprendizaje se logra mediante el análisis de los datos que aún no posee resultados.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -23499,7 +23491,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "txt_Tipo3",
           "smoothed": true,
@@ -23509,8 +23501,8 @@
           "variables": [],
           "behaviors": [],
           "string": "En este caso este modelo tiene como objetivo principal la construcción de modelos que incrementen el rendimiento en base al análisis de resultados ya procesados, este método de aprendizaje logra que cada resultado produzca una recompensa.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -24738,7 +24730,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 79,
+          "height": 104,
           "layer": "",
           "locked": false,
           "name": "txt_ejemplo2",
@@ -24818,7 +24810,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 127,
+          "height": 87,
           "layer": "iniciar",
           "locked": false,
           "name": "pregunta1",
@@ -24834,7 +24826,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 132,
+          "height": 119,
           "layer": "iniciar",
           "locked": false,
           "name": "pregunta2",
@@ -24850,7 +24842,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 155,
+          "height": 141,
           "layer": "iniciar",
           "locked": false,
           "name": "pregunta3",
@@ -24866,12 +24858,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 158,
+          "height": 91,
           "layer": "iniciar",
           "locked": false,
           "name": "pregunta4",
           "persistentUuid": "bcb71bf1-f743-44e3-ad82-b319b24a97d3",
-          "width": 473,
+          "width": 446,
           "x": 677,
           "y": 431,
           "zOrder": 7,
@@ -24994,7 +24986,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 58,
+          "height": 60,
           "layer": "iniciar",
           "locked": false,
           "name": "preguntas",
@@ -25593,7 +25585,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Edwin acaba de introducirse en el mundo de machine learning y quiere saber qué conocimientos obtuvo en su primer recorrido",
+          "string": "Edwin acaba de introducirse en el mundo de machine learning ayudalo para que obtenga todas las monedas posibles.",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 30,
           "color": {
@@ -25612,7 +25604,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "¿Qué información podrías darle teniendo en cuenta todo lo que aprendiste hasta ahora?",
+          "string": "Teniendo en cuenta todo lo que aprendiste hasta ahora responde las siguientes preguntas.",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 30,
           "color": {
@@ -25795,7 +25787,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "pregunta1",
           "smoothed": true,
@@ -25804,9 +25796,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "1. Los problemas del mundo real pueden ser muy complejos y solo se deben solucionar con reglas lógicas fijas.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "string": "1. En el Aprendizaje Supervisado los datos son previamente etiquetados.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
           "color": {
             "b": 0,
             "g": 0,
@@ -25862,7 +25854,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "pregunta2",
           "smoothed": true,
@@ -25871,9 +25863,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "2. La mejor forma de resolver un problema mediante el aprendizaje automático es utilizar la técnica con mayor probabilidad de solucionarlo",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "string": "2. La clasificación es una técnica de aprendizaje no supervisado que se ocupa de variables objetivo discretas (o categóricas)",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
           "color": {
             "b": 0,
             "g": 0,
@@ -25919,7 +25911,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "pregunta3",
           "smoothed": true,
@@ -25928,9 +25920,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "3. El aprendizaje automático es una combinación de varias funciones que operan de forma conjunta y no se puede definir de una sola forma",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "string": "3. El Aprendizaje profundo usa una gran red neuronal simulada y es capaz de reconocer patrones de comportamiento en esos datos almacenados.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
           "color": {
             "b": 0,
             "g": 0,
@@ -25976,7 +25968,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "pregunta4",
           "smoothed": true,
@@ -25985,9 +25977,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "4. El aprendizaje automático es un sistema revolucionario que permite programar soluciones a problemas complejos, como errores humanos y medioambientales, directamente en dispositivos.",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 30,
+          "string": "4. La máquina aprende por sí misma, sin ayuda de un algoritmo y de su programación",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
           "color": {
             "b": 0,
             "g": 0,
@@ -26721,7 +26713,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Sonidos y color",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27127,7 +27119,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28224,7 +28216,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.37
       },
       "objectsGroups": [],
       "variables": [],
@@ -28266,12 +28258,12 @@
           "customSize": true,
           "height": 110,
           "layer": "",
-          "locked": true,
+          "locked": false,
           "name": "cerebrocaract",
           "persistentUuid": "d064fc2d-2af4-49a7-a933-038ba4ff1f88",
           "width": 110,
-          "x": 379,
-          "y": 382,
+          "x": 746,
+          "y": 486,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -28333,7 +28325,7 @@
           "locked": false,
           "name": "piso_1",
           "persistentUuid": "81e5a3ee-db52-456f-8b8e-9190937df9e7",
-          "width": 5151,
+          "width": 6796,
           "x": -3,
           "y": 643,
           "zOrder": 5,
@@ -28478,8 +28470,8 @@
           "name": "piso_2",
           "persistentUuid": "bf0c696f-0af9-4cd6-97cd-6829d93a69e6",
           "width": 131,
-          "x": 5045,
-          "y": 232,
+          "x": 6649,
+          "y": 220,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -28937,13 +28929,13 @@
           "angle": 0,
           "customSize": true,
           "height": 334,
-          "layer": "knn",
+          "layer": "Ejemploknn",
           "locked": false,
           "name": "img_knn",
           "persistentUuid": "d72e56ba-cb45-4b06-a307-56d2e6d35c69",
           "width": 680,
-          "x": 425,
-          "y": 280,
+          "x": 411,
+          "y": 268,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -28969,12 +28961,12 @@
           "angle": 0,
           "customSize": true,
           "height": 362,
-          "layer": "svm",
+          "layer": "Ejemplosvm",
           "locked": false,
           "name": "img_svm",
           "persistentUuid": "9b75d0fa-8618-490b-9f3e-3d0a9afdeca7",
           "width": 536,
-          "x": 512,
+          "x": 458,
           "y": 256,
           "zOrder": 102,
           "numberProperties": [],
@@ -29002,12 +28994,12 @@
           "customSize": true,
           "height": 110,
           "layer": "",
-          "locked": true,
+          "locked": false,
           "name": "cerebroregresion",
           "persistentUuid": "7372ebc8-94ad-43c6-8dc2-2fe6f18db28b",
           "width": 110,
-          "x": 820,
-          "y": 458,
+          "x": 1271,
+          "y": 490,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -29018,12 +29010,12 @@
           "customSize": true,
           "height": 100,
           "layer": "",
-          "locked": true,
+          "locked": false,
           "name": "cerebrologist",
           "persistentUuid": "0b552545-ee92-437e-b7fe-88d0806b7ece",
           "width": 100,
-          "x": 1955,
-          "y": 332,
+          "x": 2594,
+          "y": 436,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -29034,12 +29026,12 @@
           "customSize": true,
           "height": 100,
           "layer": "",
-          "locked": true,
+          "locked": false,
           "name": "cerebrolineal",
           "persistentUuid": "37ad0fdb-7259-447b-93d7-f6c230d7fb97",
           "width": 100,
-          "x": 1394,
-          "y": 443,
+          "x": 1874,
+          "y": 353,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -29050,12 +29042,12 @@
           "customSize": true,
           "height": 110,
           "layer": "",
-          "locked": true,
+          "locked": false,
           "name": "cerebroclasif",
           "persistentUuid": "d2178320-acd4-4cd1-9076-776ff75a05c1",
           "width": 110,
-          "x": 2680,
-          "y": 370,
+          "x": 3613,
+          "y": 170,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -29066,12 +29058,12 @@
           "customSize": true,
           "height": 100,
           "layer": "",
-          "locked": true,
+          "locked": false,
           "name": "cerebroknn",
           "persistentUuid": "cbaaf34e-182c-4375-9673-fd13b54cf633",
           "width": 100,
-          "x": 3637,
-          "y": 146,
+          "x": 4386,
+          "y": 328,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -29082,12 +29074,12 @@
           "customSize": true,
           "height": 100,
           "layer": "",
-          "locked": true,
+          "locked": false,
           "name": "cerebrosvm",
           "persistentUuid": "ef6246ca-436c-40e2-bc3f-5effa3a2d8c5",
           "width": 100,
-          "x": 4300,
-          "y": 447,
+          "x": 5080,
+          "y": 453,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -29150,8 +29142,8 @@
           "name": "piso_2",
           "persistentUuid": "5ce10ce3-350e-4672-983c-385361210b7a",
           "width": 262,
-          "x": 4848,
-          "y": 473,
+          "x": 6452,
+          "y": 461,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -29182,8 +29174,8 @@
           "name": "txt_Reto2",
           "persistentUuid": "729812b7-b3e8-4c1b-9963-083687cf9af6",
           "width": 0,
-          "x": 4856,
-          "y": 355,
+          "x": 6460,
+          "y": 343,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -29262,8 +29254,8 @@
           "name": "boton",
           "persistentUuid": "d8a42de2-1113-46cd-a240-c39715aee913",
           "width": 236,
-          "x": 4815,
-          "y": 315,
+          "x": 6419,
+          "y": 303,
           "zOrder": 119,
           "numberProperties": [],
           "stringProperties": [],
@@ -29329,6 +29321,166 @@
           "x": 386,
           "y": 11,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 110,
+          "layer": "",
+          "locked": false,
+          "name": "cerebroquees",
+          "persistentUuid": "7ba3f4fe-d55f-4e1d-9abe-369773ae08c7",
+          "width": 110,
+          "x": 351,
+          "y": 424,
+          "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "que es",
+          "locked": false,
+          "name": "txt_quees",
+          "persistentUuid": "a2623e68-eac3-4897-9d36-80ccfa2c2c3d",
+          "width": 0,
+          "x": 268,
+          "y": 192,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 218,
+          "layer": "que es",
+          "locked": false,
+          "name": "txt_quees2",
+          "persistentUuid": "f7519d1a-0563-4da9-974b-10059e090967",
+          "width": 869,
+          "x": 259,
+          "y": 288,
+          "zOrder": 127,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 78,
+          "layer": "",
+          "locked": false,
+          "name": "piso_1",
+          "persistentUuid": "08127493-3a7b-49a7-81fd-23d297a5a3ac",
+          "width": 447,
+          "x": 5914,
+          "y": 420,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 108,
+          "layer": "",
+          "locked": false,
+          "name": "piso_2",
+          "persistentUuid": "88354d33-f0c2-47aa-a091-58e1657195e8",
+          "width": 262,
+          "x": 5651,
+          "y": 530,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 110,
+          "layer": "",
+          "locked": false,
+          "name": "cerebroarboles",
+          "persistentUuid": "9a3574ad-fe9a-4cf1-a764-c0199cc2d4c4",
+          "width": 110,
+          "x": 6012,
+          "y": 286,
+          "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 323,
+          "layer": "knn",
+          "locked": false,
+          "name": "txt_knn2",
+          "persistentUuid": "4c69c215-9b3c-43f1-bf8a-4c7a187cc0e8",
+          "width": 669,
+          "x": 426,
+          "y": 261,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Ejemploknn",
+          "locked": false,
+          "name": "txt_ejknn",
+          "persistentUuid": "88ba998a-2008-4d93-94ff-7eef1558358a",
+          "width": 0,
+          "x": 557,
+          "y": 171,
+          "zOrder": 130,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 357,
+          "layer": "svm",
+          "locked": false,
+          "name": "txt_svm2",
+          "persistentUuid": "76b49b08-8bd6-466d-8284-18fd79848979",
+          "width": 649,
+          "x": 470,
+          "y": 246,
+          "zOrder": 131,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Ejemplosvm",
+          "locked": false,
+          "name": "txt_ejsvm",
+          "persistentUuid": "4fac20c4-3f01-44d8-b766-d3c5e272f5e4",
+          "width": 0,
+          "x": 564,
+          "y": 174,
+          "zOrder": 132,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29485,6 +29637,100 @@
               ]
             }
           ]
+        },
+        {
+          "name": "cerebroquees",
+          "tags": "caracteristicas",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Bombillo3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Bombillo3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Bombillo3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_quees",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Que es Aprendizaje Supervisado?",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_quees2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "La clasificación es una subcategoría del aprendizaje supervisado en la que el objetivo es predecir las etiquetas de clase categóricas (discreta, valores no ordenados, pertenencia a grupo) de las nuevas instancias, basándonos en observaciones pasadas.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         },
         {
           "name": "cerebrocaract",
@@ -30555,6 +30801,44 @@
           }
         },
         {
+          "bold": false,
+          "italic": false,
+          "name": "txt_knn2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "El K-NN es un algoritmo de aprendizaje supervisado, es decir, que a partir de un juego de datos inicial su objetivo será el de clasificar correctamente todas las instancias nuevas. El juego de datos típico de este tipo de algoritmos está formado por varios atributos descriptivos y un solo atributo objetivo (también llamado clase).",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_ejknn",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Ejemplo K-NN",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
           "name": "img_knn",
           "tags": "Clasificacion",
           "type": "Sprite",
@@ -30669,6 +30953,44 @@
           }
         },
         {
+          "bold": false,
+          "italic": false,
+          "name": "txt_svm2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Una SVM es un modelo que representa a los puntos de muestra en el espacio, separando las clases a 2 espacios lo más amplios posibles mediante un hiperplano de separación definido como el vector entre los 2 puntos, de las 2 clases, más cercanos al que se llama vector soporte. Cuando las nuevas muestras se ponen en correspondencia con dicho modelo, en función de los espacios a los que pertenezcan, pueden ser clasificadas a una o la otra clase.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_ejsvm",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Ejemplo SVM",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
           "name": "img_svm",
           "tags": "Clasificacion",
           "type": "Sprite",
@@ -30706,6 +31028,100 @@
               ]
             }
           ]
+        },
+        {
+          "name": "cerebroarboles",
+          "tags": "Clasificacion",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Bombillo3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Bombillo3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Bombillo3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_arboles",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "El K-NN es un algoritmo de aprendizaje supervisado, es decir, que a partir de un juego de datos inicial su objetivo será el de clasificar correctamente todas las instancias nuevas. El juego de datos típico de este tipo de algoritmos está formado por varios atributos descriptivos y un solo atributo objetivo (también llamado clase).",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_arboles2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "El K-NN es un algoritmo de aprendizaje supervisado, es decir, que a partir de un juego de datos inicial su objetivo será el de clasificar correctamente todas las instancias nuevas. El juego de datos típico de este tipo de algoritmos está formado por varios atributos descriptivos y un solo atributo objetivo (también llamado clase).",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         },
         {
           "name": "NewObject53",
@@ -30966,7 +31382,7 @@
                     "Personaje",
                     "0",
                     "0",
-                    "5045",
+                    "6791",
                     "700",
                     "",
                     "",
@@ -31122,6 +31538,131 @@
                   },
                   "parameters": [
                     "Personaje",
+                    "cerebroquees",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cuadro\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"que es\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"personaje\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "NewObject53",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerebroquees",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cuadro\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"que es\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"personaje\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
                     "cerebrocaract",
                     "",
                     "",
@@ -31206,29 +31747,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"cuadro\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
                     "\"caracteristicas\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"personaje\""
                   ],
                   "subInstructions": []
                 }
@@ -31829,6 +32348,17 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ejemploknn\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -31849,7 +32379,53 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "flecha",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"knn\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Ejemploknn\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -31880,6 +32456,17 @@
                   "parameters": [
                     "",
                     "\"knn\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ejemploknn\""
                   ],
                   "subInstructions": []
                 }
@@ -31932,6 +32519,17 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ejemplosvm\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -31952,7 +32550,53 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "flecha",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"svm\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Ejemplosvm\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -31983,6 +32627,17 @@
                   "parameters": [
                     "",
                     "\"svm\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ejemplosvm\""
                   ],
                   "subInstructions": []
                 }
@@ -32139,6 +32794,52 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerebroquees",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -32517,7 +33218,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "cuadro",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -32528,6 +33229,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "personaje",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 4100,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "que es",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -32621,6 +33333,17 @@
           "effects": []
         },
         {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 6009760,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Ejemploknn",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
           "ambientLightColorB": 1702453632,
           "ambientLightColorG": 6000560,
           "ambientLightColorR": -2147483648,
@@ -32630,13 +33353,20 @@
           "visibility": false,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 1802464368,
+          "ambientLightColorR": 1835362885,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Ejemplosvm",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
@@ -34427,7 +35157,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.418
+        "zoomFactor": 0.442
       },
       "objectsGroups": [],
       "variables": [],
@@ -35166,7 +35896,7 @@
           "name": "pregunta2",
           "persistentUuid": "75c28658-9905-4d2b-a4bb-c952c2f0a78e",
           "width": 0,
-          "x": 303,
+          "x": 287,
           "y": 306,
           "zOrder": 31,
           "numberProperties": [],
@@ -35182,8 +35912,8 @@
           "name": "p2R1",
           "persistentUuid": "56857cb6-dc11-45ce-8416-0d7b6f88df1d",
           "width": 0,
-          "x": 366,
-          "y": 362,
+          "x": 326,
+          "y": 355,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -35261,8 +35991,8 @@
           "name": "p2R2",
           "persistentUuid": "fdc22497-1777-498a-a17c-306a41bf8c71",
           "width": 0,
-          "x": 359,
-          "y": 414,
+          "x": 260,
+          "y": 416,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -35270,15 +36000,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 26,
           "layer": "pregunta2",
           "locked": false,
           "name": "p2R3",
           "persistentUuid": "a3e25e39-5d2f-4779-8c96-b7704a442c39",
-          "width": 0,
-          "x": 358,
-          "y": 480,
+          "width": 289,
+          "x": 238,
+          "y": 472,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -36236,7 +36966,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Plt sirve para?",
+          "string": "Plt.plot sirve para?",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 30,
           "color": {
@@ -36255,7 +36985,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "dfgdffdg",
+          "string": "Dibujar  gráficos",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 20,
           "color": {
@@ -36274,7 +37004,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "dfgdffdg",
+          "string": "Activar modo interactivo de dibujo",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 20,
           "color": {
@@ -36293,7 +37023,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "dfgdffdg",
+          "string": "Ayudar a establecer el título del gráfico",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 20,
           "color": {
@@ -37228,7 +37958,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Animacion Botellas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -38368,7 +39098,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Segunda Pregunta",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
