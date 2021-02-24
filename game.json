@@ -8188,6 +8188,69 @@
         "name": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fondoagua.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/fondorojo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\fondorojo.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/clustering1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\clustering1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/clustering2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\clustering2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/clustering3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\clustering3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/Bombillo3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\Bombillo3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/creatividad.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\creatividad.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/reducc.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\reducc.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -18718,7 +18781,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"IntroducciónMachineLearning\"",
+                    "\"IntroducciónMLvideo\"",
                     ""
                   ],
                   "subInstructions": []
@@ -19550,18 +19613,18 @@
       ]
     },
     {
-      "b": 155,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Introducci_243nMLvideo",
       "name": "IntroducciónMLvideo",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 155,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 155,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -19573,7 +19636,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.37
       },
       "objectsGroups": [],
       "variables": [],
@@ -20236,6 +20299,116 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_continuar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txt_continuar",
+                "\"248;200;15\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_continuar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"IntroducciónMLGlosario\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -20289,18 +20462,18 @@
       ]
     },
     {
-      "b": 155,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Introducci_243nMLGlosario",
       "name": "IntroducciónMLGlosario",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 155,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 155,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -20312,7 +20485,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.514
+        "zoomFactor": 0.394
       },
       "objectsGroups": [],
       "variables": [
@@ -24651,18 +24824,18 @@
       ]
     },
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Evaluacion_32Conocimientos",
       "name": "Evaluacion Conocimientos",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -24674,7 +24847,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.554
+        "zoomFactor": 0.362
       },
       "objectsGroups": [],
       "variables": [],
@@ -26232,7 +26405,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Siguiente",
+          "string": "Continuar",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 30,
           "color": {
@@ -27119,7 +27292,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27353,7 +27526,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"AprendizajeSupervisado\"",
+                    "\"Menu Misiones\"",
                     ""
                   ],
                   "subInstructions": []
@@ -27370,7 +27543,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "preguntas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28216,7 +28389,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.37
+        "zoomFactor": 0.346
       },
       "objectsGroups": [],
       "variables": [],
@@ -33234,7 +33407,7 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 4100,
           "ambientLightColorR": 0,
           "followBaseLayerCamera": false,
@@ -33333,9 +33506,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 6009760,
-          "ambientLightColorR": -2147483632,
+          "ambientLightColorR": -2147483648,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Ejemploknn",
@@ -33355,9 +33528,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
-          "ambientLightColorG": 1802464368,
-          "ambientLightColorR": 1835362885,
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 1802464384,
+          "ambientLightColorR": 1835362944,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Ejemplosvm",
@@ -33382,18 +33555,18 @@
       ]
     },
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Mision_32Practica",
       "name": "Mision Practica",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -33405,7 +33578,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.506
+        "zoomFactor": 0.362
       },
       "objectsGroups": [],
       "variables": [],
@@ -33531,8 +33704,8 @@
           "name": "txt_objetivo",
           "persistentUuid": "294b032d-92d8-4b7f-84aa-ce24b04e8388",
           "width": 438,
-          "x": 281,
-          "y": 277,
+          "x": 301,
+          "y": 285,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -33543,7 +33716,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "tx_nivel2",
           "persistentUuid": "f0478fa1-63a9-4f5c-8abd-79a84ec03f50",
           "width": 0,
@@ -33559,7 +33732,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "tx_nivel3",
           "persistentUuid": "d495ce35-7e21-42f6-898a-53d5bcedac5e",
           "width": 0,
@@ -33627,24 +33800,8 @@
           "name": "txt_iniciarnivel1",
           "persistentUuid": "619dbdf0-d39e-49e5-a855-66f461521e05",
           "width": 0,
-          "x": 637,
-          "y": 438,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Nivel1",
-          "locked": false,
-          "name": "txt_cancelarnivel1",
-          "persistentUuid": "fe212a4f-ff5c-410c-a29b-d26ceecbc497",
-          "width": 0,
-          "x": 617,
-          "y": 539,
+          "x": 363,
+          "y": 521,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -33653,14 +33810,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 136,
+          "height": 87,
           "layer": "Nivel2",
           "locked": false,
           "name": "txt_nivel2",
           "persistentUuid": "ce8046c3-b5dc-4638-bcb7-62b63a6d5ad9",
           "width": 614,
-          "x": 425,
-          "y": 235,
+          "x": 407,
+          "y": 241,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -33675,25 +33832,9 @@
           "name": "txt_iniciarnivel2",
           "persistentUuid": "d2f1369f-b72a-474a-99c8-389c5d63c827",
           "width": 0,
-          "x": 651,
-          "y": 428,
+          "x": 631,
+          "y": 507,
           "zOrder": 77,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Nivel2",
-          "locked": false,
-          "name": "txt_cancelarnivel2",
-          "persistentUuid": "f073c693-26aa-49f8-945f-8a2fa07b6791",
-          "width": 0,
-          "x": 636,
-          "y": 531,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -33719,7 +33860,7 @@
           "customSize": true,
           "height": 130,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "boton",
           "persistentUuid": "2ed51aa1-c8e4-48e4-adfa-6d80d9973692",
           "width": 200,
@@ -33735,7 +33876,7 @@
           "customSize": true,
           "height": 130,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "boton",
           "persistentUuid": "c7fbded5-cb99-4585-9216-e8e26ba4bc89",
           "width": 200,
@@ -33751,7 +33892,7 @@
           "customSize": true,
           "height": 130,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "boton",
           "persistentUuid": "907db0ab-96f6-49f4-9873-7105339fdb3b",
           "width": 200,
@@ -33765,14 +33906,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 100,
+          "height": 116,
           "layer": "Nivel1",
           "locked": false,
           "name": "boton",
           "persistentUuid": "59a95f59-03da-4826-8ea9-f887e889d814",
-          "width": 222,
-          "x": 586,
-          "y": 410,
+          "width": 270,
+          "x": 284,
+          "y": 506,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -33781,46 +33922,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 100,
-          "layer": "Nivel1",
-          "locked": false,
-          "name": "boton",
-          "persistentUuid": "1002c49e-72ad-4dba-bcb8-abfeea8cf243",
-          "width": 222,
-          "x": 583,
-          "y": 513,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
+          "height": 121,
           "layer": "Nivel2",
           "locked": false,
           "name": "boton",
           "persistentUuid": "2af8a19d-e278-476c-845b-321f0bf98e4c",
           "width": 222,
-          "x": 602,
-          "y": 400,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "Nivel2",
-          "locked": false,
-          "name": "boton",
-          "persistentUuid": "34cd419d-e723-43b8-a852-2f2230a0409a",
-          "width": 222,
-          "x": 602,
-          "y": 503,
+          "x": 582,
+          "y": 487,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -33845,14 +33954,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 100,
+          "height": 139,
           "layer": "Nivel3",
           "locked": false,
           "name": "boton",
           "persistentUuid": "1b2f74bf-1fad-4745-a4ee-ad57bf1aff6f",
-          "width": 222,
-          "x": 601,
-          "y": 396,
+          "width": 224,
+          "x": 916,
+          "y": 479,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -33863,7 +33972,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "tx_nivel1",
           "persistentUuid": "7cad141f-d31b-4801-9da2-c8940d2002a7",
           "width": 0,
@@ -33883,41 +33992,9 @@
           "name": "txt_iniciarnivel3",
           "persistentUuid": "604eab3b-1f02-48d9-a303-348e26a23adb",
           "width": 0,
-          "x": 649,
-          "y": 422,
+          "x": 964,
+          "y": 505,
           "zOrder": 79,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "Nivel3",
-          "locked": false,
-          "name": "boton",
-          "persistentUuid": "00087796-3344-4dc5-aff4-ee59fc3847ff",
-          "width": 222,
-          "x": 607,
-          "y": 509,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Nivel3",
-          "locked": false,
-          "name": "txt_cancelarnivel3",
-          "persistentUuid": "fca03230-c1de-4f10-9089-9b0414ee058c",
-          "width": 0,
-          "x": 642,
-          "y": 538,
-          "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -34171,7 +34248,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Iniciar",
+          "string": "Iniciar\nNivel 1",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 35,
           "color": {
@@ -34291,7 +34368,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Iniciar",
+          "string": "Iniciar \nNivel 2",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 35,
           "color": {
@@ -34387,7 +34464,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Iniciar",
+          "string": "Iniciar\nNivel 3",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 35,
           "color": {
@@ -35049,6 +35126,60 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_iniciarnivel3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel3\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -35134,18 +35265,18 @@
       ]
     },
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Nivel1Conceptos",
       "name": "Nivel1Conceptos",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -35157,7 +35288,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.442
+        "zoomFactor": 0.394
       },
       "objectsGroups": [],
       "variables": [],
@@ -36601,6 +36732,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 87,
+          "layer": "",
+          "locked": false,
+          "name": "siguiente",
+          "persistentUuid": "30ad0577-462f-4a8c-b845-a925c2be6f7a",
+          "width": 216,
+          "x": 1160,
+          "y": 508,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_siguiente",
+          "persistentUuid": "9641facf-1e5f-40c6-bf05-648fbde91f4d",
+          "width": 0,
+          "x": 1193,
+          "y": 531,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37607,6 +37770,64 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\letrax.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_siguiente",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Continuar",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "siguiente",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\bOTON2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -39098,7 +39319,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Segunda Pregunta",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41058,6 +41279,82 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Nivel2Codigo\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -41188,18 +41485,18 @@
       ]
     },
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Nivel2Codigo",
       "name": "Nivel2Codigo",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -41211,7 +41508,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [
@@ -41826,8 +42123,8 @@
           "name": "cuadroazul",
           "persistentUuid": "54be1bab-b581-43c7-b52b-1d817286525f",
           "width": 143,
-          "x": 1193,
-          "y": 599,
+          "x": 1199,
+          "y": 590,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -41842,8 +42139,8 @@
           "name": "siguiente",
           "persistentUuid": "8df3b3b3-98fc-44c3-9662-e0ff27bd6774",
           "width": 0,
-          "x": 1206,
-          "y": 618,
+          "x": 1208,
+          "y": 609,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -42014,7 +42311,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Siguiente",
+          "string": "Continuar",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 25,
           "color": {
@@ -43661,9 +43958,31 @@
                 "Left"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -43671,7 +43990,7 @@
               },
               "parameters": [
                 "",
-                "\"AprendizajeNoSupervisado\"",
+                "\"Nivel3\"",
                 ""
               ],
               "subInstructions": []
@@ -43896,7 +44215,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.418
+        "zoomFactor": 0.346
       },
       "objectsGroups": [],
       "variables": [
@@ -43992,22 +44311,6 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "txt_enviEst",
-          "persistentUuid": "8868e0ed-02c3-469c-8d57-87022fc75206",
-          "width": 0,
-          "x": 681,
-          "y": 624,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "UsernameData",
           "persistentUuid": "75a13550-4f02-4ce3-b21d-4d5f4c58edcc",
           "width": 0,
@@ -44042,14 +44345,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 74,
+          "height": 63,
           "layer": "",
           "locked": false,
           "name": "cuadrorojo",
           "persistentUuid": "27f91c36-9f18-4158-b71a-3da867c530ee",
-          "width": 208,
-          "x": 660,
-          "y": 609,
+          "width": 252,
+          "x": 533,
+          "y": 606,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -44083,6 +44386,54 @@
           "x": -24,
           "y": 146,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "27d3616b-6ca5-4b0c-90cb-3c32d0083cb5",
+          "width": 154,
+          "x": 792,
+          "y": 609,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "siguiente",
+          "persistentUuid": "29eaefe2-6a81-4960-b45a-30418ddd2324",
+          "width": 0,
+          "x": 806,
+          "y": 624,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ValidarCo",
+          "persistentUuid": "805012d8-b085-4a29-8d9f-f94dccf72c83",
+          "width": 0,
+          "x": 562,
+          "y": 620,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -44429,9 +44780,151 @@
             "g": 2,
             "r": 208
           }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "ValidarCo",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Validar Codigo",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "siguiente",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Continuar",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Titulo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "title",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "title",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "title",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "title",
+                    "Tween",
+                    "\"Hover2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -44701,7 +45194,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "txt_atras",
+                    "siguiente",
                     "",
                     "",
                     ""
@@ -44716,149 +45209,6 @@
                   "parameters": [
                     "",
                     "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"MenuInicial\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "Titulo",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "title",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "title",
-                    "Tween",
-                    "\"Hover\"",
-                    "1.1",
-                    "1.1",
-                    "\"bouncePast\"",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "title",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "title",
-                    "Tween",
-                    "\"Hover2\"",
-                    "0.95",
-                    "0.95",
-                    "\"easeOutQuad\"",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "Botones Diseño",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "txt_atras",
-                    "",
-                    "",
-                    ""
                   ],
                   "subInstructions": []
                 },
@@ -44881,188 +45231,19 @@
                     "",
                     "SonidosButton\\gota.mp3",
                     "",
-                    "60",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "txt_atras",
-                    "\"255;255;255\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "txt_atras",
-                    "Tween",
-                    "\"int_apsup\"",
-                    "1.1",
-                    "1.1",
-                    "\"bouncePast\"",
                     "100",
                     ""
                   ],
                   "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "txt_atras",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "txt_atras",
-                    "\"248;200;15\""
-                  ],
-                  "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
+                    "value": "Scene"
                   },
                   "parameters": [
-                    "txt_atras",
-                    "Tween",
-                    "\"int_apsup2\"",
-                    "0.95",
-                    "0.95",
-                    "\"easeOutQuad\"",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "txt_enviEst",
                     "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "txt_enviEst",
-                    "\"47;70;156\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "txt_enviEst",
-                    "Tween",
-                    "\"int_apsup\"",
-                    "1.1",
-                    "1.1",
-                    "\"bouncePast\"",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "txt_enviEst",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "txt_enviEst",
-                    "\"155;155;155\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Tween::AddObjectScaleTween"
-                  },
-                  "parameters": [
-                    "txt_enviEst",
-                    "Tween",
-                    "\"int_apsup2\"",
-                    "0.95",
-                    "0.95",
-                    "\"easeOutQuad\"",
-                    "100",
+                    "\"Menu Misiones\"",
                     ""
                   ],
                   "subInstructions": []
@@ -45110,18 +45291,18 @@
       ]
     },
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "AprendizajeNoSupervisado",
       "name": "AprendizajeNoSupervisado",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -45133,7 +45314,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.53
+        "zoomFactor": 0.362
       },
       "objectsGroups": [],
       "variables": [],
@@ -45142,7 +45323,7 @@
           "angle": 0,
           "customSize": true,
           "height": 700,
-          "layer": "",
+          "layer": "Background",
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "cce3ca0f-f9ae-45d9-993b-b00e86330ab9",
@@ -45174,7 +45355,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Background",
           "locked": false,
           "name": "titulo",
           "persistentUuid": "31cc0d40-4a2c-4abb-bc93-c0c9a918925a",
@@ -45190,7 +45371,7 @@
           "angle": 0,
           "customSize": true,
           "height": 149,
-          "layer": "",
+          "layer": "Background",
           "locked": false,
           "name": "cuadrorojo",
           "persistentUuid": "a7ec274c-e5fd-48f7-825b-15fc2e1d9ab6",
@@ -45206,7 +45387,7 @@
           "angle": 0,
           "customSize": true,
           "height": 100,
-          "layer": "",
+          "layer": "Background",
           "locked": false,
           "name": "LogoU",
           "persistentUuid": "3865a097-0b56-42ed-aff0-b6ef2c8a3cdc",
@@ -45222,7 +45403,7 @@
           "angle": 0,
           "customSize": true,
           "height": 100,
-          "layer": "",
+          "layer": "Background",
           "locked": false,
           "name": "LogoML",
           "persistentUuid": "873b7bd9-c554-424b-a653-2ec11e09d016",
@@ -45242,9 +45423,9 @@
           "locked": false,
           "name": "piso1",
           "persistentUuid": "b644a02b-7e01-4057-acf6-45baa7241267",
-          "width": 131,
-          "x": -51,
-          "y": 348,
+          "width": 129,
+          "x": -68,
+          "y": 410,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -45258,42 +45439,10 @@
           "locked": false,
           "name": "piso2",
           "persistentUuid": "251d04a5-8bb7-4d58-86e3-8aae7c358003",
-          "width": 644,
-          "x": 17,
-          "y": 600,
+          "width": 6438,
+          "x": 11,
+          "y": 621,
           "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 92,
-          "layer": "",
-          "locked": false,
-          "name": "piso3",
-          "persistentUuid": "8e165c6d-4b3e-4176-a905-da5f3db2efae",
-          "width": 175,
-          "x": 651,
-          "y": 562,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 103,
-          "layer": "",
-          "locked": false,
-          "name": "piso2",
-          "persistentUuid": "5588358e-0825-4b0e-a9e0-4eafaf3199b5",
-          "width": 992,
-          "x": 663,
-          "y": 643,
-          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45307,8 +45456,8 @@
           "name": "Personaje",
           "persistentUuid": "19dfca35-4e9b-46dc-9091-2fa6b597547a",
           "width": 152,
-          "x": 67,
-          "y": 400,
+          "x": 52,
+          "y": 398,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -45380,15 +45529,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 215,
           "layer": "caracteristicas",
           "locked": false,
           "name": "txt_caracte2",
           "persistentUuid": "11a8006e-ee50-40b6-8f40-0ded636c192f",
-          "width": 0,
-          "x": 621,
-          "y": 310,
+          "width": 712,
+          "x": 348,
+          "y": 305,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -45451,8 +45600,8 @@
           "name": "txt_k_means",
           "persistentUuid": "17003111-a7bb-4b62-8b5b-ae8fb8d964f3",
           "width": 0,
-          "x": 615,
-          "y": 213,
+          "x": 607,
+          "y": 240,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -45467,15 +45616,558 @@
           "name": "txt_k_means2",
           "persistentUuid": "26f379e8-fe41-430d-84d3-1ac2d7f30820",
           "width": 649,
-          "x": 431,
-          "y": 284,
+          "x": 410,
+          "y": 343,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 43,
+          "layer": "Ejemplo-Cluster",
+          "locked": false,
+          "name": "txt_Ejemplocluste",
+          "persistentUuid": "7e36196d-b18a-4ad6-ad35-c630f4b41317",
+          "width": 391,
+          "x": 521,
+          "y": 200,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 145,
+          "layer": "Ejemplo-Cluster",
+          "locked": false,
+          "name": "imgkmeans1",
+          "persistentUuid": "9108441c-54e9-40de-929c-c910575d0946",
+          "width": 160,
+          "x": 331,
+          "y": 352,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "Ejemplo-Cluster",
+          "locked": false,
+          "name": "txt_k_EjemploCluster1",
+          "persistentUuid": "d7f5616c-0e77-4a8d-8f0f-b746a0df3e96",
+          "width": 263,
+          "x": 304,
+          "y": 261,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 110,
+          "layer": "Ejemplo-Cluster",
+          "locked": false,
+          "name": "txt_k_EjemploCluster2",
+          "persistentUuid": "a434ace0-2f67-4a52-bf7c-11787213e2ad",
+          "width": 237,
+          "x": 580,
+          "y": 252,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 145,
+          "layer": "Ejemplo-Cluster",
+          "locked": false,
+          "name": "imgkmeans2",
+          "persistentUuid": "2dc91080-1b40-40e4-9424-670b75c2d2be",
+          "width": 160,
+          "x": 595,
+          "y": 363,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "Ejemplo-Cluster",
+          "locked": false,
+          "name": "txt_k_EjemploCluster3",
+          "persistentUuid": "39808138-704e-4d1c-ae54-ea45ca99d7b3",
+          "width": 248,
+          "x": 850,
+          "y": 250,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 145,
+          "layer": "Ejemplo-Cluster",
+          "locked": false,
+          "name": "imgkmeans3",
+          "persistentUuid": "aad48293-a6bb-4169-a4d9-45e4a530a179",
+          "width": 160,
+          "x": 863,
+          "y": 352,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 104,
+          "layer": "Ejemplo-Cluster",
+          "locked": false,
+          "name": "txt_k_EjemploCluster4",
+          "persistentUuid": "ce0f49e1-1ff4-474e-aef9-a307fa6f7936",
+          "width": 739,
+          "x": 300,
+          "y": 511,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ReduccionDimension",
+          "locked": false,
+          "name": "txt_redudim",
+          "persistentUuid": "0b68ddbe-68cc-4315-bc2a-995ee208929a",
+          "width": 0,
+          "x": 450,
+          "y": 216,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 228,
+          "layer": "ReduccionDimension",
+          "locked": false,
+          "name": "txt_redudim2",
+          "persistentUuid": "cc05a934-15d8-453f-b9de-68227aa4d6e4",
+          "width": 397,
+          "x": 308,
+          "y": 301,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "PCA",
+          "locked": false,
+          "name": "txt_pca",
+          "persistentUuid": "1d4ba5a5-0737-41db-8b12-715d0a64d378",
+          "width": 0,
+          "x": 329,
+          "y": 213,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 337,
+          "layer": "PCA",
+          "locked": false,
+          "name": "txt_pca2",
+          "persistentUuid": "2be6b1f1-54ed-4190-a6d4-7fc78adbeeb9",
+          "width": 760,
+          "x": 315,
+          "y": 272,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 106,
+          "layer": "",
+          "locked": false,
+          "name": "piso1",
+          "persistentUuid": "648ef0c2-6bca-47d6-8696-71ee4ccf0a6e",
+          "width": 257,
+          "x": 877,
+          "y": 518,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 137,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "bd6af441-31bd-4af6-a6bc-061649dae26e",
+          "width": 343,
+          "x": 2308,
+          "y": 418,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 106,
+          "layer": "",
+          "locked": false,
+          "name": "piso1",
+          "persistentUuid": "0254d2b7-d098-48db-870f-1ed2ce98b9ca",
+          "width": 127,
+          "x": 2659,
+          "y": 507,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "cerequees",
+          "persistentUuid": "24cdb370-b981-4e04-ad8e-000be70ca866",
+          "width": 100,
+          "x": 377,
+          "y": 480,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "cerecaract",
+          "persistentUuid": "cb0d7e15-ae9f-4c60-8779-f74c95d293bf",
+          "width": 100,
+          "x": 1512,
+          "y": 496,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "cereclust",
+          "persistentUuid": "421a7dae-04d1-4e34-9595-1c5f91458834",
+          "width": 100,
+          "x": 2380,
+          "y": 247,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "cerekmean",
+          "persistentUuid": "f0395467-ec98-46c7-9972-c045c8a2540f",
+          "width": 100,
+          "x": 3317,
+          "y": 443,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "cereredudim",
+          "persistentUuid": "d1ea45f8-15a0-4e8d-b63f-08ca2048fbcd",
+          "width": 100,
+          "x": 4612,
+          "y": 379,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "cerepca",
+          "persistentUuid": "7aa89c09-f917-4ad4-8503-194e42a2b32b",
+          "width": 100,
+          "x": 5754,
+          "y": 305,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 385,
+          "layer": "",
+          "locked": false,
+          "name": "piso1",
+          "persistentUuid": "9865a2f4-3320-46f6-bc77-d082fb92b50e",
+          "width": 129,
+          "x": 6348,
+          "y": 241,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 265,
+          "layer": "ReduccionDimension",
+          "locked": false,
+          "name": "imgredu",
+          "persistentUuid": "abedbca2-752d-4e04-9b3c-364d38edaf4c",
+          "width": 338,
+          "x": 722,
+          "y": 298,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 89,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "b10bd393-f9cb-4a0e-80b8-0399445a0983",
+          "width": 183,
+          "x": 6141,
+          "y": 420,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_Reto",
+          "persistentUuid": "b005fe5a-df68-4dc9-bedf-80a1b4c384d3",
+          "width": 0,
+          "x": 6159,
+          "y": 436,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 106,
+          "layer": "",
+          "locked": false,
+          "name": "piso1",
+          "persistentUuid": "69ebc4f5-f4bd-4fd3-a058-3a78840d5f93",
+          "width": 257,
+          "x": 2046,
+          "y": 515,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "piso2",
+          "persistentUuid": "14c08510-1c05-40fd-9134-e8abff620549",
+          "width": 644,
+          "x": 4203,
+          "y": 527,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 83,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "423f81c2-f8b9-4aea-8c8e-b718cdfbc217",
+          "width": 341,
+          "x": 5611,
+          "y": 497,
+          "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "name": "Fondo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\fondorojo.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cerequees",
+          "tags": "caracteristicas",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Bombillo3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\creatividad.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "bold": true,
           "italic": false,
@@ -45515,6 +46207,62 @@
           }
         },
         {
+          "name": "cerecaract",
+          "tags": "caracteristicas",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Bombillo3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\creatividad.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "bold": true,
           "italic": false,
           "name": "txt_caracte",
@@ -45543,7 +46291,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "caracteristicas",
+          "string": "•\tEl conjunto de datos está segmentado por atributos compartidos.\n•\tAyuda a detectar anomalías que no son adecuadas para ningún grupo.\n•\tSimplifique el conjunto de datos agregando variables con atributos similares.\n•\tEstudia la estructura inherente (generalmente oculta) de los datos.\n",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 25,
           "color": {
@@ -45551,6 +46299,62 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "name": "cereclust",
+          "tags": "caracteristicas",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Bombillo3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Bombillo3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\creatividad.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "bold": true,
@@ -45591,6 +46395,62 @@
           }
         },
         {
+          "name": "cerekmean",
+          "tags": "caracteristicas",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Bombillo3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\creatividad.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "bold": true,
           "italic": false,
           "name": "txt_k_means",
@@ -45629,7 +46489,45 @@
           }
         },
         {
-          "name": "cuadrito",
+          "bold": false,
+          "italic": false,
+          "name": "txt_Ejemplocluste",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Vamos a ver con un ejemplo:\n",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_k_EjemploCluster1",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "En el siguiente gráfico podemos ver un conjunto de datos, representados por puntos en 2 dimensiones.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "imgkmeans1",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -45646,7 +46544,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
+                      "image": "9.AprendizajeNoSupervisado\\clustering1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -45668,7 +46566,26 @@
           ]
         },
         {
-          "name": "Fondo",
+          "bold": false,
+          "italic": false,
+          "name": "txt_k_EjemploCluster2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Con estos datos, algunas personas dirían que hay 2 grupos, tal y como se muestra en la siguiente figura.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "imgkmeans2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -45685,7 +46602,369 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fondorojo.jpg",
+                      "image": "9.AprendizajeNoSupervisado\\clustering2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_k_EjemploCluster3",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Sin embargo, otras personas podrían decir que, en realidad, hay 5 grupos.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "imgkmeans3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\clustering3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_k_EjemploCluster4",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Esto no significa haya alguien equivocado. Tampoco que todos tengan razón. Tan sólo que los datos son tal y como son pero podemos elegir verlos como más nos convengan.\nLas técnicas de clustering intentan descubrir cuál es el mejor agrupamiento de los datos. Algunas de estas técnicas necesitan que especifiquemos el número de grupos de queremos encontrar",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 18,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "cereredudim",
+          "tags": "caracteristicas",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Bombillo3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\creatividad.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_redudim",
+          "smoothed": true,
+          "tags": "caracteristicas",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Reducción de Dimensionalidad",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_redudim2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "La reducción de dimensionalidad como método de aprendizaje no supervisado tiene como objetivo reducir el número de variables a tener en cuenta en el análisis.\nUn ejemplo de este método es representar en una sola dimensión las medidas de un papel.",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "imgredu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\reducc.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_pca",
+          "smoothed": true,
+          "tags": "caracteristicas",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Análisis de componentes principales PCA",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 15,
+            "g": 200,
+            "r": 248
+          }
+        },
+        {
+          "name": "cerepca",
+          "tags": "caracteristicas",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Bombillo3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\creatividad.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "txt_pca2",
+          "smoothed": true,
+          "tags": "Regresion",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "El análisis de componentes principales se concibe como una técnica de reducción de la dimensión, pues permite pasar de una gran cantidad de variables interrelacionadas a unas pocas componentes principales. El método consiste en buscar combinaciones lineales de las variables originales que representen lo mejor posible a la variabilidad presente en los datos.\nDe este modo,con unas pocas combinaciones lineales, que serán las componentes principales, sería suficiente para entender la información contenida en los datos. Al mismo tiempo, la forma en que se construyen las componentes, y su relación con unas u otras variables originales, sirven para entender la estructura de correlación inherente a los datos.\n",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_Reto",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Reto 3",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "cuadrito",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -45802,9 +47081,1066 @@
             }
           ],
           "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Movimiento personaje",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FixCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "Personaje",
+                    "0",
+                    "0",
+                    "6441",
+                    "700",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Personaje",
+                        "\"walking\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Personaje",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Personaje",
+                        "\"walking\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Personaje",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "\"idle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Animacion Aprendizaje No Supervisado",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerequees",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cuadro\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"que es\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"personaje\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "NewObject53",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerequees",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cuadro\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"que es\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"personaje\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerecaract",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cuadro\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"caracteristicas\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"personaje\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "NewObject53",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerecaract",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"caracteristicas\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cereclust",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cuadro\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"clustering\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ejemplo-Cluster\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"personaje\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "NewObject53",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "flecha",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"clustering\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Ejemplo-Cluster\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cereclust",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"clustering\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ejemplo-Cluster\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerekmean",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cuadro\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"k-means\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"personaje\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "NewObject53",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerekmean",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"k-means\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cereredudim",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cuadro\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ReduccionDimension\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"personaje\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "NewObject53",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cereredudim",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ReduccionDimension\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerepca",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"cuadro\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"PCA\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"personaje\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "NewObject53",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cerepca",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"PCA\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_Reto",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_Reto",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_Reto",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_Reto",
+                    "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_Reto",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu Misiones\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 22434488,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
         {
           "ambientLightColorB": 6880376,
           "ambientLightColorG": 6879736,
@@ -45834,7 +48170,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "cuadro",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -45899,17 +48235,24 @@
           "ambientLightColorR": -2147483648,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "name": "Layer",
-          "visibility": true,
+          "name": "ReduccionDimension",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 15631384,
+          "ambientLightColorR": -2147483632,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "PCA",
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
         {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
