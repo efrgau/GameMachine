@@ -8773,6 +8773,51 @@
         "name": "9.AprendizajeNoSupervisado\\Nivel1\\grafi-4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/RojoNegro50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\RojoNegro50.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/BOTON3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\BOTON3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/piso/pisor2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\piso\\pisor2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/piso/pisor3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\piso\\pisor3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/piso/pisor1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\piso\\pisor1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -19396,6 +19441,52 @@
                   "parameters": [
                     "",
                     "\"AprendizajeNoSupervisado\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_apref",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"AprendizajeReforzado\"",
                     ""
                   ],
                   "subInstructions": []
@@ -32015,7 +32106,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\BOTON3.png",
+                      "image": "8.Aprendizajesupervisado\\Assets\\botonesAA.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -35276,7 +35367,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35645,7 +35736,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Nivel1Conceptos\"",
+                    "\"Nivel1 AS\"",
                     ""
                   ],
                   "subInstructions": []
@@ -35699,7 +35790,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Nivel2Codigo\"",
+                    "\"Nivel2 AS\"",
                     ""
                   ],
                   "subInstructions": []
@@ -35753,7 +35844,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Nivel3\"",
+                    "\"Nivel3 AS\"",
                     ""
                   ],
                   "subInstructions": []
@@ -35847,8 +35938,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Nivel1Conceptos",
-      "name": "Nivel1Conceptos",
+      "mangledName": "Nivel1_32AS",
+      "name": "Nivel1 AS",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -42106,8 +42197,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Nivel2Codigo",
-      "name": "Nivel2Codigo",
+      "mangledName": "Nivel2_32AS",
+      "name": "Nivel2 AS",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -45170,8 +45261,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Nivel3",
-      "name": "Nivel3",
+      "mangledName": "Nivel3_32AS",
+      "name": "Nivel3 AS",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -48704,7 +48795,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Animacion Aprendizaje No Supervisado",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -49545,7 +49636,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Menu Misiones\"",
+                    "\"Mision Practica No Super\"",
                     ""
                   ],
                   "subInstructions": []
@@ -50223,7 +50314,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
+                      "image": "9.AprendizajeNoSupervisado\\RojoNegro50.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -50670,7 +50761,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\BOTON3.png",
+                      "image": "9.AprendizajeNoSupervisado\\BOTON3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -51206,7 +51297,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Nivel1CodigoNS\"",
+                    "\"Nivel1 ANS\"",
                     ""
                   ],
                   "subInstructions": []
@@ -51397,8 +51488,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Nivel1CodigoNS",
-      "name": "Nivel1CodigoNS",
+      "mangledName": "Nivel1_32ANS",
+      "name": "Nivel1 ANS",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -53153,6 +53244,26 @@
                 "\"incorr\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "cartel"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "cartel2"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -54020,7 +54131,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.362
+        "zoomFactor": 0.314
       },
       "objectsGroups": [],
       "variables": [],
@@ -54129,7 +54240,7 @@
           "locked": false,
           "name": "piso2",
           "persistentUuid": "251d04a5-8bb7-4d58-86e3-8aae7c358003",
-          "width": 5798,
+          "width": 5467,
           "x": 11,
           "y": 621,
           "zOrder": 24,
@@ -54610,7 +54721,7 @@
           "name": "piso1",
           "persistentUuid": "9865a2f4-3320-46f6-bc77-d082fb92b50e",
           "width": 129,
-          "x": 5687,
+          "x": 5366,
           "y": 216,
           "zOrder": 23,
           "numberProperties": [],
@@ -54674,8 +54785,8 @@
           "name": "piso3",
           "persistentUuid": "423f81c2-f8b9-4aea-8c8e-b718cdfbc217",
           "width": 341,
-          "x": 3347,
-          "y": 468,
+          "x": 3357,
+          "y": 471,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -54709,6 +54820,38 @@
           "x": 5084,
           "y": 346,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "piso1",
+          "persistentUuid": "5efb8476-20dc-4ec2-97a0-49d11adac1ce",
+          "width": 130,
+          "x": 3220,
+          "y": 534,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "piso1",
+          "persistentUuid": "7d1c26c6-ebf3-4c6b-b898-452e3239b9ce",
+          "width": 130,
+          "x": 3701,
+          "y": 537,
+          "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -55536,7 +55679,7 @@
           "height": 191,
           "name": "piso1",
           "tags": "",
-          "texture": "10.AprendizajeReforzado\\pisor1.png",
+          "texture": "10.AprendizajeReforzado\\piso\\pisor1.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -55554,7 +55697,7 @@
           "height": 191,
           "name": "piso2",
           "tags": "",
-          "texture": "10.AprendizajeReforzado\\pisor2.png",
+          "texture": "10.AprendizajeReforzado\\piso\\pisor2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -55572,7 +55715,7 @@
           "height": 191,
           "name": "piso3",
           "tags": "",
-          "texture": "10.AprendizajeReforzado\\pisor3.png",
+          "texture": "10.AprendizajeReforzado\\piso\\pisor3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -55668,7 +55811,7 @@
                     "Personaje",
                     "0",
                     "0",
-                    "5798",
+                    "5475",
                     "700",
                     "",
                     "",
@@ -56545,7 +56688,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Menu Misiones\"",
+                    "\"Mision Practica Reforzado\"",
                     ""
                   ],
                   "subInstructions": []
@@ -58253,7 +58396,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Nivel1ConceptosAR\"",
+                    "\"Nivel1 AR\"",
                     ""
                   ],
                   "subInstructions": []
@@ -58307,7 +58450,7 @@
                   },
                   "parameters": [
                     "",
-                    "",
+                    "\"Nivel2 AR\"",
                     ""
                   ],
                   "subInstructions": []
@@ -58444,8 +58587,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Nivel1ConceptosAR",
-      "name": "Nivel1ConceptosAR",
+      "mangledName": "Nivel1_32AR",
+      "name": "Nivel1 AR",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -59544,7 +59687,7 @@
           "persistentUuid": "9641facf-1e5f-40c6-bf05-648fbde91f4d",
           "width": 0,
           "x": 1172,
-          "y": 625,
+          "y": 627,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -63802,7 +63945,7 @@
               },
               "parameters": [
                 "",
-                "\"Menu Misiones\"",
+                "\"Nivel2 AR\"",
                 ""
               ],
               "subInstructions": []
@@ -63983,8 +64126,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Nivel2AR",
-      "name": "Nivel2AR",
+      "mangledName": "Nivel2_32AR",
+      "name": "Nivel2 AR",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
