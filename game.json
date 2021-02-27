@@ -8899,6 +8899,51 @@
         "name": "9.AprendizajeNoSupervisado\\Nivel1\\img3.PNG",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel/fondon2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel\\fondon2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel/uy.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel\\uy.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel/gt.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel\\gt.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel/labcere.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel\\labcere.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel/uiy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel\\uiy.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -25625,7 +25670,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "puntos",
+          "layer": "",
           "locked": false,
           "name": "puntos",
           "persistentUuid": "124328d8-c0a1-4675-ae88-4adb98140add",
@@ -29044,17 +29089,6 @@
           "isLightingLayer": false,
           "name": "instrucciones",
           "visibility": false,
-          "cameras": [],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 1702453632,
-          "ambientLightColorG": 6000560,
-          "ambientLightColorR": 83886080,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "puntos",
-          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -51919,8 +51953,8 @@
           "name": "cartel2",
           "persistentUuid": "243258c5-bbe5-4313-8f96-9ebcd7ae5338",
           "width": 0,
-          "x": 246,
-          "y": 593,
+          "x": 241,
+          "y": 594,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -52159,8 +52193,8 @@
           "name": "result4",
           "persistentUuid": "0104e0c7-f4f4-4a15-a36e-34a7ce42c9e7",
           "width": 0,
-          "x": 140,
-          "y": 643,
+          "x": 125,
+          "y": 653,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -52175,8 +52209,8 @@
           "name": "result5",
           "persistentUuid": "63b63378-5ad5-4a2c-a3d0-b0b7ed831325",
           "width": 0,
-          "x": 90,
-          "y": 607,
+          "x": 83,
+          "y": 600,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -52192,7 +52226,7 @@
           "persistentUuid": "912ca602-c713-4da1-8740-b316c0383b7c",
           "width": 0,
           "x": 621,
-          "y": 599,
+          "y": 583,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -54243,6 +54277,3826 @@
         "grid": false,
         "gridB": 255,
         "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.538
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "titulo",
+          "locked": false,
+          "name": "titulonivel1",
+          "persistentUuid": "b2c21be2-6010-474c-a4d5-bbbc70082aae",
+          "width": 0,
+          "x": 162,
+          "y": 30,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "titulo",
+          "locked": false,
+          "name": "LogoU",
+          "persistentUuid": "79628aae-2611-469e-8737-0b5807008ab2",
+          "width": 100,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "titulo",
+          "locked": false,
+          "name": "LogoML",
+          "persistentUuid": "5dee29ab-696c-4603-b536-e085d07aebbb",
+          "width": 130,
+          "x": 1268,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "titulo",
+          "locked": false,
+          "name": "puntos",
+          "persistentUuid": "d41ad385-738c-437c-b9fe-c2a2aee360c0",
+          "width": 0,
+          "x": 483,
+          "y": 34,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "titulo",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "f82b4751-28aa-4980-b76a-6416b67ac681",
+          "width": 50,
+          "x": 412,
+          "y": 42,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 549,
+          "layer": "intrucciones",
+          "locked": false,
+          "name": "cuadro",
+          "persistentUuid": "4da0beb7-676c-442d-afc8-fa28974f0120",
+          "width": 849,
+          "x": 253,
+          "y": 93,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 342,
+          "layer": "intrucciones",
+          "locked": false,
+          "name": "txt_intrucciones",
+          "persistentUuid": "d70f78c3-8411-4ebc-a496-7ae3bd0d1ac3",
+          "width": 667,
+          "x": 326,
+          "y": 205,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "intrucciones",
+          "locked": false,
+          "name": "txt_titulointru",
+          "persistentUuid": "ddbc74ba-0b04-4a71-8c01-f714e7477e5d",
+          "width": 0,
+          "x": 545,
+          "y": 162,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 73,
+          "layer": "intrucciones",
+          "locked": false,
+          "name": "flechas",
+          "persistentUuid": "d3671eea-2ed9-4745-b0a1-8d437a8cd06d",
+          "width": 119,
+          "x": 700,
+          "y": 344,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 42,
+          "layer": "intrucciones",
+          "locked": false,
+          "name": "flechas2",
+          "persistentUuid": "067bdcdb-a3ec-48e2-97f9-ecb335d2f2d6",
+          "width": 41,
+          "x": 734,
+          "y": 480,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "layer": "intrucciones",
+          "locked": false,
+          "name": "flechas3",
+          "persistentUuid": "3864d433-c86a-4521-8f44-0f0755f6b11b",
+          "width": 124,
+          "x": 711,
+          "y": 430,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 87,
+          "layer": "Background",
+          "locked": false,
+          "name": "siguiente",
+          "persistentUuid": "30ad0577-462f-4a8c-b845-a925c2be6f7a",
+          "width": 216,
+          "x": 1139,
+          "y": 558,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "txt_siguiente",
+          "persistentUuid": "9641facf-1e5f-40c6-bf05-648fbde91f4d",
+          "width": 0,
+          "x": 1172,
+          "y": 581,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "titulo",
+          "locked": false,
+          "name": "cuadrotitu",
+          "persistentUuid": "5c494cdb-9c23-440c-a22b-9b946f427d06",
+          "width": 572,
+          "x": 113,
+          "y": 5,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 204,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "f83e9950-63f4-40e4-9225-fc81ba2c1c57",
+          "width": 1404,
+          "x": -2,
+          "y": 503,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 217,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadropreg",
+          "persistentUuid": "ddf07ae7-cb96-40f8-a894-72991df1a16b",
+          "width": 304,
+          "x": -12,
+          "y": 498,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 217,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadropreg",
+          "persistentUuid": "fdb6ad03-7a34-489a-97c2-59bf46115a36",
+          "width": 304,
+          "x": 272,
+          "y": 499,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 217,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadropreg",
+          "persistentUuid": "e921db98-8842-4b62-9ceb-2abdafa491bc",
+          "width": 304,
+          "x": 555,
+          "y": 502,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 217,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadropreg",
+          "persistentUuid": "d60d15b9-4b59-4ed5-a184-249ed760b71c",
+          "width": 304,
+          "x": 843,
+          "y": 501,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 514,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadros2",
+          "persistentUuid": "57d4141a-9970-4f46-91a1-f989d0a942f7",
+          "width": 1412,
+          "x": -4,
+          "y": -2,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "62fb89b0-8543-4a52-9662-0effceefa8bc",
+          "width": 50,
+          "x": 423,
+          "y": 390,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "6d492cdf-28a0-4563-aaca-5a2dec6e2ce0",
+          "width": 4102,
+          "x": -4,
+          "y": 477,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "",
+          "locked": false,
+          "name": "piso22",
+          "persistentUuid": "d92375c9-9e20-4f18-95ec-037905a9a98b",
+          "width": 313,
+          "x": 1094,
+          "y": 413,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 165,
+          "layer": "",
+          "locked": false,
+          "name": "Personaje",
+          "persistentUuid": "69001441-c3e0-4978-b87e-0da63dae45fb",
+          "width": 126,
+          "x": 48,
+          "y": 316,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "e32a133e-95fb-4eb8-952a-cd8fc4a000fa",
+          "width": 50,
+          "x": 871.649,
+          "y": 395.405,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "3a1eb5e7-5f66-4fa6-9b6a-9df6e6b99711",
+          "width": 50,
+          "x": 1564,
+          "y": 398,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "1c7fd4ac-db78-4d1f-b53d-3a76523dfd92",
+          "width": 50,
+          "x": 2128.86,
+          "y": 389.892,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 92,
+          "layer": "",
+          "locked": false,
+          "name": "cofre",
+          "persistentUuid": "419ab925-19f7-4d68-9f16-2cfa438ed88c",
+          "width": 121,
+          "x": 1196,
+          "y": 325,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "val",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "gra1",
+          "persistentUuid": "d57e9223-537f-405b-8cdd-f0708e5d51eb",
+          "width": 0,
+          "x": 598,
+          "y": 196,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "gra2",
+          "persistentUuid": "467e8dc5-0666-435a-9f85-02839e932803",
+          "width": 0,
+          "x": 2478,
+          "y": 176,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "a473f156-7f26-417a-b85f-5a38e2602c52",
+          "width": 50,
+          "x": 3285,
+          "y": 294,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "eb1bee6b-232b-4cb9-9157-045c98d861d3",
+          "width": 50,
+          "x": 3415,
+          "y": 210,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "15122fa5-33ef-4351-b170-98349b2f446a",
+          "width": 50,
+          "x": 3531,
+          "y": 299,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "737b260d-6a59-4065-a697-0981b171848e",
+          "width": 50,
+          "x": 3999,
+          "y": 378,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "",
+          "locked": false,
+          "name": "piso22",
+          "persistentUuid": "19b988d3-9190-44f9-b56b-9c5c79e86fba",
+          "width": 313,
+          "x": 3283,
+          "y": 361,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "",
+          "locked": false,
+          "name": "piso22",
+          "persistentUuid": "0d1385c8-8241-452c-a838-80f474ec55e8",
+          "width": 163,
+          "x": 4055,
+          "y": 424,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "",
+          "locked": false,
+          "name": "piso22",
+          "persistentUuid": "6be7b5d4-d26c-4d5c-89c7-b9d03871c99d",
+          "width": 313,
+          "x": 4160,
+          "y": 367,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "",
+          "locked": false,
+          "name": "piso22",
+          "persistentUuid": "96d7c08b-ac99-4010-8acb-d6047b7d5449",
+          "width": 738,
+          "x": 4417,
+          "y": 443,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "gra3",
+          "persistentUuid": "ff3089ee-a1df-43fc-9e10-17fadac09f53",
+          "width": 0,
+          "x": 4528,
+          "y": 119,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 92,
+          "layer": "",
+          "locked": false,
+          "name": "cofre3",
+          "persistentUuid": "c4f66616-4df0-4daf-a891-0fa8bae023fb",
+          "width": 120,
+          "x": 4256,
+          "y": 272,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 92,
+          "layer": "",
+          "locked": false,
+          "name": "cofre2",
+          "persistentUuid": "d247e25a-1d5f-4fae-8cb5-4df4b43cc2d9",
+          "width": 121,
+          "x": 2253,
+          "y": 381,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "5ab8fed5-9e70-42f8-824b-c4e832856366",
+          "width": 0,
+          "x": -53,
+          "y": 260,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "713a8bbb-ec7d-4b60-b080-9d4b6ae6fc00",
+          "width": 0,
+          "x": 5086,
+          "y": 229,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 77,
+          "layer": "Background",
+          "locked": false,
+          "name": "pregunta1",
+          "persistentUuid": "0de0df55-e9ad-401c-a709-b5fba9548695",
+          "width": 189,
+          "x": 48,
+          "y": 539,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "30194fe1-d19e-4261-b75c-ef1432c469c4",
+          "width": 57,
+          "x": 67,
+          "y": 622,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "f5304b07-6654-4324-9d75-d36477254864",
+          "width": 57,
+          "x": 146,
+          "y": 622,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "b886301b-1d79-4fad-ad50-414ae2309ea2",
+          "width": 57,
+          "x": 350,
+          "y": 619,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "72b3765c-1fa2-416c-aa02-986969b1d061",
+          "width": 57,
+          "x": 425,
+          "y": 619,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "26239bde-ecd0-453e-990e-47a1576683ab",
+          "width": 57,
+          "x": 638,
+          "y": 622,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "fcf2a05c-ee69-493b-9972-e3005b152236",
+          "width": 57,
+          "x": 714,
+          "y": 622,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "f4f9b9a8-990a-4fd5-b2fa-a67730225441",
+          "width": 57,
+          "x": 927,
+          "y": 624,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "b1fcf3af-6b44-4b6a-8411-6a1908a13d4a",
+          "width": 57,
+          "x": 1003,
+          "y": 624,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_gr1",
+          "persistentUuid": "750f325a-1297-496f-85b3-2fc5a728d41b",
+          "width": 0,
+          "x": 788,
+          "y": 151,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_gr2",
+          "persistentUuid": "3f50041d-28d9-49df-8d7c-822b6305e9a2",
+          "width": 0,
+          "x": 2674,
+          "y": 126,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_gr3",
+          "persistentUuid": "6275bb87-8130-4855-9a7b-76678d35ba02",
+          "width": 0,
+          "x": 4715,
+          "y": 66,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "si1",
+          "persistentUuid": "e24f3ce7-7ab9-4036-b29f-ce3b0b464744",
+          "width": 0,
+          "x": 83,
+          "y": 632,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "no1",
+          "persistentUuid": "7641cf9c-f195-4df1-8a86-8137891d575e",
+          "width": 0,
+          "x": 161,
+          "y": 630,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "no4",
+          "persistentUuid": "45db25f3-f9b6-4b47-95bf-57a5d2d876ef",
+          "width": 0,
+          "x": 1018,
+          "y": 634,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "si4",
+          "persistentUuid": "bb52ef9c-6902-452b-97c6-c661db297c3e",
+          "width": 0,
+          "x": 944,
+          "y": 634,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "no3",
+          "persistentUuid": "e4d30cfc-e9a8-43cd-8b29-be1f51759fd3",
+          "width": 0,
+          "x": 726,
+          "y": 634,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "si3",
+          "persistentUuid": "319cc9df-25e8-4244-a370-833e77c6e423",
+          "width": 0,
+          "x": 655,
+          "y": 632,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "no2",
+          "persistentUuid": "2e5274f5-4953-4f3d-b82f-32f993d4bd81",
+          "width": 0,
+          "x": 442,
+          "y": 630,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "si2",
+          "persistentUuid": "ae8e457c-d07f-4b9a-9ce9-452d6c836bee",
+          "width": 0,
+          "x": 369,
+          "y": 630,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Background",
+          "locked": false,
+          "name": "pregunta2",
+          "persistentUuid": "1bab18f6-c6dd-40cc-8673-100aaf9c0427",
+          "width": 175,
+          "x": 336,
+          "y": 538,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 75,
+          "layer": "Background",
+          "locked": false,
+          "name": "pregunta3",
+          "persistentUuid": "2a5e0b42-7487-4477-a52c-a82c18cf0f1e",
+          "width": 196,
+          "x": 616,
+          "y": 541,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "Background",
+          "locked": false,
+          "name": "pregunta4",
+          "persistentUuid": "d84ebeb1-f9c3-43bd-ba50-4c8c7dfa9db4",
+          "width": 199,
+          "x": 900,
+          "y": 544,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Background",
+          "locked": false,
+          "name": "pregunta2",
+          "persistentUuid": "218cf631-1bba-4531-bd9e-8e78fa83df97",
+          "width": 175,
+          "x": 336,
+          "y": 538,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Background",
+          "locked": false,
+          "name": "pregunta2",
+          "persistentUuid": "9210b2e0-e578-46e7-bed5-286125813121",
+          "width": 175,
+          "x": 336,
+          "y": 538,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Background",
+          "locked": false,
+          "name": "pregunta2",
+          "persistentUuid": "23810f57-b989-4544-8503-45d0112926c0",
+          "width": 175,
+          "x": 336,
+          "y": 538,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_titulointru",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "INSTRUCCIONES",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 30,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_intruccionesn1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Tu reto es matar al virus que se cruce en tu camino y ganar las estrellas que mas puedas\n\n♠ Cuando tengas las suficientes estrellas puedes proceder a revelar los codigos y ordenarlos.\n\n♠ Camina con las direccionales\n\n♠ Salta con la barra espaciadora\n\n♠ Destruye el virus usando la tecla \n",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_intrucciones",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Tu reto es matar al virus que se cruce en tu camino y ganar las estrellas que mas puedas\n\n♠ Cuando tengas las suficientes estrellas puedes proceder a revelar los codigos y ordenarlos.\n\n♠ Camina con las direccionales\n\n♠ Salta con la barra espaciadora\n\n♠ Destruye el virus usando la tecla \n",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_gr3",
+          "smoothed": true,
+          "tags": "DatosE",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Grafico 3",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "gra3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Nivel1\\img3.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_gr2",
+          "smoothed": true,
+          "tags": "DatosE",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Grafico 2",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "gra2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Nivel1\\img2.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_gr1",
+          "smoothed": true,
+          "tags": "DatosE",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Grafico 1",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "gra1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Nivel1\\img1.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "perpirata",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 400,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "rotateObject": false,
+              "viewpoint": "TopDown"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cuadro",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\RojoNegro50.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cuadros2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "rojo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\gt.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cuadros",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "blanco",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\cuadroblanco1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "amarillo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\cuadroamarillo30.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "rojo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\cuadrorojo30.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fondo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\uy.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "pregunta1",
+          "smoothed": true,
+          "tags": "P1",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Los graficos pertenecen a un algoritmo de k-nn?",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "no1",
+          "smoothed": true,
+          "tags": "iniciar",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "No",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "si1",
+          "smoothed": true,
+          "tags": "iniciar",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Si",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "pregunta2",
+          "smoothed": true,
+          "tags": "P2",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "En el grafico 3 se presenta el resultado de 7 clusters?",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "si2",
+          "smoothed": true,
+          "tags": "P2",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Si",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "no2",
+          "smoothed": true,
+          "tags": "P2",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "No",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "pregunta3",
+          "smoothed": true,
+          "tags": "P3",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "En los tres graficos el resultado de la predicción fue el mismo?",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "si3",
+          "smoothed": true,
+          "tags": "P3",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Si",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "no3",
+          "smoothed": true,
+          "tags": "P3",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "No",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "pregunta4",
+          "smoothed": true,
+          "tags": "P3",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "plt.subplots nos ayuda a muestrar graficos en dos ventanas?",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "si4",
+          "smoothed": true,
+          "tags": "P3",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Si",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "no4",
+          "smoothed": true,
+          "tags": "P3",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "No",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "puntos",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 55,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "titulonivel1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Nivel 2",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 55,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "cuadropreg",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\BOTON3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cuadrotitu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\cuadroparatitulo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 191,
+          "name": "piso22",
+          "tags": "",
+          "texture": "8.Aprendizajesupervisado\\Assets\\piso\\PisoGris.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 92,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 191,
+          "name": "piso3",
+          "tags": "",
+          "texture": "8.Aprendizajesupervisado\\Assets\\piso\\PisoGRis4.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 92,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "cofre3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "cofrecerrado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesorooo 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cofreabierto",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesoroo3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cofrevacio",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesoroo2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cofre2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "cofrecerrado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesorooo 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cofreabierto",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesoroo3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cofrevacio",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesoroo2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cofre",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "cofrecerrado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesorooo 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cofreabierto",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesoroo3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cofrevacio",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesoroo2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fuego",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "fuego1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fuego1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "capsula",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "cap1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\star.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flechas2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "teclas",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\letrax.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_siguiente",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Continuar",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "siguiente",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\BOTON3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flechas3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "teclas",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\espa.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flechas",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "teclas",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\trojas.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"salto\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariable(puntos)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariableString(puntos)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "gra1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_gr1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "gra2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_gr2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "gra3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_gr3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Movimiento personaje",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FixCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "Personaje",
+                    "0",
+                    "0",
+                    "5154",
+                    "700",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Personaje",
+                        "\"walking\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Personaje",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Personaje",
+                        "\"walking\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Personaje",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "\"idle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Personaje",
+                "Moneda",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntos",
+                "+",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariableString(puntos)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Moneda",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "disparos",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "w"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "fuego",
+                    "Personaje.PointX(\"Center\")",
+                    "Personaje.PointY(\"Center\")",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Personaje"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "fuego",
+                        "180",
+                        "480",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedX"
+                      },
+                      "parameters": [
+                        "Personaje"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "fuego",
+                        "0",
+                        "480",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Preguntas",
+          "comment2": ""
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Primera pregunta",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cofre",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "gra1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "txt_gr1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "cofre",
+                    "\"cofrevacio\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cofre",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "gra1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "txt_gr1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "cofre",
+                    "\"cofrecerrado\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Segunda Pregunta",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cofre2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"pregunta2\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "cofre2",
+                    "\"cofrevacio\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "gra2",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "txt_gr2",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cofre2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "gra2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "txt_gr2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "cofre2",
+                    "\"cofrecerrado\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Tercera Pregunta",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cofre3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "gra3",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "txt_gr3",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "cofre3",
+                    "\"cofrevacio\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Personaje",
+                    "cofre3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "gra3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "txt_gr3"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "cofre3",
+                    "\"cofrecerrado\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "\"248;200;15\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Nivel3 ANS\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 6880376,
+          "ambientLightColorG": 6879736,
+          "ambientLightColorR": 6637136,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "titulo",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 19809208,
+          "ambientLightColorR": 16,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "intrucciones",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Nivel3_32ANS",
+      "name": "Nivel3 ANS",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
         "gridHeight": 10,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
@@ -54250,7 +58104,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.346
+        "zoomFactor": 0.442
       },
       "objectsGroups": [],
       "variables": [
@@ -54287,22 +58141,6 @@
           "width": 130,
           "x": 1268,
           "y": 0,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 91,
-          "layer": "",
-          "locked": false,
-          "name": "txt_Username",
-          "persistentUuid": "4beebd85-1991-40f7-ae47-a7fa4b04fd88",
-          "width": 1267,
-          "x": 85,
-          "y": 358,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -54445,8 +58283,8 @@
           "name": "puntos",
           "persistentUuid": "816e6f74-c9c1-47c9-9d41-45af78cd0234",
           "width": 0,
-          "x": 482,
-          "y": 25,
+          "x": 492,
+          "y": 23,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -54461,57 +58299,9 @@
           "name": "cuadrotitu",
           "persistentUuid": "9b6e6e2b-ed1a-4ccd-ad63-2d1d7973b86c",
           "width": 332,
-          "x": 18,
-          "y": 428,
+          "x": 10,
+          "y": 687,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 223,
-          "layer": "",
-          "locked": false,
-          "name": "gra1",
-          "persistentUuid": "8196ca8e-f75e-4ff6-8741-8c1f42311aa3",
-          "width": 443,
-          "x": 14,
-          "y": 129,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 220,
-          "layer": "",
-          "locked": false,
-          "name": "gra2",
-          "persistentUuid": "57f769bb-eb85-4955-91dc-5a980c80ecdf",
-          "width": 444,
-          "x": 468,
-          "y": 130,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 221,
-          "layer": "",
-          "locked": false,
-          "name": "gra3",
-          "persistentUuid": "85168e1c-06a0-434e-b20d-4ebcd6c7b088",
-          "width": 443,
-          "x": 921,
-          "y": 128,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -54525,8 +58315,8 @@
           "name": "cuadrotitu",
           "persistentUuid": "3f7cb8df-bcdb-4d5f-8fe0-1eff2ca38bc0",
           "width": 332,
-          "x": 348,
-          "y": 428,
+          "x": 1075,
+          "y": 703,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -54541,8 +58331,8 @@
           "name": "cuadrotitu",
           "persistentUuid": "db4e7c15-3261-43cc-bc8a-c7f72b517cc6",
           "width": 332,
-          "x": 676,
-          "y": 428,
+          "x": 960,
+          "y": 758,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -54557,9 +58347,57 @@
           "name": "cuadrotitu",
           "persistentUuid": "8b888edd-f3b8-4c50-917c-77c5492eb93c",
           "width": 332,
-          "x": 1006,
-          "y": 426,
+          "x": 1486,
+          "y": 352,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_gr1",
+          "persistentUuid": "d12bec45-4da4-4d80-a123-dbf693892811",
+          "width": 0,
+          "x": 210,
+          "y": 130,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_gr2",
+          "persistentUuid": "a7e0d712-c7e0-44c4-8ef9-f8770c833622",
+          "width": 0,
+          "x": 223,
+          "y": 404,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_gr3",
+          "persistentUuid": "00da5728-5997-455c-8361-a62f7ef1e818",
+          "width": 0,
+          "x": 668,
+          "y": 136,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -54820,109 +58658,6 @@
           ]
         },
         {
-          "bold": false,
-          "italic": false,
-          "name": "txt_Username",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Los graficos muestran los resultados del anterior nivel 1, responde las preguntas de acuerdo a la información que te dan los graficos ",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "txt_Password",
-          "smoothed": true,
-          "tags": "DatosE",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Contraseña",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
-          "characterSize": 40,
-          "color": {
-            "b": 215,
-            "g": 158,
-            "r": 47
-          }
-        },
-        {
-          "name": "UsernamewhitescreenEst",
-          "tags": "DatosE",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\username.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "UsernameText",
-          "tags": "",
-          "type": "TextEntryObject::TextEntry",
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "UsernameData",
-          "smoothed": true,
-          "tags": "DatosE",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "enter username",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 25,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
           "bold": true,
           "italic": false,
           "name": "puntos",
@@ -55085,20 +58820,77 @@
         {
           "bold": true,
           "italic": false,
-          "name": "txt_validar",
+          "name": "txt_des",
           "smoothed": true,
           "tags": "DatosE",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Validar",
-          "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
+          "string": "Teniendo en cuenta la información que te da cada grafico contesta las siguientes preguntas",
+          "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 20,
           "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_gr3",
+          "smoothed": true,
+          "tags": "DatosE",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Grafica 3",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_gr2",
+          "smoothed": true,
+          "tags": "DatosE",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Grafica 2",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_gr1",
+          "smoothed": true,
+          "tags": "DatosE",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Grafico 1",
+          "font": "fontsletra\\Russo_One.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -55259,238 +59051,6 @@
           },
           "comment": "ENTRADA DATOS",
           "comment2": ""
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
-          "name": "Estudiante",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextEntryObject::Activate"
-                  },
-                  "parameters": [
-                    "UsernameText",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "txt_validar"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "UsernameData",
-                    "=",
-                    "UsernameText.String()"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "UsernamewhitescreenEst",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextEntryObject::Activate"
-                  },
-                  "parameters": [
-                    "UsernameText",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "UsernamewhitescreenEst",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextEntryObject::Activate"
-                  },
-                  "parameters": [
-                    "UsernameText",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "txt_enviEst",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "txt_validar",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "txt_validar",
-                        "=",
-                        "VariableString(validacion)"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
-            }
-          ],
-          "parameters": []
         },
         {
           "colorB": 228,
@@ -60290,22 +63850,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 549,
-          "layer": "intrucciones",
-          "locked": false,
-          "name": "cuadro",
-          "persistentUuid": "4da0beb7-676c-442d-afc8-fa28974f0120",
-          "width": 849,
-          "x": 253,
-          "y": 93,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 342,
           "layer": "intrucciones",
           "locked": false,
@@ -61493,45 +65037,6 @@
           ]
         },
         {
-          "name": "cuadro",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Fondo",
           "tags": "",
           "type": "Sprite",
@@ -62068,45 +65573,9 @@
         },
         {
           "height": 191,
-          "name": "piso1",
-          "tags": "",
-          "texture": "10.AprendizajeReforzado\\pisor1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 191,
           "name": "piso22",
           "tags": "",
           "texture": "8.Aprendizajesupervisado\\Assets\\piso\\PisoGris.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 191,
-          "name": "piso2",
-          "tags": "",
-          "texture": "10.AprendizajeReforzado\\pisor2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -62559,22 +66028,7 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Personaje",
-                "cuadro",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
@@ -65650,7 +69104,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.346
       },
       "objectsGroups": [],
       "variables": [],
@@ -65667,22 +69121,6 @@
           "x": 162,
           "y": 30,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 697,
-          "layer": "Background",
-          "locked": true,
-          "name": "Fondo",
-          "persistentUuid": "d3a299f8-fe8d-49a4-8466-c82698c4e4a8",
-          "width": 1400,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -65747,97 +69185,6 @@
           "x": 412,
           "y": 42,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 80,
-          "layer": "",
-          "locked": false,
-          "name": "cofre",
-          "persistentUuid": "e4f35c9b-d181-4028-befb-3d1e7813459a",
-          "width": 90,
-          "x": 201,
-          "y": 414,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            },
-            {
-              "name": "valor",
-              "value": "conc5"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 80,
-          "layer": "",
-          "locked": false,
-          "name": "cofre",
-          "persistentUuid": "40296970-6c01-441e-a8af-412a104105ce",
-          "width": 90,
-          "x": 593,
-          "y": 386,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            },
-            {
-              "name": "valor",
-              "value": "conc4"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 80,
-          "layer": "",
-          "locked": false,
-          "name": "cofre",
-          "persistentUuid": "4d0e2faa-65b7-4494-9230-087825d7afe1",
-          "width": 90,
-          "x": 895,
-          "y": 600,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            },
-            {
-              "name": "valor",
-              "value": "conc3"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 549,
-          "layer": "intrucciones",
-          "locked": false,
-          "name": "cuadro",
-          "persistentUuid": "4da0beb7-676c-442d-afc8-fa28974f0120",
-          "width": 849,
-          "x": 253,
-          "y": 93,
-          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -65925,14 +69272,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 126,
           "layer": "",
           "locked": false,
           "name": "cofre",
           "persistentUuid": "f7b9ae51-82da-403b-9dbe-a7d1e2360d9d",
-          "width": 90,
-          "x": 1263,
-          "y": 496,
+          "width": 145,
+          "x": 1884,
+          "y": 280,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -65944,31 +69291,6 @@
             {
               "name": "valor",
               "value": "conc1"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 80,
-          "layer": "",
-          "locked": false,
-          "name": "cofre",
-          "persistentUuid": "2bf4f09f-5d4f-4516-ac4b-fd814ec9d534",
-          "width": 90,
-          "x": 7,
-          "y": 588,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            },
-            {
-              "name": "valor",
-              "value": "conc2"
             }
           ]
         },
@@ -66690,14 +70012,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 263,
+          "height": 113,
           "layer": "",
           "locked": false,
           "name": "perpirata",
           "persistentUuid": "4cf120fb-a76c-4b79-9acb-aeb05e60614b",
-          "width": 137,
-          "x": 406,
-          "y": 286,
+          "width": 78,
+          "x": 46,
+          "y": 550,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -66712,8 +70034,8 @@
           "name": "siguiente",
           "persistentUuid": "30ad0577-462f-4a8c-b845-a925c2be6f7a",
           "width": 216,
-          "x": 1139,
-          "y": 602,
+          "x": 1216,
+          "y": 715,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -66728,8 +70050,8 @@
           "name": "txt_siguiente",
           "persistentUuid": "9641facf-1e5f-40c6-bf05-648fbde91f4d",
           "width": 0,
-          "x": 1172,
-          "y": 625,
+          "x": 1249,
+          "y": 740,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -66830,6 +70152,1030 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "087fe0f7-523b-47a9-83c4-42b342e8b46a",
+          "width": 50,
+          "x": 327,
+          "y": 605,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "f5382456-9324-44e9-980e-700549064ebb",
+          "width": 50,
+          "x": 81,
+          "y": 210,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "35fdaa37-c56a-48fa-905b-6360abeac633",
+          "width": 50,
+          "x": 402,
+          "y": 609,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "b7941e6e-49be-40ca-95eb-2ba0db90a75f",
+          "width": 50,
+          "x": 210,
+          "y": 600,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "3ef29a15-1f00-45c8-998c-52f6f3f76ea8",
+          "width": 50,
+          "x": 463,
+          "y": 152,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "d1419fc0-511c-4262-9f54-21b1599fd8a8",
+          "width": 50,
+          "x": 77,
+          "y": 411,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 223,
+          "layer": "",
+          "locked": false,
+          "name": "enemigo",
+          "persistentUuid": "95719d65-af19-4b79-809b-fc9aafac8c44",
+          "width": 154,
+          "x": 1736,
+          "y": 229,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "f4adf517-87a3-4267-a422-1945edd6e37f",
+          "width": 50,
+          "x": 80,
+          "y": 321,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "3e0e7816-4442-4073-b767-c4e4d0421394",
+          "width": 50,
+          "x": 302,
+          "y": 307,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "d7da3c6d-40e8-4f4f-9e77-914584432159",
+          "width": 50,
+          "x": 301,
+          "y": 453,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "80b35060-b8a4-4b21-adf3-e1560d003e9d",
+          "width": 50,
+          "x": 515,
+          "y": 562,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "8692e7af-fbe4-42b9-87d3-0b6afef40cb8",
+          "width": 50,
+          "x": 657,
+          "y": 276,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "2143e414-394c-4d07-a184-5ed8f707e362",
+          "width": 50,
+          "x": 499,
+          "y": 244,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "df11de86-4be8-442f-9462-11af5f404eb2",
+          "width": 50,
+          "x": 319,
+          "y": 152,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "7ab1974f-783a-4da1-a932-deddd83e8898",
+          "width": 50,
+          "x": 183,
+          "y": 157,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "c2e7d631-2986-40e1-b981-5a9467844b53",
+          "width": 50,
+          "x": 799,
+          "y": 296,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "65fa2249-8c5d-43a5-84a1-adf4c11a55aa",
+          "width": 50,
+          "x": 768,
+          "y": 489,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "c4e77f10-9b8e-4910-b8e4-4ffacbdce9c1",
+          "width": 50,
+          "x": 710,
+          "y": 602,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "d79d0826-ba9b-4006-9c6b-6b0ed5949868",
+          "width": 50,
+          "x": 858,
+          "y": 605,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "f16b5674-f480-45cd-b9f3-8e60163febcb",
+          "width": 50,
+          "x": 995,
+          "y": 605,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "3d4ce256-5aea-4f60-89cd-56fd7f1062c8",
+          "width": 50,
+          "x": 1166,
+          "y": 604,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "59cc1c6b-52f2-4a66-a73e-479393a2bb53",
+          "width": 50,
+          "x": 980,
+          "y": 492,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "3c6a299a-e451-4bab-9e90-a52ed926e7ae",
+          "width": 50,
+          "x": 1108,
+          "y": 292,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "eb9bda4f-ff19-4531-9a3c-797d3a8aaa91",
+          "width": 50,
+          "x": 975,
+          "y": 295,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 581,
+          "layer": "",
+          "locked": false,
+          "name": "Fondo",
+          "persistentUuid": "68618875-0351-4230-9837-5e88501e1f1a",
+          "width": 2093,
+          "x": -3,
+          "y": 124,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "b017cf01-3679-4f8e-9e3a-a85d86ad1b4b",
+          "width": 50,
+          "x": 1308,
+          "y": 601,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "e531d064-d38b-4fbf-88b6-8f19d7e3683e",
+          "width": 50,
+          "x": 1146,
+          "y": 497,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "00e8e8c7-0958-4148-be54-dfabdffb2b53",
+          "width": 50,
+          "x": 1319,
+          "y": 497,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "623ff145-b5c0-4951-a20a-679216487524",
+          "width": 50,
+          "x": 1270,
+          "y": 289,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "25f86f67-d970-41b1-b889-ea399d6ab3da",
+          "width": 50,
+          "x": 816,
+          "y": 165,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "63f5f68f-082f-455b-ab39-52153c65a5f9",
+          "width": 50,
+          "x": 949,
+          "y": 168,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "4b04825e-b708-4ee6-8701-e82c5ad33c88",
+          "width": 50,
+          "x": 1097,
+          "y": 168,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "6d177b54-16dc-4f0e-a9ee-e5acf0704ff4",
+          "width": 50,
+          "x": 1235.36,
+          "y": 173.364,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "6e43a3a9-12bb-411b-aee8-92c1c976c657",
+          "width": 50,
+          "x": 1365,
+          "y": 165,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "15401b13-e06f-4f7a-8b7c-6305837feefa",
+          "width": 2086,
+          "x": 0,
+          "y": 671,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 544,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "806690f9-3e89-4cb4-866a-0ed9df67f72f",
+          "width": 37,
+          "x": -14,
+          "y": 123,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "1e87372f-b4c9-4484-b79b-3142efe10e86",
+          "width": 37,
+          "x": 185,
+          "y": 243,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "be6570ce-cbd8-4932-9950-fb6b250eea5d",
+          "width": 37,
+          "x": 185,
+          "y": 489,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "af2d7e1e-f993-481b-937b-b80198faf6a5",
+          "width": 150,
+          "x": 234,
+          "y": 549,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "ef28b929-c80d-452d-b5ad-663b2db143f5",
+          "width": 150,
+          "x": 225,
+          "y": 240,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "a89755e1-f141-4d28-9bf7-56ec78e9a4b5",
+          "width": 176,
+          "x": 454,
+          "y": 353,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "128050b0-798d-4f21-b6fc-798896769edd",
+          "width": 196,
+          "x": 448,
+          "y": 448,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "82191dc9-48a6-4114-afdf-a519e05a553b",
+          "width": 37,
+          "x": 604,
+          "y": 590,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "19d5bd87-92e7-42b4-9221-8fc7b61a2315",
+          "width": 653,
+          "x": 705,
+          "y": 561,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "b7d30e53-b980-4e4e-9b84-bc1a7f34600b",
+          "width": 618,
+          "x": 722,
+          "y": 561,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "521698d0-0f43-4506-bf9c-eafdeb04b81d",
+          "width": 653,
+          "x": 717,
+          "y": 454,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "39fc9fa3-2386-4a9e-8b65-0d99073aaa01",
+          "width": 176,
+          "x": 737,
+          "y": 356,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "0b773c9d-085a-4886-a9f4-a62ef06ffa9a",
+          "width": 653,
+          "x": 737,
+          "y": 252,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "fecea7da-a213-4a15-a081-b7313e471fc2",
+          "width": 176,
+          "x": 1208,
+          "y": 368,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "9beed38d-ab45-465b-a0c5-1d841c156992",
+          "width": 176,
+          "x": 1454,
+          "y": 365,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "896efe4c-0637-4f6f-a1aa-b0f4840af6ef",
+          "width": 176,
+          "x": 1454,
+          "y": 460,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "2e225cfa-b563-499b-adb0-7a46467618b6",
+          "width": 28,
+          "x": 1454,
+          "y": 587,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 17,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "68a6c494-26cd-4527-b823-165858f204c5",
+          "width": 176,
+          "x": 1723,
+          "y": 561,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "a45f592c-bbff-491d-8ccc-9e67641b7c3b",
+          "width": 28,
+          "x": 1483,
+          "y": 148,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 81,
+          "layer": "",
+          "locked": false,
+          "name": "piso3",
+          "persistentUuid": "c1c368a4-1ad5-4538-b7a0-b345083ca0cc",
+          "width": 28,
+          "x": 613,
+          "y": 142,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "4d75ca7a-f8e4-45d6-9ae8-38545e1153ac",
+          "width": 50,
+          "x": 1492,
+          "y": 503,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "39b0159a-65c4-48b0-9cd7-6dcdc0f34229",
+          "width": 50,
+          "x": 1642.29,
+          "y": 583.925,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "c840795a-401c-49ce-8142-43ce04e7df56",
+          "width": 50,
+          "x": 1700.09,
+          "y": 442.306,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "ffbfbcce-2bbb-40b6-bfc4-e28b76485d96",
+          "width": 50,
+          "x": 1671.19,
+          "y": 306.468,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "9ede84e9-2ef0-4085-ac45-791622d23e87",
+          "width": 50,
+          "x": 1561.36,
+          "y": 228.434,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "43d2c759-fe88-473d-aff9-5fbb406a3042",
+          "width": 50,
+          "x": 1668.3,
+          "y": 159.069,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "e9b0705d-7605-4af7-bec7-a7ce77f3eb1a",
+          "width": 50,
+          "x": 1931.31,
+          "y": 173.52,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "589a45cd-8ff6-4c90-b477-8c512c31c663",
+          "width": 50,
+          "x": 1968.88,
+          "y": 526.121,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "Moneda",
+          "persistentUuid": "d936fd30-ae07-4574-b0de-917aa7617de9",
+          "width": 50,
+          "x": 1821.48,
+          "y": 607.046,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -66891,7 +71237,7 @@
           }
         },
         {
-          "name": "perpirata",
+          "name": "enemigo",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -66908,109 +71254,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-7.png",
+                      "image": "2.MenuInicial\\Assets\\Villana2\\2020-11-09_22h44_45-1-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -67032,24 +71276,57 @@
           ]
         },
         {
-          "name": "cuadro",
+          "name": "perpirata",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 400,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "rotateObject": false,
+              "viewpoint": "TopDown"
+            }
+          ],
           "animations": [
             {
               "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
+                      "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -67088,7 +71365,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel\\Fondodesierto.jpg",
+                      "image": "10.AprendizajeReforzado\\Nivel\\uiy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -67607,45 +71884,9 @@
         },
         {
           "height": 191,
-          "name": "piso1",
-          "tags": "",
-          "texture": "10.AprendizajeReforzado\\pisor1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 191,
           "name": "piso22",
           "tags": "",
           "texture": "8.Aprendizajesupervisado\\Assets\\piso\\PisoGris.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 191,
-          "name": "piso2",
-          "tags": "",
-          "texture": "10.AprendizajeReforzado\\pisor2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 92,
           "variables": [],
@@ -67686,36 +71927,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "cofrecerrado",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel\\tesorooo 1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "cofreabierto",
+              "name": "cofrelleno",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -68080,16 +72292,6 @@
                 "GlobalVariableString(puntos)"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "piso22"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -68098,22 +72300,7 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Personaje",
-                "cuadro",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
@@ -70987,7 +75174,7 @@
               },
               "parameters": [
                 "",
-                "\"Menu Misiones\"",
+                "\"Nivel2 AR\"",
                 ""
               ],
               "subInstructions": []
@@ -71158,6 +75345,10 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         },
         {
           "name": "Tween",
