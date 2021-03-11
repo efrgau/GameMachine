@@ -9846,7 +9846,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "6.MachineLearning\\Assets\\cuadroazul.png",
+                  "image": "8.Aprendizajesupervisado\\Assets\\botonA.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -44780,7 +44780,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.418
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [
@@ -44818,6 +44818,10 @@
         },
         {
           "name": "validar",
+          "value": "0"
+        },
+        {
+          "name": "cuantos",
           "value": "0"
         }
       ],
@@ -45428,11 +45432,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Terminar",
+          "name": "validar",
           "persistentUuid": "fe08b16c-510d-46bb-86ac-4b2aff85deb8",
           "width": 0,
-          "x": 1066,
-          "y": 607,
+          "x": 1079,
+          "y": 609,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -45645,7 +45649,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "Terminar",
+          "name": "validar",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -45657,7 +45661,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Terminar",
+          "string": "Validar",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 25,
           "color": {
@@ -46584,17 +46588,6 @@
               },
               "parameters": [
                 "",
-                "\"corr\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
                 "\"incorr\""
               ],
               "subInstructions": []
@@ -47130,30 +47123,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Terminar",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "VarScene"
               },
               "parameters": [
@@ -47244,6 +47213,64 @@
                 "ocho",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "cuantos",
+                "=",
+                "Variable(uno)+Variable(dos)+Variable(tres)+Variable(cuatro)+Variable(cinco)+Variable(seis)+Variable(siete)+Variable(ocho)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "cuantos",
+                "=",
+                "8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
               ],
               "subInstructions": []
             },
@@ -47347,67 +47374,25 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "4",
-                "\"corr\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "cartel"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"corr\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "cuadros",
-                "\"blanco\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Terminar",
+                "validar",
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "cuantos",
+                "=",
+                "8"
               ],
               "subInstructions": []
             },
@@ -47419,102 +47404,6 @@
               "parameters": [
                 "",
                 "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "uno",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "dos",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "tres",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "cuatro",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "cinco",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "seis",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "siete",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "ocho",
-                "=",
-                "1"
               ],
               "subInstructions": []
             },
@@ -47657,6 +47546,14 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -47668,6 +47565,62 @@
               "parameters": [
                 "siguiente",
                 "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "siguiente",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "siguiente",
+                "\"248;200;15\""
               ],
               "subInstructions": []
             }
@@ -47722,19 +47675,8 @@
                 "",
                 "SonidosButton\\gota.mp3",
                 "",
-                "60",
+                "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "siguiente",
-                "\"248;200;15\""
               ],
               "subInstructions": []
             },
@@ -47751,6 +47693,112 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "validar",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "validar",
+                "\"248;200;15\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -47849,7 +47897,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.442
+        "zoomFactor": 0.418
       },
       "objectsGroups": [],
       "variables": [
@@ -47936,7 +47984,7 @@
           "name": "cuadrorojo",
           "persistentUuid": "27f91c36-9f18-4158-b71a-3da867c530ee",
           "width": 216,
-          "x": 805,
+          "x": 680,
           "y": 622,
           "zOrder": 3,
           "numberProperties": [],
@@ -47977,22 +48025,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 63,
-          "layer": "",
-          "locked": false,
-          "name": "cuadrorojo",
-          "persistentUuid": "27d3616b-6ca5-4b0c-90cb-3c32d0083cb5",
-          "width": 154,
-          "x": 1025,
-          "y": 623,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -48000,9 +48032,9 @@
           "name": "siguiente",
           "persistentUuid": "29eaefe2-6a81-4960-b45a-30418ddd2324",
           "width": 0,
-          "x": 1039,
-          "y": 638,
-          "zOrder": 11,
+          "x": 1186,
+          "y": 643,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -48016,9 +48048,9 @@
           "name": "ValidarCo",
           "persistentUuid": "805012d8-b085-4a29-8d9f-f94dccf72c83",
           "width": 0,
-          "x": 819,
+          "x": 694,
           "y": 640,
-          "zOrder": 12,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -48729,8 +48761,8 @@
           "name": "grafico2",
           "persistentUuid": "8318de6e-d445-4e08-a9d3-fea2353ba5cb",
           "width": 637,
-          "x": 676,
-          "y": 733,
+          "x": 679,
+          "y": 236,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -48748,6 +48780,22 @@
           "x": 797,
           "y": 561,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrorojo2",
+          "persistentUuid": "11f12544-8555-4e48-8614-1a13ed97f081",
+          "width": 154,
+          "x": 1171,
+          "y": 627,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -48773,6 +48821,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fondoa.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cuadrorojo2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\cuadroparatitulo.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -50286,6 +50373,26 @@
               },
               "parameters": [
                 "incorrecto"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "cuadrorojo2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "siguiente"
               ],
               "subInstructions": []
             },
@@ -52025,7 +52132,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Funcion",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52136,104 +52243,6 @@
                   "parameters": [
                     "siguiente",
                     "\"248;200;15\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "pista",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "pista",
-                    "\"248;200;15\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "pista",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "pista",
-                    "\"255;255;255\""
                   ],
                   "subInstructions": []
                 }
@@ -52406,104 +52415,6 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "pista",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Pistas\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "cerrar",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Pistas\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
                 "ValidarCo",
                 "",
                 "",
@@ -52576,6 +52487,50 @@
                 "puntos",
                 "=",
                 "GlobalVariableString(puntos)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "ValidarCo",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "cuadrorojo",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "cuadrorojo2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "siguiente",
+                ""
               ],
               "subInstructions": []
             }
@@ -56902,7 +56857,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -57325,7 +57280,7 @@
                   },
                   "parameters": [
                     "",
-                    "",
+                    "\"Nivel2 ANS\"",
                     ""
                   ],
                   "subInstructions": []
@@ -57379,7 +57334,7 @@
                   },
                   "parameters": [
                     "",
-                    "",
+                    "\"Nivel3 ANS\"",
                     ""
                   ],
                   "subInstructions": []
@@ -58101,7 +58056,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.514
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [
@@ -58130,15 +58085,7 @@
           "value": "0"
         },
         {
-          "name": "siete",
-          "value": "0"
-        },
-        {
-          "name": "ocho",
-          "value": "0"
-        },
-        {
-          "name": "validar",
+          "name": "cuant",
           "value": "0"
         }
       ],
@@ -58248,8 +58195,8 @@
           "name": "primera",
           "persistentUuid": "14862472-f02c-434e-96d1-ed979fc97238",
           "width": 43,
-          "x": 15,
-          "y": 179,
+          "x": 60,
+          "y": 175,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -58264,8 +58211,8 @@
           "name": "segunda",
           "persistentUuid": "a2fc815b-b25a-4067-85b1-486d5c976d85",
           "width": 33,
-          "x": 15,
-          "y": 272,
+          "x": 60,
+          "y": 268,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -58280,8 +58227,8 @@
           "name": "pirata",
           "persistentUuid": "8284c145-4f40-4574-b483-2657ad193ad9",
           "width": 183,
-          "x": 1084,
-          "y": 420,
+          "x": -15,
+          "y": 440,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -58296,7 +58243,7 @@
           "name": "cartel",
           "persistentUuid": "88250544-266d-40c2-b3f1-9b0ee1f81e2f",
           "width": 0,
-          "x": 348,
+          "x": 436,
           "y": 593,
           "zOrder": 5,
           "numberProperties": [],
@@ -58312,8 +58259,8 @@
           "name": "tercera",
           "persistentUuid": "2043e209-4638-427f-99f7-2a64ef86092c",
           "width": 0,
-          "x": 15,
-          "y": 357,
+          "x": 60,
+          "y": 353,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -58328,8 +58275,8 @@
           "name": "cuadroazul",
           "persistentUuid": "54be1bab-b581-43c7-b52b-1d817286525f",
           "width": 143,
-          "x": 605,
-          "y": 497,
+          "x": 607,
+          "y": 503,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -58341,11 +58288,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "siguiente",
+          "name": "continuar",
           "persistentUuid": "8df3b3b3-98fc-44c3-9662-e0ff27bd6774",
           "width": 0,
-          "x": 614,
-          "y": 516,
+          "x": 616,
+          "y": 522,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -58353,31 +58300,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 66,
-          "layer": "",
-          "locked": false,
-          "name": "cuadroazul",
-          "persistentUuid": "50ebf4ea-193d-471f-97ff-94f0c6a21f9e",
-          "width": 143,
-          "x": 448,
-          "y": 496,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Terminar",
+          "name": "validar",
           "persistentUuid": "fe08b16c-510d-46bb-86ac-4b2aff85deb8",
           "width": 0,
-          "x": 463,
-          "y": 513,
+          "x": 472,
+          "y": 521,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -58392,7 +58323,7 @@
           "name": "cartel2",
           "persistentUuid": "243258c5-bbe5-4313-8f96-9ebcd7ae5338",
           "width": 0,
-          "x": 241,
+          "x": 329,
           "y": 594,
           "zOrder": 5,
           "numberProperties": [],
@@ -58424,8 +58355,8 @@
           "name": "Librerias",
           "persistentUuid": "de32ea30-e42d-408e-8288-af4c8a9d1bc1",
           "width": 0,
-          "x": 58,
-          "y": 160,
+          "x": 103,
+          "y": 156,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -58440,8 +58371,8 @@
           "name": "datosiris",
           "persistentUuid": "c8241ebf-a28e-4362-88cb-fe4dbe6c5cc9",
           "width": 0,
-          "x": 58,
-          "y": 262,
+          "x": 103,
+          "y": 258,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -58456,8 +58387,8 @@
           "name": "graficos1",
           "persistentUuid": "9544bab4-a104-4823-b17d-4e1bb47a7f8b",
           "width": 0,
-          "x": 57,
-          "y": 354,
+          "x": 102,
+          "y": 350,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -58472,8 +58403,8 @@
           "name": "grafico2",
           "persistentUuid": "6331bb8d-864e-402f-ae99-989a83178f13",
           "width": 0,
-          "x": 633,
-          "y": 165,
+          "x": 678,
+          "y": 161,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -58488,8 +58419,8 @@
           "name": "grafico3",
           "persistentUuid": "8b253099-1732-46bf-9d16-87193f993d52",
           "width": 0,
-          "x": 628,
-          "y": 349,
+          "x": 673,
+          "y": 345,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -58504,8 +58435,8 @@
           "name": "grafico4",
           "persistentUuid": "aff8bc4f-d4b1-4024-ba4a-484131cfd25f",
           "width": 0,
-          "x": 628,
-          "y": 427,
+          "x": 673,
+          "y": 423,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -58520,8 +58451,8 @@
           "name": "cuarta",
           "persistentUuid": "f835fdb9-24ca-4db0-9801-ef504edb6de5",
           "width": 0,
-          "x": 576,
-          "y": 167,
+          "x": 621,
+          "y": 163,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -58536,8 +58467,8 @@
           "name": "quinta",
           "persistentUuid": "f1d041b9-e2e5-4d13-b7c0-b6004795b4ee",
           "width": 0,
-          "x": 576,
-          "y": 344,
+          "x": 621,
+          "y": 340,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -58552,8 +58483,8 @@
           "name": "sexta",
           "persistentUuid": "02032235-8bb1-4437-b012-e6475f35be6f",
           "width": 0,
-          "x": 576,
-          "y": 417,
+          "x": 621,
+          "y": 413,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -58568,7 +58499,7 @@
           "name": "cuadros",
           "persistentUuid": "11c31c8a-a783-46a4-9b29-2ec7d96bdcd7",
           "width": 1026,
-          "x": 47,
+          "x": 135,
           "y": 582,
           "zOrder": 3,
           "numberProperties": [],
@@ -58584,7 +58515,7 @@
           "name": "result1",
           "persistentUuid": "68e5cccd-0e9f-455e-aeba-19b5b64c1f89",
           "width": 0,
-          "x": 752,
+          "x": 840,
           "y": 632,
           "zOrder": 4,
           "numberProperties": [],
@@ -58600,7 +58531,7 @@
           "name": "result2",
           "persistentUuid": "29629336-4462-49a1-8ae5-a4fe03dd1fa4",
           "width": 0,
-          "x": 604,
+          "x": 692,
           "y": 638,
           "zOrder": 4,
           "numberProperties": [],
@@ -58616,7 +58547,7 @@
           "name": "result3",
           "persistentUuid": "c19d08e4-4e2a-4b7f-af7f-ecd7ecf3effb",
           "width": 0,
-          "x": 490,
+          "x": 578,
           "y": 591,
           "zOrder": 4,
           "numberProperties": [],
@@ -58632,7 +58563,7 @@
           "name": "result4",
           "persistentUuid": "0104e0c7-f4f4-4a15-a36e-34a7ce42c9e7",
           "width": 0,
-          "x": 125,
+          "x": 213,
           "y": 653,
           "zOrder": 4,
           "numberProperties": [],
@@ -58648,7 +58579,7 @@
           "name": "result5",
           "persistentUuid": "63b63378-5ad5-4a2c-a3d0-b0b7ed831325",
           "width": 0,
-          "x": 83,
+          "x": 171,
           "y": 600,
           "zOrder": 4,
           "numberProperties": [],
@@ -58664,8 +58595,24 @@
           "name": "result6",
           "persistentUuid": "912ca602-c713-4da1-8740-b316c0383b7c",
           "width": 0,
-          "x": 621,
+          "x": 709,
           "y": 583,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 66,
+          "layer": "",
+          "locked": false,
+          "name": "cuadro2",
+          "persistentUuid": "56d56114-4f99-4160-a4ce-022800c13eb3",
+          "width": 143,
+          "x": 444,
+          "y": 503,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -58709,24 +58656,6 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "height": 191,
-          "name": "piso2",
-          "tags": "",
-          "texture": "8.Aprendizajesupervisado\\Assets\\piso\\ladrillosA.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 92,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
             }
           ]
         },
@@ -58809,45 +58738,6 @@
           ]
         },
         {
-          "name": "cuadro",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\RojoNegro50.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": true,
           "italic": false,
           "name": "puntos",
@@ -58869,7 +58759,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "Terminar",
+          "name": "validar",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -58881,7 +58771,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Terminar",
+          "string": "Validar",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 25,
           "color": {
@@ -58893,7 +58783,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "siguiente",
+          "name": "continuar",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -59116,44 +59006,6 @@
               ]
             }
           ]
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "octava",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "8",
-          "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 50,
-          "color": {
-            "b": 184,
-            "g": 59,
-            "r": 14
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "septima",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "7",
-          "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 50,
-          "color": {
-            "b": 184,
-            "g": 59,
-            "r": 14
-          }
         },
         {
           "bold": true,
@@ -59843,6 +59695,26 @@
                 "value": "Cache"
               },
               "parameters": [
+                "cuadroazul"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "continuar"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
                 "cartel"
               ],
               "subInstructions": []
@@ -60150,30 +60022,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Terminar",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "VarScene"
               },
               "parameters": [
@@ -60240,6 +60088,64 @@
                 "seis",
                 "=",
                 "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "cuant",
+                "=",
+                "Variable(uno)+Variable(dos)+Variable(tres)+Variable(cuatro)+Variable(cinco)+Variable(seis)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "cuant",
+                "=",
+                "6"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
               ],
               "subInstructions": []
             },
@@ -60304,58 +60210,46 @@
                 "GlobalVariableString(puntos)"
               ],
               "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
                 "inverted": false,
-                "value": "Timer"
+                "value": "Montre"
               },
               "parameters": [
-                "",
-                "4",
-                "\"corr\""
+                "cuadroazul",
+                ""
               ],
               "subInstructions": []
-            }
-          ],
-          "actions": [
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "continuar",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
                 "value": "Cache"
               },
               "parameters": [
-                "cartel"
+                "cuadro2"
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ResetTimer"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"corr\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "cuadros",
-                "\"blanco\""
+                "validar"
               ],
               "subInstructions": []
             }
@@ -60373,10 +60267,22 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "Terminar",
+                "validar",
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "cuant",
+                "=",
+                "6"
               ],
               "subInstructions": []
             },
@@ -60388,78 +60294,6 @@
               "parameters": [
                 "",
                 "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "uno",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "dos",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "tres",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "cuatro",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "cinco",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "seis",
-                "=",
-                "1"
               ],
               "subInstructions": []
             },
@@ -60576,11 +60410,207 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "validar",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "siguiente",
+                "validar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "validar",
+                "\"248;200;15\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "continuar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "continuar",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "continuar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "continuar",
+                "\"248;200;15\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "continuar",
                 "",
                 "",
                 ""
@@ -60685,10 +60715,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -63934,6 +63960,17 @@
                 "\"208;2;27\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "no1",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -64071,7 +64108,7 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "txt_puntos",
+                "puntos",
                 "=",
                 "GlobalVariableString(puntos)"
               ],
@@ -64156,6 +64193,17 @@
                 "\"208;2;27\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "si2",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -64238,6 +64286,17 @@
               "parameters": [
                 "si3",
                 "\"208;2;27\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "no3",
+                ""
               ],
               "subInstructions": []
             }
@@ -64468,6 +64527,17 @@
               "parameters": [
                 "no4",
                 "\"208;2;27\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "si4",
+                ""
               ],
               "subInstructions": []
             }
@@ -65017,17 +65087,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -65035,6 +65094,17 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
               ],
               "subInstructions": []
             }
@@ -68150,6 +68220,30 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariable(puntos)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariableString(puntos)"
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -75607,7 +75701,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -76084,7 +76178,7 @@
                   },
                   "parameters": [
                     "",
-                    "",
+                    "\"Nivel3 AR\"",
                     ""
                   ],
                   "subInstructions": []
@@ -86765,7 +86859,7 @@
               },
               "parameters": [
                 "",
-                "\"Menu Misiones\"",
+                "\"Nivel3 AR\"",
                 ""
               ],
               "subInstructions": []
@@ -86976,11 +87070,11 @@
       "objectsGroups": [],
       "variables": [
         {
-          "name": "knn",
+          "name": "knnn",
           "value": "0"
         },
         {
-          "name": "svm",
+          "name": "svmm",
           "value": "0"
         },
         {
@@ -86988,15 +87082,15 @@
           "value": "0"
         },
         {
-          "name": "regre",
+          "name": "regres",
           "value": "0"
         },
         {
-          "name": "clus",
+          "name": "clust",
           "value": "0"
         },
         {
-          "name": "corr",
+          "name": "cuenta",
           "value": "0"
         }
       ],
@@ -87043,7 +87137,7 @@
           "persistentUuid": "29eaefe2-6a81-4960-b45a-30418ddd2324",
           "width": 0,
           "x": 1213,
-          "y": 585,
+          "y": 628,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -87212,62 +87306,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 35,
-          "layer": "preg1",
-          "locked": false,
-          "name": "whiteuno",
-          "persistentUuid": "0df66104-c531-4063-9627-d0f4cb24f911",
-          "width": 370,
-          "x": 24,
-          "y": 251,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg1",
-          "locked": false,
-          "name": "Textuno",
-          "persistentUuid": "69afff55-700b-4e0e-83af-18753b92f077",
-          "width": 0,
-          "x": 37,
-          "y": 249,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg1",
-          "locked": false,
-          "name": "Datauno",
-          "persistentUuid": "1995e69a-bafb-493a-a3e7-fd926888e4a4",
-          "width": 0,
-          "x": 41,
-          "y": 257,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 281,
+          "height": 280,
           "layer": "",
           "locked": false,
           "name": "socalo",
           "persistentUuid": "f417a720-6207-445f-b148-aa3b79316e2c",
-          "width": 252,
-          "x": 72,
-          "y": 106,
+          "width": 230,
+          "x": 66,
+          "y": 108,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -87338,166 +87384,6 @@
           "x": 1010,
           "y": 373,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg2",
-          "locked": false,
-          "name": "Textdos",
-          "persistentUuid": "d83cc944-1c07-4d44-b62a-ee883eee466c",
-          "width": 0,
-          "x": 38,
-          "y": 420,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg2",
-          "locked": false,
-          "name": "Datados",
-          "persistentUuid": "85b3241b-988c-4362-9399-582fefd27e12",
-          "width": 0,
-          "x": 40,
-          "y": 431,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg3",
-          "locked": false,
-          "name": "Texttres",
-          "persistentUuid": "2e8f038c-94b2-4adf-a3cc-af97f9701f2b",
-          "width": 0,
-          "x": 41,
-          "y": 597,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg3",
-          "locked": false,
-          "name": "Datatres",
-          "persistentUuid": "42c63c9e-7096-40c6-8c13-967f6c0623fa",
-          "width": 0,
-          "x": 43,
-          "y": 609,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg4",
-          "locked": false,
-          "name": "Textcuatro",
-          "persistentUuid": "4a4fe064-beb4-4df6-a905-ac058423e583",
-          "width": 0,
-          "x": 935,
-          "y": 212,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg4",
-          "locked": false,
-          "name": "Datacuatro",
-          "persistentUuid": "cd9f159f-3699-47d3-a23b-35c372f8f461",
-          "width": 0,
-          "x": 939,
-          "y": 221,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg5",
-          "locked": false,
-          "name": "Textcinco",
-          "persistentUuid": "b32b6568-4cda-4359-aeac-1951d6b3b764",
-          "width": 0,
-          "x": 942,
-          "y": 396,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg5",
-          "locked": false,
-          "name": "Datacinco",
-          "persistentUuid": "41dcc3de-06ad-41f1-981d-e00f9642cb3c",
-          "width": 0,
-          "x": 944,
-          "y": 407,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg6",
-          "locked": false,
-          "name": "Textseis",
-          "persistentUuid": "032e8f63-797d-4137-9824-414a081516b1",
-          "width": 0,
-          "x": 939,
-          "y": 564,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "preg6",
-          "locked": false,
-          "name": "Dataseis",
-          "persistentUuid": "822cfb35-6bad-40d9-9155-bcf256541ae9",
-          "width": 0,
-          "x": 942,
-          "y": 572,
-          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -87665,86 +87551,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 35,
-          "layer": "preg2",
-          "locked": false,
-          "name": "whitedos",
-          "persistentUuid": "c209e0c7-337e-4e2e-9113-48caf6980cc0",
-          "width": 370,
-          "x": 24,
-          "y": 424,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 35,
-          "layer": "preg3",
-          "locked": false,
-          "name": "whitetres",
-          "persistentUuid": "f323b9f5-0a93-4c39-a0df-eff49d44b641",
-          "width": 370,
-          "x": 25,
-          "y": 603,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 35,
-          "layer": "preg4",
-          "locked": false,
-          "name": "whitecuatro",
-          "persistentUuid": "4178312b-b6c8-4345-ba2b-0be28eea3db4",
-          "width": 370,
-          "x": 923,
-          "y": 215,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 35,
-          "layer": "preg5",
-          "locked": false,
-          "name": "whitecinco",
-          "persistentUuid": "0e8467c9-cb07-47a2-9830-bf9469e33b4a",
-          "width": 370,
-          "x": 928,
-          "y": 399,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 35,
-          "layer": "preg6",
-          "locked": false,
-          "name": "whiteseis",
-          "persistentUuid": "26e2266c-d5fc-400a-88ad-65ed652e7ade",
-          "width": 370,
-          "x": 925,
-          "y": 564,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 30,
           "layer": "preg1",
           "locked": false,
@@ -87878,7 +87684,7 @@
           "persistentUuid": "71142c99-76c7-472e-8926-4bcdb6fc105e",
           "width": 155,
           "x": 1197,
-          "y": 564,
+          "y": 607,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -87909,8 +87715,8 @@
           "name": "fig2",
           "persistentUuid": "aab1a443-f989-43dc-b836-377c2a027bbb",
           "width": 130,
-          "x": 286,
-          "y": 538,
+          "x": 291,
+          "y": 548,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -87925,8 +87731,8 @@
           "name": "txt_let_a",
           "persistentUuid": "acbd4f67-7c5e-4528-870b-50b896a59f1f",
           "width": 153,
-          "x": 640,
-          "y": 152,
+          "x": 644,
+          "y": 154,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -87941,7 +87747,7 @@
           "name": "txt_let_b",
           "persistentUuid": "b4d9a565-290e-4578-be79-5ed3acddd968",
           "width": 0,
-          "x": 374,
+          "x": 376,
           "y": 153,
           "zOrder": 21,
           "numberProperties": [],
@@ -88005,7 +87811,7 @@
           "name": "txt_let_c",
           "persistentUuid": "47c4a776-a5d0-439f-8021-cea23438d3f8",
           "width": 0,
-          "x": 130,
+          "x": 122,
           "y": 152,
           "zOrder": 24,
           "numberProperties": [],
@@ -88053,8 +87859,8 @@
           "name": "txt_let_d",
           "persistentUuid": "e2d5a8ea-0079-4a18-8f30-86e5d18c0539",
           "width": 0,
-          "x": 1213,
-          "y": 163,
+          "x": 1219,
+          "y": 155,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -88069,8 +87875,8 @@
           "name": "txt_let_e",
           "persistentUuid": "10611112-f7c1-466e-ac86-d4e7a098f5dc",
           "width": 0,
-          "x": 951,
-          "y": 157,
+          "x": 957,
+          "y": 153,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -88079,14 +87885,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 281,
+          "height": 280,
           "layer": "",
           "locked": false,
           "name": "socalo",
           "persistentUuid": "62673d0c-ea74-41c3-82b2-030cce8080d7",
-          "width": 252,
-          "x": 340,
-          "y": 106,
+          "width": 230,
+          "x": 334,
+          "y": 108,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -88100,13 +87906,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 281,
+          "height": 280,
           "layer": "",
           "locked": false,
           "name": "socalo",
           "persistentUuid": "a565da9e-1a4e-49f8-99a1-34e4f5dafc3b",
-          "width": 252,
-          "x": 595,
+          "width": 230,
+          "x": 599,
           "y": 106,
           "zOrder": 4,
           "numberProperties": [],
@@ -88121,13 +87927,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 281,
+          "height": 280,
           "layer": "",
           "locked": false,
           "name": "socalo",
           "persistentUuid": "5bcc285f-7761-43a9-ba5b-fbe07ba2679b",
-          "width": 252,
-          "x": 853,
+          "width": 230,
+          "x": 858,
           "y": 106,
           "zOrder": 4,
           "numberProperties": [],
@@ -88142,13 +87948,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 281,
+          "height": 280,
           "layer": "",
           "locked": false,
           "name": "socalo",
           "persistentUuid": "68020fec-5097-47e9-a23c-65eb3ae36a8a",
-          "width": 252,
-          "x": 1113,
+          "width": 230,
+          "x": 1117,
           "y": 106,
           "zOrder": 4,
           "numberProperties": [],
@@ -88170,11 +87976,16 @@
           "persistentUuid": "20d44905-91af-4d94-acbc-afe30a5d8e25",
           "width": 1161,
           "x": 136,
-          "y": 332,
+          "y": 336,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "cuadro",
+              "value": "amarillo"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -88186,11 +87997,80 @@
           "persistentUuid": "3fbb760f-a0da-4202-9952-d3861b5f5f26",
           "width": 0,
           "x": 140,
-          "y": 380,
+          "y": 384,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 65,
+          "layer": "",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "b3f84bbc-f075-4b80-815d-fded16430089",
+          "width": 155,
+          "x": 1195,
+          "y": 525,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "verifi",
+          "persistentUuid": "863db775-57b2-4bc5-a20c-7ee515f20ac3",
+          "width": 0,
+          "x": 1216,
+          "y": 543,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_inco",
+          "persistentUuid": "0b1c360f-56f0-4514-8993-2a63a2744041",
+          "width": 0,
+          "x": 422,
+          "y": 386,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 163,
+          "layer": "",
+          "locked": false,
+          "name": "cuadro",
+          "persistentUuid": "ea910744-8779-47cd-a8b2-832dcad829fe",
+          "width": 1161,
+          "x": 138,
+          "y": 336,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "cuadro",
+              "value": "rojo"
+            }
+          ]
         }
       ],
       "objects": [
@@ -88717,7 +88597,7 @@
           "variables": [
             {
               "name": "valor",
-              "value": ""
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -89219,6 +89099,25 @@
         {
           "bold": true,
           "italic": false,
+          "name": "puntos2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 55,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
           "name": "puntos",
           "smoothed": true,
           "tags": "",
@@ -89474,6 +89373,25 @@
         {
           "bold": true,
           "italic": false,
+          "name": "txt_inco",
+          "smoothed": true,
+          "tags": "DatosE",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Vuelve a intentarlo!",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 60,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
           "name": "txt_feli",
           "smoothed": true,
           "tags": "DatosE",
@@ -89488,396 +89406,6 @@
             "b": 28,
             "g": 231,
             "r": 248
-          }
-        },
-        {
-          "name": "whiteseis",
-          "tags": "DatosE",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\username.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "whitecinco",
-          "tags": "DatosE",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\username.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "whitecuatro",
-          "tags": "DatosE",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\username.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "whitetres",
-          "tags": "DatosE",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\username.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "whitedos",
-          "tags": "DatosE",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\username.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "whiteuno",
-          "tags": "DatosE",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "3.InicioSesion y Registro\\Assets\\username.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Textuno",
-          "tags": "",
-          "type": "TextEntryObject::TextEntry",
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Datauno",
-          "smoothed": true,
-          "tags": "DatosE",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "enter username",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 18,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "name": "Textdos",
-          "tags": "",
-          "type": "TextEntryObject::TextEntry",
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Datados",
-          "smoothed": true,
-          "tags": "DatosE",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "enter username",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 18,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "name": "Texttres",
-          "tags": "",
-          "type": "TextEntryObject::TextEntry",
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Datatres",
-          "smoothed": true,
-          "tags": "DatosE",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "enter username",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 18,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "name": "Textcuatro",
-          "tags": "",
-          "type": "TextEntryObject::TextEntry",
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Datacuatro",
-          "smoothed": true,
-          "tags": "DatosE",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "enter username",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 18,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "name": "Textcinco",
-          "tags": "",
-          "type": "TextEntryObject::TextEntry",
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Datacinco",
-          "smoothed": true,
-          "tags": "DatosE",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "enter username",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 18,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "name": "Textseis",
-          "tags": "",
-          "type": "TextEntryObject::TextEntry",
-          "variables": [],
-          "behaviors": []
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Dataseis",
-          "smoothed": true,
-          "tags": "DatosE",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "enter username",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 18,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
           }
         },
         {
@@ -89921,7 +89449,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "Girar",
+          "name": "verifi",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -89933,9 +89461,9 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "stop",
+          "string": "Verificar",
           "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 30,
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -90012,6 +89540,30 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariable(puntos)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "puntos",
+                "=",
+                "GlobalVariableString(puntos)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Cache"
               },
               "parameters": [
@@ -90026,6 +89578,27 @@
               },
               "parameters": [
                 "txt_feli"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_inco"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"in\""
               ],
               "subInstructions": []
             }
@@ -90102,33 +89675,9 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "clus",
+                    "clust",
                     "=",
                     "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "corr",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "puntos",
-                    "=",
-                    "VariableString(corr)"
                   ],
                   "subInstructions": []
                 }
@@ -90194,33 +89743,9 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "regre",
+                    "regres",
                     "=",
                     "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "corr",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "puntos",
-                    "=",
-                    "VariableString(corr)"
                   ],
                   "subInstructions": []
                 }
@@ -90291,30 +89816,6 @@
                     "1"
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "corr",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "puntos",
-                    "=",
-                    "VariableString(corr)"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -90378,33 +89879,9 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "svm",
+                    "svmm",
                     "=",
                     "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "corr",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "puntos",
-                    "=",
-                    "VariableString(corr)"
                   ],
                   "subInstructions": []
                 }
@@ -90470,45 +89947,13 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "knn",
+                    "knnn",
                     "=",
                     "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "corr",
-                    "+",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "puntos",
-                    "=",
-                    "VariableString(corr)"
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
               "events": []
             },
             {
@@ -90522,9 +89967,57 @@
                     "value": "VarScene"
                   },
                   "parameters": [
-                    "correctas",
+                    "clust",
                     "=",
-                    "5"
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "svmm",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "knnn",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "explo",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "regres",
+                    "=",
+                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -90533,10 +90026,32 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Montre"
+                    "value": "ModVarScene"
                   },
                   "parameters": [
-                    "cuadro",
+                    "cuenta",
+                    "=",
+                    "Variable(knnn)+Variable(svmm)+Variable(explo)+Variable(regres)+Variable(clust)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "verifi",
+                    "",
+                    "",
                     ""
                   ],
                   "subInstructions": []
@@ -90544,11 +90059,263 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Montre"
+                    "value": "MouseButtonReleased"
                   },
                   "parameters": [
-                    "txt_feli",
-                    ""
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "cuenta",
+                        "=",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "cuadro",
+                        "cuadro",
+                        "=",
+                        "\"amarillo\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "cuadro",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "txt_feli",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "puntos",
+                        "+",
+                        "500"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "puntos",
+                        "=",
+                        "GlobalVariableString(puntos)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "verifi",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "cuadroazul",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "cuenta",
+                        "=",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "cuadro",
+                        "cuadro",
+                        "=",
+                        "\"rojo\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "cuadro",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "txt_inco",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "cuadro",
+                    "cuadro",
+                    "=",
+                    "\"rojo\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "6",
+                    "\"in\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "cuadro"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "txt_inco"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"in\""
                   ],
                   "subInstructions": []
                 }
@@ -90597,6 +90364,96 @@
                   "parameters": [
                     "siguiente",
                     "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "verifi",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "verifi",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "verifi",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "verifi",
+                    "\"248;200;15\""
                   ],
                   "subInstructions": []
                 }
