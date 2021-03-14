@@ -4,7 +4,7 @@
 	$u=$_POST["user"];
 	$p=$_POST["pass"];
 	$error="";
-	//if(!$u or !$p)$error.="existe un campo vacio";
+	
 	if(empty(trim($u) and trim($p)))
 		$error = "existe un campo vacio";
 	if(!$error){
