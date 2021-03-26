@@ -6496,15 +6496,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject-2.png",
         "kind": "image",
         "metadata": "",
@@ -9977,6 +9968,132 @@
         "kind": "image",
         "metadata": "",
         "name": "3.InicioSesion y Registro\\Assets\\rojo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-5-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-6-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-7-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-8-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-8-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-9-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-9-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-10-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-10-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-11-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-11-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-12-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-12-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/Nivel2/ene/e1-13-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-13-0.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -18351,7 +18468,7 @@
               },
               "parameters": [
                 "\"http://localhost/ConexionOVA/puntos.php\"",
-                "\"user= \"+GlobalVariableString(nombre)+\"\"",
+                "\"user= \"+GlobalVariableString(nombre)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                 "\"POST\"",
                 "",
                 "PuntosBd",
@@ -22482,9 +22599,9 @@
           "effects": []
         },
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 9239216,
-          "ambientLightColorR": -2147483632,
+          "ambientLightColorR": -2147483648,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "puntajes",
@@ -32095,7 +32212,7 @@
                   },
                   "parameters": [
                     "\"http://localhost/ConexionOVA/updatepuntos.php\"",
-                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"\"",
+                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
                     "",
@@ -47064,7 +47181,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Quinta Pregunta",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -56677,7 +56794,7 @@
                   },
                   "parameters": [
                     "\"http://localhost/ConexionOVA/updatepuntos.php\"",
-                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"\"",
+                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
                     "",
@@ -74196,7 +74313,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Ruleta",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -77453,7 +77570,7 @@
                   },
                   "parameters": [
                     "\"http://localhost/ConexionOVA/updatepuntos.php\"",
-                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"\"",
+                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
                     "",
@@ -89786,7 +89903,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.634
       },
       "objectsGroups": [],
       "variables": [],
@@ -90162,27 +90279,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 52,
-          "layer": "",
-          "locked": false,
-          "name": "enemigo",
-          "persistentUuid": "95719d65-af19-4b79-809b-fc9aafac8c44",
-          "width": 37,
-          "x": 1066,
-          "y": 235,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 576,
           "layer": "",
           "locked": true,
@@ -90206,7 +90302,7 @@
           "persistentUuid": "15401b13-e06f-4f7a-8b7c-6305837feefa",
           "width": 1410,
           "x": -7,
-          "y": 695,
+          "y": 692,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -90221,7 +90317,7 @@
           "name": "piso3",
           "persistentUuid": "be6570ce-cbd8-4932-9950-fb6b250eea5d",
           "width": 69,
-          "x": 57,
+          "x": 62,
           "y": 517,
           "zOrder": 65,
           "numberProperties": [],
@@ -90477,7 +90573,7 @@
           "name": "piso3",
           "persistentUuid": "42468b06-39ff-4d75-b02b-e2c7b8e8931d",
           "width": 315,
-          "x": 855,
+          "x": 849,
           "y": 344,
           "zOrder": 65,
           "numberProperties": [],
@@ -90492,8 +90588,8 @@
           "locked": false,
           "name": "piso3",
           "persistentUuid": "fffd040a-638d-4030-b5af-d1b22431d4d4",
-          "width": 378,
-          "x": 424,
+          "width": 386,
+          "x": 422,
           "y": 168,
           "zOrder": 66,
           "numberProperties": [],
@@ -90657,9 +90753,9 @@
           "locked": false,
           "name": "piso3",
           "persistentUuid": "e86a1e79-cb3b-42e7-8cd2-1b84144f456a",
-          "width": 196,
-          "x": 175,
-          "y": 345,
+          "width": 204,
+          "x": 170,
+          "y": 343,
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
@@ -90689,7 +90785,7 @@
           "locked": false,
           "name": "piso3",
           "persistentUuid": "e7848d54-6f3c-41fa-bf62-5c5d28c1c800",
-          "width": 86,
+          "width": 144,
           "x": 122,
           "y": 413,
           "zOrder": 66,
@@ -90705,7 +90801,7 @@
           "locked": false,
           "name": "piso3",
           "persistentUuid": "c6a0e8ea-1bdb-4d07-b5c3-bd71cab79d8e",
-          "width": 104,
+          "width": 107,
           "x": 267,
           "y": 413,
           "zOrder": 66,
@@ -90962,8 +91058,8 @@
           "name": "Moneda",
           "persistentUuid": "d5438cda-3fd1-435d-8b6a-7f50a512a7e5",
           "width": 30,
-          "x": 141,
-          "y": 252,
+          "x": 135,
+          "y": 223,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -91314,8 +91410,8 @@
           "name": "Moneda",
           "persistentUuid": "e64f78c7-2a63-4673-9867-8425354aca50",
           "width": 30,
-          "x": 135,
-          "y": 372,
+          "x": 235,
+          "y": 380,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -91352,27 +91448,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 52,
-          "layer": "",
-          "locked": false,
-          "name": "enemigo",
-          "persistentUuid": "fce5577d-77a9-4592-98a6-474169e92fa2",
-          "width": 38,
-          "x": 377,
-          "y": 325,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            }
-          ]
         },
         {
           "angle": 0,
@@ -91521,98 +91596,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 51,
+          "height": 28,
           "layer": "",
           "locked": false,
           "name": "enemigo",
           "persistentUuid": "f97cbf9d-c520-4daf-9539-2a2ce514a198",
-          "width": 38,
-          "x": 135,
-          "y": 635,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 49,
-          "layer": "",
-          "locked": false,
-          "name": "enemigo",
-          "persistentUuid": "0797dcfd-02cd-4eb7-a360-f36b7e9fb3d0",
-          "width": 37,
-          "x": 811,
-          "y": 637,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 46,
-          "layer": "",
-          "locked": false,
-          "name": "enemigo",
-          "persistentUuid": "8e3322a6-6e5d-439b-be71-4c3267d5aa41",
-          "width": 44,
-          "x": 976,
-          "y": 406,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 48,
-          "layer": "",
-          "locked": false,
-          "name": "enemigo",
-          "persistentUuid": "1a1edc90-b900-4486-9e45-ee8f15a721dc",
-          "width": 37,
-          "x": 507,
-          "y": 491,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "direccion",
-              "value": "izquierda"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 31,
-          "layer": "",
-          "locked": false,
-          "name": "enemigo",
-          "persistentUuid": "f145392d-c881-4875-87bc-6222d4d055f1",
-          "width": 34,
-          "x": 571,
-          "y": 133,
+          "width": 28,
+          "x": 154,
+          "y": 660,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -91824,6 +91815,465 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "a3411e9f-be01-4242-8a68-7a687b809452",
+          "width": 5,
+          "x": 546,
+          "y": 660,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "punto2",
+          "persistentUuid": "9a172076-68e2-49de-8ec4-e5f933d099c4",
+          "width": 5,
+          "x": 140,
+          "y": 659,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "",
+          "locked": false,
+          "name": "punto2",
+          "persistentUuid": "04b6800f-f58b-40fd-9a46-4125bd5307a4",
+          "width": 10,
+          "x": 553,
+          "y": 561,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "8903c64f-22c7-4e79-ac62-6e460975fb81",
+          "width": 10,
+          "x": 796,
+          "y": 556,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 29,
+          "layer": "",
+          "locked": false,
+          "name": "punto2",
+          "persistentUuid": "1125414a-e57f-4b2e-a9af-c05d3309d5d2",
+          "width": 10,
+          "x": 171,
+          "y": 310,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "afe93e61-9bd2-41ca-b20f-460b9e194d16",
+          "width": 10,
+          "x": 366,
+          "y": 310,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 28,
+          "layer": "",
+          "locked": false,
+          "name": "enemigo",
+          "persistentUuid": "70168e04-cf48-4908-a5d3-8424a045b969",
+          "width": 28,
+          "x": 181,
+          "y": 311,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 29,
+          "layer": "",
+          "locked": false,
+          "name": "punto2",
+          "persistentUuid": "e223f0dd-55dc-46bc-8dc0-ab6338ab49cb",
+          "width": 10,
+          "x": 876,
+          "y": 659,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 22,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "4cb64b2a-1332-4d03-8143-988ee384db2a",
+          "width": 5,
+          "x": 1094,
+          "y": 663,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 24,
+          "layer": "",
+          "locked": false,
+          "name": "punto2",
+          "persistentUuid": "d037bfff-977a-4e91-b8df-4e7b1249aac2",
+          "width": 10,
+          "x": 420,
+          "y": 138,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "8b35f04e-30e5-49f4-858d-51c0f587272f",
+          "width": 10,
+          "x": 800,
+          "y": 137,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 28,
+          "layer": "",
+          "locked": false,
+          "name": "enemigo",
+          "persistentUuid": "917d5314-49de-4cd4-92a9-a2ddcb375602",
+          "width": 28,
+          "x": 566,
+          "y": 556,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 28,
+          "layer": "",
+          "locked": false,
+          "name": "enemigo",
+          "persistentUuid": "5b9d5cc5-9946-494e-9da4-cc57e6b4b4f1",
+          "width": 28,
+          "x": 894,
+          "y": 659,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 5,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "934633ca-0835-49db-873c-179af741da69",
+          "width": 5,
+          "x": 1077.73,
+          "y": 110.624,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "6eee6009-ccf2-4d89-a606-571dd0d48189",
+          "width": 10,
+          "x": 366,
+          "y": 482,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "punto2",
+          "persistentUuid": "47f68ba1-a3a4-40d5-83d2-2eb51944d3dd",
+          "width": 10,
+          "x": 852,
+          "y": 310,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "1f009929-85f5-4fbe-90a9-97eea6c96815",
+          "width": 10,
+          "x": 1095,
+          "y": 308,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
+          "layer": "",
+          "locked": false,
+          "name": "punto2",
+          "persistentUuid": "d9c5276a-ac69-4ace-906d-041ca1925d8a",
+          "width": 10,
+          "x": 168,
+          "y": 482,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 28,
+          "layer": "",
+          "locked": false,
+          "name": "enemigo2",
+          "persistentUuid": "074e73f8-2cea-4116-aba9-c40f28adb8a8",
+          "width": 28,
+          "x": 436,
+          "y": 135,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 28,
+          "layer": "",
+          "locked": false,
+          "name": "enemigo2",
+          "persistentUuid": "77de6516-3d26-4777-806d-1abe50448511",
+          "width": 28,
+          "x": 863,
+          "y": 311,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "direccion",
+              "value": "izquierda"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 29,
+          "layer": "",
+          "locked": false,
+          "name": "punto2",
+          "persistentUuid": "9030b06a-d0fe-46ed-b545-928f11a9ff8c",
+          "width": 10,
+          "x": 133,
+          "y": 378,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "bdf7ea6c-65ac-488f-8d0a-444a86eaed43",
+          "width": 10,
+          "x": 364,
+          "y": 378,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 26,
+          "layer": "",
+          "locked": false,
+          "name": "punto2",
+          "persistentUuid": "48ac15a5-358c-4000-b87e-66e77ae56859",
+          "width": 5,
+          "x": 562,
+          "y": 662,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
+          "layer": "",
+          "locked": false,
+          "name": "punto",
+          "persistentUuid": "f3cfa1a6-4b90-44ad-93c0-dfe241d23b66",
+          "width": 10,
+          "x": 859,
+          "y": 659,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pun",
+              "value": ""
+            }
+          ]
         }
       ],
       "objects": [
@@ -91885,12 +92335,31 @@
           }
         },
         {
-          "name": "enemigo",
+          "name": "enemigo2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "e1",
@@ -91902,7 +92371,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-1.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-1-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -91919,7 +92388,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-2.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-2-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -91936,7 +92405,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-3.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-3-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -91953,7 +92422,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-4.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-4-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -91970,7 +92439,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-5.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-5-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -91987,7 +92456,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-6.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-6-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -92004,7 +92473,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-7.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-7-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -92021,7 +92490,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-8.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-8-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -92038,7 +92507,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-9.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-9-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -92055,7 +92524,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-10.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-10-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -92072,7 +92541,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-11.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-11-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -92089,7 +92558,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-12.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-12-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -92106,7 +92575,269 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-13.png",
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-13-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "enemigo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "e1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-2-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-3-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-4-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-5-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-6-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-7-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-8-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-9-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-10-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-11-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-12-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel2\\ene\\e1-13-0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -92279,8 +93010,6 @@
           "variables": [],
           "behaviors": [
             {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -92291,28 +93020,14 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
+              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             },
             {
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 400,
-              "allowDiagonals": false,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "customIsometryAngle": 30,
-              "deceleration": 800,
-              "ignoreDefaultControls": false,
-              "maxSpeed": 200,
-              "rotateObject": false,
-              "viewpoint": "TopDown"
-            },
-            {
-              "name": "TopDownMovement2",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -92321,7 +93036,9 @@
               "deceleration": 800,
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
+              "name": "TopDownMovement",
               "rotateObject": true,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "viewpoint": "TopDown"
             }
           ],
@@ -93385,6 +94102,84 @@
               ]
             }
           ]
+        },
+        {
+          "name": "punto2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "punto",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -93650,7 +94445,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Primera pregunta",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -95127,7 +95922,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "tercera pregunta",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -95948,6 +96743,358 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
+          "name": "Animacion enemigo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Toujours"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "enemigo",
+                        "direccion",
+                        "=",
+                        "\"derecha\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "enemigo",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "enemigo",
+                        "direccion",
+                        "=",
+                        "\"izquierda\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "enemigo",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "enemigo",
+                    "punto2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "enemigo",
+                    "direccion",
+                    "=",
+                    "\"derecha\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "enemigo",
+                    "punto",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "enemigo",
+                    "direccion",
+                    "=",
+                    "\"izquierda\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Animacion enemigo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Toujours"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "enemigo2",
+                        "direccion",
+                        "=",
+                        "\"derecha\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "enemigo2",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "enemigo2",
+                        "direccion",
+                        "=",
+                        "\"izquierda\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "enemigo2",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "enemigo2",
+                    "punto",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "enemigo2",
+                    "direccion",
+                    "=",
+                    "\"derecha\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "enemigo2",
+                    "punto2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "enemigo2",
+                    "direccion",
+                    "=",
+                    "\"izquierda\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "botones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -96168,10 +97315,6 @@
         },
         {
           "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-        },
-        {
-          "name": "TopDownMovement2",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         },
         {
@@ -99279,7 +100422,7 @@
                   },
                   "parameters": [
                     "\"http://localhost/ConexionOVA/updatepuntos.php\"",
-                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"\"",
+                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
                     "",
