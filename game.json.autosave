@@ -10114,6 +10114,15 @@
         "name": "docente\\rankin.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "docente/ranking-tabla2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "docente\\ranking-tabla2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14688,7 +14697,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Diseño",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20055,7 +20064,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.586
+        "zoomFactor": 0.538
       },
       "objectsGroups": [],
       "variables": [
@@ -20524,38 +20533,6 @@
           "width": 310,
           "x": 641,
           "y": 247,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 273,
-          "layer": "puntajes",
-          "locked": false,
-          "name": "txt_puntaje",
-          "persistentUuid": "6dd77538-0807-4027-90bc-8c87a88779e7",
-          "width": 318,
-          "x": 552,
-          "y": 227,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 426,
-          "layer": "puntajes",
-          "locked": false,
-          "name": "cuadrorojo",
-          "persistentUuid": "2d0dc00a-b785-4994-99fb-4e5d50fc17cb",
-          "width": 518,
-          "x": 453,
-          "y": 135,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -21655,7 +21632,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Botones Diseño Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22533,17 +22510,6 @@
           "visibility": false,
           "cameras": [],
           "effects": []
-        },
-        {
-          "ambientLightColorB": 1702453632,
-          "ambientLightColorG": 9239216,
-          "ambientLightColorR": -2147483648,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "puntajes",
-          "visibility": false,
-          "cameras": [],
-          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -22581,7 +22547,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.418
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [
@@ -22594,7 +22560,11 @@
           "value": ""
         },
         {
-          "name": "lis",
+          "name": "nom2",
+          "value": ""
+        },
+        {
+          "name": "pun2",
           "value": ""
         }
       ],
@@ -22605,11 +22575,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "txt_puntajes",
+          "name": "txt_siguiente",
           "persistentUuid": "6696ebce-0d96-4b40-a9aa-73e1953cda77",
           "width": 0,
-          "x": 267,
-          "y": 598,
+          "x": 1187,
+          "y": 603,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -22625,7 +22595,7 @@
           "persistentUuid": "f7b6ab38-88c6-49b5-9ddd-3c9703264e4e",
           "width": 0,
           "x": 87,
-          "y": 173,
+          "y": 146,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -22672,8 +22642,8 @@
           "name": "personajes",
           "persistentUuid": "8191943b-93f8-41c8-8eeb-e5ef87eeb5a9",
           "width": 346,
-          "x": -48,
-          "y": 286,
+          "x": 100,
+          "y": 161,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -22688,8 +22658,8 @@
           "name": "txt_nmbres",
           "persistentUuid": "6dd77538-0807-4027-90bc-8c87a88779e7",
           "width": 310,
-          "x": 676,
-          "y": 65,
+          "x": 624,
+          "y": 63,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -22704,8 +22674,8 @@
           "name": "cuadrito",
           "persistentUuid": "d8800f81-5532-4f98-9ccf-24039b39a088",
           "width": 750,
-          "x": 482,
-          "y": -3,
+          "x": 430,
+          "y": -5,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -22720,7 +22690,7 @@
           "name": "txt_puntos",
           "persistentUuid": "147d621c-a3e2-426b-b5c0-afcaf940ca0d",
           "width": 128,
-          "x": 1010,
+          "x": 941,
           "y": 65,
           "zOrder": 28,
           "numberProperties": [],
@@ -22730,15 +22700,127 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 84,
+          "height": 76,
           "layer": "",
           "locked": false,
           "name": "cuadrorojo",
           "persistentUuid": "c4e01d92-9b5e-4720-957b-ff5b83c92649",
-          "width": 247,
-          "x": 237,
-          "y": 586,
+          "width": 137,
+          "x": 1168,
+          "y": 587,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 632,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrito2",
+          "persistentUuid": "6c2bc7f2-3bc0-4949-98a2-17c27be86713",
+          "width": 655,
+          "x": 475,
+          "y": 37,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_nmbres2",
+          "persistentUuid": "1be0e73a-40f4-40b7-b22e-581ed47ac368",
+          "width": 0,
+          "x": 625,
+          "y": 62,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_puntos2",
+          "persistentUuid": "340682ab-799d-4214-b4b3-f5ddbb126cef",
+          "width": 0,
+          "x": 942,
+          "y": 65,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "4bc1d30a-cf1b-45c0-af48-d2b21f199f98",
+          "width": 137,
+          "x": 1168,
+          "y": 513,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_anterior",
+          "persistentUuid": "9d1b418b-8dc8-4656-8fe6-bbdfcf24bf6d",
+          "width": 0,
+          "x": 1192,
+          "y": 528,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "boton1",
+          "persistentUuid": "698c43c2-720d-40c7-a226-878e5a532f83",
+          "width": 173,
+          "x": 12,
+          "y": 621,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_atras",
+          "persistentUuid": "eecdedbe-d857-4b77-a0c4-7836d15882b8",
+          "width": 0,
+          "x": 70,
+          "y": 619,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22748,7 +22830,7 @@
         {
           "bold": true,
           "italic": false,
-          "name": "txt_perfil",
+          "name": "txt_verlista",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -22760,19 +22842,19 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Perfil",
+          "string": "Listar",
           "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 60,
+          "characterSize": 30,
           "color": {
-            "b": 149,
-            "g": 60,
-            "r": 113
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
           "bold": true,
           "italic": false,
-          "name": "txt_puntajes",
+          "name": "txt_anterior",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -22784,9 +22866,52 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Actualizar",
+          "string": "Anterior",
           "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 50,
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_siguiente",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "siguiente",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_nmbres",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 27,
           "color": {
             "b": 255,
             "g": 255,
@@ -22815,14 +22940,14 @@
         {
           "bold": true,
           "italic": false,
-          "name": "txt_nmbres1",
+          "name": "txt_nmbres2",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Nombre",
+          "string": "",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 27,
           "color": {
@@ -22834,33 +22959,14 @@
         {
           "bold": true,
           "italic": false,
-          "name": "txt_puntos1",
+          "name": "txt_puntos2",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Puntos",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 27,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_nmbres",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "dfsdf",
+          "string": "",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 27,
           "color": {
@@ -22894,163 +23000,6 @@
           }
         },
         {
-          "bold": true,
-          "italic": false,
-          "name": "txt_ayuda",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "string": "Ayuda",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 60,
-          "color": {
-            "b": 149,
-            "g": 60,
-            "r": 113
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_perfilcerrarses",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Cerrar Sesión",
-          "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 35,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_perfilmodi",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Modificar",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_perfilname",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Nombre",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_creditos5",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "2021 Game Machine",
-          "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 36,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_creditos4",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Edwin Pacheco",
-          "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 30,
-          "color": {
-            "b": 145,
-            "g": 73,
-            "r": 12
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_creditos2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Lucia Jaramillo Enriquez",
-          "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 30,
-          "color": {
-            "b": 145,
-            "g": 73,
-            "r": 12
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_creditos1",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "CREDITOS",
-          "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 40,
-          "color": {
-            "b": 145,
-            "g": 73,
-            "r": 12
-          }
-        },
-        {
           "name": "cuadrito2",
           "tags": "",
           "type": "Sprite",
@@ -23068,7 +23017,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "docente\\rankin.png",
+                      "image": "docente\\ranking-tabla2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23215,6 +23164,1434 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"http://localhost/ConexionOVA/listapuntajesU2.php\"",
+                "",
+                "\"GET\"",
+                "",
+                "nom2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"http://localhost/ConexionOVA/listapuntajesP2.php\"",
+                "",
+                "\"GET\"",
+                "",
+                "pun2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "cuadrito2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_nmbres2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_puntos2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txt_nmbres",
+                "=",
+                "VariableString(nom)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txt_puntos",
+                "=",
+                "VariableString(pun)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "cuadrito"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_nmbres"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_puntos"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "cuadrito2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "txt_nmbres2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "txt_puntos2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txt_nmbres2",
+                "=",
+                "VariableString(nom2)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txt_puntos2",
+                "=",
+                "VariableString(pun2)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_anterior",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "cuadrito2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_nmbres2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "txt_puntos2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "cuadrito",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "txt_nmbres",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "txt_puntos",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txt_nmbres",
+                "=",
+                "VariableString(nom)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txt_puntos",
+                "=",
+                "VariableString(pun)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Titulo",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "title",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "title",
+                    "Tween",
+                    "\"Hover\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "title",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "title",
+                    "Tween",
+                    "\"Hover2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Botones Diseño Menu",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_siguiente",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_siguiente",
+                    "\"122;36;197\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_siguiente",
+                    "Tween",
+                    "\"int_mision\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_siguiente",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_siguiente",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_siguiente",
+                    "Tween",
+                    "\"int_mision2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_anterior",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_anterior",
+                    "\"122;36;197\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_anterior",
+                    "Tween",
+                    "\"int_mision\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_anterior",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_anterior",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_anterior",
+                    "Tween",
+                    "\"int_mision2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_verlista",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_verlista",
+                    "\"122;36;197\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_verlista",
+                    "Tween",
+                    "\"int_mision\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_verlista",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_verlista",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_verlista",
+                    "Tween",
+                    "\"int_mision2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "Tween",
+                    "\"int_apsup\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "Tween",
+                    "\"int_apsup2\"",
+                    "0.95",
+                    "0.95",
+                    "\"easeOutQuad\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu Docente\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 6880376,
+          "ambientLightColorG": 6879736,
+          "ambientLightColorR": 6637136,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453632,
+          "ambientLightColorG": 9239216,
+          "ambientLightColorR": -2147483648,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "puntajes",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Ranking2",
+      "name": "Ranking2",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.49
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "nom2",
+          "value": ""
+        },
+        {
+          "name": "pun2",
+          "value": ""
+        },
+        {
+          "name": "lis",
+          "value": ""
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_puntajes",
+          "persistentUuid": "6696ebce-0d96-4b40-a9aa-73e1953cda77",
+          "width": 0,
+          "x": 1101,
+          "y": 623,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "title",
+          "persistentUuid": "f7b6ab38-88c6-49b5-9ddd-3c9703264e4e",
+          "width": 0,
+          "x": 36,
+          "y": 247,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "LogoU",
+          "persistentUuid": "4ee32fd7-235f-4f86-9aff-99952549d56f",
+          "width": 100,
+          "x": 0,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "locked": false,
+          "name": "LogoML",
+          "persistentUuid": "1075f36b-f3d5-448c-9b58-dc8b9bb63b42",
+          "width": 130,
+          "x": 1268,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 458,
+          "layer": "",
+          "locked": false,
+          "name": "personajes",
+          "persistentUuid": "8191943b-93f8-41c8-8eeb-e5ef87eeb5a9",
+          "width": 346,
+          "x": -48,
+          "y": 286,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 584,
+          "layer": "",
+          "locked": false,
+          "name": "txt_nmbres",
+          "persistentUuid": "6dd77538-0807-4027-90bc-8c87a88779e7",
+          "width": 310,
+          "x": 557,
+          "y": 65,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 658,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrito",
+          "persistentUuid": "d8800f81-5532-4f98-9ccf-24039b39a088",
+          "width": 684,
+          "x": 383,
+          "y": 29,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 599,
+          "layer": "",
+          "locked": false,
+          "name": "txt_puntos",
+          "persistentUuid": "147d621c-a3e2-426b-b5c0-afcaf940ca0d",
+          "width": 128,
+          "x": 891,
+          "y": 65,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "c4e01d92-9b5e-4720-957b-ff5b83c92649",
+          "width": 137,
+          "x": 1082,
+          "y": 604,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_puntajes",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "siguiente",
+          "font": "fontsButton\\10204\\Fortnite.ttf",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_puntos",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "cvfg",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 27,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_nmbres",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "dfsdf",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 27,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "cuadrito",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "docente\\ranking-tabla2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "personajes",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "4.MenuPrincipal\\Assets\\Personajes\\2020-10-22_14h28_28-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "txt_nmbres",
+                "\"left\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "txt_puntos",
+                "\"center\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -23261,12 +24638,42 @@
             {
               "type": {
                 "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"http://localhost/ConexionOVA/listapuntajesU2.php\"",
+                "",
+                "\"GET\"",
+                "",
+                "nom2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"http://localhost/ConexionOVA/listapuntajesP2.php\"",
+                "",
+                "\"GET\"",
+                "",
+                "pun2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "TextObject::String"
               },
               "parameters": [
                 "txt_nmbres",
                 "=",
-                "VariableString(nom)"
+                "VariableString(nom2)"
               ],
               "subInstructions": []
             },
@@ -23278,29 +24685,7 @@
               "parameters": [
                 "txt_puntos",
                 "=",
-                "VariableString(pun)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::SetTextAlignment"
-              },
-              "parameters": [
-                "txt_nmbres",
-                "\"left\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::SetTextAlignment"
-              },
-              "parameters": [
-                "txt_puntos",
-                "\"center\""
+                "VariableString(pun2)"
               ],
               "subInstructions": []
             }
@@ -102458,15 +103843,12 @@
       "description": "Change the origin point equal to Center for splash event.",
       "extensionNamespace": "",
       "fullName": "SplashLoad",
-      "helpPath": "",
       "iconUrl": "",
       "name": "SplashLoad",
       "previewIconUrl": "",
       "shortDescription": "Create Splash sprite at the begining of scene.\nCreate Loading scene.",
+      "tags": "",
       "version": "0.0.1",
-      "tags": [
-        ""
-      ],
       "eventsFunctions": [
         {
           "description": "LoadingScene program",
@@ -102837,15 +104219,12 @@
       "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nAfter adding this to an object, you have to **trigger the effect** by using the **Flash action**.",
       "extensionNamespace": "",
       "fullName": "Flash (blink)",
-      "helpPath": "",
       "iconUrl": "",
       "name": "Flash",
       "previewIconUrl": "",
       "shortDescription": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nTrigger the effect by using the Flash action.",
+      "tags": "",
       "version": "1.0.0",
-      "tags": [
-        ""
-      ],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
