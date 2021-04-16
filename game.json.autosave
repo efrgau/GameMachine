@@ -4718,15 +4718,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "4.MenuPrincipal/Assets/x.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4.MenuPrincipal\\Assets\\x.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "4.MenuPrincipal/Assets/marco.png",
         "kind": "image",
         "metadata": "",
@@ -10267,6 +10258,60 @@
         "name": "8.Aprendizajesupervisado\\Assets\\2021-04-07-1-5.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.MenuPrincipal/Assets/x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.MenuPrincipal\\Assets\\x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.MenuPrincipal/Assets/LETRAX.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.MenuPrincipal\\Assets\\LETRAX.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.MenuPrincipal/Assets/xcerrar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.MenuPrincipal\\Assets\\xcerrar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/avatarans.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\avatarans.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.AprendizajeNoSupervisado/aavatarans.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.AprendizajeNoSupervisado\\aavatarans.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.AprendizajeReforzado/cursor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.AprendizajeReforzado\\cursor.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -10540,6 +10585,45 @@
       ]
     },
     {
+      "name": "cerrar2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "x",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "4.MenuPrincipal\\Assets\\xcerrar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "cerrar",
       "tags": "",
       "type": "Sprite",
@@ -10557,7 +10641,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "4.MenuPrincipal\\Assets\\x.png",
+                  "image": "4.MenuPrincipal\\Assets\\xcerrar.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11194,6 +11278,30 @@
           ]
         }
       ]
+    },
+    {
+      "bold": true,
+      "italic": false,
+      "name": "cancelar",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Cancelar",
+      "font": "fontsletra\\Russo_One.ttf",
+      "characterSize": 25,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "objectsGroups": [],
@@ -14238,6 +14346,16 @@
                     "txt_validar"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "txt_estudiantes2"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -14755,23 +14873,23 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "txt_validar",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "txt_validar",
                     "=",
                     "VariableString(validacion)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "txt_validar",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -15251,7 +15369,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.466
+        "zoomFactor": 0.514
       },
       "objectsGroups": [],
       "variables": [
@@ -16314,9 +16432,9 @@
           "font": "fontsletra\\10094\\DaffadowndillyNF.otf",
           "characterSize": 20,
           "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
+            "b": 215,
+            "g": 158,
+            "r": 47
           }
         }
       ],
@@ -16392,6 +16510,26 @@
                     "PasswordArrow",
                     "=",
                     "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "txt_validar"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "txt_estudiantes2"
                   ],
                   "subInstructions": []
                 }
@@ -16917,6 +17055,17 @@
                     "txt_validar",
                     "=",
                     "VariableString(Dato)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "txt_validar",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -37092,22 +37241,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 110,
-          "layer": "",
-          "locked": false,
-          "name": "cerebroarboles",
-          "persistentUuid": "9a3574ad-fe9a-4cf1-a764-c0199cc2d4c4",
-          "width": 110,
-          "x": 6012,
-          "y": 286,
-          "zOrder": 128,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 323,
           "layer": "knn",
           "locked": false,
@@ -41256,7 +41389,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.482
+        "zoomFactor": 0.458
       },
       "objectsGroups": [],
       "variables": [
@@ -41434,9 +41567,9 @@
           "locked": false,
           "name": "txt_explicacion",
           "persistentUuid": "f4c3b14c-f37e-4735-8b51-2130ad697be2",
-          "width": 430,
-          "x": 313,
-          "y": 277,
+          "width": 438,
+          "x": 290,
+          "y": 288,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -41466,9 +41599,9 @@
           "locked": false,
           "name": "txt_explicacion2",
           "persistentUuid": "ce8046c3-b5dc-4638-bcb7-62b63a6d5ad9",
-          "width": 471,
-          "x": 600,
-          "y": 287,
+          "width": 570,
+          "x": 552,
+          "y": 250,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -41684,16 +41817,272 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 90,
           "layer": "Nivel3",
           "locked": false,
           "name": "txt_explicacion3",
           "persistentUuid": "fa9fbc25-125a-49f1-a7e2-4679df6a4316",
-          "width": 0,
-          "x": 415,
-          "y": 305,
+          "width": 401,
+          "x": 590,
+          "y": 293,
           "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "cerrar2",
+          "persistentUuid": "8112c151-315e-46bb-a700-3a856185a4ed",
+          "width": 32,
+          "x": 1122,
+          "y": 168,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 428,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "avatar2",
+          "persistentUuid": "01aab12c-7924-4478-bb3c-bc894e1f0eec",
+          "width": 204,
+          "x": 871,
+          "y": 210,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "cerrar2",
+          "persistentUuid": "ff5a9258-e6cd-48f1-83b7-4a378d4092d1",
+          "width": 32,
+          "x": 1131,
+          "y": 168,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 464,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "avatar2",
+          "persistentUuid": "7df96c59-42fc-4f36-ae4a-57179495946c",
+          "width": 222,
+          "x": 243,
+          "y": 170,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "a0ac43db-1302-4e6a-917a-b6399edafc0f",
+          "width": 102,
+          "x": 449,
+          "y": 493,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "12d71bff-789b-45ea-b426-595447df9e37",
+          "width": 102,
+          "x": 481,
+          "y": 525,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "b838f52d-0d04-4bab-86e2-73e8c3dbbd6d",
+          "width": 102,
+          "x": 449,
+          "y": 555,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 25,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "ef9e3ab3-13d9-4bc5-b019-9dfadd5b92cb",
+          "width": 102,
+          "x": 474,
+          "y": 587,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 470,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "avatar2",
+          "persistentUuid": "a08b139d-5425-4c22-b241-c694f39b5ffd",
+          "width": 254,
+          "x": 240,
+          "y": 157,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 47,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "cuadros",
+          "persistentUuid": "e89be2eb-555f-492b-acf2-d0a73915950c",
+          "width": 143,
+          "x": 485,
+          "y": 464,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 47,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "grafico",
+          "persistentUuid": "8638c69d-5537-4e6b-899f-d635c85ab48b",
+          "width": 143,
+          "x": 516,
+          "y": 520,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 35,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "cerrar2",
+          "persistentUuid": "9664578b-6f3a-42ac-b21a-ecb133b3e1b5",
+          "width": 32,
+          "x": 1127,
+          "y": 168,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 244,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "botella",
+          "persistentUuid": "ef2411b9-7780-408d-b0bf-03d07f699528",
+          "width": 149,
+          "x": 719,
+          "y": 383,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 47,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "grafico",
+          "persistentUuid": "c35e6d14-3593-4ce6-b5ee-a2e7aa7b9ae2",
+          "width": 143,
+          "x": 551,
+          "y": 572,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "boton1",
+          "persistentUuid": "98e3c136-cd20-4e62-87e8-9fb6f4c70453",
+          "width": 156,
+          "x": 6,
+          "y": 629,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 44,
+          "layer": "",
+          "locked": false,
+          "name": "txt_atras",
+          "persistentUuid": "2428ef6e-3e8d-478a-933d-8b1c2826d6b9",
+          "width": 86,
+          "x": 54,
+          "y": 638,
+          "zOrder": 92,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -41719,6 +42108,181 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "8.Aprendizajesupervisado\\Assets\\fondo.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "grafico",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel3\\graficoN3.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "botella",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\botella-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cuadros",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "blanco",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\cuadroblanco1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "amarillo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\cuadroamarillo30.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "rojo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\cuadrorojo30.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -41969,7 +42533,7 @@
           "behaviors": [],
           "string": "Abre las botellas que estan llenas y responde las preguntas.",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 35,
+          "characterSize": 40,
           "color": {
             "b": 255,
             "g": 255,
@@ -42128,7 +42692,7 @@
           ],
           "string": "Tienes 8 casillas que estan vacias, arrastra los fragmentos de codigo hacia las casillas como creas es el correcto.",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 30,
+          "characterSize": 40,
           "color": {
             "b": 255,
             "g": 255,
@@ -42248,7 +42812,7 @@
           ],
           "string": "Observa el codigo y completa lo que falta.",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 30,
+          "characterSize": 40,
           "color": {
             "b": 255,
             "g": 255,
@@ -42566,7 +43130,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "txt_cancelarnivel1",
+                    "cerrar2",
                     "",
                     "",
                     ""
@@ -42672,7 +43236,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "txt_cancelarnivel2",
+                    "cerrar2",
                     "",
                     "",
                     ""
@@ -42778,7 +43342,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "txt_cancelarnivel3",
+                    "cerrar2",
                     "",
                     "",
                     ""
@@ -42991,7 +43555,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Sonido y color",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44107,7 +44671,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 292,
+          "height": 307,
           "layer": "pregunta3",
           "locked": false,
           "name": "cuadroazul",
@@ -44123,14 +44687,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 35,
+          "height": 25,
           "layer": "pregunta3",
           "locked": false,
           "name": "cerrar",
           "persistentUuid": "a1e0dc68-7463-440d-9713-46b33cffc595",
-          "width": 35,
-          "x": 742,
-          "y": 178,
+          "width": 25,
+          "x": 740,
+          "y": 186,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -44527,8 +45091,8 @@
           "name": "pregunta3",
           "persistentUuid": "e94ffb2f-dde2-4a29-876b-9da5bfb00e50",
           "width": 306,
-          "x": 450,
-          "y": 192,
+          "x": 445,
+          "y": 194,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -44713,7 +45277,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 292,
+          "height": 302,
           "layer": "pregunta1",
           "locked": false,
           "name": "cuadroazul",
@@ -44729,14 +45293,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 35,
+          "height": 25,
           "layer": "pregunta1",
           "locked": false,
           "name": "cerrar",
           "persistentUuid": "6cd9b1aa-fd57-4493-b33d-b74076a40f32",
-          "width": 35,
-          "x": 367,
-          "y": 148,
+          "width": 25,
+          "x": 362,
+          "y": 156,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -44808,7 +45372,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 292,
+          "height": 303,
           "layer": "pregunta5",
           "locked": false,
           "name": "cuadroazul",
@@ -44824,14 +45388,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 35,
+          "height": 25,
           "layer": "pregunta5",
           "locked": false,
           "name": "cerrar",
           "persistentUuid": "4aeedcb6-584a-4087-94e5-005e8138f4f6",
-          "width": 35,
-          "x": 874,
-          "y": 365,
+          "width": 25,
+          "x": 869,
+          "y": 372,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -44919,14 +45483,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 35,
+          "height": 25,
           "layer": "pregunta4",
           "locked": false,
           "name": "cerrar",
           "persistentUuid": "e64b221a-74cb-402d-ac3a-32ad490269d9",
-          "width": 35,
-          "x": 429,
-          "y": 445,
+          "width": 25,
+          "x": 426,
+          "y": 452,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -44998,7 +45562,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 292,
+          "height": 305,
           "layer": "pregunta2",
           "locked": false,
           "name": "cuadroazul",
@@ -45014,14 +45578,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 35,
+          "height": 25,
           "layer": "pregunta2",
           "locked": false,
           "name": "cerrar",
           "persistentUuid": "5a2d3225-ef74-4d78-a2ee-767675a06c0c",
-          "width": 35,
-          "x": 521,
-          "y": 299,
+          "width": 25,
+          "x": 516,
+          "y": 309,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -45108,22 +45672,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 87,
-          "layer": "",
-          "locked": false,
-          "name": "siguiente",
-          "persistentUuid": "30ad0577-462f-4a8c-b845-a925c2be6f7a",
-          "width": 216,
-          "x": 1160,
-          "y": 508,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -45131,8 +45679,8 @@
           "name": "txt_siguiente",
           "persistentUuid": "9641facf-1e5f-40c6-bf05-648fbde91f4d",
           "width": 0,
-          "x": 1193,
-          "y": 531,
+          "x": 1227,
+          "y": 545,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -45150,6 +45698,54 @@
           "x": 112,
           "y": 12,
           "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cancelar",
+          "persistentUuid": "5c8095d7-372d-4066-8612-da8d378cc9e9",
+          "width": 0,
+          "x": 1237,
+          "y": 484,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 66,
+          "layer": "",
+          "locked": false,
+          "name": "cuadro2",
+          "persistentUuid": "2c230684-c3f1-4bc7-93bd-eb2e45981926",
+          "width": 143,
+          "x": 1222,
+          "y": 465,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 66,
+          "layer": "",
+          "locked": false,
+          "name": "cuadro2",
+          "persistentUuid": "de84c159-38da-44c3-83e8-2ba4768fd165",
+          "width": 143,
+          "x": 1217,
+          "y": 526,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45334,6 +45930,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "3.InicioSesion y Registro\\Assets\\Personajes\\Registro\\2020-11-09_21h32_42-1-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cuadro2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\botonA.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -46092,84 +46727,6 @@
           ]
         },
         {
-          "name": "fuego",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "fuego1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\fuego1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "capsula",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "cap1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\star.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "flechas2",
           "tags": "",
           "type": "Sprite",
@@ -46220,7 +46777,7 @@
           "behaviors": [],
           "string": "Continuar",
           "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 30,
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -46458,7 +47015,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Animacion Botellas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -46825,250 +47382,6 @@
                     "direccion",
                     "=",
                     "\"izquierda\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "fuego",
-                    "Enemigo",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "capsula",
-                    "Enemigo.PointX(\"Center\")",
-                    "Enemigo.PointY(\"Center\")",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Enemigo",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "fuego",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "capsula",
-                    "piso2",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SeparateFromObjects"
-                  },
-                  "parameters": [
-                    "capsula",
-                    "piso3",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "capsula",
-                    "=",
-                    "255"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "puntos",
-                    "+",
-                    "50"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "puntos",
-                    "=",
-                    "GlobalVariableString(puntos)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "capsula",
-                    "-",
-                    "TimeDelta()*80"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "capsula",
-                    "=",
-                    "100"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "capsula",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "fuego",
-                    "piso1",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "fuego",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "fuego",
-                    "piso3",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "fuego",
-                    ""
                   ],
                   "subInstructions": []
                 }
@@ -49946,6 +50259,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
+                "\"POST\"",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "PlaySound"
               },
               "parameters": [
@@ -49965,6 +50293,270 @@
               "parameters": [
                 "",
                 "\"Nivel2 AS\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "\"248;200;15\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cancelar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "cancelar",
+                "\"248;200;15\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cancelar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "cancelar",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cancelar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Mision Practica Super\"",
                 ""
               ],
               "subInstructions": []
@@ -50132,7 +50724,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.61
       },
       "objectsGroups": [],
       "variables": [
@@ -50493,8 +51085,8 @@
           "name": "prediccion",
           "persistentUuid": "05f6f17b-4157-42d4-bea4-b0da13e86abf",
           "width": 0,
-          "x": 793,
-          "y": 632,
+          "x": 719,
+          "y": 563,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -50509,8 +51101,8 @@
           "name": "grafica2",
           "persistentUuid": "c3f4d29b-fdb4-4e06-8ca6-3a32238ef378",
           "width": 0,
-          "x": 763,
-          "y": 565,
+          "x": 512,
+          "y": 570,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -50743,8 +51335,8 @@
           "name": "cuadroazul",
           "persistentUuid": "54be1bab-b581-43c7-b52b-1d817286525f",
           "width": 143,
-          "x": 1199,
-          "y": 590,
+          "x": 1225,
+          "y": 595,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -50759,8 +51351,8 @@
           "name": "siguiente",
           "persistentUuid": "8df3b3b3-98fc-44c3-9662-e0ff27bd6774",
           "width": 0,
-          "x": 1208,
-          "y": 609,
+          "x": 1234,
+          "y": 614,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -50775,8 +51367,8 @@
           "name": "validar",
           "persistentUuid": "fe08b16c-510d-46bb-86ac-4b2aff85deb8",
           "width": 0,
-          "x": 1079,
-          "y": 609,
+          "x": 1103,
+          "y": 614,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -50839,9 +51431,41 @@
           "name": "cuadro2",
           "persistentUuid": "dd9c175f-7339-4a67-a37c-c5934395dc09",
           "width": 143,
-          "x": 1051,
-          "y": 589,
+          "x": 1077,
+          "y": 594,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 66,
+          "layer": "",
+          "locked": false,
+          "name": "cuadro2",
+          "persistentUuid": "11b1cf07-cac3-45ed-973a-a91b3ed5225d",
+          "width": 143,
+          "x": 928,
+          "y": 594,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cancelar",
+          "persistentUuid": "07eb2de4-cdbe-4937-9c72-8d64c2e0fb7f",
+          "width": 0,
+          "x": 945,
+          "y": 614,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -52002,28 +52626,12 @@
           "events": []
         },
         {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "cuadros",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52774,6 +53382,17 @@
                   },
                   "parameters": [
                     "validar",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "cancelar",
                     ""
                   ],
                   "subInstructions": []
@@ -53541,7 +54160,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -53595,6 +54214,90 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "validar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "validar",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "inverted": false,
                     "value": "SourisSurObjet"
                   },
@@ -53637,6 +54340,62 @@
                   },
                   "parameters": [
                     "siguiente",
+                    "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
                     "\"248;200;15\""
                   ],
                   "subInstructions": []
@@ -53686,6 +54445,21 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "SendAsyncRequest"
+                  },
+                  "parameters": [
+                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
+                    "\"POST\"",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -53706,48 +54480,6 @@
                     "",
                     "\"Nivel3 AS\"",
                     ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "validar",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "validar",
-                    "\"255;255;255\""
                   ],
                   "subInstructions": []
                 }
@@ -53804,6 +54536,74 @@
                   "parameters": [
                     "validar",
                     "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Mision Practica Super\"",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -53917,7 +54717,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.514
       },
       "objectsGroups": [],
       "variables": [
@@ -54003,7 +54803,7 @@
           "locked": false,
           "name": "cuadrorojo",
           "persistentUuid": "27f91c36-9f18-4158-b71a-3da867c530ee",
-          "width": 216,
+          "width": 160,
           "x": 680,
           "y": 622,
           "zOrder": 3,
@@ -54068,8 +54868,8 @@
           "name": "ValidarCo",
           "persistentUuid": "805012d8-b085-4a29-8d9f-f94dccf72c83",
           "width": 0,
-          "x": 711,
-          "y": 635,
+          "x": 891,
+          "y": 639,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -54816,6 +55616,38 @@
           "x": 1171,
           "y": 627,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "f423f798-7b23-4f9d-8ec5-82c445fe78eb",
+          "width": 216,
+          "x": 849,
+          "y": 622,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cancelar",
+          "persistentUuid": "52c9bbcb-dd51-4256-97d3-d061a949a971",
+          "width": 0,
+          "x": 706,
+          "y": 638,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -56545,7 +57377,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "uno",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -58381,6 +59213,17 @@
                 "value": "Delete"
               },
               "parameters": [
+                "cancelar",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
                 "ValidarCo",
                 ""
               ],
@@ -58608,6 +59451,62 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
                     "siguiente",
                     "",
                     "",
@@ -58688,6 +59587,48 @@
                   },
                   "parameters": [
                     "ValidarCo",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
                     "\"255;255;255\""
                   ],
                   "subInstructions": []
@@ -58813,6 +59754,74 @@
                   "parameters": [
                     "",
                     "\"FinishMiAS\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Mision Practica Super\"",
                     ""
                   ],
                   "subInstructions": []
@@ -62933,7 +63942,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.434
+        "zoomFactor": 0.554
       },
       "objectsGroups": [],
       "variables": [
@@ -63090,22 +64099,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 105,
-          "layer": "",
-          "locked": false,
-          "name": "cuadrorojo",
-          "persistentUuid": "231d914c-c1e2-498f-b82d-7274c1b45aba",
-          "width": 564,
-          "x": 132,
-          "y": 2,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 475,
           "layer": "Nivel1",
           "locked": false,
@@ -63127,9 +64120,9 @@
           "locked": false,
           "name": "txt_explicacion",
           "persistentUuid": "f4c3b14c-f37e-4735-8b51-2130ad697be2",
-          "width": 555,
-          "x": 328,
-          "y": 262,
+          "width": 511,
+          "x": 326,
+          "y": 264,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -63159,9 +64152,9 @@
           "locked": false,
           "name": "txt_explicacion2",
           "persistentUuid": "ce8046c3-b5dc-4638-bcb7-62b63a6d5ad9",
-          "width": 402,
-          "x": 476,
-          "y": 269,
+          "width": 377,
+          "x": 594,
+          "y": 283,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -63358,6 +64351,118 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 416,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "avatar4",
+          "persistentUuid": "92c5f379-0682-478c-9d02-2fe4f3d2c603",
+          "width": 147,
+          "x": 916,
+          "y": 211,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 457,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "avatar",
+          "persistentUuid": "9816d87d-3078-41f4-ab93-1fb1a98b0816",
+          "width": 169,
+          "x": 253,
+          "y": 178,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 150,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "cofre",
+          "persistentUuid": "47f73c61-30ac-48cf-9c39-8c440b8b8dbc",
+          "width": 172,
+          "x": 405,
+          "y": 451,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 202,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "rueda",
+          "persistentUuid": "3ccb2f58-55ee-49ba-a291-257c51e7f272",
+          "width": 207,
+          "x": 501,
+          "y": 396,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 457,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "avatar",
+          "persistentUuid": "0db1737b-fb2a-4e20-a9ef-d089c34177ef",
+          "width": 169,
+          "x": 332,
+          "y": 185,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 86,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "txt_explicacion3",
+          "persistentUuid": "146454d9-fc61-484a-9f96-994f8185ac2a",
+          "width": 334,
+          "x": 724,
+          "y": 320,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 106,
+          "layer": "",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "8e68e165-dfc3-48c0-b56f-5594513faff2",
+          "width": 580,
+          "x": 132,
+          "y": 2,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -63423,6 +64528,45 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "name": "avatar",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "aavatarans",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\aavatarans.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "avatar4",
@@ -63815,6 +64959,142 @@
           }
         },
         {
+          "name": "rueda",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "9.AprendizajeNoSupervisado\\Nivel3\\ruleta compl.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cofre",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "cofrecerrado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesorooo 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cofreabierto",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesoroo3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "cofrevacio",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesoroo2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "cuadronivel3",
           "tags": "",
           "type": "Sprite",
@@ -63887,7 +65167,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "Falta actividad 3",
+          "string": "Responde las preguntas que salen en la ruleta",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 30,
           "color": {
@@ -65318,7 +66598,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.538
       },
       "objectsGroups": [],
       "variables": [
@@ -65537,8 +66817,8 @@
           "name": "cuadroazul",
           "persistentUuid": "54be1bab-b581-43c7-b52b-1d817286525f",
           "width": 143,
-          "x": 610,
-          "y": 503,
+          "x": 688,
+          "y": 501,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -65553,8 +66833,8 @@
           "name": "continuar",
           "persistentUuid": "8df3b3b3-98fc-44c3-9662-e0ff27bd6774",
           "width": 0,
-          "x": 619,
-          "y": 522,
+          "x": 697,
+          "y": 520,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -65569,8 +66849,8 @@
           "name": "validar",
           "persistentUuid": "fe08b16c-510d-46bb-86ac-4b2aff85deb8",
           "width": 0,
-          "x": 475,
-          "y": 521,
+          "x": 553,
+          "y": 519,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -65857,8 +67137,8 @@
           "name": "cuadro2",
           "persistentUuid": "56d56114-4f99-4160-a4ce-022800c13eb3",
           "width": 143,
-          "x": 447,
-          "y": 503,
+          "x": 525,
+          "y": 501,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -66002,6 +67282,38 @@
           "x": 132,
           "y": 580,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 66,
+          "layer": "",
+          "locked": false,
+          "name": "cuadro2",
+          "persistentUuid": "27a9e872-3898-445f-9c51-248938185e1b",
+          "width": 143,
+          "x": 363,
+          "y": 501,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cancelar",
+          "persistentUuid": "3218dbe0-6d9b-461e-916a-a4eb42f247a1",
+          "width": 0,
+          "x": 381,
+          "y": 517,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -67826,6 +69138,16 @@
                     "validar"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "cancelar"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -68446,11 +69768,67 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "inverted": true,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "validar",
+                    "cancelar",
                     "",
                     "",
                     ""
@@ -68473,8 +69851,76 @@
                     "value": "TextObject::ChangeColor"
                   },
                   "parameters": [
-                    "validar",
+                    "cancelar",
                     "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Mision Practica No Super\"",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -68531,6 +69977,48 @@
                   "parameters": [
                     "validar",
                     "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "validar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "validar",
+                    "\"255;255;255\""
                   ],
                   "subInstructions": []
                 }
@@ -68677,6 +70165,21 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "SendAsyncRequest"
+                  },
+                  "parameters": [
+                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
+                    "\"POST\"",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -68788,7 +70291,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.586
+        "zoomFactor": 0.322
       },
       "objectsGroups": [],
       "variables": [],
@@ -68972,14 +70475,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 87,
+          "height": 72,
           "layer": "Background",
           "locked": false,
           "name": "siguiente",
           "persistentUuid": "30ad0577-462f-4a8c-b845-a925c2be6f7a",
-          "width": 216,
-          "x": 1139,
-          "y": 558,
+          "width": 205,
+          "x": 1148,
+          "y": 615,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -68994,8 +70497,8 @@
           "name": "txt_siguiente",
           "persistentUuid": "9641facf-1e5f-40c6-bf05-648fbde91f4d",
           "width": 0,
-          "x": 1172,
-          "y": 581,
+          "x": 1185,
+          "y": 634,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -69524,44 +71027,12 @@
           "height": 57,
           "layer": "Background",
           "locked": false,
-          "name": "cuadrorojo",
-          "persistentUuid": "f5304b07-6654-4324-9d75-d36477254864",
-          "width": 57,
-          "x": 146,
-          "y": 622,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "Background",
-          "locked": false,
           "name": "cuadroazul",
           "persistentUuid": "b886301b-1d79-4fad-ad50-414ae2309ea2",
           "width": 57,
           "x": 350,
           "y": 619,
           "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "Background",
-          "locked": false,
-          "name": "cuadrorojo",
-          "persistentUuid": "72b3765c-1fa2-416c-aa02-986969b1d061",
-          "width": 57,
-          "x": 425,
-          "y": 619,
-          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -69588,44 +71059,12 @@
           "height": 57,
           "layer": "Background",
           "locked": false,
-          "name": "cuadrorojo",
-          "persistentUuid": "fcf2a05c-ee69-493b-9972-e3005b152236",
-          "width": 57,
-          "x": 714,
-          "y": 622,
-          "zOrder": 68,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "Background",
-          "locked": false,
           "name": "cuadroazul",
           "persistentUuid": "f4f9b9a8-990a-4fd5-b2fa-a67730225441",
           "width": 57,
           "x": 927,
           "y": 624,
           "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "Background",
-          "locked": false,
-          "name": "cuadrorojo",
-          "persistentUuid": "b1fcf3af-6b44-4b6a-8411-6a1908a13d4a",
-          "width": 57,
-          "x": 1003,
-          "y": 624,
-          "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -69700,38 +71139,6 @@
           "height": 0,
           "layer": "Background",
           "locked": false,
-          "name": "no1",
-          "persistentUuid": "7641cf9c-f195-4df1-8a86-8137891d575e",
-          "width": 0,
-          "x": 161,
-          "y": 630,
-          "zOrder": 73,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background",
-          "locked": false,
-          "name": "no4",
-          "persistentUuid": "45db25f3-f9b6-4b47-95bf-57a5d2d876ef",
-          "width": 0,
-          "x": 1018,
-          "y": 634,
-          "zOrder": 74,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background",
-          "locked": false,
           "name": "si4",
           "persistentUuid": "bb52ef9c-6902-452b-97c6-c661db297c3e",
           "width": 0,
@@ -69748,44 +71155,12 @@
           "height": 0,
           "layer": "Background",
           "locked": false,
-          "name": "no3",
-          "persistentUuid": "e4d30cfc-e9a8-43cd-8b29-be1f51759fd3",
-          "width": 0,
-          "x": 726,
-          "y": 634,
-          "zOrder": 76,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background",
-          "locked": false,
           "name": "si3",
           "persistentUuid": "319cc9df-25e8-4244-a370-833e77c6e423",
           "width": 0,
           "x": 655,
           "y": 632,
           "zOrder": 77,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Background",
-          "locked": false,
-          "name": "no2",
-          "persistentUuid": "2e5274f5-4953-4f3d-b82f-32f993d4bd81",
-          "width": 0,
-          "x": 442,
-          "y": 630,
-          "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -69830,7 +71205,7 @@
           "locked": false,
           "name": "pregunta4",
           "persistentUuid": "d84ebeb1-f9c3-43bd-ba50-4c8c7dfa9db4",
-          "width": 199,
+          "width": 197,
           "x": 900,
           "y": 544,
           "zOrder": 82,
@@ -69850,6 +71225,166 @@
           "x": 331,
           "y": 543,
           "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "Background",
+          "locked": false,
+          "name": "siguiente",
+          "persistentUuid": "7c6225b7-86f8-4867-9722-608101fe9de0",
+          "width": 205,
+          "x": 1148,
+          "y": 530,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "cancelar",
+          "persistentUuid": "b97c085d-dbce-4188-9e56-df3219b87828",
+          "width": 0,
+          "x": 1195,
+          "y": 551,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "5e4316f0-c039-44df-98ac-2fce4b626cf7",
+          "width": 57,
+          "x": 139,
+          "y": 622,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "76813a29-5d31-4d72-a34a-b5dfc9b63617",
+          "width": 57,
+          "x": 428,
+          "y": 622,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "9a2efd23-9496-44e4-81e4-4b589da718d5",
+          "width": 57,
+          "x": 714,
+          "y": 622,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "Background",
+          "locked": false,
+          "name": "cuadrorojo",
+          "persistentUuid": "fc5bd626-bfd6-4c19-ac84-a74f6c603961",
+          "width": 57,
+          "x": 1008,
+          "y": 622,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "no1",
+          "persistentUuid": "62398284-691a-4bd1-89e5-d926ea9bf8ee",
+          "width": 0,
+          "x": 155,
+          "y": 633,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "no2",
+          "persistentUuid": "20a23f2c-872c-4238-81a3-81d3e5a1906b",
+          "width": 0,
+          "x": 443,
+          "y": 631,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "no3",
+          "persistentUuid": "b83973d0-afe0-478c-a8a7-1177a3d5c9fe",
+          "width": 0,
+          "x": 730,
+          "y": 632,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "locked": false,
+          "name": "no4",
+          "persistentUuid": "37cbe53b-1fa6-4bd9-8657-7c6937400e77",
+          "width": 0,
+          "x": 1023,
+          "y": 633,
+          "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -70398,45 +71933,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\cuadrorojo30.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Fondo",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "10.AprendizajeReforzado\\Nivel\\uy.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -71267,7 +72763,7 @@
           "behaviors": [],
           "string": "Continuar",
           "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 30,
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -71503,7 +72999,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Movimiento personaje",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -71742,7 +73238,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "disparos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -72980,6 +74476,164 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
+                "cancelar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "cancelar",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cancelar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "cancelar",
+                "\"248;200;15\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cancelar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Mision Practica No Super\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
                 "txt_siguiente",
                 "",
                 "",
@@ -73034,17 +74688,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "txt_siguiente",
-                "\"248;200;15\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySound"
               },
               "parameters": [
@@ -73053,6 +74696,17 @@
                 "",
                 "60",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "\"248;200;15\""
               ],
               "subInstructions": []
             }
@@ -73090,6 +74744,35 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
+                "\"POST\"",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -73297,8 +74980,8 @@
           "name": "cuadrorojo",
           "persistentUuid": "27d3616b-6ca5-4b0c-90cb-3c32d0083cb5",
           "width": 154,
-          "x": 1173,
-          "y": 630,
+          "x": 687,
+          "y": 634,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -73313,8 +74996,8 @@
           "name": "siguiente",
           "persistentUuid": "29eaefe2-6a81-4960-b45a-30418ddd2324",
           "width": 0,
-          "x": 1187,
-          "y": 645,
+          "x": 701,
+          "y": 649,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -73430,8 +75113,8 @@
           "name": "pirata",
           "persistentUuid": "0649da32-0043-47cb-b146-9341af2925fd",
           "width": 80,
-          "x": 302,
-          "y": 573,
+          "x": 645,
+          "y": 326,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -74367,6 +76050,38 @@
               "value": "6"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cancelar",
+          "persistentUuid": "fb572574-9c83-4efc-ae1f-34b8ed8124ee",
+          "width": 0,
+          "x": 537,
+          "y": 649,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 63,
+          "layer": "",
+          "locked": false,
+          "name": "cuadro2",
+          "persistentUuid": "5e39676b-d1ef-48e1-b95c-b6e6e2785b9a",
+          "width": 154,
+          "x": 514,
+          "y": 634,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -75098,6 +76813,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "9.AprendizajeNoSupervisado\\Nivel3\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cuadro2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "6.MachineLearning\\Assets\\cuadroparatitulo.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -79489,6 +81243,28 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "cuadro2",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "cancelar",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -79504,6 +81280,164 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Mision Practica No Super\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
             {
               "disabled": false,
               "folded": false,
@@ -83646,7 +85580,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.482
+        "zoomFactor": 0.554
       },
       "objectsGroups": [],
       "variables": [
@@ -83825,8 +85759,8 @@
           "name": "txt_explicacion",
           "persistentUuid": "f4c3b14c-f37e-4735-8b51-2130ad697be2",
           "width": 376,
-          "x": 305,
-          "y": 223,
+          "x": 328,
+          "y": 256,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -83851,14 +85785,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 87,
+          "height": 83,
           "layer": "Nivel2",
           "locked": false,
           "name": "txt_explicacion2",
           "persistentUuid": "ce8046c3-b5dc-4638-bcb7-62b63a6d5ad9",
-          "width": 614,
-          "x": 403,
-          "y": 297,
+          "width": 385,
+          "x": 349,
+          "y": 348,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -84075,15 +86009,111 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 33,
+          "height": 112,
           "layer": "Nivel3",
           "locked": false,
           "name": "txt_explicacion3",
           "persistentUuid": "feb42f60-f660-481b-874b-7096b3af1705",
-          "width": 343,
-          "x": 475,
-          "y": 299,
+          "width": 363,
+          "x": 598,
+          "y": 290,
           "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 353,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "avatar3",
+          "persistentUuid": "a5d48913-cccd-4dcf-8135-06cd96e7d261",
+          "width": 165,
+          "x": 854,
+          "y": 247,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 353,
+          "layer": "Nivel2",
+          "locked": false,
+          "name": "avatar3",
+          "persistentUuid": "ec92fe2a-6f23-4b89-b238-ca269dcbd239",
+          "width": 165,
+          "x": 924,
+          "y": 236,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 353,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "avatar3",
+          "persistentUuid": "6f2de14b-2343-4151-9e52-2dac438f7e72",
+          "width": 165,
+          "x": 318,
+          "y": 266,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 173,
+          "layer": "Nivel1",
+          "locked": false,
+          "name": "cofre",
+          "persistentUuid": "648f6865-4ca3-4b93-80cb-3797ebeb8e11",
+          "width": 181,
+          "x": 686,
+          "y": 430,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 110,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "fig1",
+          "persistentUuid": "18b3d2d5-ab07-47e1-8b0b-7126ae03a5ed",
+          "width": 110,
+          "x": 495,
+          "y": 468,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -66.8014,
+          "customSize": false,
+          "height": 0,
+          "layer": "Nivel3",
+          "locked": false,
+          "name": "fig2",
+          "persistentUuid": "30fd0a67-2427-44c7-a616-ec5ae85a67c4",
+          "width": 0,
+          "x": 560,
+          "y": 481,
+          "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -84109,6 +86139,133 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "10.AprendizajeReforzado\\fondorefe.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cofre",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "cofreabierto",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel\\tesoroo3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fig2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "premio",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\cursor.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fig1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Arrastrable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "premio",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "10.AprendizajeReforzado\\Nivel3\\rf33.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -86372,8 +88529,8 @@
           "name": "cofre",
           "persistentUuid": "f7b9ae51-82da-403b-9dbe-a7d1e2360d9d",
           "width": 90,
-          "x": 1210,
-          "y": 456,
+          "x": 1249,
+          "y": 440,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -87147,14 +89304,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 87,
+          "height": 69,
           "layer": "",
           "locked": false,
           "name": "siguiente",
           "persistentUuid": "30ad0577-462f-4a8c-b845-a925c2be6f7a",
-          "width": 216,
-          "x": 1139,
-          "y": 602,
+          "width": 187,
+          "x": 1182,
+          "y": 628,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -87169,8 +89326,8 @@
           "name": "txt_siguiente",
           "persistentUuid": "9641facf-1e5f-40c6-bf05-648fbde91f4d",
           "width": 0,
-          "x": 1172,
-          "y": 627,
+          "x": 1215,
+          "y": 647,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -87387,7 +89544,7 @@
           "persistentUuid": "2cca1ef4-99a6-4459-aed8-3c7bc9a414c6",
           "width": 0,
           "x": 1164,
-          "y": 547,
+          "y": 516,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -87471,7 +89628,7 @@
           "persistentUuid": "2b345764-27ff-4273-ae5c-b52648184ec5",
           "width": 185,
           "x": 1160,
-          "y": 547,
+          "y": 516,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -87481,6 +89638,38 @@
               "value": "1"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 69,
+          "layer": "",
+          "locked": false,
+          "name": "siguiente",
+          "persistentUuid": "2b913711-f61b-4da1-b61f-23c65c5425d8",
+          "width": 187,
+          "x": 1178,
+          "y": 563,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cancelar",
+          "persistentUuid": "9927cbe0-fa61-42f8-a105-9e88e7638915",
+          "width": 0,
+          "x": 1217,
+          "y": 584,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -88479,7 +90668,7 @@
           "behaviors": [],
           "string": "Continuar",
           "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 30,
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -88779,7 +90968,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Primera pregunta",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -91822,25 +94011,22 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisBouton"
+                "value": "SourisSurObjet"
               },
               "parameters": [
+                "cancelar",
                 "",
-                "Left"
+                "",
+                ""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
+                "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [
-                "txt_siguiente",
-                "",
-                "",
-                ""
-              ],
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -91848,11 +94034,24 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "cancelar",
+                "\"248;200;15\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Nivel2 AR\"",
+                "SonidosButton\\gota.mp3",
+                "",
+                "60",
                 ""
               ],
               "subInstructions": []
@@ -91888,6 +94087,183 @@
               "parameters": [
                 "txt_siguiente",
                 "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cancelar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "cancelar",
+                "\"255;255;255\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "txt_siguiente",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
+                "\"POST\"",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Nivel2 AR\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "cancelar",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\gota.mp3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Mision Practica Reforzado\"",
+                ""
               ],
               "subInstructions": []
             }
@@ -92054,7 +94430,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.634
+        "zoomFactor": 0.562
       },
       "objectsGroups": [],
       "variables": [],
@@ -92756,8 +95132,8 @@
           "name": "siguiente",
           "persistentUuid": "a4d4f23a-9f0f-4e09-8b1b-5450e5d16e02",
           "width": 135,
-          "x": 1136,
-          "y": 420,
+          "x": 1175,
+          "y": 389,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -93774,8 +96150,8 @@
           "name": "preg1",
           "persistentUuid": "4542db2e-19cc-472a-9f92-3fc8e7af9ab2",
           "width": 0,
-          "x": 1156,
-          "y": 438,
+          "x": 1195,
+          "y": 407,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -93795,8 +96171,8 @@
           "name": "preg3",
           "persistentUuid": "4932f9e2-e351-42ed-83df-e64edc7a6c0e",
           "width": 0,
-          "x": 1155,
-          "y": 561,
+          "x": 1194,
+          "y": 530,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -93816,8 +96192,8 @@
           "name": "siguiente3",
           "persistentUuid": "fa20c1c1-3379-4665-bc29-b350b0191678",
           "width": 135,
-          "x": 1136,
-          "y": 545,
+          "x": 1175,
+          "y": 514,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -93832,8 +96208,8 @@
           "name": "siguiente2",
           "persistentUuid": "c8b82fdd-119a-4a75-a5a7-93a1da02f745",
           "width": 135,
-          "x": 1136,
-          "y": 482,
+          "x": 1175,
+          "y": 451,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -93896,8 +96272,8 @@
           "name": "preg2",
           "persistentUuid": "643f7427-2b49-4e23-8778-471d7da7d29b",
           "width": 0,
-          "x": 1154,
-          "y": 500,
+          "x": 1193,
+          "y": 469,
           "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
@@ -93912,8 +96288,8 @@
           "name": "siguiente4",
           "persistentUuid": "77671c89-9d7b-4766-bf50-4cc8c21b227d",
           "width": 135,
-          "x": 1136,
-          "y": 603,
+          "x": 1173,
+          "y": 575,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -93928,8 +96304,8 @@
           "name": "txt_siguiente",
           "persistentUuid": "1dd14cc8-71f0-477d-83c3-0907f13d3f6a",
           "width": 0,
-          "x": 1152,
-          "y": 618,
+          "x": 1190,
+          "y": 591,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -94425,6 +96801,38 @@
               "value": ""
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cancelar",
+          "persistentUuid": "bfeb98b1-0abc-4fe7-bacd-304cfea41b78",
+          "width": 0,
+          "x": 1183,
+          "y": 647,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "0498d73e-f961-4f96-895f-8fb74f532894",
+          "width": 137,
+          "x": 1170,
+          "y": 633,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -95090,6 +97498,7 @@
           "behaviors": [
             {
               "name": "PlatformerObject",
+              "roundCoordinates": false,
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
@@ -95101,7 +97510,6 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "roundCoordinates": true,
               "slopeMaxAngle": 60,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -95161,35 +97569,35 @@
           "variables": [],
           "behaviors": [
             {
+              "ignoreDefaultControls": false,
               "name": "PlatformerObject",
+              "roundCoordinates": false,
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "roundCoordinates": true,
               "slopeMaxAngle": 60,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             },
             {
+              "allowDiagonals": false,
               "name": "TopDownMovement",
+              "rotateObject": false,
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
-              "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
               "customIsometryAngle": 30,
               "deceleration": 800,
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
-              "rotateObject": true,
               "viewpoint": "TopDown"
             }
           ],
@@ -99069,7 +101477,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Animacion enemigo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -99291,6 +101699,40 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "inverted": false,
                     "value": "SourisSurObjet"
                   },
@@ -99348,6 +101790,130 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Mision Practica Reforzado\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "SourisBouton"
                   },
                   "parameters": [
@@ -99371,6 +101937,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SendAsyncRequest"
+                  },
+                  "parameters": [
+                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
+                    "\"POST\"",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -99569,8 +102150,8 @@
           "name": "siguiente",
           "persistentUuid": "29eaefe2-6a81-4960-b45a-30418ddd2324",
           "width": 0,
-          "x": 1213,
-          "y": 628,
+          "x": 1218,
+          "y": 646,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -99702,8 +102283,8 @@
           "name": "cuadrotitu",
           "persistentUuid": "71142c99-76c7-472e-8926-4bcdb6fc105e",
           "width": 155,
-          "x": 1197,
-          "y": 607,
+          "x": 1199,
+          "y": 627,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -100031,8 +102612,8 @@
           "name": "cuadroazul",
           "persistentUuid": "b3f84bbc-f075-4b80-815d-fded16430089",
           "width": 155,
-          "x": 1195,
-          "y": 525,
+          "x": 1199,
+          "y": 572,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -100047,8 +102628,8 @@
           "name": "verifi",
           "persistentUuid": "863db775-57b2-4bc5-a20c-7ee515f20ac3",
           "width": 0,
-          "x": 1216,
-          "y": 543,
+          "x": 1222,
+          "y": 590,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -100090,6 +102671,38 @@
               "value": "rojo"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 65,
+          "layer": "",
+          "locked": false,
+          "name": "cuadroazul",
+          "persistentUuid": "0dd6abb5-17c1-40ee-ba14-d60a02061fd8",
+          "width": 155,
+          "x": 1199,
+          "y": 512,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "cancelar",
+          "persistentUuid": "4607f842-c78a-4389-b521-2a269b2e8429",
+          "width": 0,
+          "x": 1222,
+          "y": 529,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -100170,45 +102783,6 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "9.AprendizajeNoSupervisado\\Nivel3\\cuadro sencillo azul.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "rueda",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "9.AprendizajeNoSupervisado\\Nivel3\\ruleta1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -101609,17 +104183,6 @@
                 "txt_inco"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"in\""
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -102204,6 +104767,17 @@
                         ""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "cancelar",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -102396,96 +104970,6 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "verifi",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "verifi",
-                    "\"255;255;255\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "verifi",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "SonidosButton\\gota.mp3",
-                    "",
-                    "60",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "verifi",
-                    "\"248;200;15\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "inverted": false,
                     "value": "SourisSurObjet"
                   },
@@ -102590,6 +105074,254 @@
                     "",
                     "\"FinishMiAR\"",
                     ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "\"248;200;15\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "cancelar",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Mision Practica Reforzado\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "verifi",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "verifi",
+                    "\"255;255;255\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "verifi",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "verifi",
+                    "\"248;200;15\""
                   ],
                   "subInstructions": []
                 }
