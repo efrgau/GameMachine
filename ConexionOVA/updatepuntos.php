@@ -5,6 +5,6 @@
 		$u=$_POST["user"];
 		$p=$_POST["punt"];
 		$r=$_POST["rol"];
-		$sql = "UPDATE estudiante SET puntos = '".$p."' WHERE Username = '".$u."' and '".$r."'";
+		$sql = "UPDATE usuarios SET puntos = '".$p."' WHERE Username = '".$u."' and '".$r."'";
 		$req=mysqli_query($con,$sql);  
 ?>

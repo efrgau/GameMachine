@@ -9,14 +9,14 @@
 		$error = "existe un campo vacio";
 	if(!$error){
 
-		$consulta= "SELECT * FROM estudiante WHERE Username='".$u."' and '".$r."'";
+		$consulta= "SELECT * FROM usuarios WHERE Username='".$u."' and '".$r."'";
 		$resul=mysqli_query($con,$consulta);
 		$num_results=mysqli_num_rows($resul);
 		if(!$num_results){
 			$error = "Usuario no existe";
 			print($error);
 			}else{
-				$consul="SELECT * FROM estudiante WHERE Username='".$u."' and Password='".$p."' and '".$r."'";
+				$consul="SELECT * FROM usuarios WHERE Username='".$u."' and Password='".$p."' and '".$r."'";
 				$resule=mysqli_query($con,$consul);
 				$num_resultse=mysqli_num_rows($resule);
 				if(!$num_resultse){

@@ -13672,7 +13672,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "E",
+          "string": "",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 30,
           "color": {
@@ -15848,7 +15848,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "E",
+          "string": "",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 30,
           "color": {
@@ -66598,7 +66598,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.514
       },
       "objectsGroups": [],
       "variables": [
@@ -68535,7 +68535,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Cuadros",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -74980,7 +74980,7 @@
           "name": "cuadrorojo",
           "persistentUuid": "27d3616b-6ca5-4b0c-90cb-3c32d0083cb5",
           "width": 154,
-          "x": 687,
+          "x": 703,
           "y": 634,
           "zOrder": 3,
           "numberProperties": [],
@@ -74996,7 +74996,7 @@
           "name": "siguiente",
           "persistentUuid": "29eaefe2-6a81-4960-b45a-30418ddd2324",
           "width": 0,
-          "x": 701,
+          "x": 717,
           "y": 649,
           "zOrder": 11,
           "numberProperties": [],
@@ -76060,7 +76060,7 @@
           "name": "cancelar",
           "persistentUuid": "fb572574-9c83-4efc-ae1f-34b8ed8124ee",
           "width": 0,
-          "x": 537,
+          "x": 553,
           "y": 649,
           "zOrder": 19,
           "numberProperties": [],
@@ -76076,7 +76076,7 @@
           "name": "cuadro2",
           "persistentUuid": "5e39676b-d1ef-48e1-b95c-b6e6e2785b9a",
           "width": 154,
-          "x": 514,
+          "x": 530,
           "y": 634,
           "zOrder": 3,
           "numberProperties": [],
@@ -88243,7 +88243,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.394
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [
@@ -94430,7 +94430,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.562
+        "zoomFactor": 0.61
       },
       "objectsGroups": [],
       "variables": [],
@@ -97498,8 +97498,8 @@
           "behaviors": [
             {
               "name": "PlatformerObject",
-              "roundCoordinates": false,
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "roundCoordinates": false,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -97569,10 +97569,10 @@
           "variables": [],
           "behaviors": [
             {
-              "ignoreDefaultControls": false,
               "name": "PlatformerObject",
-              "roundCoordinates": false,
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ignoreDefaultControls": false,
+              "roundCoordinates": false,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -97587,10 +97587,10 @@
               "yGrabOffset": 0
             },
             {
-              "allowDiagonals": false,
               "name": "TopDownMovement",
-              "rotateObject": false,
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "allowDiagonals": false,
+              "rotateObject": false,
               "acceleration": 400,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
@@ -102079,7 +102079,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.514
       },
       "objectsGroups": [],
       "variables": [
