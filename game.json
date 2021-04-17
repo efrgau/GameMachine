@@ -10384,6 +10384,15 @@
         "name": "9.AprendizajeNoSupervisado\\1ANS-4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.MenuPrincipal/Assets/DisenoLogoLineas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.MenuPrincipal\\Assets\\DisenoLogoLineas.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -10470,6 +10479,30 @@
     {
       "bold": true,
       "italic": false,
+      "name": "title2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Ranking",
+      "font": "1.Intro\\fonts\\703\\APPENDI3.TTF",
+      "characterSize": 70,
+      "color": {
+        "b": 156,
+        "g": 70,
+        "r": 47
+      }
+    },
+    {
+      "bold": true,
+      "italic": false,
       "name": "title",
       "smoothed": true,
       "tags": "",
@@ -10482,9 +10515,9 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "RANKING",
+      "string": "    Game Machine",
       "font": "1.Intro\\fonts\\703\\APPENDI3.TTF",
-      "characterSize": 60,
+      "characterSize": 70,
       "color": {
         "b": 156,
         "g": 70,
@@ -12203,15 +12236,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 143,
           "layer": "",
           "locked": false,
           "name": "title",
           "persistentUuid": "dba6cf2d-75f8-482e-a434-9d768eb08dd8",
-          "width": 0,
-          "x": 528,
-          "y": 301,
+          "width": 426,
+          "x": 500,
+          "y": 304,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -12306,8 +12339,8 @@
           "name": "villana2",
           "persistentUuid": "212dd5d6-e1ec-44f6-8960-7f1d248fe02c",
           "width": 318,
-          "x": 1145,
-          "y": 133,
+          "x": 1097,
+          "y": 138,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -13227,10 +13260,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -17825,7 +17854,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.586
+        "zoomFactor": 0.466
       },
       "objectsGroups": [],
       "variables": [
@@ -17972,8 +18001,8 @@
           "name": "title",
           "persistentUuid": "f7b6ab38-88c6-49b5-9ddd-3c9703264e4e",
           "width": 0,
-          "x": 526,
-          "y": 24,
+          "x": 335,
+          "y": 37,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -18046,14 +18075,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
+          "height": 33,
           "layer": "cuadro",
           "locked": false,
           "name": "cerrar",
           "persistentUuid": "4db6bc5a-882a-4a6d-bf5d-3e49814e3d33",
-          "width": 50,
-          "x": 1047,
-          "y": 102,
+          "width": 33,
+          "x": 1051,
+          "y": 111,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -18277,7 +18306,7 @@
           "persistentUuid": "eb4ffe5b-a641-4d05-8fac-d83e3b7cdc5c",
           "width": 310,
           "x": 640,
-          "y": 220,
+          "y": 218,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -18292,8 +18321,8 @@
           "name": "txt_perfilpuntos",
           "persistentUuid": "092f3cad-c499-493a-879e-a5177d6f5d19",
           "width": 126,
-          "x": 775,
-          "y": 292,
+          "x": 670,
+          "y": 277,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -18781,7 +18810,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "4.MenuPrincipal\\Assets\\DiseñoLogoLineas.png",
+                      "image": "4.MenuPrincipal\\Assets\\DisenoLogoLineas.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -22888,22 +22917,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "title",
-          "persistentUuid": "f7b6ab38-88c6-49b5-9ddd-3c9703264e4e",
-          "width": 0,
-          "x": 87,
-          "y": 146,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 100,
           "layer": "",
@@ -23122,6 +23135,22 @@
           "x": 70,
           "y": 619,
           "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "title2",
+          "persistentUuid": "90feba41-7363-4353-b35a-6904e7590a83",
+          "width": 0,
+          "x": 42,
+          "y": 139,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
