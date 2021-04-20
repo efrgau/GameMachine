@@ -10393,6 +10393,214 @@
         "name": "4.MenuPrincipal\\Assets\\DisenoLogoLineas.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "6.MachineLearning/audios/GlosarioML.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "6.MachineLearning\\audios\\GlosarioML.mp3",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/botones.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\botones.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/botones-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\botones-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/botones-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\botones-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/botones-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\botones-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/botones-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\botones-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/pausne.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\pausne.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/playro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\playro.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/playne-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\playne-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/playne.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\playne.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/playneg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\playneg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/playbla.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\playbla.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/pausro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\pausro.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pausaro-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pausaro-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pausaro-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pausaro-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/pausane-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\pausane-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/pausaroj.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\pausaroj.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/pausablan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\pausablan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/pausarojo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\pausarojo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/pausaro-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\pausaro-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SonidosButton/pausneg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SonidosButton\\pausneg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "SonidosButton/Glosario/GlosarioML-1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SonidosButton\\Glosario\\GlosarioML-1.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "SonidosButton/Glosario/GlosarioML-2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SonidosButton\\Glosario\\GlosarioML-2.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "SonidosButton/Glosario/GlosarioML-3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SonidosButton\\Glosario\\GlosarioML-3.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -11531,8 +11739,8 @@
           "name": "LogoML",
           "persistentUuid": "77f8ab48-16d5-4744-8e18-d7f54c87371e",
           "width": 338,
-          "x": 551,
-          "y": 115,
+          "x": 549,
+          "y": 111,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -11540,15 +11748,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 157,
           "layer": "LogoGM",
           "locked": false,
           "name": "title",
           "persistentUuid": "210ab7bb-8f18-4fa1-a5b4-351763707713",
-          "width": 0,
-          "x": 523,
-          "y": 410,
+          "width": 412,
+          "x": 488,
+          "y": 389,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -11690,9 +11898,31 @@
                 "\"LogoGM\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "speech",
+                "=",
+                "\"Hola! Bienvenidos a Game Machine\""
+              ],
+              "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Speak"
+            }
+          ]
         },
         {
           "disabled": false,
@@ -11803,357 +12033,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "LogoGM",
-          "visibility": false,
-          "cameras": [],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
-    },
-    {
-      "b": 0,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Intro2",
-      "name": "Intro2",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 0,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 0,
-      "uiSettings": {
-        "grid": false,
-        "gridB": 255,
-        "gridG": 180,
-        "gridHeight": 5,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridR": 158,
-        "gridWidth": 5,
-        "snap": false,
-        "windowMask": false,
-        "zoomFactor": 0.298
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 700,
-          "layer": "",
-          "locked": false,
-          "name": "meteor",
-          "persistentUuid": "b0dfaa94-1520-42e1-9385-2bb1aaa0f960",
-          "width": 1400,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "año",
-          "locked": false,
-          "name": "ano",
-          "persistentUuid": "52f907a1-6d37-4a75-8cd8-09113e87238e",
-          "width": 0,
-          "x": 508,
-          "y": -3,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 755,
-          "layer": "per",
-          "locked": false,
-          "name": "per",
-          "persistentUuid": "62f13026-e581-43bb-95ec-ded896bb3493",
-          "width": 420,
-          "x": 850,
-          "y": -11,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "name": "meteor",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Historia\\pandasecurity-smartcity.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "ano",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "2080",
-          "font": "fontsButton\\10204\\Fortnite.ttf",
-          "characterSize": 200,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 255
-          }
-        },
-        {
-          "name": "per",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "2020-11-09_22h49_05-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Timer"
-              },
-              "parameters": [
-                "",
-                "3",
-                "\"ano\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"año\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"per\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "ano",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "ano",
-                "+",
-                "TimeDelta()*15"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "ano",
-                "=",
-                "100"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"per\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 6880376,
-          "ambientLightColorG": 6879736,
-          "ambientLightColorR": 6637136,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
           "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 1702453632,
-          "ambientLightColorG": 6000560,
-          "ambientLightColorR": 134217728,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "año",
-          "visibility": false,
-          "cameras": [],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 1702453632,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": -1,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "per",
-          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -12730,48 +12610,6 @@
         }
       ],
       "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarSceneTxt"
-              },
-              "parameters": [
-                "speech",
-                "=",
-                "\"Hola! Bienvenidos a Game Machine\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "Speak"
-            }
-          ]
-        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -18321,8 +18159,8 @@
           "name": "txt_perfilpuntos",
           "persistentUuid": "092f3cad-c499-493a-879e-a5177d6f5d19",
           "width": 126,
-          "x": 670,
-          "y": 277,
+          "x": 664,
+          "y": 236,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -19367,7 +19205,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Diseño Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20245,7 +20083,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Titulo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26139,7 +25977,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.442
+        "zoomFactor": 0.562
       },
       "objectsGroups": [],
       "variables": [],
@@ -26291,7 +26129,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 699,
+          "height": 754,
           "layer": "",
           "locked": false,
           "name": "cuadro",
@@ -26332,22 +26170,6 @@
           "x": 286,
           "y": 161,
           "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "locked": false,
-          "name": "botonvideo",
-          "persistentUuid": "6e0cb40d-47d1-4fae-a979-324e9b5b3afd",
-          "width": 107,
-          "x": 623,
-          "y": 552,
-          "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26396,6 +26218,38 @@
           "x": 288,
           "y": 546,
           "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 53,
+          "layer": "",
+          "locked": false,
+          "name": "reprodv",
+          "persistentUuid": "a1295d86-4f37-484f-9544-5305dc5d452b",
+          "width": 53,
+          "x": 624,
+          "y": 566,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 53,
+          "layer": "",
+          "locked": false,
+          "name": "pausarv",
+          "persistentUuid": "c5e169d1-051f-47b0-b07f-f01553b412d2",
+          "width": 53,
+          "x": 686,
+          "y": 567,
+          "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26592,7 +26446,7 @@
           ]
         },
         {
-          "name": "botonvideo",
+          "name": "pausarv",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -26600,7 +26454,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "pausane",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -26609,7 +26463,104 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "6.MachineLearning\\video\\botonplay.png",
+                      "image": "SonidosButton\\pausneg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "pausaro",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SonidosButton\\pausarojo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "reprodv",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "playne",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SonidosButton\\playneg.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "playro",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SonidosButton\\playro.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -26743,10 +26694,21 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Video::Pause"
+                "value": "Video::Play"
               },
               "parameters": [
                 "video"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "reprodv",
+                "\"playro\""
               ],
               "subInstructions": []
             }
@@ -26777,7 +26739,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "botonvideo",
+                "reprodv",
                 "",
                 "yes",
                 ""
@@ -26812,6 +26774,102 @@
               },
               "parameters": [
                 "video"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "reprodv",
+                "\"playro\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "pausarv",
+                "\"pausane\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "pausarv",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Video::Pause"
+              },
+              "parameters": [
+                "video"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "reprodv",
+                "\"playne\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "pausarv",
+                "\"pausaro\""
               ],
               "subInstructions": []
             }
@@ -27037,7 +27095,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.514
+        "zoomFactor": 0.49
       },
       "objectsGroups": [],
       "variables": [
@@ -27108,8 +27166,8 @@
           "name": "glo2",
           "persistentUuid": "55f9a4f8-0985-40fb-8fbf-2a348069d801",
           "width": 407,
-          "x": 469,
-          "y": 274,
+          "x": 467,
+          "y": 286,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -27254,7 +27312,7 @@
           "width": 160,
           "x": 36,
           "y": 315,
-          "zOrder": 99,
+          "zOrder": 113,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27317,7 +27375,7 @@
           "persistentUuid": "6f4eaf89-8c41-4610-a053-c75bddc8d9d0",
           "width": 438,
           "x": 457,
-          "y": 257,
+          "y": 269,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -27342,12 +27400,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 208,
+          "height": 226,
           "layer": "glo6",
           "locked": false,
           "name": "glo6",
           "persistentUuid": "4404dae8-0ffc-4f5c-807b-18eba012eec5",
-          "width": 427,
+          "width": 415,
           "x": 450,
           "y": 269,
           "zOrder": 105,
@@ -27535,6 +27593,258 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo1",
+          "locked": false,
+          "name": "reprodv",
+          "persistentUuid": "372e8943-5d9b-4146-9259-a73cad079c06",
+          "width": 45,
+          "x": 853,
+          "y": 238,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "play",
+              "value": "uno"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo1",
+          "locked": false,
+          "name": "pausarv",
+          "persistentUuid": "74bc5076-82da-47f2-b620-d60b619919a6",
+          "width": 45,
+          "x": 903,
+          "y": 238,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pausa",
+              "value": "uno"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo2",
+          "locked": false,
+          "name": "reprodv",
+          "persistentUuid": "6bcdd0bd-dff6-4a3b-95b7-f3db1b13e820",
+          "width": 45,
+          "x": 852,
+          "y": 240,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "play",
+              "value": "dos"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo2",
+          "locked": false,
+          "name": "pausarv",
+          "persistentUuid": "61f99cef-dd2a-4a91-a916-69471e6d80de",
+          "width": 45,
+          "x": 903,
+          "y": 240,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pausa",
+              "value": "dos"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo3",
+          "locked": false,
+          "name": "reprodv",
+          "persistentUuid": "aa6a38b5-92e8-4aac-9287-3c11bdbd3e69",
+          "width": 45,
+          "x": 852,
+          "y": 240,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "play",
+              "value": "tres"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo3",
+          "locked": false,
+          "name": "pausarv",
+          "persistentUuid": "84195971-83b3-46e8-9f12-4817795d092a",
+          "width": 45,
+          "x": 903,
+          "y": 240,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pausa",
+              "value": "tres"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo4",
+          "locked": false,
+          "name": "pausarv",
+          "persistentUuid": "f52355c8-773d-4700-8c38-474265e74f3a",
+          "width": 45,
+          "x": 903,
+          "y": 240,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pausa",
+              "value": "cuatro"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo4",
+          "locked": false,
+          "name": "reprodv",
+          "persistentUuid": "a2a899d1-529d-400e-8483-7afd437e88e8",
+          "width": 45,
+          "x": 852,
+          "y": 240,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "play",
+              "value": "cuatro"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo5",
+          "locked": false,
+          "name": "reprodv",
+          "persistentUuid": "60f1b909-f06e-486e-8cc0-862ac0b62956",
+          "width": 45,
+          "x": 852,
+          "y": 240,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "play",
+              "value": "cinco"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo5",
+          "locked": false,
+          "name": "pausarv",
+          "persistentUuid": "78f44538-6a2c-4826-8112-4a629741f861",
+          "width": 45,
+          "x": 903,
+          "y": 240,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pausa",
+              "value": "cinco"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo6",
+          "locked": false,
+          "name": "pausarv",
+          "persistentUuid": "78aba8f3-d394-4d35-a006-2202370b4094",
+          "width": 45,
+          "x": 903,
+          "y": 240,
+          "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "pausa",
+              "value": "seis"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 45,
+          "layer": "glo6",
+          "locked": false,
+          "name": "reprodv",
+          "persistentUuid": "8abb95b5-95ce-4b8b-a8dd-f55122a5db64",
+          "width": 45,
+          "x": 852,
+          "y": 240,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "play",
+              "value": "seis"
+            }
+          ]
         }
       ],
       "objects": [
@@ -28242,6 +28552,142 @@
           }
         },
         {
+          "name": "pausarv",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SonidosButton\\pausaro-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SonidosButton\\pausarojo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "reprodv",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SonidosButton\\playbla.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SonidosButton\\playro.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "bold": false,
           "italic": false,
           "name": "glo6",
@@ -28317,7 +28763,164 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-1.mp3",
+                "1",
+                "",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-2.mp3",
+                "2",
+                "",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-3.mp3",
+                "3",
+                "",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-3.mp3",
+                "4",
+                "",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-3.mp3",
+                "5",
+                "",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-3.mp3",
+                "6",
+                "",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "6"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
@@ -28547,7 +29150,184 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "play",
+                        "=",
+                        "\"uno\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RePlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "pausa",
+                        "=",
+                        "\"uno\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -28591,6 +29371,17 @@
                     "\"glo1\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -28639,7 +29430,184 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "play",
+                        "=",
+                        "\"dos\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RePlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "pausa",
+                        "=",
+                        "\"dos\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -28670,6 +29638,17 @@
                   "parameters": [
                     "",
                     "\"glo2\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
                   ],
                   "subInstructions": []
                 }
@@ -28720,7 +29699,184 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "play",
+                        "=",
+                        "\"tres\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RePlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "pausa",
+                        "=",
+                        "\"tres\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -28753,6 +29909,17 @@
                     "\"glo3\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -28801,7 +29968,184 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "play",
+                        "=",
+                        "\"cuatro\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RePlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "pausa",
+                        "=",
+                        "\"cuatro\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -28832,6 +30176,17 @@
                   "parameters": [
                     "",
                     "\"glo4\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "4"
                   ],
                   "subInstructions": []
                 }
@@ -28882,7 +30237,184 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "play",
+                        "=",
+                        "\"cinco\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RePlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "pausa",
+                        "=",
+                        "\"cinco\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -28913,6 +30445,17 @@
                   "parameters": [
                     "",
                     "\"glo5\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5"
                   ],
                   "subInstructions": []
                 }
@@ -28963,7 +30506,184 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "play",
+                        "=",
+                        "\"seis\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RePlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "6"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "pausa",
+                        "=",
+                        "\"seis\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "6"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "reprodv",
+                        "\"1\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "pausarv",
+                        "\"2\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -28994,6 +30714,17 @@
                   "parameters": [
                     "",
                     "\"glo6\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "6"
                   ],
                   "subInstructions": []
                 }
