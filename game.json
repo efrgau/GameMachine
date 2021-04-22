@@ -16955,6 +16955,14 @@
                     "Left"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -17034,6 +17042,14 @@
                     "",
                     "Left"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -17115,6 +17131,14 @@
                     "Left"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -17171,6 +17195,14 @@
                     "",
                     "Left"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -17229,6 +17261,14 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -17285,6 +17325,14 @@
                     "",
                     ""
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -17429,9 +17477,9 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "entrada",
+                    "inicio",
                     "=",
-                    "VariableString(Dato)"
+                    "GlobalVariableString(estudiante)"
                   ],
                   "subInstructions": []
                 },
@@ -17441,9 +17489,9 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "inicio",
+                    "entrada",
                     "=",
-                    "GlobalVariableString(estudiante)"
+                    "VariableString(Dato)"
                   ],
                   "subInstructions": []
                 }
@@ -17487,9 +17535,9 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "entrada",
+                    "inicio",
                     "=",
-                    "VariableString(Dato)"
+                    "GlobalVariableString(docente)"
                   ],
                   "subInstructions": []
                 },
@@ -17499,9 +17547,9 @@
                     "value": "VarGlobalTxt"
                   },
                   "parameters": [
-                    "inicio",
+                    "entrada",
                     "=",
-                    "GlobalVariableString(docente)"
+                    "VariableString(Dato)"
                   ],
                   "subInstructions": []
                 }
@@ -18100,7 +18148,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5860000000000003
+        "zoomFactor": 0.42600000000000016
       },
       "objectsGroups": [],
       "variables": [
@@ -24833,7 +24881,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.4179999999999999
       },
       "objectsGroups": [],
       "variables": [],
@@ -26404,7 +26452,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "cce3ca0f-f9ae-45d9-993b-b00e86330ab9",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -26597,8 +26645,8 @@
           "name": "boton",
           "persistentUuid": "28e47ff1-be2a-4c37-833f-55603f9c3032",
           "width": 219,
-          "x": 1107,
-          "y": 317,
+          "x": 1146,
+          "y": 320,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -26613,8 +26661,8 @@
           "name": "txt_continuar",
           "persistentUuid": "b9f7d2df-20a7-425f-bea5-768870dcb2a6",
           "width": 0,
-          "x": 1144,
-          "y": 347,
+          "x": 1183,
+          "y": 350,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
@@ -27510,7 +27558,7 @@
         "gridWidth": 24,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.3899999999999999
       },
       "objectsGroups": [],
       "variables": [
@@ -27554,7 +27602,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "cce3ca0f-f9ae-45d9-993b-b00e86330ab9",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": -4,
           "zOrder": 1,
@@ -29201,41 +29249,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "SonidosButton\\Glosario\\GlosarioML-1.mp3",
-                "1",
-                "",
-                "60",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "StopSoundCanal"
               },
               "parameters": [
                 "",
                 "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "SonidosButton\\Glosario\\GlosarioML-2.mp3",
-                "2",
-                "",
-                "60",
-                ""
               ],
               "subInstructions": []
             },
@@ -29253,41 +29271,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "SonidosButton\\Glosario\\GlosarioML-3.mp3",
-                "3",
-                "",
-                "60",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "StopSoundCanal"
               },
               "parameters": [
                 "",
                 "3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "SonidosButton\\Glosario\\GlosarioML-4.mp3",
-                "4",
-                "",
-                "60",
-                ""
               ],
               "subInstructions": []
             },
@@ -29305,15 +29293,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlaySoundCanal"
+                "value": "StopSoundCanal"
               },
               "parameters": [
                 "",
-                "SonidosButton\\Glosario\\GlosarioML-5.mp3",
-                "5",
-                "",
-                "60",
-                ""
+                "5"
               ],
               "subInstructions": []
             },
@@ -29324,7 +29308,82 @@
               },
               "parameters": [
                 "",
-                "5"
+                "6"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-1.mp3",
+                "1",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-2.mp3",
+                "2",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-3.mp3",
+                "3",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-4.mp3",
+                "4",
+                "",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\Glosario\\GlosarioML-5.mp3",
+                "5",
+                "",
+                "100",
+                ""
               ],
               "subInstructions": []
             },
@@ -29338,19 +29397,8 @@
                 "SonidosButton\\Glosario\\GlosarioML-6.mp3",
                 "6",
                 "",
-                "60",
+                "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "6"
               ],
               "subInstructions": []
             }
@@ -34655,7 +34703,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.482
+        "zoomFactor": 0.46199999999999997
       },
       "objectsGroups": [],
       "variables": [
@@ -34674,7 +34722,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "cce3ca0f-f9ae-45d9-993b-b00e86330ab9",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -38406,7 +38454,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "086e3e7a-1ef4-4053-8771-f71bfc15c656",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -40144,7 +40192,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "719fa3ae-eb23-4eec-9fd8-46cebbeda06f",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -43351,7 +43399,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "AnimacionAprendizajeSupervisado",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -46163,7 +46211,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Sonidos",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -46769,7 +46817,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.458
+        "zoomFactor": 0.438
       },
       "objectsGroups": [],
       "variables": [
@@ -48926,6 +48974,60 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu Misiones\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -49533,6 +49635,79 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "\"47;158;215\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "Tween",
+                    "\"int_apsup\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
               "events": []
@@ -49634,7 +49809,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.49
+        "zoomFactor": 0.42999999999999994
       },
       "objectsGroups": [],
       "variables": [
@@ -49669,7 +49844,7 @@
           "locked": false,
           "name": "piso2",
           "persistentUuid": "81e5a3ee-db52-456f-8b8e-9190937df9e7",
-          "width": 1400,
+          "width": 1595,
           "x": 2,
           "y": 600,
           "zOrder": 3,
@@ -49701,7 +49876,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "d3a299f8-fe8d-49a4-8466-c82698c4e4a8",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -51087,7 +51262,7 @@
           "name": "perpirata",
           "persistentUuid": "4cf120fb-a76c-4b79-9acb-aeb05e60614b",
           "width": 285,
-          "x": 947,
+          "x": 954,
           "y": 163,
           "zOrder": 47,
           "numberProperties": [],
@@ -51103,7 +51278,7 @@
           "name": "txt_siguiente",
           "persistentUuid": "9641facf-1e5f-40c6-bf05-648fbde91f4d",
           "width": 0,
-          "x": 1227,
+          "x": 1255,
           "y": 545,
           "zOrder": 49,
           "numberProperties": [],
@@ -51135,7 +51310,7 @@
           "name": "cancelar",
           "persistentUuid": "5c8095d7-372d-4066-8612-da8d378cc9e9",
           "width": 0,
-          "x": 1237,
+          "x": 1265,
           "y": 484,
           "zOrder": 51,
           "numberProperties": [],
@@ -51151,7 +51326,7 @@
           "name": "cuadro2",
           "persistentUuid": "2c230684-c3f1-4bc7-93bd-eb2e45981926",
           "width": 143,
-          "x": 1222,
+          "x": 1250,
           "y": 465,
           "zOrder": 40,
           "numberProperties": [],
@@ -51167,7 +51342,7 @@
           "name": "cuadro2",
           "persistentUuid": "de84c159-38da-44c3-83e8-2ba4768fd165",
           "width": 143,
-          "x": 1217,
+          "x": 1245,
           "y": 526,
           "zOrder": 40,
           "numberProperties": [],
@@ -56234,7 +56409,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "d3a299f8-fe8d-49a4-8466-c82698c4e4a8",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -56380,7 +56555,7 @@
           "locked": false,
           "name": "piso2",
           "persistentUuid": "47938c83-ddb8-4a8f-8b7a-347fa5b4000b",
-          "width": 1421,
+          "width": 1556,
           "x": -6,
           "y": 662,
           "zOrder": 2,
@@ -56543,8 +56718,8 @@
           "name": "grafica2",
           "persistentUuid": "c3f4d29b-fdb4-4e06-8ca6-3a32238ef378",
           "width": 0,
-          "x": 512,
-          "y": 570,
+          "x": 680,
+          "y": 599,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -56779,7 +56954,7 @@
           "name": "cuadroazul",
           "persistentUuid": "54be1bab-b581-43c7-b52b-1d817286525f",
           "width": 143,
-          "x": 1225,
+          "x": 1293,
           "y": 595,
           "zOrder": 2,
           "numberProperties": [],
@@ -56795,7 +56970,7 @@
           "name": "siguiente",
           "persistentUuid": "8df3b3b3-98fc-44c3-9662-e0ff27bd6774",
           "width": 0,
-          "x": 1234,
+          "x": 1302,
           "y": 614,
           "zOrder": 3,
           "numberProperties": [],
@@ -56811,7 +56986,7 @@
           "name": "validar",
           "persistentUuid": "fe08b16c-510d-46bb-86ac-4b2aff85deb8",
           "width": 0,
-          "x": 1103,
+          "x": 1171,
           "y": 614,
           "zOrder": 3,
           "numberProperties": [],
@@ -56875,7 +57050,7 @@
           "name": "cuadro2",
           "persistentUuid": "dd9c175f-7339-4a67-a37c-c5934395dc09",
           "width": 143,
-          "x": 1077,
+          "x": 1145,
           "y": 594,
           "zOrder": 2,
           "numberProperties": [],
@@ -56891,7 +57066,7 @@
           "name": "cuadro2",
           "persistentUuid": "11b1cf07-cac3-45ed-973a-a91b3ed5225d",
           "width": 143,
-          "x": 928,
+          "x": 996,
           "y": 594,
           "zOrder": 2,
           "numberProperties": [],
@@ -56907,7 +57082,7 @@
           "name": "cancelar",
           "persistentUuid": "07eb2de4-cdbe-4937-9c72-8d64c2e0fb7f",
           "width": 0,
-          "x": 945,
+          "x": 1013,
           "y": 614,
           "zOrder": 40,
           "numberProperties": [],
@@ -60162,7 +60337,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.6540000000000001
+        "zoomFactor": 0.414
       },
       "objectsGroups": [],
       "variables": [
@@ -60270,7 +60445,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "047919a4-7410-4778-9204-ba24b8350f53",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -65568,7 +65743,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "086e3e7a-1ef4-4053-8771-f71bfc15c656",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -66394,7 +66569,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "cce3ca0f-f9ae-45d9-993b-b00e86330ab9",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -71141,7 +71316,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.49400000000000005
+        "zoomFactor": 0.43400000000000005
       },
       "objectsGroups": [],
       "variables": [
@@ -71160,7 +71335,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "cce3ca0f-f9ae-45d9-993b-b00e86330ab9",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -71663,6 +71838,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "boton1",
+          "persistentUuid": "6e30a729-6d40-4669-bbcb-42756507c46b",
+          "width": 156,
+          "x": 4,
+          "y": 625,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_atras",
+          "persistentUuid": "90cee039-889c-445d-9223-c82e3dccefd8",
+          "width": 0,
+          "x": 53,
+          "y": 627,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -71941,45 +72148,6 @@
             "g": 255,
             "r": 255
           }
-        },
-        {
-          "name": "img_nivel1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\nivel1.PNG",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "bold": true,
@@ -72599,7 +72767,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -73083,6 +73251,60 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu Misiones\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -73093,7 +73315,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Sonido y color",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -73690,6 +73912,79 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "\"47;158;215\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "Tween",
+                    "\"int_apsup\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
               "events": []
@@ -73864,7 +74159,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "d3a299f8-fe8d-49a4-8466-c82698c4e4a8",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -73993,8 +74288,8 @@
           "name": "cartel",
           "persistentUuid": "88250544-266d-40c2-b3f1-9b0ee1f81e2f",
           "width": 0,
-          "x": 436,
-          "y": 593,
+          "x": 481,
+          "y": 590,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74025,8 +74320,8 @@
           "name": "cuadroazul",
           "persistentUuid": "54be1bab-b581-43c7-b52b-1d817286525f",
           "width": 143,
-          "x": 688,
-          "y": 501,
+          "x": 733,
+          "y": 498,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -74041,8 +74336,8 @@
           "name": "continuar",
           "persistentUuid": "8df3b3b3-98fc-44c3-9662-e0ff27bd6774",
           "width": 0,
-          "x": 697,
-          "y": 520,
+          "x": 742,
+          "y": 517,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74057,8 +74352,8 @@
           "name": "validar",
           "persistentUuid": "fe08b16c-510d-46bb-86ac-4b2aff85deb8",
           "width": 0,
-          "x": 553,
-          "y": 519,
+          "x": 598,
+          "y": 516,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74073,8 +74368,8 @@
           "name": "cartel2",
           "persistentUuid": "243258c5-bbe5-4313-8f96-9ebcd7ae5338",
           "width": 0,
-          "x": 327,
-          "y": 594,
+          "x": 372,
+          "y": 591,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74249,8 +74544,8 @@
           "name": "result1",
           "persistentUuid": "68e5cccd-0e9f-455e-aeba-19b5b64c1f89",
           "width": 0,
-          "x": 840,
-          "y": 632,
+          "x": 885,
+          "y": 629,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74265,8 +74560,8 @@
           "name": "result2",
           "persistentUuid": "29629336-4462-49a1-8ae5-a4fe03dd1fa4",
           "width": 0,
-          "x": 692,
-          "y": 638,
+          "x": 737,
+          "y": 635,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74281,8 +74576,8 @@
           "name": "result3",
           "persistentUuid": "c19d08e4-4e2a-4b7f-af7f-ecd7ecf3effb",
           "width": 0,
-          "x": 578,
-          "y": 591,
+          "x": 623,
+          "y": 588,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74297,8 +74592,8 @@
           "name": "result4",
           "persistentUuid": "0104e0c7-f4f4-4a15-a36e-34a7ce42c9e7",
           "width": 0,
-          "x": 213,
-          "y": 653,
+          "x": 258,
+          "y": 650,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74313,8 +74608,8 @@
           "name": "result5",
           "persistentUuid": "63b63378-5ad5-4a2c-a3d0-b0b7ed831325",
           "width": 0,
-          "x": 171,
-          "y": 600,
+          "x": 216,
+          "y": 597,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74329,8 +74624,8 @@
           "name": "result6",
           "persistentUuid": "912ca602-c713-4da1-8740-b316c0383b7c",
           "width": 0,
-          "x": 709,
-          "y": 583,
+          "x": 754,
+          "y": 580,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -74345,8 +74640,8 @@
           "name": "cuadro2",
           "persistentUuid": "56d56114-4f99-4160-a4ce-022800c13eb3",
           "width": 143,
-          "x": 525,
-          "y": 501,
+          "x": 570,
+          "y": 498,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -74493,8 +74788,8 @@
           "name": "cuadros2",
           "persistentUuid": "f3c88fd3-332e-436c-a3ee-af98b64697b4",
           "width": 1026,
-          "x": 132,
-          "y": 580,
+          "x": 177,
+          "y": 577,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -74509,8 +74804,8 @@
           "name": "cuadro2",
           "persistentUuid": "27a9e872-3898-445f-9c51-248938185e1b",
           "width": 143,
-          "x": 363,
-          "y": 501,
+          "x": 408,
+          "y": 498,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -74525,8 +74820,8 @@
           "name": "cancelar",
           "persistentUuid": "3218dbe0-6d9b-461e-916a-a4eb42f247a1",
           "width": 0,
-          "x": 381,
-          "y": 517,
+          "x": 426,
+          "y": 514,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -77823,7 +78118,7 @@
           "locked": false,
           "name": "cuadros2",
           "persistentUuid": "57d4141a-9970-4f46-91a1-f989d0a942f7",
-          "width": 1500,
+          "width": 1550,
           "x": -4,
           "y": -2,
           "zOrder": 1,
@@ -82106,39 +82401,39 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.7500000000000002
+        "zoomFactor": 0.4100000000000001
       },
       "objectsGroups": [],
       "variables": [
         {
           "name": "resp",
           "type": "string",
-          "value": "a"
+          "value": "aprendizaje no supervisado"
         },
         {
           "name": "resp2",
           "type": "string",
-          "value": "b"
+          "value": "bases de datos"
         },
         {
           "name": "resp3",
           "type": "string",
-          "value": "c"
+          "value": "k means"
         },
         {
           "name": "resp4",
           "type": "string",
-          "value": "d"
+          "value": "pca"
         },
         {
           "name": "resp5",
           "type": "string",
-          "value": "e"
+          "value": "reduccion de dimension"
         },
         {
           "name": "resp6",
           "type": "string",
-          "value": "f"
+          "value": "matploitlib"
         },
         {
           "name": "correctas",
@@ -82187,7 +82482,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "047919a4-7410-4778-9204-ba24b8350f53",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -84449,7 +84744,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Empieza por la letra F",
+          "string": "Empieza por la letra M",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 20,
           "color": {
@@ -84468,7 +84763,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Empieza por la letra E",
+          "string": "Empieza por la letra R",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 20,
           "color": {
@@ -84487,7 +84782,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Empieza por la letra D",
+          "string": "Empieza por la letra P",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 20,
           "color": {
@@ -84506,7 +84801,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Empieza por la letra C",
+          "string": "Empieza por la letra K",
           "font": "fontsletra\\Russo_One.ttf",
           "characterSize": 20,
           "color": {
@@ -84563,7 +84858,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Conjunto de técnicas donde se permite que los modelos extraían conocimiento de un conjunto de datos desconocido y a priori",
+          "string": "Libreria en Python que ayuda a crear visualizaciones estaticas, animadas e interactivas",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 20,
           "color": {
@@ -84582,7 +84877,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Método del aprendizaje no supervisado donde su objetivo reducir el número de variables en el análisis",
+          "string": "Método del aprendizaje no supervisado donde su objetivo es reducir el número de variables en el análisis",
           "font": "fontsletra\\9606\\HEINEKEN.TTF",
           "characterSize": 20,
           "color": {
@@ -86317,7 +86612,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "uno",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -88507,7 +88802,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Funcion",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -88951,7 +89246,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.498
+        "zoomFactor": 0.418
       },
       "objectsGroups": [],
       "variables": [
@@ -89178,7 +89473,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "cbfe477b-a7e2-4f21-97ad-e81694152fc3",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -90000,7 +90295,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "cce3ca0f-f9ae-45d9-993b-b00e86330ab9",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -94313,7 +94608,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "cce3ca0f-f9ae-45d9-993b-b00e86330ab9",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -94829,6 +95124,38 @@
           "x": 560,
           "y": 481,
           "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 60,
+          "layer": "",
+          "locked": false,
+          "name": "boton1",
+          "persistentUuid": "0ad8e44a-5250-4254-b947-3a358274ff3b",
+          "width": 156,
+          "x": 18,
+          "y": 600,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txt_atras",
+          "persistentUuid": "a2b6e3be-6095-4a64-8c16-e273d976fe0a",
+          "width": 0,
+          "x": 79,
+          "y": 603,
+          "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -96243,6 +96570,60 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu Misiones\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
           "parameters": []
@@ -96253,7 +96634,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Sonido y color",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -96850,6 +97231,79 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\gota.mp3",
+                    "",
+                    "60",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "\"47;158;215\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectScaleTween"
+                  },
+                  "parameters": [
+                    "txt_atras",
+                    "Tween",
+                    "\"int_apsup\"",
+                    "1.1",
+                    "1.1",
+                    "\"bouncePast\"",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [],
               "events": []
@@ -97014,7 +97468,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "d3a299f8-fe8d-49a4-8466-c82698c4e4a8",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -103187,7 +103641,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.48999999999999994
+        "zoomFactor": 0.4699999999999999
       },
       "objectsGroups": [],
       "variables": [],
@@ -103889,8 +104343,8 @@
           "name": "siguiente",
           "persistentUuid": "a4d4f23a-9f0f-4e09-8b1b-5450e5d16e02",
           "width": 135,
-          "x": 1173,
-          "y": 379,
+          "x": 1220,
+          "y": 360,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -104909,8 +105363,8 @@
           "name": "preg1",
           "persistentUuid": "4542db2e-19cc-472a-9f92-3fc8e7af9ab2",
           "width": 0,
-          "x": 1193,
-          "y": 397,
+          "x": 1240,
+          "y": 378,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -104931,8 +105385,8 @@
           "name": "preg3",
           "persistentUuid": "4932f9e2-e351-42ed-83df-e64edc7a6c0e",
           "width": 0,
-          "x": 1192,
-          "y": 520,
+          "x": 1239,
+          "y": 501,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -104953,8 +105407,8 @@
           "name": "siguiente3",
           "persistentUuid": "fa20c1c1-3379-4665-bc29-b350b0191678",
           "width": 135,
-          "x": 1173,
-          "y": 504,
+          "x": 1220,
+          "y": 485,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -104969,8 +105423,8 @@
           "name": "siguiente2",
           "persistentUuid": "c8b82fdd-119a-4a75-a5a7-93a1da02f745",
           "width": 135,
-          "x": 1173,
-          "y": 441,
+          "x": 1220,
+          "y": 422,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -105033,8 +105487,8 @@
           "name": "preg2",
           "persistentUuid": "643f7427-2b49-4e23-8778-471d7da7d29b",
           "width": 0,
-          "x": 1191,
-          "y": 459,
+          "x": 1238,
+          "y": 440,
           "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
@@ -105049,8 +105503,8 @@
           "name": "siguiente4",
           "persistentUuid": "77671c89-9d7b-4766-bf50-4cc8c21b227d",
           "width": 135,
-          "x": 1171,
-          "y": 565,
+          "x": 1218,
+          "y": 546,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -105065,8 +105519,8 @@
           "name": "txt_siguiente",
           "persistentUuid": "1dd14cc8-71f0-477d-83c3-0907f13d3f6a",
           "width": 0,
-          "x": 1188,
-          "y": 581,
+          "x": 1235,
+          "y": 562,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -105587,8 +106041,8 @@
           "name": "cancelar",
           "persistentUuid": "bfeb98b1-0abc-4fe7-bacd-304cfea41b78",
           "width": 0,
-          "x": 1183,
-          "y": 647,
+          "x": 1230,
+          "y": 628,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -105603,8 +106057,8 @@
           "name": "cuadroazul",
           "persistentUuid": "0498d73e-f961-4f96-895f-8fb74f532894",
           "width": 137,
-          "x": 1170,
-          "y": 633,
+          "x": 1217,
+          "y": 614,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -111468,7 +111922,7 @@
           "locked": false,
           "name": "Fondo",
           "persistentUuid": "d8daf6c1-fd06-4201-8358-4ba53c332aa4",
-          "width": 1500,
+          "width": 1550,
           "x": 0,
           "y": 0,
           "zOrder": 1,
