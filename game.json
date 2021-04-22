@@ -10963,6 +10963,33 @@
         "name": "4.MenuPrincipal\\Assets\\luciaf.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.MenuPrincipal/Assets/jackeline.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.MenuPrincipal\\Assets\\jackeline.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.MenuPrincipal/Assets/pacheco.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.MenuPrincipal\\Assets\\pacheco.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.MenuPrincipal/Assets/edwin.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.MenuPrincipal\\Assets\\edwin.jpg",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -15169,7 +15196,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/ConexionOVA/RegistroUsuarios.php\"",
+                    "\"http://gamemachine.club/ConexionOVA/RegistroUsuarios.php\"",
                     "\"user= \"+ UsernameText.String()+\"&pass=\"+PasswordText.String()+\"&rol=\"+GlobalVariableString(regis)+\"\"",
                     "\"POST\"",
                     "",
@@ -17347,7 +17374,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/ConexionOVA/inicio.php\"",
+                    "\"http://gamemachine.club/ConexionOVA/inicio.php\"",
                     "\"user= \"+ UsernameText.String()+\"&pass=\"+PasswordText.String()+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
@@ -18073,7 +18100,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.46600000000000025
+        "zoomFactor": 0.5860000000000003
       },
       "objectsGroups": [],
       "variables": [
@@ -18359,14 +18386,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 170,
+          "height": 168,
           "layer": "creditos",
           "locked": false,
           "name": "cuadroazul",
           "persistentUuid": "bb681f40-bdd9-4aa8-bb5f-26b27a036fef",
-          "width": 145,
-          "x": 483,
-          "y": 187,
+          "width": 200,
+          "x": 452,
+          "y": 192,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -18375,14 +18402,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 170,
+          "height": 168,
           "layer": "creditos",
           "locked": false,
           "name": "cuadroazul",
           "persistentUuid": "fe2ac6a7-4e16-45f3-9d45-05e47907dfb9",
-          "width": 145,
-          "x": 789,
-          "y": 191,
+          "width": 200,
+          "x": 772,
+          "y": 188,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -18391,14 +18418,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 170,
+          "height": 168,
           "layer": "creditos",
           "locked": false,
           "name": "cuadroazul",
           "persistentUuid": "e78f798f-c04f-4329-a4be-1d52836a133b",
-          "width": 145,
-          "x": 642,
-          "y": 360,
+          "width": 200,
+          "x": 613,
+          "y": 363,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -18407,14 +18434,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 115,
+          "height": 110,
           "layer": "creditos",
           "locked": false,
           "name": "foto",
           "persistentUuid": "d9608d15-306a-44d2-9702-4724ad70e86f",
-          "width": 120,
-          "x": 495,
-          "y": 214,
+          "width": 121,
+          "x": 490,
+          "y": 219,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -18423,13 +18450,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 115,
+          "height": 110,
           "layer": "creditos",
           "locked": false,
           "name": "foto2",
           "persistentUuid": "dad818a6-4d92-47da-bebb-9888ac573dcb",
-          "width": 120,
-          "x": 802,
+          "width": 121,
+          "x": 811,
           "y": 215,
           "zOrder": 21,
           "numberProperties": [],
@@ -18439,14 +18466,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 115,
+          "height": 110,
           "layer": "creditos",
           "locked": false,
           "name": "foto3",
           "persistentUuid": "0da0e735-42c9-41a0-a5e7-15b800e3244e",
-          "width": 120,
-          "x": 657,
-          "y": 385,
+          "width": 121,
+          "x": 656,
+          "y": 390,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -18865,7 +18892,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject2",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -18874,7 +18901,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "4.MenuPrincipal\\Assets\\caraa.jpg",
+                      "image": "4.MenuPrincipal\\Assets\\edwin.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18904,7 +18931,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject2",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -18913,7 +18940,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "4.MenuPrincipal\\Assets\\caraa.jpg",
+                      "image": "4.MenuPrincipal\\Assets\\jackeline.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19076,7 +19103,7 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"http://localhost/ConexionOVA/puntos.php\"",
+                "\"http://gamemachine.club/ConexionOVA/puntos.php\"",
                 "\"user= \"+GlobalVariableString(nombre)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                 "\"POST\"",
                 "",
@@ -20647,7 +20674,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.538
+        "zoomFactor": 0.47800000000000004
       },
       "objectsGroups": [],
       "variables": [
@@ -20683,8 +20710,8 @@
           "name": "txt_creditos1",
           "persistentUuid": "ec93157c-1684-4857-b266-0890a6c244af",
           "width": 216,
-          "x": 607,
-          "y": 150,
+          "x": 605,
+          "y": 139,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -20795,8 +20822,8 @@
           "name": "title",
           "persistentUuid": "f7b6ab38-88c6-49b5-9ddd-3c9703264e4e",
           "width": 0,
-          "x": 526,
-          "y": 24,
+          "x": 318,
+          "y": 53,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -20869,14 +20896,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 50,
+          "height": 26,
           "layer": "cuadro",
           "locked": false,
           "name": "cerrar",
           "persistentUuid": "4db6bc5a-882a-4a6d-bf5d-3e49814e3d33",
-          "width": 50,
-          "x": 1047,
-          "y": 102,
+          "width": 33,
+          "x": 1049,
+          "y": 113,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -20917,14 +20944,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 161,
+          "height": 168,
           "layer": "creditos",
           "locked": false,
           "name": "cuadroazul",
           "persistentUuid": "bb681f40-bdd9-4aa8-bb5f-26b27a036fef",
-          "width": 201,
-          "x": 394,
-          "y": 185,
+          "width": 200,
+          "x": 424,
+          "y": 187,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -20933,14 +20960,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 161,
+          "height": 168,
           "layer": "creditos",
           "locked": false,
           "name": "cuadroazul",
           "persistentUuid": "fe2ac6a7-4e16-45f3-9d45-05e47907dfb9",
-          "width": 201,
-          "x": 610,
-          "y": 190,
+          "width": 200,
+          "x": 792,
+          "y": 184,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -20949,14 +20976,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 161,
+          "height": 168,
           "layer": "creditos",
           "locked": false,
           "name": "cuadroazul",
           "persistentUuid": "e78f798f-c04f-4329-a4be-1d52836a133b",
-          "width": 201,
-          "x": 834,
-          "y": 190,
+          "width": 200,
+          "x": 604,
+          "y": 350,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -20970,9 +20997,9 @@
           "locked": false,
           "name": "foto",
           "persistentUuid": "d9608d15-306a-44d2-9702-4724ad70e86f",
-          "width": 175,
-          "x": 407,
-          "y": 211,
+          "width": 121,
+          "x": 460,
+          "y": 214,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -20986,9 +21013,9 @@
           "locked": false,
           "name": "foto2",
           "persistentUuid": "dad818a6-4d92-47da-bebb-9888ac573dcb",
-          "width": 175,
-          "x": 625,
-          "y": 216,
+          "width": 121,
+          "x": 831,
+          "y": 212,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -21002,9 +21029,9 @@
           "locked": false,
           "name": "foto3",
           "persistentUuid": "0da0e735-42c9-41a0-a5e7-15b800e3244e",
-          "width": 175,
-          "x": 848,
-          "y": 216,
+          "width": 121,
+          "x": 643,
+          "y": 378,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -21013,14 +21040,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 99,
+          "height": 32,
           "layer": "creditos",
           "locked": false,
           "name": "txt_creditos2",
           "persistentUuid": "60f4b420-59d6-43bb-ba50-784c09bb1747",
-          "width": 167,
-          "x": 416,
-          "y": 355,
+          "width": 260,
+          "x": 398,
+          "y": 340,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -21029,14 +21056,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 123,
+          "height": 30,
           "layer": "creditos",
           "locked": false,
           "name": "txt_creditos3",
           "persistentUuid": "38d12daf-8c0c-4eac-acfa-64b07f60a8a4",
-          "width": 185,
-          "x": 627,
-          "y": 361,
+          "width": 308,
+          "x": 725,
+          "y": 340,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -21045,14 +21072,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 32,
           "layer": "creditos",
           "locked": false,
           "name": "txt_creditos4",
           "persistentUuid": "77fe4f92-fbda-44e7-938f-2dbfe22673d3",
-          "width": 159,
-          "x": 857,
-          "y": 368,
+          "width": 300,
+          "x": 573,
+          "y": 493,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -21293,9 +21320,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Edwin Pacheco",
+          "string": "Colaborador: Edwin Pacheco",
           "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 30,
+          "characterSize": 20,
           "color": {
             "b": 145,
             "g": 73,
@@ -21314,7 +21341,7 @@
           "behaviors": [],
           "string": "Jackeline Espinoza Saavedra",
           "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 30,
+          "characterSize": 20,
           "color": {
             "b": 145,
             "g": 73,
@@ -21333,7 +21360,7 @@
           "behaviors": [],
           "string": "Lucia Jaramillo Enriquez",
           "font": "fontsletra\\Russo_One.ttf",
-          "characterSize": 30,
+          "characterSize": 20,
           "color": {
             "b": 145,
             "g": 73,
@@ -21407,7 +21434,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject2",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -21416,7 +21443,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "4.MenuPrincipal\\Assets\\caraa.jpg",
+                      "image": "4.MenuPrincipal\\Assets\\edwin.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21455,7 +21482,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "4.MenuPrincipal\\Assets\\caraa.jpg",
+                      "image": "4.MenuPrincipal\\Assets\\jackeline.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21494,7 +21521,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "4.MenuPrincipal\\Assets\\caraa.jpg",
+                      "image": "4.MenuPrincipal\\Assets\\luciaf.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21572,7 +21599,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "4.MenuPrincipal\\Assets\\DiseñoLogoLineas.png",
+                      "image": "4.MenuPrincipal\\Assets\\DisenoLogoLineas.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21813,7 +21840,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23698,7 +23725,7 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"http://localhost/ConexionOVA/listapuntajesU.php\"",
+                "\"http://gamemachine.club/ConexionOVA/listapuntajesU.php\"",
                 "",
                 "\"GET\"",
                 "",
@@ -23713,7 +23740,7 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"http://localhost/ConexionOVA/listapuntajesP.php\"",
+                "\"http://gamemachine.club/ConexionOVA/listapuntajesP.php\"",
                 "",
                 "\"GET\"",
                 "",
@@ -23728,7 +23755,7 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"http://localhost/ConexionOVA/listapuntajesU2.php\"",
+                "\"http://gamemachine.club/ConexionOVA/listapuntajesU2.php\"",
                 "",
                 "\"GET\"",
                 "",
@@ -23743,7 +23770,7 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"http://localhost/ConexionOVA/listapuntajesP2.php\"",
+                "\"http://gamemachine.club/ConexionOVA/listapuntajesP2.php\"",
                 "",
                 "\"GET\"",
                 "",
@@ -24176,7 +24203,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Botones Diseño Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25190,7 +25217,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "2020-10-24_13h44_29",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -25229,7 +25256,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "2020-10-24_13h58_25",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -25268,7 +25295,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "2020-10-24_14h23_23",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -25307,7 +25334,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "2020-10-24_14h12_49",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -26329,10 +26356,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
@@ -37365,7 +37388,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                     "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
@@ -48419,7 +48442,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -55663,7 +55686,7 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                 "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                 "\"POST\"",
                 "",
@@ -59869,7 +59892,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                     "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
@@ -65156,7 +65179,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                     "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
@@ -76947,7 +76970,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "botones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -77359,7 +77382,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                     "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
@@ -81943,7 +81966,7 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                 "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                 "\"POST\"",
                 "",
@@ -88484,7 +88507,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Botones Funcion",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -88774,7 +88797,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                     "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
@@ -89712,7 +89735,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Botones Funciones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -102911,7 +102934,7 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                 "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                 "\"POST\"",
                 "",
@@ -110696,7 +110719,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                     "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
@@ -114146,7 +114169,7 @@
                     "value": "SendAsyncRequest"
                   },
                   "parameters": [
-                    "\"http://localhost/ConexionOVA/updatepuntos.php\"",
+                    "\"http://gamemachine.club/ConexionOVA/updatepuntos.php\"",
                     "\"user= \"+ GlobalVariableString(nombre)+\"&punt=\"+GlobalVariableString(puntosGlobal)+\"&rol=\"+GlobalVariableString(inicio)+\"\"",
                     "\"POST\"",
                     "",
