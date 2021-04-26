@@ -10990,6 +10990,33 @@
         "name": "4.MenuPrincipal\\Assets\\edwin.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "SonidosButton/FondogameMachineJuegos.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SonidosButton\\FondogameMachineJuegos.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "SonidosButton/audioTemas.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SonidosButton\\audioTemas.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "SonidosButton/audioganador.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SonidosButton\\audioganador.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13014,6 +13041,41 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "yes",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -14638,6 +14700,21 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\FondogameMachineJuegos.mp3",
+                    "1",
+                    "yes",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "TextEntryObject::Activate"
                   },
                   "parameters": [
@@ -15951,13 +16028,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 33,
           "layer": "",
           "locked": false,
           "name": "UsernameData",
           "persistentUuid": "75a13550-4f02-4ce3-b21d-4d5f4c58edcc",
-          "width": 0,
+          "width": 254,
           "x": 632,
           "y": 355,
           "zOrder": 9,
@@ -15967,13 +16044,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 33,
           "layer": "",
           "locked": false,
           "name": "PasswordDataa",
           "persistentUuid": "8258c249-2868-4f12-adce-d0b10e324f77",
-          "width": 0,
+          "width": 254,
           "x": 631,
           "y": 490,
           "zOrder": 9,
@@ -16813,6 +16890,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "SonidosButton\\FondogameMachineJuegos.mp3",
+                    "1",
+                    "yes",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -18148,7 +18240,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.42600000000000016
+        "zoomFactor": 0.5860000000000003
       },
       "objectsGroups": [],
       "variables": [
@@ -18622,9 +18714,189 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 326,
+          "layer": "ayuda",
+          "locked": false,
+          "name": "txt_intrucciones",
+          "persistentUuid": "21d74fd7-52fb-4b70-ba1b-1afcc6ad430e",
+          "width": 612,
+          "x": 376,
+          "y": 225,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 47,
+          "layer": "ayuda",
+          "locked": false,
+          "name": "flechas",
+          "persistentUuid": "c981b8eb-810f-4468-94b3-0475f44fea86",
+          "width": 86,
+          "x": 750,
+          "y": 216,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "ayuda",
+          "locked": false,
+          "name": "flechas3",
+          "persistentUuid": "79e23dd9-5df0-4587-8958-a5b2c3076e3e",
+          "width": 90,
+          "x": 761,
+          "y": 288,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ayuda",
+          "locked": false,
+          "name": "txt_titulointru",
+          "persistentUuid": "be8c7f9a-1e7e-4624-b653-22f471c7e93d",
+          "width": 0,
+          "x": 645,
+          "y": 136,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_titulointru",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "AYUDA",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 50,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "name": "flechas3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "teclas",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\espa.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "flechas",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "teclas",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\trojas.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_intrucciones",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "♠ Camina con las direccionales.\n\n♠ Salta con la barra espaciadora.\n\n♠ Con boton izquierdo del mouse selecciona cada reto y nivel.\n\n♠ Con boton izquierdo del mouse arrastrar los objetos.\n\n♠ Usa el teclado para desarrollar algunas actividades.\n\n",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
         {
           "bold": true,
           "italic": false,
@@ -19148,6 +19420,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "yes",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "SendAsyncRequest"
               },
               "parameters": [
@@ -19560,6 +19847,17 @@
                     "\"cuadro\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ayuda\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -19647,6 +19945,17 @@
                   "parameters": [
                     "",
                     "\"Perfil\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ayuda\""
                   ],
                   "subInstructions": []
                 }
@@ -20684,6 +20993,17 @@
           "visibility": false,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 24575568,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "ayuda",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -20722,7 +21042,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.47800000000000004
+        "zoomFactor": 0.49800000000000005
       },
       "objectsGroups": [],
       "variables": [
@@ -21167,6 +21487,25 @@
         }
       ],
       "objects": [
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txt_intrucciones",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "♠ Camina con las direccionales.\n\n♠ Salta con la barra espaciadora.\n\n♠ Con boton izquierdo del mouse selecciona cada reto y nivel.\n\n♠ Con boton izquierdo del mouse arrastrar los objetos.\n\n♠ Usa el teclado para desarrollar algunas actividades.\n\n",
+          "font": "fontsletra\\9606\\HEINEKEN.TTF",
+          "characterSize": 25,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
         {
           "bold": true,
           "italic": false,
@@ -21687,6 +22026,21 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "yes",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -23770,6 +24124,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "yes",
+                "60",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "SendAsyncRequest"
               },
               "parameters": [
@@ -25492,6 +25861,41 @@
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "yes",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -29246,6 +29650,21 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\audioTemas.mp3",
+                "7",
+                "yes",
+                "30",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -33067,10 +33486,10 @@
               },
               "parameters": [
                 "",
-                "SonidosButton\\tipos\\TiposMLSupervisado.mp3",
-                "1",
-                "",
-                "100",
+                "SonidosButton\\audioTemas.mp3",
+                "4",
+                "yes",
+                "30",
                 ""
               ],
               "subInstructions": []
@@ -33083,6 +33502,43 @@
               "parameters": [
                 "",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\tipos\\TiposMLSupervisado.mp3",
+                "1",
+                "",
+                "100",
+                ""
               ],
               "subInstructions": []
             },
@@ -33104,17 +33560,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -33124,17 +33569,6 @@
                 "",
                 "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "3"
               ],
               "subInstructions": []
             }
@@ -36655,6 +37089,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "yes",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -38892,6 +39341,21 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\audioganador.mp3",
+                "1",
+                "no",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -43017,10 +43481,10 @@
               },
               "parameters": [
                 "",
-                "SonidosButton\\aprendizaje-supervisado\\ASQueEsLu.mp3",
-                "1",
-                "",
-                "100",
+                "SonidosButton\\audioTemas.mp3",
+                "9",
+                "yes",
+                "30",
                 ""
               ],
               "subInstructions": []
@@ -43033,6 +43497,98 @@
               "parameters": [
                 "",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "6"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "7"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\aprendizaje-supervisado\\ASQueEsLu.mp3",
+                "1",
+                "",
+                "100",
+                ""
               ],
               "subInstructions": []
             },
@@ -43054,17 +43610,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -43074,17 +43619,6 @@
                 "",
                 "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "3"
               ],
               "subInstructions": []
             },
@@ -43106,17 +43640,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "4"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -43126,17 +43649,6 @@
                 "",
                 "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "5"
               ],
               "subInstructions": []
             },
@@ -43158,17 +43670,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "6"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -43184,17 +43685,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "7"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -43204,17 +43694,6 @@
                 "",
                 "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "8"
               ],
               "subInstructions": []
             }
@@ -47970,45 +48449,6 @@
           }
         },
         {
-          "name": "img_nivel1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\nivel1.PNG",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": true,
           "italic": false,
           "name": "txt_iniciarnivel1",
@@ -48363,6 +48803,21 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -50032,86 +50487,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 342,
-          "layer": "intrucciones",
-          "locked": false,
-          "name": "txt_intrucciones",
-          "persistentUuid": "d70f78c3-8411-4ebc-a496-7ae3bd0d1ac3",
-          "width": 667,
-          "x": 326,
-          "y": 205,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "intrucciones",
-          "locked": false,
-          "name": "txt_titulointru",
-          "persistentUuid": "ddbc74ba-0b04-4a71-8c01-f714e7477e5d",
-          "width": 0,
-          "x": 545,
-          "y": 162,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 73,
-          "layer": "intrucciones",
-          "locked": false,
-          "name": "flechas",
-          "persistentUuid": "d3671eea-2ed9-4745-b0a1-8d437a8cd06d",
-          "width": 119,
-          "x": 700,
-          "y": 344,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 42,
-          "layer": "intrucciones",
-          "locked": false,
-          "name": "flechas2",
-          "persistentUuid": "067bdcdb-a3ec-48e2-97f9-ecb335d2f2d6",
-          "width": 41,
-          "x": 734,
-          "y": 480,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 30,
-          "layer": "intrucciones",
-          "locked": false,
-          "name": "flechas3",
-          "persistentUuid": "3864d433-c86a-4521-8f44-0f0755f6b11b",
-          "width": 124,
-          "x": 711,
-          "y": 430,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 12,
           "layer": "",
           "locked": false,
@@ -51352,63 +51727,6 @@
       ],
       "objects": [
         {
-          "bold": true,
-          "italic": false,
-          "name": "txt_titulointru",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "INSTRUCCIONES",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 30,
-          "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_intruccionesn1",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Tu reto es matar al virus que se cruce en tu camino y ganar las estrellas que mas puedas\n\n♠ Cuando tengas las suficientes estrellas puedes proceder a revelar los codigos y ordenarlos.\n\n♠ Camina con las direccionales\n\n♠ Salta con la barra espaciadora\n\n♠ Destruye el virus usando la tecla \n",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 25,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "txt_intrucciones",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Tu reto es matar al virus que se cruce en tu camino y ganar las estrellas que mas puedas\n\n♠ Cuando tengas las suficientes estrellas puedes proceder a revelar los codigos y ordenarlos.\n\n♠ Camina con las direccionales\n\n♠ Salta con la barra espaciadora\n\n♠ Destruye el virus usando la tecla \n",
-          "font": "fontsletra\\9606\\HEINEKEN.TTF",
-          "characterSize": 25,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
           "name": "perpirata",
           "tags": "",
           "type": "Sprite",
@@ -52326,45 +52644,6 @@
           ]
         },
         {
-          "name": "flechas2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "teclas",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\letrax.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": true,
           "italic": false,
           "name": "txt_siguiente",
@@ -52421,84 +52700,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "flechas3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "teclas",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\espa.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "flechas",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "teclas",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "8.Aprendizajesupervisado\\Assets\\Nivel1\\capsla\\trojas.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "events": [
@@ -52519,6 +52720,21 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -56219,17 +56435,6 @@
         },
         {
           "ambientLightColorB": 1702453632,
-          "ambientLightColorG": 19809208,
-          "ambientLightColorR": 16,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "intrucciones",
-          "visibility": false,
-          "cameras": [],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 6003360,
           "ambientLightColorR": 117440512,
           "followBaseLayerCamera": false,
@@ -58136,6 +58341,21 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -62818,6 +63038,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -66184,6 +66419,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\audioganador.mp3",
+                "1",
+                "no",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "TextObject::String"
               },
               "parameters": [
@@ -68832,10 +69082,10 @@
               },
               "parameters": [
                 "",
-                "SonidosButton\\aprendizaje-no-supervisado\\ANSQueEs.mp3",
-                "1",
-                "",
-                "100",
+                "SonidosButton\\audioTemas.mp3",
+                "7",
+                "yes",
+                "30",
                 ""
               ],
               "subInstructions": []
@@ -68848,6 +69098,76 @@
               "parameters": [
                 "",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "6"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\aprendizaje-no-supervisado\\ANSQueEs.mp3",
+                "1",
+                "",
+                "100",
+                ""
               ],
               "subInstructions": []
             },
@@ -68869,17 +69189,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -68889,17 +69198,6 @@
                 "",
                 "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "3"
               ],
               "subInstructions": []
             },
@@ -68921,17 +69219,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "4"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -68941,17 +69228,6 @@
                 "",
                 "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "5"
               ],
               "subInstructions": []
             },
@@ -68969,17 +69245,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "6"
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -68990,7 +69255,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Movimiento personaje",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -72643,6 +72908,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -74094,7 +74374,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.354
+        "zoomFactor": 0.394
       },
       "objectsGroups": [],
       "variables": [
@@ -75952,6 +76232,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -77801,7 +78096,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.322
+        "zoomFactor": 0.362
       },
       "objectsGroups": [],
       "variables": [],
@@ -77863,7 +78158,7 @@
           "name": "puntos",
           "persistentUuid": "d41ad385-738c-437c-b9fe-c2a2aee360c0",
           "width": 0,
-          "x": 483,
+          "x": 491,
           "y": 34,
           "zOrder": 3,
           "numberProperties": [],
@@ -77991,8 +78286,8 @@
           "name": "siguiente",
           "persistentUuid": "30ad0577-462f-4a8c-b845-a925c2be6f7a",
           "width": 205,
-          "x": 1148,
-          "y": 615,
+          "x": 1191,
+          "y": 617,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -78007,8 +78302,8 @@
           "name": "txt_siguiente",
           "persistentUuid": "9641facf-1e5f-40c6-bf05-648fbde91f4d",
           "width": 0,
-          "x": 1185,
-          "y": 634,
+          "x": 1228,
+          "y": 636,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -78038,7 +78333,7 @@
           "locked": false,
           "name": "cuadros",
           "persistentUuid": "f83e9950-63f4-40e4-9225-fc81ba2c1c57",
-          "width": 1404,
+          "width": 1553,
           "x": -2,
           "y": 503,
           "zOrder": 1,
@@ -78749,8 +79044,8 @@
           "name": "siguiente",
           "persistentUuid": "7c6225b7-86f8-4867-9722-608101fe9de0",
           "width": 205,
-          "x": 1148,
-          "y": 530,
+          "x": 1191,
+          "y": 532,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -78765,8 +79060,8 @@
           "name": "cancelar",
           "persistentUuid": "b97c085d-dbce-4188-9e56-df3219b87828",
           "width": 0,
-          "x": 1195,
-          "y": 551,
+          "x": 1238,
+          "y": 553,
           "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
@@ -80417,6 +80712,21 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "yes",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -85484,6 +85794,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -89898,6 +90223,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\audioganador.mp3",
+                "1",
+                "no",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "TextObject::String"
               },
               "parameters": [
@@ -92414,10 +92754,10 @@
               },
               "parameters": [
                 "",
-                "SonidosButton\\aprendizaje-reforzado\\ARQueEs.mp3",
-                "1",
-                "",
-                "100",
+                "SonidosButton\\audioTemas.mp3",
+                "6",
+                "yes",
+                "30",
                 ""
               ],
               "subInstructions": []
@@ -92430,6 +92770,65 @@
               "parameters": [
                 "",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\aprendizaje-reforzado\\ARQueEs.mp3",
+                "1",
+                "",
+                "100",
+                ""
               ],
               "subInstructions": []
             },
@@ -92451,17 +92850,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -92471,17 +92859,6 @@
                 "",
                 "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "3"
               ],
               "subInstructions": []
             },
@@ -92503,17 +92880,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "4"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -92523,17 +92889,6 @@
                 "",
                 "100",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "StopSoundCanal"
-              },
-              "parameters": [
-                "",
-                "5"
               ],
               "subInstructions": []
             }
@@ -95962,6 +96317,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ModVarGlobalTxt"
               },
               "parameters": [
@@ -97413,7 +97783,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.4099999999999999
+        "zoomFactor": 0.45000000000000007
       },
       "objectsGroups": [],
       "variables": [
@@ -98150,7 +98520,7 @@
           "name": "p5R3",
           "persistentUuid": "40b2f49a-4b43-40d9-ac1b-790d58975197",
           "width": 0,
-          "x": 239,
+          "x": 201,
           "y": 314,
           "zOrder": 46,
           "numberProperties": [],
@@ -99491,7 +99861,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "dfgdffdg",
+          "string": "errores y castigos",
           "font": "fontsButton\\10204\\Fortnite.ttf",
           "characterSize": 20,
           "color": {
@@ -100069,6 +100439,21 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -107992,6 +108377,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "yes",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -111632,7 +112032,7 @@
         "gridWidth": 10,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.29399999999999993
+        "zoomFactor": 0.41400000000000003
       },
       "objectsGroups": [],
       "variables": [
@@ -113700,6 +114100,21 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\FondogameMachineJuegos.mp3",
+                "1",
+                "",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -115583,6 +115998,21 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "SonidosButton\\audioganador.mp3",
+                "1",
+                "no",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
